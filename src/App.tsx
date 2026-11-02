@@ -11,6 +11,7 @@ import { Learn } from "./pages/Learn";
 import { Me } from "./pages/Me";
 import { Onboarding } from "./pages/Onboarding";
 import { Practice } from "./pages/Practice";
+import { Cambridge } from "./pages/Cambridge";
 import { Reading } from "./pages/Reading";
 import { Today } from "./pages/Today";
 import { cue } from "./lib/sound";
@@ -160,6 +161,7 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
         {route.page === "learn" && <Learn />}
         {route.page === "practice" && <Practice />}
         {route.page === "reading" && <Reading />}
+        {route.page === "cambridge" && <Cambridge />}
         {route.page === "me" && <Me privateAvailable={privateAvailable} />}
         {route.page === "about" && <About />}
       </main>

@@ -189,6 +189,9 @@ export function Reading() {
 
   return (
     <div className="page reading">
+      <a className="btn btn-primary" href="#/cambridge">
+        剑桥真题 11–19 · 专项训练与模考 →
+      </a>
       <header className="page-head reading-intro">
         <p className="eyebrow">READING ROOM · 阅读练习</p>
         <h1 className="display">

@@ -7,6 +7,7 @@ export type Route =
   | { page: "learn" }
   | { page: "practice" }
   | { page: "reading" }
+  | { page: "cambridge" }
   | { page: "me" }
   | { page: "about" };
 
@@ -26,6 +27,7 @@ function parse(hash: string): Location {
     route = { page: "atlas", topic: params.get("topic") || undefined, level: params.get("level") || undefined, q: params.get("q") || undefined, view: params.get("view") || undefined };
   else if (seg[0] === "learn") route = { page: "learn" };
   else if (seg[0] === "practice") route = { page: "practice" };
+  else if (seg[0] === "cambridge") route = { page: "cambridge" };
   else if (seg[0] === "reading") route = { page: "reading" };
   else if (seg[0] === "me") route = { page: "me" };
   else if (seg[0] === "about") route = { page: "about" };
