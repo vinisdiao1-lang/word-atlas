@@ -1,4 +1,4 @@
-import { BookOpen, ChevronLeft, ChevronRight, Compass, Github, Keyboard, Moon, Search, Sun, User } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, Compass, Github, Keyboard, Moon, Newspaper, Search, Sun, User } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { AtlasContext, useAtlas, useEntry } from "./atlas/context";
 import { loadOpenAtlas, loadPrivateAtlas } from "./atlas/data";
@@ -11,6 +11,7 @@ import { Learn } from "./pages/Learn";
 import { Me } from "./pages/Me";
 import { Onboarding } from "./pages/Onboarding";
 import { Practice } from "./pages/Practice";
+import { Reading } from "./pages/Reading";
 import { Today } from "./pages/Today";
 import { cue } from "./lib/sound";
 import { store, useStore } from "./store/store";
@@ -26,6 +27,7 @@ const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
   { page: "today", label: "今日", icon: Compass },
   { page: "atlas", label: "图鉴", icon: BookOpen },
   { page: "practice", label: "练习", icon: Keyboard },
+  { page: "reading", label: "阅读", icon: Newspaper },
   { page: "me", label: "我的", icon: User },
 ];
 
@@ -157,6 +159,7 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
         {route.page === "atlas" && <AtlasPage route={route} />}
         {route.page === "learn" && <Learn />}
         {route.page === "practice" && <Practice />}
+        {route.page === "reading" && <Reading />}
         {route.page === "me" && <Me privateAvailable={privateAvailable} />}
         {route.page === "about" && <About />}
       </main>

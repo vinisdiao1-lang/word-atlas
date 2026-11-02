@@ -1,6 +1,8 @@
 import { useSyncExternalStore } from "react";
 import type { Accent } from "../atlas/types";
 import type { CardState, Grade } from "./srs";
+import { emptyReading, type ReadingProgress } from "../reading/types";
+import { sanitizeReadingProgress } from "../reading/engine";
 
 export type QuizKind = "meaning" | "picture" | "listen" | "spell";
 export type Step = { id: string; kind: "intro" } | { id: string; kind: QuizKind; retry?: boolean; options?: string[] };
@@ -41,6 +43,7 @@ export interface Progress {
   bookmarks: string[];
   days: Record<string, DayStat>;
   typing: TypingRound[];
+  reading: ReadingProgress;
   session: ActiveSession | null;
   /** Rolling list of recent mistakes, newest first. */
   mistakes: string[];
@@ -85,6 +88,7 @@ export const emptyProgress = (datasetId: string): Progress => ({
   bookmarks: [],
   days: {},
   typing: [],
+  reading: emptyReading(),
   session: null,
   mistakes: [],
 });
@@ -151,6 +155,7 @@ export function sanitizeProgress(v: unknown, datasetId: string): Progress {
           isObj(t) && num(t.at, 0) && ["word", "sentence", "dictation"].includes(t.mode as string) && num(t.items, 0) && num(t.wpm, 0, 400) && num(t.accuracy, 0, 100),
       )
       .slice(-500);
+  out.reading = sanitizeReadingProgress(v.reading);
   const s = v.session;
   if (isObj(s) && typeof s.id === "string" && Array.isArray(s.steps) && num(s.index, 0) && isObj(s.graded))
     out.session = s as unknown as ActiveSession;

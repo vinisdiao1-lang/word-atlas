@@ -671,6 +671,19 @@ code {
   }
 }
 
+@media (min-width: 760px) and (max-width: 1039px) {
+  .search-pill {
+    min-width: 40px;
+    width: 40px;
+    padding: 0;
+    justify-content: center;
+  }
+  .search-pill span,
+  .search-pill kbd {
+    display: none;
+  }
+}
+
 .tabbar {
   position: fixed;
   z-index: 30;
@@ -678,7 +691,7 @@ code {
   right: 0;
   bottom: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
   background: color-mix(in oklab, var(--paper) 86%, transparent);
   backdrop-filter: saturate(1.4) blur(18px);

@@ -29,3 +29,10 @@ test("rejects other versions and unknown settings", () => {
   assert.equal(s.theme, "dark");
   assert.equal(s.retention, 0.9);
 });
+
+test("adding reading exercises preserves older word-learning backups", () => {
+  const p = sanitizeProgress({ version: 2, cards: { ok: card }, bookmarks: ["ok"], reading: undefined }, "word-atlas-open");
+  assert.deepEqual(p.cards.ok, card);
+  assert.deepEqual(p.bookmarks, ["ok"]);
+  assert.deepEqual(p.reading, { sessions: {}, history: [], custom: [] });
+});
