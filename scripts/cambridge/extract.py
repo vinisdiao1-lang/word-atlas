@@ -120,7 +120,7 @@ for pdf in sorted(Path('/Users/a1/Downloads').glob('*.pdf')):
   entry={'id':f'c{book}-t{test}-p{number}','book':book,'test':test,'passage':number,'title':title[:140],'text':full,'groups':groups,'numbers':numbers,'answers':{str(n):re.sub(r'(?i)NOT\s*G\s*I\s*V\s*E\s*N','NOT GIVEN',answers.get(n,'')) for n in numbers},'pages':images,'answerPage':{'page':answerPage+1,'image':'data:image/jpeg;base64,'+base64.b64encode(pix.tobytes('jpeg',jpg_quality=80)).decode()},'sourceStart':start+1,'sourceEnd':end,'ocr':bool(ocr)}
   pack['passages'].append(entry);readingpdf.insert_pdf(doc,from_page=start,to_page=end-1)
  (OUT/f'剑桥雅思{book}-阅读题库.json').write_text(json.dumps(pack,ensure_ascii=False,separators=(',',':')))
- 
+
  for answerPage,_,_ in keypages:readingpdf.insert_pdf(doc,from_page=answerPage,to_page=answerPage)
  readingpdf.save(OUT/f'剑桥雅思{book}-阅读原页.pdf',garbage=4,deflate=True)
  report={'book':book,'passages':[{'id':p['id'],'title':p['title'],'pages':[p['sourceStart'],p['sourceEnd']],'groups':[(g['from'],g['to'],g['type']) for g in p['groups']],'missingAnswers':[n for n,a in p['answers'].items() if not a]} for p in pack['passages']]}
