@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
 import { useStore } from "../store/store";
 import { loadPacks, loadRecords, save } from "../cambridge/db";
+import { loadLibrary } from "../cambridge/library";
 import {
   RULES,
   grade,
@@ -20,7 +21,11 @@ const empty: Records = { attempts: [], activeId: null };
 export function Cambridge() {
   const atlas = useAtlas(),
     progress = useStore((s) => s.progress);
-  const [packs, setPacks] = useState<Pack[]>([]),
+  const [localPacks, setLocalPacks] = useState<Pack[]>([]),
+    [websitePacks, setWebsitePacks] = useState<Pack[]>([]),
+    [libraryLoading, setLibraryLoading] = useState(true),
+    [libraryError, setLibraryError] = useState(""),
+    [libraryRetry, setLibraryRetry] = useState(0),
     [records, setRecords] = useState<Records>(empty),
     [ready, setReady] = useState(false),
     [error, setError] = useState(""),
@@ -34,7 +39,36 @@ export function Cambridge() {
     [now, setNow] = useState(Date.now());
   const input = useRef<HTMLInputElement>(null);
   const loadedKey = useRef<string | null>(null);
+  const packs = useMemo(
+    () =>
+      [
+        ...new Map(
+          [...websitePacks, ...localPacks].map((p) => [p.book, p]),
+        ).values(),
+      ].sort((a, b) => a.book - b.book),
+    [websitePacks, localPacks],
+  );
   const papers = useMemo(() => packs.flatMap((p) => p.passages), [packs]);
+  useEffect(() => {
+    const controller = new AbortController();
+    setLibraryLoading(true);
+    setLibraryError("");
+    loadLibrary(controller.signal).then(
+      (p) => {
+        if (!controller.signal.aborted) {
+          setWebsitePacks(p);
+          setLibraryLoading(false);
+        }
+      },
+      () => {
+        if (!controller.signal.aborted) {
+          setLibraryError("网站题库暂时无法加载，请检查网络后重试。");
+          setLibraryLoading(false);
+        }
+      },
+    );
+    return () => controller.abort();
+  }, [libraryRetry]);
   useEffect(() => {
     loadedKey.current = null;
     setReady(false);
@@ -42,7 +76,7 @@ export function Cambridge() {
     Promise.all([loadPacks(), loadRecords(atlas.id)]).then(
       ([p, r]) => {
         if (live) {
-          setPacks(p);
+          setLocalPacks(p);
           setRecords(r);
           loadedKey.current = atlas.id;
           setReady(true);
@@ -216,7 +250,7 @@ export function Cambridge() {
         } else {
           const pack = validatePack(data);
           await save("packs", pack);
-          setPacks((p) =>
+          setLocalPacks((p) =>
             [...p.filter((x) => x.book !== pack.book), pack].sort(
               (a, b) => a.book - b.book,
             ),
@@ -251,7 +285,7 @@ export function Cambridge() {
         ← 返回阅读书架
       </a>
       <header className={`page-head ${active ? "exam-compact-head" : ""}`}>
-        <p className="eyebrow">CAMBRIDGE · 私人真题训练</p>
+        <p className="eyebrow">CAMBRIDGE · 真题训练</p>
         <h1 className="display">
           从专项突破，
           <br />
@@ -270,21 +304,39 @@ export function Cambridge() {
         className={`panel exam-import ${active && activePapers.length === active.tasks.length ? "is-collapsed" : ""}`}
       >
         <b>
-          本机题库：
+          可用题库：
           {packs.length
             ? packs.map((p) => `剑${p.book}`).join("、")
-            : "尚未导入"}
+            : libraryLoading
+              ? "正在加载…"
+              : "暂不可用"}
         </b>
         <p className="muted">
-          选择提取好的“阅读题库.json”，可一次导入多册。文件只保存在这台设备；不会上传到网站。训练记录另行备份，不包含题库原页。
+          剑11–19已内置，打开即可练习，原页按需加载。答题记录和复盘笔记保存在当前设备，请定期导出备份。
         </p>
+        {libraryLoading && (
+          <p className="muted" role="status">
+            正在加载网站题库…
+          </p>
+        )}
+        {libraryError && (
+          <p className="exam-error" role="alert">
+            {libraryError}{" "}
+            <button
+              className="btn btn-ghost"
+              onClick={() => setLibraryRetry((n) => n + 1)}
+            >
+              重试加载
+            </button>
+          </p>
+        )}
         <div className="exam-actions">
           <button
             className="btn btn-primary"
             disabled={busy}
             onClick={() => input.current?.click()}
           >
-            {busy ? "正在导入…" : "导入题库 / 训练记录"}
+            {busy ? "正在导入…" : "导入训练备份 / 本地题库"}
           </button>
           <button className="btn btn-ghost" onClick={exportRecords}>
             导出训练记录
@@ -301,7 +353,11 @@ export function Cambridge() {
       </section>
       {active && activePapers.length !== active.tasks.length ? (
         <div className="panel">
-          <p>这份练习的题库还没导入，请先导入对应册数。</p>
+          <p>
+            {libraryLoading
+              ? "正在加载这份练习的题库…"
+              : "暂时无法打开这份练习，请重试加载网站题库，或导入对应册数。"}
+          </p>
           <button
             className="btn btn-ghost"
             onClick={() => setRecords((r) => ({ ...r, activeId: null }))}
@@ -658,7 +714,11 @@ export function Cambridge() {
             </div>
             {!candidates.length && (
               <p className="muted">
-                暂无可用文章，请导入剑 11–18 的题库，或关闭已背词筛选。
+                {libraryLoading
+                  ? "正在加载练习文章…"
+                  : match
+                    ? "暂无匹配文章，可以关闭已背词筛选。"
+                    : "暂无可用文章，请重试加载网站题库。"}
               </p>
             )}
           </section>
@@ -731,7 +791,7 @@ export function Cambridge() {
         </>
       )}
       <p className="muted">
-        真题原页仅从你选择的本地文件读取。浏览器清理数据前，请导出训练记录；更换设备时需重新导入题库。
+        网站已内置剑11–19题库。浏览器清理数据前，请导出训练记录；更换设备时只需导入训练备份。
       </p>
     </div>
   );

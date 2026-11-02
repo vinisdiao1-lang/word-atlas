@@ -190,7 +190,7 @@ export function passed(a: Attempt, papers: Paper[]) {
     g.correct >= requiredCorrect(a.stage, g.total)
   );
 }
-export function validatePack(v: unknown): Pack {
+export function validatePack(v: unknown, bundledImageRoot?: string): Pack {
   if (!v || typeof v !== "object") throw Error("不是有效的题库文件。");
   const p = v as Pack;
   if (
@@ -252,7 +252,14 @@ export function validatePack(v: unknown): Pack {
       if (
         !Number.isInteger(page.page) ||
         typeof page.image !== "string" ||
-        !/^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(page.image) ||
+        !(
+          /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(page.image) ||
+          (bundledImageRoot &&
+            page.image.startsWith(bundledImageRoot) &&
+            new RegExp(`^c${p.book}-p[0-9]+\\.jpg$`).test(
+              page.image.slice(bundledImageRoot.length),
+            ))
+        ) ||
         page.image.length > 5000000
       )
         throw Error("原页图片格式无效。");
