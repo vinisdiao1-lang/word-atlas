@@ -3,6 +3,7 @@ import { useAtlas } from "../atlas/context";
 import { useStore } from "../store/store";
 import { loadPacks, loadRecords, save } from "../cambridge/db";
 import { loadLibrary } from "../cambridge/library";
+import { ExamText } from "../cambridge/Text";
 import {
   RULES,
   grade,
@@ -279,6 +280,9 @@ export function Cambridge() {
   if (!ready && !error) return <div className="page">正在打开本机真题库…</div>;
   const result = active ? grade(active, papers) : null;
   const paper = activePapers[Math.min(paperIndex, activePapers.length - 1)];
+  const textPaper =
+    websitePacks.flatMap((p) => p.passages).find((p) => p.id === paper?.id) ??
+    paper;
   return (
     <div className="page cambridge">
       <a className="link" href="#/reading">
@@ -312,7 +316,7 @@ export function Cambridge() {
               : "暂不可用"}
         </b>
         <p className="muted">
-          剑11–19已内置，打开即可练习，原页按需加载。答题记录和复盘笔记保存在当前设备，请定期导出备份。
+          剑11–19文字版已内置，文章、题干和选项均可直接阅读。答题记录和复盘笔记保存在当前设备，请定期导出备份。
         </p>
         {libraryLoading && (
           <p className="muted" role="status">
@@ -471,7 +475,7 @@ export function Cambridge() {
                   ?.scrollIntoView({ block: "start" })
               }
             >
-              看原卷
+              读文章
             </button>
             <button
               className="btn btn-ghost"
@@ -481,7 +485,7 @@ export function Cambridge() {
                   ?.scrollIntoView({ block: "start" })
               }
             >
-              {done ? "错题复盘" : "答题卡"}
+              {done ? "错题复盘" : "做题"}
             </button>
             <small>
               已答{" "}
@@ -503,28 +507,41 @@ export function Cambridge() {
           </div>
           <div className="exam-workspace">
             <section className="panel exam-original" id="exam-original">
-              <h2>原卷阅读与题目</h2>
-              <p className="muted">
-                剑{paper.book} · Test {paper.test} · Passage {paper.passage} ·
-                PDF 第 {paper.sourceStart}–{paper.sourceEnd} 页
-                {paper.ocr ? " · 扫描页文字匹配来自 OCR" : ""}
-              </p>
-              <button className="btn btn-ghost" onClick={() => setZoom(!zoom)}>
-                {zoom ? "适合屏幕" : "放大原页（可横向滚动）"}
-              </button>
-              <div className={`exam-images ${zoom ? "is-zoomed" : ""}`}>
-                {paper.pages.map((p) => (
-                  <img
-                    key={p.page}
-                    src={p.image}
-                    alt={`原卷 PDF 第 ${p.page} 页`}
-                    loading="lazy"
-                  />
-                ))}
-              </div>
+              <p className="eyebrow">READING PASSAGE {paper.passage}</p>
+              <h2 className="exam-reading-title">
+                {textPaper.reading?.title ?? paper.title}
+              </h2>
+              <ExamText
+                article
+                paragraphs={textPaper.reading?.paragraphs ?? [paper.text]}
+              />
+              <details className="exam-source-check">
+                <summary>核对原卷图片</summary>
+                <p className="muted">
+                  剑{paper.book} · Test {paper.test} · Passage {paper.passage} ·
+                  PDF 第 {paper.sourceStart}–{paper.sourceEnd} 页
+                  {paper.ocr ? " · 扫描页文字匹配来自 OCR" : ""}
+                </p>
+                <button
+                  className="btn btn-ghost"
+                  onClick={() => setZoom(!zoom)}
+                >
+                  {zoom ? "适合屏幕" : "放大原页（可横向滚动）"}
+                </button>
+                <div className={`exam-images ${zoom ? "is-zoomed" : ""}`}>
+                  {paper.pages.map((p) => (
+                    <img
+                      key={p.page}
+                      src={p.image}
+                      alt={`原卷 PDF 第 ${p.page} 页`}
+                      loading="lazy"
+                    />
+                  ))}
+                </div>
+              </details>
             </section>
             <section className="panel exam-answer-sheet" id="exam-answer-sheet">
-              <h2>{done ? "错题复盘" : "答题卡"}</h2>
+              <h2>{done ? "错题复盘" : "阅读题目"}</h2>
               {done && (
                 <p className="muted">
                   依据原始答案页核对。可修正 OCR
@@ -537,15 +554,43 @@ export function Cambridge() {
                   (n) =>
                     !done || showAll || result.marks[qid(paper.id, n)] !== true,
                 )
-                .map((n) => {
+                .map((n, index, visible) => {
                   const id = qid(paper.id, n),
                     g = paper.groups.find((g) => n >= g.from && n <= g.to),
-                    mark = result.marks[id];
+                    mark = result.marks[id],
+                    section = textPaper.questionText?.find(
+                      (s) => s.from === g?.from,
+                    ),
+                    item = section?.items?.find((item) => item.number === n),
+                    firstInGroup =
+                      index === 0 || (g && visible[index - 1] < g.from);
                   return (
                     <div
                       className={`exam-answer ${done ? (mark === true ? "is-right" : mark === false ? "is-wrong" : "is-pending") : ""}`}
                       key={id}
                     >
+                      {firstInGroup && section && (
+                        <div className="exam-question-context">
+                          <h3>
+                            Questions {section.from}
+                            {section.to !== section.from
+                              ? `–${section.to}`
+                              : ""}
+                          </h3>
+                          <ExamText
+                            paragraphs={
+                              section.items
+                                ? (section.intro ?? [])
+                                : section.paragraphs
+                            }
+                          />
+                          {section.judgmentOptions && (
+                            <p className="muted">
+                              请选择 {section.judgmentOptions.join(" / ")}。
+                            </p>
+                          )}
+                        </div>
+                      )}
                       <label htmlFor={`answer-${n}`}>
                         <b>第 {n} 题</b>
                         <small>
@@ -553,31 +598,61 @@ export function Cambridge() {
                           {g?.anyOrder ? " · 多选题可任意顺序" : ""}
                         </small>
                       </label>
-                      <input
-                        id={`answer-${n}`}
-                        type="text"
-                        maxLength={200}
-                        autoComplete="off"
-                        autoCapitalize="none"
-                        spellCheck={false}
-                        disabled={done}
-                        value={active.answers[id] ?? ""}
-                        onChange={(e) =>
-                          update((a) =>
-                            a.submittedAt ||
-                            (a.deadline !== undefined &&
-                              Date.now() >= a.deadline)
-                              ? a
-                              : {
-                                  ...a,
-                                  answers: {
-                                    ...a.answers,
-                                    [id]: e.target.value,
+                      {item && <ExamText paragraphs={item.paragraphs} />}
+                      {section?.judgmentOptions && !done ? (
+                        <div
+                          className="exam-answer-options"
+                          role="group"
+                          aria-label={`第 ${n} 题答案`}
+                        >
+                          {section.judgmentOptions.map((option) => (
+                            <button
+                              key={option}
+                              className={`btn ${active.answers[id] === option ? "btn-primary" : "btn-ghost"}`}
+                              aria-pressed={active.answers[id] === option}
+                              onClick={() =>
+                                update((a) =>
+                                  a.submittedAt ||
+                                  (a.deadline && Date.now() >= a.deadline)
+                                    ? a
+                                    : {
+                                        ...a,
+                                        answers: { ...a.answers, [id]: option },
+                                      },
+                                )
+                              }
+                            >
+                              {option}
+                            </button>
+                          ))}
+                        </div>
+                      ) : (
+                        <input
+                          id={`answer-${n}`}
+                          type="text"
+                          maxLength={200}
+                          autoComplete="off"
+                          autoCapitalize="none"
+                          spellCheck={false}
+                          disabled={done}
+                          value={active.answers[id] ?? ""}
+                          onChange={(e) =>
+                            update((a) =>
+                              a.submittedAt ||
+                              (a.deadline !== undefined &&
+                                Date.now() >= a.deadline)
+                                ? a
+                                : {
+                                    ...a,
+                                    answers: {
+                                      ...a.answers,
+                                      [id]: e.target.value,
+                                    },
                                   },
-                                },
-                          )
-                        }
-                      />
+                            )
+                          }
+                        />
+                      )}
                       {done && (
                         <>
                           <p>
@@ -702,6 +777,7 @@ export function Cambridge() {
                     <b>
                       剑{p.book} · T{p.test} · P{p.passage}
                     </b>
+                    <span className="exam-candidate-title">{p.title}</span>
                     <span>原卷第 {nums.join("、")} 题</span>
                     <small>
                       {nums.length} 题 · 至少答对{" "}

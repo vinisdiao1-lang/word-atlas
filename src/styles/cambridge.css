@@ -263,3 +263,68 @@
 .exam-compact-head .eyebrow {
   margin: 0;
 }
+.exam-reading-title {
+  font-family: var(--serif);
+  font-size: clamp(25px, 3vw, 36px);
+  line-height: 1.3;
+  margin: 14px 0 28px;
+}
+.exam-prose {
+  font-size: 17px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+.exam-prose p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 1.15em;
+}
+.exam-labeled-text {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+.exam-text-label {
+  flex: 0 0 24px;
+  color: var(--terra-ink);
+  font-family: var(--mono);
+}
+.exam-source-check {
+  margin-top: 32px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+}
+.exam-source-check summary {
+  cursor: pointer;
+}
+.exam-question-context {
+  padding: 18px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  background: var(--paper-2);
+}
+.exam-question-context h3 {
+  font-family: var(--serif);
+  font-size: 22px;
+  margin: 0 0 14px;
+}
+.exam-question-context .exam-prose {
+  font-size: 15px;
+}
+.exam-answer-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+.exam-answer-options .btn {
+  height: 42px;
+  font-size: 13px;
+}
+.exam-candidate .exam-candidate-title {
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.5;
+}

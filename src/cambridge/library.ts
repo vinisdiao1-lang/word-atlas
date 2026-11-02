@@ -2,7 +2,10 @@ import { validatePack, type Pack } from "./engine";
 
 export async function loadLibrary(signal?: AbortSignal): Promise<Pack[]> {
   const root = `${import.meta.env.BASE_URL}cambridge/v1/`;
-  const response = await fetch(`${root}library.json`, { signal });
+  const response = await fetch(
+    `${import.meta.env.BASE_URL}cambridge/v2/library.json`,
+    { signal },
+  );
   if (!response.ok) throw Error("网站题库暂时无法加载，请检查网络后重试。");
   return parseLibrary(await response.json(), `${root}pages/`);
 }

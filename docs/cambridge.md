@@ -4,7 +4,7 @@
 
 ## 直接使用
 
-网站已经内置剑11–19：进入阅读训练即可选择文章或开始模考，无需传文件、解压或手动导入。文章、题型和答案自动加载；原卷和答案图片按需加载，避免一次下载全部扫描页。
+网站已经内置剑11–19文字版：进入阅读训练即可选择文章或开始模考，无需传文件、解压或手动导入。文章按段落排版，题干、选项、Heading列表和Summary均为可选择的网页文字；独立题目旁直接填写答案，判断题支持点选。原卷图片折叠在“核对原卷图片”内，用于核查提取差异，不作为默认阅读方式。
 
 根据用户要求，提取后的阅读内容、题目和答案随公开网站一起部署。原始整本PDF与提取缓存仍留在本机。保留“导入训练备份 / 本地题库”以恢复记录或覆盖某册本地题库；本地导入文件不会上传到网站。
 
@@ -39,6 +39,7 @@ T1–T4 表示上传文件内的第1–4套。剑12学术类对应原书Test5–
 - `scripts/cambridge/ocr.swift`：使用 macOS PDFKit + Vision 做本机 OCR。
 - `scripts/cambridge/extract.py`：构建私人题库和阅读PDF；需要PyMuPDF，缓存放`.local/cambridge`。
 - `node scripts/cambridge/publish.mjs`：把提取结果拆成`public/cambridge/v1/library.json`与共享JPEG原页，供网站自动加载。普通构建直接使用已提交的静态资源，不依赖本地PDF或OCR环境。
+- `text.py`、`finalize_text.py`：结合PDF文字层和本机OCR位置还原双栏顺序、段落与题号，输出文字版`public/cambridge/v2/library.json`。扫描识别仍可能有差异，可用折叠原页核对。
 - 扫描文字提取与答案原页核对结果均保存在私人缓存，未提交到Git。
 
 原文阅读时长、题量说明：[IELTS Academic Reading](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading)。

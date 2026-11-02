@@ -11,6 +11,14 @@ export interface Page {
   page: number;
   image: string;
 }
+export interface QuestionText {
+  from: number;
+  to: number;
+  paragraphs: string[];
+  intro?: string[];
+  items?: { number: number; paragraphs: string[] }[];
+  judgmentOptions?: string[];
+}
 export interface Paper {
   id: string;
   book: number;
@@ -26,6 +34,8 @@ export interface Paper {
   sourceStart: number;
   sourceEnd: number;
   ocr: boolean;
+  reading?: { title: string; paragraphs: string[] };
+  questionText?: QuestionText[];
 }
 export interface Pack {
   format: "word-atlas-cambridge-v1";
@@ -222,6 +232,37 @@ export function validatePack(v: unknown, bundledImageRoot?: string): Pack {
     )
       throw Error("文章结构或原卷题号不完整。");
     ids.add(x.id);
+    if (
+      x.reading &&
+      (typeof x.reading.title !== "string" ||
+        !Array.isArray(x.reading.paragraphs) ||
+        !x.reading.paragraphs.length ||
+        x.reading.paragraphs.some(
+          (s) => typeof s !== "string" || s.length > 50000,
+        ))
+    )
+      throw Error("阅读文字格式无效。");
+    if (
+      x.questionText &&
+      (!Array.isArray(x.questionText) ||
+        x.questionText.some(
+          (g) =>
+            !Array.isArray(g.paragraphs) ||
+            !g.paragraphs.length ||
+            g.paragraphs.some(
+              (s) => typeof s !== "string" || s.length > 50000,
+            ) ||
+            (g.items &&
+              (!Array.isArray(g.items) ||
+                g.items.some(
+                  (item) =>
+                    !Number.isInteger(item.number) ||
+                    !Array.isArray(item.paragraphs) ||
+                    item.paragraphs.some((s) => typeof s !== "string"),
+                ))),
+        ))
+    )
+      throw Error("题目文字格式无效。");
     if (
       x.groups.some(
         (g) =>

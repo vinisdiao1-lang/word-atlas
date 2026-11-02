@@ -2,10 +2,15 @@ import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
 import { test } from "node:test";
 import { parseLibrary } from "./library";
-import { stageNumbers, validatePack, type Pack } from "./engine";
+import {
+  stageNumbers,
+  validatePack,
+  type Pack,
+  type QuestionText,
+} from "./engine";
 
 const source = JSON.parse(
-  readFileSync("public/cambridge/v1/library.json", "utf8"),
+  readFileSync("public/cambridge/v2/library.json", "utf8"),
 ) as Pack[];
 const root = "/word-atlas/cambridge/v1/pages/";
 
@@ -49,4 +54,85 @@ test("published scan paths stay inside their book; local imports still reject re
   assert.throws(() => parseLibrary(data, root));
   const pack = parseLibrary(source, root)[0];
   assert.throws(() => validatePack(pack));
+});
+
+test("all passages have substantial selectable prose and the exercised questions have complete text", () => {
+  for (const p of source.flatMap((book) => book.passages)) {
+    assert.ok(
+      p.reading && p.reading.paragraphs.join(" ").split(/\s+/).length >= 400,
+      p.id,
+    );
+    assert.ok(p.questionText?.length === p.groups.length, p.id);
+    const selected = p.book === 19 ? p.numbers : stageNumbers(p, p.passage);
+    for (const group of p.groups.filter((g) => selected.includes(g.from))) {
+      const text: QuestionText = p.questionText!.find(
+        (s) => s.from === group.from,
+      )!;
+      assert.ok(
+        text.paragraphs.join(" ").length > 100,
+        `${p.id}:${group.from}`,
+      );
+      if (
+        ["judgment", "heading", "paragraph-match", "choice"].includes(
+          group.type,
+        ) &&
+        !group.anyOrder
+      )
+        assert.deepEqual(
+          text.items?.map((i) => i.number),
+          Array.from(
+            { length: group.to - group.from + 1 },
+            (_, i) => group.from + i,
+          ),
+          `${p.id}:${group.from}`,
+        );
+    }
+  }
+});
+
+test("choice questions retain every option label, including letters missed in scanned books", () => {
+  for (const p of source.flatMap((book) => book.passages)) {
+    for (const group of p.groups.filter((g) => g.type === "choice")) {
+      const text = p.questionText!.find((s) => s.from === group.from)!;
+      const blocks = group.anyOrder
+        ? [text.paragraphs]
+        : text.items!.map((i) => i.paragraphs);
+      for (const block of blocks)
+        assert.deepEqual(
+          block.filter((s) => /^[A-J] /.test(s)).map((s) => s[0]),
+          (group.anyOrder ? "ABCDE" : "ABCD").split(""),
+          `${p.id}:${group.from}`,
+        );
+    }
+  }
+});
+
+test("heading options start at i and follow an uninterrupted sequence", () => {
+  const roman = [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v",
+    "vi",
+    "vii",
+    "viii",
+    "ix",
+    "x",
+    "xi",
+    "xii",
+  ];
+  for (const p of source.flatMap((book) => book.passages))
+    for (const group of p.groups.filter((g) => g.type === "heading")) {
+      const text = p.questionText!.find((s) => s.from === group.from)!;
+      const labels = text.intro!.flatMap(
+        (s) => s.match(/^([ivx]+) /i)?.[1]?.toLowerCase() ?? [],
+      );
+      assert.deepEqual(
+        labels,
+        roman.slice(0, labels.length),
+        `${p.id}:${group.from}`,
+      );
+      assert.ok(labels.length >= group.to - group.from + 1, p.id);
+    }
 });
