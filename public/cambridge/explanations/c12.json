@@ -1,0 +1,3392 @@
+{
+  "format": "word-atlas-explanations-v1",
+  "book": 12,
+  "items": {
+    "c12-t1-p1:1": {
+      "answer": "NOT GIVEN",
+      "stem": "The cork oak has the thickest bark of any living tree.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Its bark grows up to 20 cm in thickness, insulating the tree like a coat wrapped around the trunk and branches and keeping the inside at a constant 20°C all year round."
+        }
+      ],
+      "reasoning": [
+        "原文说明软木橡树树皮厚度可达二十厘米，并解释其保温作用，但这只是该树本身的特征介绍。",
+        "题干增加了所有现存树木中最厚的比较范围。没有其他树种的厚度资料，也没有最高级结论，既无法支持也无法反驳，所以选NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "具体厚度不能直接推出全球最厚；最高级需要比较依据。"
+      ],
+      "reviewTip": "具体厚度不能直接推出全球最厚；最高级需要比较依据。"
+    },
+    "c12-t1-p1:2": {
+      "answer": "FALSE",
+      "stem": "Scientists have developed a synthetic cork with the same cellular structure as natural cork.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Developed most probably as a defence against forest fires, the bark of the cork oak has a particular cellular structure - with about 40 million cells per cubic centimetre -that technology has never succeeded in replicating."
+        }
+      ],
+      "reasoning": [
+        "用cellular structure定位，原文明确说技术从未成功复制软木的特殊细胞结构，否定了复制已经实现。",
+        "题干却说科学家已经开发出相同结构的合成软木，成功与从未成功正面冲突，应判FALSE，而非因缺少合成材料名称判信息不足。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "never succeeded是明确否定，不能忽略它只抓same structure。"
+      ],
+      "reviewTip": "never succeeded是明确否定，不能忽略它只抓same structure。"
+    },
+    "c12-t1-p1:3": {
+      "answer": "FALSE",
+      "stem": "Individual cork oak trees must be left for 25 years between the first and second harvest.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "From the planting of a cork sapling to the first harvest takes 25 years, and a gap of approximately a decade must separate harvests from an individual tree."
+        }
+      ],
+      "reasoning": [
+        "原文把不同等待时间分开：从种幼树到第一次采收需二十五年，同一棵树两次采收之间约隔十年。",
+        "题干把二十五年移用到第一次与第二次采收间隔，混淆起算点；对应事实应是约十年，所以与原文矛盾，答案FALSE。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把每个年数对应的起点和终点分别标出来，不能只匹配数字。"
+      ],
+      "reviewTip": "把每个年数对应的起点和终点分别标出来，不能只匹配数字。"
+    },
+    "c12-t1-p1:4": {
+      "answer": "TRUE",
+      "stem": "Cork bark should be stripped in dry atmospheric conditions.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "If the bark is stripped on a day when it's too cold - or when the air is damp - the tree will be damaged."
+        }
+      ],
+      "reasoning": [
+        "采收条件段说空气潮湿时剥皮会损伤树木，题干要求在干燥的大气条件下剥取，正是避开潮湿。",
+        "dry与damp构成反义改写，在本句语境下支持同一操作要求，因此TRUE。文中也提到温度，但题干并未声称干燥是唯一条件。"
+      ],
+      "paraphrases": [
+        {
+          "question": "dry atmospheric conditions",
+          "passage": "when the air is damp",
+          "explanation": "潮湿会损伤树木，反推剥皮应避开潮湿空气。"
+        }
+      ],
+      "traps": [
+        "不能因为题干没写温度就判错；它只陈述了其中一个必要条件。"
+      ],
+      "reviewTip": "不能因为题干没写温度就判错；它只陈述了其中一个必要条件。"
+    },
+    "c12-t1-p1:5": {
+      "answer": "TRUE",
+      "stem": "The only way to remove the bark from cork oak trees is by hand.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "No mechanical means of stripping cork bark has been invented, so the job is done by teams of highly skilled workers."
+        }
+      ],
+      "reasoning": [
+        "原文先明确没有发明机械剥皮办法，再说这项工作由高度熟练的工人团队完成。",
+        "二者结合说明现有采收依靠人工，支持题干only by hand，故TRUE。工人使用小斧子仍属于手工作业，并不等于存在自动机械剥皮技术。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "手工可以借助斧子等工具，不要把by hand狭义理解成徒手。"
+      ],
+      "reviewTip": "手工可以借助斧子等工具，不要把by hand狭义理解成徒手。"
+    },
+    "c12-t1-p1:6": {
+      "answer": "taste",
+      "stem": "• do not affect the [6] ____ of the bottle contents",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "The tiniest concentrations - as little as three or four parts to a trillion -can spoil the taste of the product contained in the bottle."
+        }
+      ],
+      "reasoning": [
+        "原文解释传统软木塞可能产生微量化合物，哪怕极少浓度也会破坏瓶中产品的味道；随后才出现替代瓶塞。",
+        "笔记比较螺旋盖的优势，把传统软木的问题转换为替代品不会影响的对象，需填名词taste；化合物名称是原因而非受影响的内容。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "空位问瓶内产品的什么受到影响，而不是污染物叫什么。"
+      ],
+      "reviewTip": "空位问瓶内产品的什么受到影响，而不是污染物叫什么。"
+    },
+    "c12-t1-p1:7": {
+      "answer": "cheaper",
+      "stem": "• are [7] ____ to produce",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "These substitutes are cheaper to manufacture and, in the case of screw caps, more convenient for the user."
+        }
+      ],
+      "reasoning": [
+        "替代品段直接说明塑料塞和铝制螺旋盖的制造更便宜，题干to produce对应原文to manufacture。",
+        "空位在are之后，承接成本优势，需要比较级形容词cheaper。不能擅改为cheap，也不能填price，因为笔记保留了“与传统软木相比”的比较关系。"
+      ],
+      "paraphrases": [
+        {
+          "question": "to produce",
+          "passage": "to manufacture",
+          "explanation": "两者都指制造产品。"
+        }
+      ],
+      "traps": [
+        "保留原文比较级cheaper；ONE WORD不允许抄cheaper to manufacture。"
+      ],
+      "reviewTip": "保留原文比较级cheaper；ONE WORD不允许抄cheaper to manufacture。"
+    },
+    "c12-t1-p1:8": {
+      "answer": "convenient",
+      "stem": "• are [8] ____ to use",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "These substitutes are cheaper to manufacture and, in the case of screw caps, more convenient for the user."
+        }
+      ],
+      "reasoning": [
+        "同句把两种优势分开：所有替代品制造成本较低，而螺旋盖对使用者更方便。",
+        "笔记to use与for the user表达相同角度，应填convenient。more在题目语法里不一定照抄，且本题只许一个词，不能把制造成本优势挪来回答使用体验。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "认清for the user描述使用便利，与生产成本是不同维度。"
+      ],
+      "reviewTip": "认清for the user描述使用便利，与生产成本是不同维度。"
+    },
+    "c12-t1-p1:9": {
+      "answer": "image",
+      "stem": "• suit the [9] ____ of quality products",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Firstly, its traditional image is more in keeping with that of the type of high quality goods with which it has long been associated."
+        }
+      ],
+      "reasoning": [
+        "转折however引出传统软木塞的优势，首先是它的传统形象与长期关联的高品质商品形象相符。",
+        "笔记suit概括in keeping with，空位需要名词image。tradition并非原文中的所需词，也不能填quality，因为题目问与高品质产品的哪个方面契合。"
+      ],
+      "paraphrases": [
+        {
+          "question": "suit",
+          "passage": "in keeping with",
+          "explanation": "都表示相符、相配。"
+        }
+      ],
+      "traps": [
+        "空位是产品形象image，不是产品质量quality。"
+      ],
+      "reviewTip": "空位是产品形象image，不是产品质量quality。"
+    },
+    "c12-t1-p1:10": {
+      "answer": "sustainable",
+      "stem": "• made from a [10] ____ material",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Secondly -and very importantly - cork is a sustainable product that can be recycled without difficulty."
+        }
+      ],
+      "reasoning": [
+        "原文第二个优点是软木属于可持续产品，而且回收容易；笔记把product改成material，保留了形容词修饰名词结构。",
+        "因此填sustainable，说明这种材料来源和生产具有可持续性。recycled属于下一项加工处理优势，不能将两个不同空位的词相互替换。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "先判断词性：a…material之间应填形容词。"
+      ],
+      "reviewTip": "先判断词性：a…material之间应填形容词。"
+    },
+    "c12-t1-p1:11": {
+      "answer": "recycled",
+      "stem": "• easily [11] ____",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Secondly -and very importantly - cork is a sustainable product that can be recycled without difficulty."
+        }
+      ],
+      "reasoning": [
+        "原文说软木可以毫不困难地回收，笔记easily正好对应without difficulty。",
+        "空位要求过去分词recycled，构成省略的被动描述，表示材料容易被回收。不能填recycling或recycle而破坏语法；sustainable是上一项材料特征，不是回收动作。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "easily对应without difficulty，动词形式须保留recycled。"
+      ],
+      "reviewTip": "easily对应without difficulty，动词形式须保留recycled。"
+    },
+    "c12-t1-p1:12": {
+      "answer": "biodiversity",
+      "stem": "• cork forests aid [12] ____",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Moreover, cork forests are a resource which support local biodiversity, and prevent desertification in the regions where they are planted."
+        }
+      ],
+      "reasoning": [
+        "末段从材料优点转到软木林的生态作用，明确说森林支持当地生物多样性。",
+        "笔记用aid改写support，动词后需要其帮助维持的对象biodiversity。不能填forests，因为森林是主语；local可以省去，满足一个词限制并保留核心名词。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "support与aid是动作改写，答案是被支持的生态对象。"
+      ],
+      "reviewTip": "support与aid是动作改写，答案是被支持的生态对象。"
+    },
+    "c12-t1-p1:13": {
+      "answer": "desertification",
+      "stem": "• cork forests stop [13] ____ happening",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Moreover, cork forests are a resource which support local biodiversity, and prevent desertification in the regions where they are planted."
+        }
+      ],
+      "reasoning": [
+        "原文紧接着说软木林能防止种植地区发生沙漠化，笔记stop…happening把prevent展开成另一种结构。",
+        "所以应填名词desertification，而不是干旱或森林火灾。前文火灾属于树皮的适应性解释，本题只问末段森林的地区性生态功能。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "不要跨段把防火特性拿来替代防止沙漠化。"
+      ],
+      "reviewTip": "不要跨段把防火特性拿来替代防止沙漠化。"
+    },
+    "c12-t1-p2:14": {
+      "answer": "antiques",
+      "stem": "14 The writer mentions collecting [14] ____ as an example of collecting in order to make money.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "They'll look for, say, antiques that they can buy cheaply and expect to be able to sell at a profit."
+        }
+      ],
+      "reasoning": [
+        "第二段解释以盈利为目的的收藏，随后举例低价买进古董，再期待高价卖出。",
+        "题干要求作者用于说明赚钱动机的收藏对象，因此答案是antiques。money是目的，profit是收益，都不能作为collecting后的物品名称；保留原文的复数形式。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "例子对象是古董antiques，赚钱只是收藏动机。"
+      ],
+      "reviewTip": "例子对象是古董antiques，赚钱只是收藏动机。"
+    },
+    "c12-t1-p2:15": {
+      "answer": "triumph",
+      "stem": "15 Collectors may get a feeling of [15] ____ from buying and selling items.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "But there- may well be a psychological element, too - buying cheap and selling dear can give the collector a sense of triumph."
+        }
+      ],
+      "reasoning": [
+        "低买高卖不仅有经济结果，原文还指出它会给收藏者一种胜利感，属于心理层面的满足。",
+        "题干a feeling of改写a sense of，后接抽象名词triumph，正好表达这种情绪。不能填profit，因为本题问感觉而不是实际获得的钱，答案须与搭配一致。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "先用feeling确定心理感受，排除金钱收益词。"
+      ],
+      "reviewTip": "先用feeling确定心理感受，排除金钱收益词。"
+    },
+    "c12-t1-p2:16": {
+      "answer": "information",
+      "stem": "16 Collectors' clubs provide opportunities to share [16] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Many collectors collect to develop their social life, attending meetings of a group of collectors and exchanging information on items."
+        }
+      ],
+      "reasoning": [
+        "社交动机段明确写参加收藏者聚会并交换藏品相关信息，题干share与exchanging对应。",
+        "空位问俱乐部提供什么可以分享的内容，所以填information，不填items；原文并未说聚会上一定互换藏品。该词不可数，不能加复数词尾。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "交换信息不等于交换藏品；information为不可数名词。"
+      ],
+      "reviewTip": "交换信息不等于交换藏品；information为不可数名词。"
+    },
+    "c12-t1-p2:17": {
+      "answer": "contact/meetings",
+      "stem": "17 Collectors' clubs offer [17] ____ with people who have similar interests.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "This is a variant on joining a bridge club or a gym, and similarly brings them into contact with like-minded people."
+        }
+      ],
+      "reasoning": [
+        "原文把收藏团体类比桥牌俱乐部或健身房，说明能让人接触志趣相投的人。",
+        "题干people who have similar interests对应like-minded people，空位可用contact；前句attending meetings也可支持meetings。两种答案各为一个词，不能把整段短语一起抄入。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "with后的人群是联系对象，答案contact或meetings而非information。"
+      ],
+      "reviewTip": "with后的人群是联系对象，答案contact或meetings而非information。"
+    },
+    "c12-t1-p2:18": {
+      "answer": "hunt/desire",
+      "stem": "18 Collecting sometimes involves a life-long [18] ____ for a special item.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Some may spend their whole lives in a hunt for this."
+        }
+      ],
+      "reasoning": [
+        "作者说有些人会用一生寻找某个特别藏品，题干life-long正是whole lives的压缩改写。",
+        "for前需要能表示寻找或渴望的名词，hunt最直接；前段desire to find也提供可接受的desire。重点是长期追求过程，不能填最后被找到的item。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把life-long与whole lives对应，辨别追寻过程和收藏目标。"
+      ],
+      "reviewTip": "把life-long与whole lives对应，辨别追寻过程和收藏目标。"
+    },
+    "c12-t1-p2:19": {
+      "answer": "aimless/empty",
+      "stem": "19 Searching for something particular may prevent people from feeling their life is completely [19] ____",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Psychologically, this can give a purpose to a life that otherwise feels aimless."
+        }
+      ],
+      "reasoning": [
+        "原文说长期追求能赋予人生目的，使原本无目标的人生有方向；找到目标后反而可能感到空虚。",
+        "题干问“寻找”能够避免怎样的感觉，aimless直接对应无目标，empty也可表达缺失意义的状态。不能误填successful，因为庆祝成功是作者随后否定的预期反应。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "分清寻找途中提供目的与找到之后可能空虚这两个阶段。"
+      ],
+      "reviewTip": "分清寻找途中提供目的与找到之后可能空虚这两个阶段。"
+    },
+    "c12-t1-p2:20": {
+      "answer": "educational",
+      "stem": "20 Stamp collecting may be [20] ____ because it provides facts about different countries.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "If you think about collecting postage stamps, another potential reason for it - or, perhaps, a result of collecting - is its educational value."
+        }
+      ],
+      "reasoning": [
+        "邮票收藏段解释它能让人了解不同国家、动植物及人物，开头把这归纳为教育价值。",
+        "题干because后列举的事实是教育作用的原因，may be之后需要形容词educational。不能填information，因为虽然邮票提供信息，但空位结构描述的是收藏活动的性质。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "空位是be后的形容词，不能只凭语义抄information。"
+      ],
+      "reviewTip": "空位是be后的形容词，不能只凭语义抄information。"
+    },
+    "c12-t1-p2:21": {
+      "answer": "Trainspotting",
+      "stem": "21 tends to be mostly a male hobby [21] ____.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "In the past - and nowadays, too, though to a lesser extent - a popular form of collecting, particularly among boys and men, was trainspotting."
+        }
+      ],
+      "reasoning": [
+        "原文介绍观火车活动，特别指出它流行于男孩和成年男性，随后解释记录机车的做法。",
+        "题干mostly a male hobby对应这一人群限定，问活动名称，所以填Trainspotting。train或locomotive只是观察对象，不能代替完整爱好名称；句首大写不改变答案含义。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "问的是爱好名而不是机车这种物品名。"
+      ],
+      "reviewTip": "问的是爱好名而不是机车这种物品名。"
+    },
+    "c12-t1-p2:22": {
+      "answer": "NOT GIVEN",
+      "stem": "The number of people buying dolls has grown over the centuries.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "These have changed over the centuries from the wood that was standard in 16th century Europe, through the wax and porcelain of later centuries, to the plastics of today's dolls."
+        }
+      ],
+      "reasoning": [
+        "玩偶段说几个世纪中制作材料发生变化，并提到收藏者可能研究制作工艺和儿童偏好。",
+        "题干却问购买玩偶的人数是否增长，段中没有历年人数或趋势比较；材料变化不能证明买家增多，也没有相反证据，故NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "over the centuries修饰材料变化，不能移到购买人数上。"
+      ],
+      "reviewTip": "over the centuries修饰材料变化，不能移到购买人数上。"
+    },
+    "c12-t1-p2:23": {
+      "answer": "FALSE",
+      "stem": "Sixteenth century European dolls were normally made of wax and porcelain.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "These have changed over the centuries from the wood that was standard in 16th century Europe, through the wax and porcelain of later centuries, to the plastics of today's dolls."
+        }
+      ],
+      "reasoning": [
+        "原文依次列出十六世纪欧洲常用木头、后来的蜡与瓷器、今天的塑料，时间与材料有明确配对。",
+        "题干把后期的蜡和瓷器放到十六世纪，和当时标准材料为木头直接冲突，故FALSE。不是材料未提及，而是所属时期被调换。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "给每种材料标注对应年代，不能把并列列表当作同一时期。"
+      ],
+      "reviewTip": "给每种材料标注对应年代，不能把并列列表当作同一时期。"
+    },
+    "c12-t1-p2:24": {
+      "answer": "NOT GIVEN",
+      "stem": "Arranging a stamp collection by the size of the stamps is less common than other methods.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Stamp collectors, for instance, arrange their stamps in albums, usually very neatly, organising their collection according to certain commonplace principles - perhaps by country in alphabetical order, or grouping stamps by what they depict -people, birds, maps, and so on."
+        }
+      ],
+      "reasoning": [
+        "邮票整理段举出按国家字母顺序或按图案分组这些常见办法，但没有提到按邮票大小分类。",
+        "题干比较大小分类与其他方法的普及程度；原文既未列出这种方法，更未给出频率比较，所以NOT GIVEN，不能把没被举例等同于较少使用。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "作者未列举的方法不自动等于不常见的方法。"
+      ],
+      "reviewTip": "作者未列举的方法不自动等于不常见的方法。"
+    },
+    "c12-t1-p2:25": {
+      "answer": "TRUE",
+      "stem": "Someone who collects unusual objects may want others to think he or she is also unusual.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "One reason, conscious or not, for what someone chooses to collect is to show the collector's individualism."
+        }
+      ],
+      "reasoning": [
+        "原文说选择收藏物可能是为了展现独特性，例如收藏狗项圈的人可能借此传达自己很有趣。",
+        "题干把这种愿望概括成想让别人认为自己也不寻常，保留了may的不确定程度，与作者举例一致，所以TRUE。并非断言所有收藏者都如此。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "保留may的范围：这是可能动机，不是每个收藏者的必然想法。"
+      ],
+      "reviewTip": "保留may的范围：这是可能动机，不是每个收藏者的必然想法。"
+    },
+    "c12-t1-p2:26": {
+      "answer": "TRUE",
+      "stem": "Collecting gives a feeling that other hobbies are unlikely to inspire.",
+      "evidence": [
+        {
+          "paragraph": 11,
+          "quote": "More than most other hobbies, collecting can be totally engrossing, and can give a strong sense of personal fulfilment."
+        }
+      ],
+      "reasoning": [
+        "结尾先承认所有爱好能给人快乐，再说收藏的共同因素通常是热情，带来的投入和成就感超过多数其他爱好。",
+        "题干说收藏能激起其他爱好不太容易带来的感觉，正对应这种强度上的特别之处，故TRUE；不能因为其他爱好也愉快而忽略后面的程度比较。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分普遍的pleasure与收藏尤其强烈的passion和fulfilment。"
+      ],
+      "reviewTip": "区分普遍的pleasure与收藏尤其强烈的passion和fulfilment。"
+    },
+    "c12-t1-p3:27": {
+      "answer": "vi",
+      "stem": "Section A",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "But what would the founders of these two institutions have thought of a course called '.Arson for Profit'? I kid you not: we have it on the books."
+        }
+      ],
+      "reasoning": [
+        "A段先列出众多正常专业，再突然抛出看似教人纵火谋利的课名，并用I kid you not强调它真的存在。",
+        "整段的阅读效果是这个课程标题令人惊讶，对应vi。段中虽有报读门槛，却没有强调投入程度，不能选i；也不是讲学习带来经济利益，排除v。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "标题题概括全段引出的意外课名，不按Profit一词选择财务收益标题。"
+      ],
+      "reviewTip": "标题题概括全段引出的意外课名，不按Profit一词选择财务收益标题。"
+    },
+    "c12-t1-p3:28": {
+      "answer": "viii",
+      "stem": "Section B",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Bue wouldn't this also be the perfect course for prospective arsonists to sign up for? My point is not to criticize academic programs in fire science: they are highly welcome as part of the increasing professionalization of this and many other occupations."
+        }
+      ],
+      "reasoning": [
+        "B段先讲课程培养调查纵火案的人，紧接着反问未来的纵火者是否也会觉得它很合适。",
+        "这种预期对象与可能利用知识作恶的人之间的反差，正对应viii吸引错误学生的可能性。作者并非指课程本身应取消，而是用它提出知识可能被滥用的问题。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "看清investigators与arsonists身份不同，危险在于知识会被另一类人使用。"
+      ],
+      "reviewTip": "看清investigators与arsonists身份不同，危险在于知识会被另一类人使用。"
+    },
+    "c12-t1-p3:29": {
+      "answer": "ii",
+      "stem": "Section C",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "It made me think to ask the students, 'Is marketing principled?' After all, a subject matter can have principles in the sense of being codified, having rules, as with football or chess, without being principled in the sense of being ethical."
+        }
+      ],
+      "reasoning": [
+        "C段围绕Principles of Marketing中的principles展开：它可指像棋类规则那样被编制成体系，也可指道德上的有原则。",
+        "作者借课名提问营销是否合乎道德，学生回答时使用第二层含义，因此ii准确概括双重意义。不是介绍两门课程，而是同一个词的两种解释。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分有规则与合乎伦理，不能把两个principled当作完全同义。"
+      ],
+      "reviewTip": "区分有规则与合乎伦理，不能把两个principled当作完全同义。"
+    },
+    "c12-t1-p3:30": {
+      "answer": "iv",
+      "stem": "Section D",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "My inspiration for this judgement is the philosopher Immanuel Kant, who argued that any body of knowledge consists of an end (or purpose) and a means."
+        }
+      ],
+      "reasoning": [
+        "D段提出乍看意外的观点：营销从定义上可能就是合乎道德的，并说明灵感来自康德对目的与手段的理论。",
+        "所以iv把理论应用于意外语境最贴切，重点是哲学理论进入营销讨论。该段只有引入两因素，还未详细论述其同等重要性，那个重点在下一段。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "理论来源在D段，引出后的具体展开在E段，不要交换两段标题。"
+      ],
+      "reviewTip": "理论来源在D段，引出后的具体展开在E段，不要交换两段标题。"
+    },
+    "c12-t1-p3:31": {
+      "answer": "iii",
+      "stem": "Section E",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "A field of knowledge or a professional endeavor is defined by both the means and the end; hence both deserve scrutiny."
+        }
+      ],
+      "reasoning": [
+        "E段分析学生只学如何营销、只把赚钱当目的或认为目的无关的不同态度，作者均不赞同。",
+        "结论是专业活动同时由手段与目的界定，两者都应审视，故iii两项关键问题同等重要。不能选v，因为赚钱只是被讨论的一种狭隘目的，并非作者认可的整段中心。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "抓住both与结尾how和what的并列关系，概括目的和手段两方面。"
+      ],
+      "reviewTip": "抓住both与结尾how和what的并列关系，概括目的和手段两方面。"
+    },
+    "c12-t1-p3:32": {
+      "answer": "vii",
+      "stem": "Section F",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "We have a separate word for it: arson."
+        }
+      ],
+      "reasoning": [
+        "F段反复比较相同知识用于不同目的后怎样命名：消防与纵火、营销与欺诈、医术与谋杀。",
+        "因此vii不同结果使用不同名称覆盖全部例子；重点不只是消防安全，也不是知识技术发生改变，而是目的的伦理差异决定行为性质和名称。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "多个例子共同体现命名依据，不要只取第一个消防例子当主旨。"
+      ],
+      "reviewTip": "多个例子共同体现命名依据，不要只取第一个消防例子当主旨。"
+    },
+    "c12-t1-p3:33": {
+      "answer": "fire science",
+      "stem": "This is a university course intended for students who are undergraduates and who are studying [33] ____ The expectation is that they will become [34] ____ specialising in arson. The course will help them to detect cases of arson and find [35] ____ of criminal intent, leading to successful [36] ____ in the courts.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Any undergraduates who have met the academic requirements can sign up for the course in our program in 'fire science'."
+        }
+      ],
+      "reasoning": [
+        "A段末尾说明满足学术要求的本科生可以在fire science专业中选修这门课程，摘要保留了本科生这一条件。",
+        "空位位于studying之后，需要所学领域名称fire science，正好两个词。Arson for Profit是具体课名而非这个空问的专业，不能混淆层级。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分专业fire science与单门课程Arson for Profit。"
+      ],
+      "reviewTip": "区分专业fire science与单门课程Arson for Profit。"
+    },
+    "c12-t1-p3:34": {
+      "answer": "investigators",
+      "stem": "This is a university course intended for students who are undergraduates and who are studying [33] ____ The expectation is that they will become [34] ____ specialising in arson. The course will help them to detect cases of arson and find [35] ____ of criminal intent, leading to successful [36] ____ in the courts.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "B Naturally, the course is intended for prospective arson investigators, who can learn all the tricks of the trade for detecting whether a fire was deliberately set, discovering who did it, and establishing a chain of evidence for effective prosecution in a court of law."
+        }
+      ],
+      "reasoning": [
+        "B段开头直接说课程预期服务于未来的纵火调查人员，摘要they will become把prospective展开为将来从业。",
+        "空位后已给出specialising in arson，所以只填investigators，避免重复arson。不能填arsonists，因为后者是作者担心可能旁听并滥用知识的另一类人。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "调查者是合法培养目标，纵火者只是反问引出的潜在误用人群。"
+      ],
+      "reviewTip": "调查者是合法培养目标，纵火者只是反问引出的潜在误用人群。"
+    },
+    "c12-t1-p3:35": {
+      "answer": "evidence",
+      "stem": "This is a university course intended for students who are undergraduates and who are studying [33] ____ The expectation is that they will become [34] ____ specialising in arson. The course will help them to detect cases of arson and find [35] ____ of criminal intent, leading to successful [36] ____ in the courts.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "B Naturally, the course is intended for prospective arson investigators, who can learn all the tricks of the trade for detecting whether a fire was deliberately set, discovering who did it, and establishing a chain of evidence for effective prosecution in a court of law."
+        }
+      ],
+      "reasoning": [
+        "课程教学生判断火是否被故意点燃、查出作案者，并建立证据链以利于法庭起诉。",
+        "摘要find…of criminal intent需要名词evidence，既符合原文也与后面的起诉构成因果关系。不能填chain alone，因为真正能证明犯罪意图的是证据，不是泛指的链条。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "evidence不可数；不能把crime或intent重复填入已给出的结构。"
+      ],
+      "reviewTip": "evidence不可数；不能把crime或intent重复填入已给出的结构。"
+    },
+    "c12-t1-p3:36": {
+      "answer": "prosecution",
+      "stem": "This is a university course intended for students who are undergraduates and who are studying [33] ____ The expectation is that they will become [34] ____ specialising in arson. The course will help them to detect cases of arson and find [35] ____ of criminal intent, leading to successful [36] ____ in the courts.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "B Naturally, the course is intended for prospective arson investigators, who can learn all the tricks of the trade for detecting whether a fire was deliberately set, discovering who did it, and establishing a chain of evidence for effective prosecution in a court of law."
+        }
+      ],
+      "reasoning": [
+        "原文把建立证据链的目标表述为在法院实现有效起诉，摘要leading to successful对应for effective。",
+        "所以空位填prosecution，说明司法程序，而非侦查者身份或火灾本身。不能用punishment替代，因为原文没有把结果直接写成惩罚，题目要求取词自文章。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "effective与successful同义改写，答案仍须抄原文prosecution。"
+      ],
+      "reviewTip": "effective与successful同义改写，答案仍须抄原文prosecution。"
+    },
+    "c12-t1-p3:37": {
+      "answer": "NOT GIVEN",
+      "stem": "It is difficult to attract students onto courses that do not focus on a career.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Any undergraduates who have met the academic requirements can sign up for the course in our program in 'fire science'."
+        }
+      ],
+      "reasoning": [
+        "A段说满足学术条件的本科生都能选修课程，并列出大学的多种职业培养项目。",
+        "然而作者没有比较职业型与非职业型课程的招生难度，也未报告学生是否不愿报后者。题干的difficult to attract没有证据，不能由课程多为职业方向就推断，所以NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "列举职业专业不能推出非职业课程难以招生。"
+      ],
+      "reviewTip": "列举职业专业不能推出非职业课程难以招生。"
+    },
+    "c12-t1-p3:38": {
+      "answer": "YES",
+      "stem": "The 'Arson for Profit' course would be useful for people intending to set fire to buildings.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Bue wouldn't this also be the perfect course for prospective arsonists to sign up for? My point is not to criticize academic programs in fire science: they are highly welcome as part of the increasing professionalization of this and many other occupations."
+        }
+      ],
+      "reasoning": [
+        "作者明确反问该课程对未来的纵火者岂不是也非常合适，并在结尾说明相同知识可用于危险破坏行为。",
+        "题干说想点燃建筑的人也能从中获益，正是作者提出的滥用风险，因此YES。这并不是作者赞同纵火，而是承认知识对非法目的也有实用性。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "有用不等于正当；判断作者是否承认用途，而不是是否支持犯罪。"
+      ],
+      "reviewTip": "有用不等于正当；判断作者是否承认用途，而不是是否支持犯罪。"
+    },
+    "c12-t1-p3:39": {
+      "answer": "NO",
+      "stem": "Fire science courses are too academic to help people to be good at the job of firefighting.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Bue wouldn't this also be the perfect course for prospective arsonists to sign up for? My point is not to criticize academic programs in fire science: they are highly welcome as part of the increasing professionalization of this and many other occupations."
+        }
+      ],
+      "reasoning": [
+        "B段作者主动声明并非批评消防科学课程，反而欢迎它们推动职业专业化，之前也具体列出侦查与取证技能。",
+        "题干断言这些课过于学术化、不能帮助做好消防工作，与作者肯定其职业价值的态度相反，故NO。课程可能被滥用并不等于课程毫无职业用处。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "不要把作者对误用的担心改写成对专业课程实用性的否定。"
+      ],
+      "reviewTip": "不要把作者对误用的担心改写成对专业课程实用性的否定。"
+    },
+    "c12-t1-p3:40": {
+      "answer": "NO",
+      "stem": "The writer's fire science students provided a detailed definition of the purpose of their studies.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "When I ask fire science students to articulate the end, or purpose, of their field, they eventually generalize to something like, 'The safety and welfare of society,' which seems right."
+        }
+      ],
+      "reasoning": [
+        "F段说消防学生最终把学习目的概括成社会安全与福祉，这是一个广泛的总目标。",
+        "题干称他们提供了详细定义，detailed与generalize表达的概括性质相反，所以NO。作者认为这个方向正确，并不意味着答案具体细密，判断点是细节程度而非对错评价。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分general概括与detailed详细；seems right只表示作者赞同。"
+      ],
+      "reviewTip": "区分general概括与detailed详细；seems right只表示作者赞同。"
+    },
+    "c12-t2-p1:1": {
+      "answer": "A",
+      "stem": "a reference to characteristics that only apply to food production",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "A Two things distinguish food production from all other productive activities: first, every single person needs food each day and has a right to it; and second, it is hugely dependent on nature."
+        }
+      ],
+      "reasoning": [
+        "A段开头直接比较食品生产与所有其他生产活动，并列出每天人人需要且享有食物权利、生产高度依赖自然两点。",
+        "题干only apply要求找到独有特征，正对应distinguish和unique，故A。其他段虽然谈农业风险，却没有把这些特征与所有其他行业作这种排他比较。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "用distinguish和unique锁定独特性，不能只因某段也提到农业就选择。"
+      ],
+      "reviewTip": "用distinguish和unique锁定独特性，不能只因某段也提到农业就选择。"
+    },
+    "c12-t2-p1:2": {
+      "answer": "B",
+      "stem": "a reference to challenges faced only by farmers in certain parts of the world",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "However, smallholder farmers in developing countries must in addition deal with adverse environments, both natural, in terms of soil quality, rainfall, etc., and human, in terms of infrastructure, financial systems, markets, knowledge and technology."
+        }
+      ],
+      "reasoning": [
+        "B段先说各地农民普遍面对天气、气候与价格风险，再用However转入发展中国家小农额外面对的自然和人为困境。",
+        "题干only by farmers in certain parts对应后一个地域限定，故B；不能只看第一句的everywhere而错过转折后的附加挑战。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把全球共有风险与发展中国家小农额外风险分开标记。"
+      ],
+      "reviewTip": "把全球共有风险与发展中国家小农额外风险分开标记。"
+    },
+    "c12-t2-p1:3": {
+      "answer": "H",
+      "stem": "a reference to difficulties in bringing about co-operation between farmers",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "It takes time, effort and money to organise, build trust and to experiment."
+        }
+      ],
+      "reasoning": [
+        "H段前半强调合作团体的优势，随后Giel Ton提醒集体行动并非免费，需要时间、努力、资金以及建立信任和试验。",
+        "题干问促成合作的困难，正是这段对组织成本的提醒，所以H。不是问合作能提供哪些好处，定位时必须读到转折性的警告。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "同段先列好处后写成本，题干difficulties对应后半部分。"
+      ],
+      "reviewTip": "同段先列好处后写成本，题干difficulties对应后半部分。"
+    },
+    "c12-t2-p1:4": {
+      "answer": "D",
+      "stem": "4 Financial assistance from the government does not always go to the farmers who most need it.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "In fact, studies show that sixty percent of beneficiaries of subsidies are not poor, but rich landowners and non-farmer traders.'"
+        }
+      ],
+      "reasoning": [
+        "Kabir批评补贴未抵消私人商贩的控制，并举研究说明六成受益者是富裕地主和非农商贩，而非穷人。",
+        "题干“不总流向最需要的农民”由这个分配失衡支持，人物表D是Rokeya Kabir；邻近的Fan赞成福利项目，不能因同段出现而误配。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把引号内批评与Kabir相连，不要把同段所有观点都归给Fan。"
+      ],
+      "reviewTip": "把引号内批评与Kabir相连，不要把同段所有观点都归给Fan。"
+    },
+    "c12-t2-p1:5": {
+      "answer": "B",
+      "stem": "5 Farmers can benefit from collaborating as a group.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "According to Murphy, 'collective action offers an important way for farmers to strengthen their political and economic bargaining power, and to reduce their business risks.' One commentator, Giel Ton, warned that collective action does not come as a free good."
+        }
+      ],
+      "reasoning": [
+        "H段明确用According to Murphy引出结论：集体行动能强化农民政治经济谈判力，并降低经营风险。",
+        "题干collaborating as a group概括collective action，故人物B。Ton同在本段，但他说组织合作有成本，并不是本题强调的获益观点。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "人物匹配依照引述归属，不能只按人名所在段选答案。"
+      ],
+      "reviewTip": "人物匹配依照引述归属，不能只按人名所在段选答案。"
+    },
+    "c12-t2-p1:6": {
+      "answer": "C",
+      "stem": "6 Financial assistance from the government can improve the standard of living of farmers.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Institute, held up social safety nets and public welfare programmes in Ethiopia, Brazil and Mexico as valuable ways to address poverty among farming families and reduce their vulnerability to agriculture shocks."
+        }
+      ],
+      "reasoning": [
+        "E段开始由Shenggen Fan举埃塞俄比亚、巴西和墨西哥社会保障及公共福利的例子，认为它们能缓解农户贫困和脆弱性。",
+        "题干政府资助改善生活水平对应address poverty，故C。后面的匿名评论者对现金转移持保留态度，不应将其反对意见替代Fan的立场。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "同一政策有支持和质疑，先确定题干主张的方向再配人。"
+      ],
+      "reviewTip": "同一政策有支持和质疑，先确定题干主张的方向再配人。"
+    },
+    "c12-t2-p1:7": {
+      "answer": "G",
+      "stem": "7 Farmers may be helped if there is financial input by the same individuals who buy from them.",
+      "evidence": [
+        {
+          "paragraph": 11,
+          "quote": "Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention."
+        }
+      ],
+      "reasoning": [
+        "末段Sonali Bisht提出社区支持农业：消费者以订阅形式投资当地农民，并保证生产者公平价格。",
+        "题干same individuals who buy from them就是既购买又投资的消费者，故G。普通政府补贴或私人保险不符合购买者本人出资这一具体关系。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "本题关键是出资者和购买者是同一群人，不只是泛泛的财政支持。"
+      ],
+      "reviewTip": "本题关键是出资者和购买者是同一群人，不只是泛泛的财政支持。"
+    },
+    "c12-t2-p1:8": {
+      "answer": "B",
+      "stem": "8 Governments can help to reduce variation in prices.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Sophia Murphy, senior advisor to the Institute for Agriculture and Trade Policy, suggested that the procurement and holding of stocks by governments can also help mitigate wild swings in food prices by alleviating uncertainties about market supply."
+        }
+      ],
+      "reasoning": [
+        "D段Murphy建议政府采购并持有库存，减少市场供应的不确定，从而缓和食品价格剧烈波动。",
+        "题干reduce variation in prices对应mitigate wild swings，人物B。Nwanze也支持政府介入，但他在此段强调道路和储藏设施，具体措施不同。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "以wild swings对应variation锁定Murphy，而非只看到government就选Nwanze。"
+      ],
+      "reviewTip": "以wild swings对应variation锁定Murphy，而非只看到government就选Nwanze。"
+    },
+    "c12-t2-p1:9": {
+      "answer": "A",
+      "stem": "9 Improvements to infrastructure can have a major impact on risk for farmers. List of People",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Nwanze, President of the International Fund for Agricultural Development, argued that governments can significantly reduce risks for farmers by providing basic services like roads to get produce more efficiently to markets, or water and food storage facilities to reduce losses."
+        }
+      ],
+      "reasoning": [
+        "Nwanze认为政府通过道路、用水和食品储存等基本服务能显著降低农民风险，例子都属于基础设施。",
+        "题干improvements to infrastructure把具体例子概括成上位概念，故A。紧邻的Murphy谈政府库存调价，虽也降低风险，却不回答基础设施这一限定。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "道路和储存设施共同对应infrastructure，别忽略这一限定词。"
+      ],
+      "reviewTip": "道路和储存设施共同对应infrastructure，别忽略这一限定词。"
+    },
+    "c12-t2-p1:10": {
+      "answer": "D",
+      "stem": "Which TWO problems are mentioned which affect farmers with small farms in developing countries? A lack of demand for locally produced food B lack of irrigation programmes C being unable to get insurance D the effects of changing weather patterns E having to sell their goods to intermediary buyers",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Fan explained that 'in addition to reducing crop yields, climate change increases the magnitude and the frequency of extreme weather events, which increase smallholder vulnerability.' The growing unpredictability of weather patterns increases farmers' difficulty in managing weather-related risks."
+        }
+      ],
+      "reasoning": [
+        "G段明确说天气模式越来越不可预测，使农民更难管理天气风险，故D是问题之一。",
+        "另一问题在末段：中间收购商利用农民弱势地位定价，对应E。本文没有说地方食品需求不足、没有灌溉计划或小农无法获得保险，因此不能凭一般农业常识选A、B、C。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "两选题只选文中明说的问题；10和11的D、E可互换。"
+      ],
+      "reviewTip": "两选题只选文中明说的问题；10和11的D、E可互换。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "未提到当地食物缺乏需求，不能凭空添加市场问题。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "自然降雨与水设施被提及，但没有断言缺少灌溉项目是列出的困境。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "原文把私人保险作为工具，没有说小农无法得到保险。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "天气模式变化及难预测直接增加风险，符合G段。"
+        },
+        {
+          "label": "E",
+          "correct": true,
+          "reason": "中间收购者利用弱势压定价格，符合末段。"
+        }
+      ]
+    },
+    "c12-t2-p1:11": {
+      "answer": "E",
+      "stem": "Which TWO problems are mentioned which affect farmers with small farms in developing countries? A lack of demand for locally produced food B lack of irrigation programmes C being unable to get insurance D the effects of changing weather patterns E having to sell their goods to intermediary buyers",
+      "evidence": [
+        {
+          "paragraph": 11,
+          "quote": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices."
+        }
+      ],
+      "reasoning": [
+        "末段说中间购买者利用农民脆弱处境决定价格，会加重市场价格波动，所以E正确。",
+        "与之并列的D是气候和天气模式变化带来的风险。A需求不足、B缺少灌溉项目和C无法投保都不是本文明确提出的这一组困难；两格写D、E顺序不限。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分文中明确存在的中间商问题与自己推测的其他困难。"
+      ],
+      "reviewTip": "区分文中明确存在的中间商问题与自己推测的其他困难。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "文章没有说当地食品没有需求。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "没有把缺少灌溉项目列成小农问题。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "私人保险出现于解决办法，不等于无法投保。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "G段明确说明变化的天气增加风险。"
+        },
+        {
+          "label": "E",
+          "correct": true,
+          "reason": "中间商能左右价格，直接削弱农民收益控制。"
+        }
+      ]
+    },
+    "c12-t2-p1:12": {
+      "answer": "C",
+      "stem": "Which TWO actions are recommended for improving conditions for farmers? A reducing the size of food stocks B attempting to ensure that prices rise at certain times of the year C organising co-operation between a wide range of interested parties D encouraging consumers to take a financial stake in farming E making customers aware of the reasons for changing food prices",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "Others, like Marcel Vernooij and Marcel Beukeboom, suggested that in order to 'apply what we already know', all stakeholders, including business, government, scientists and civil society, must work together, starting at the beginning of the value chain."
+        }
+      ],
+      "reasoning": [
+        "H段末提出所有利益相关者必须合作，并明确列出企业、政府、科学家与公民社会，故C符合广泛协作。",
+        "末段又建议消费者通过订阅投资农民，支持D。A缩减库存与政府持有库存的建议相反；B谋求特定季节涨价、E向顾客解释涨价原因都不是所述建议。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "两选题选C与D，12和13的填写顺序可以交换。"
+      ],
+      "reviewTip": "两选题选C与D，12和13的填写顺序可以交换。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "政府持有库存用来稳定供应，原文没有建议缩减库存。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "建议是配合季节价格安排买卖，不是人为促成季节涨价。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "企业、政府、科学家和社会各方一起行动，直接符合。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "消费者订阅投资农业、分担风险，直接符合。"
+        },
+        {
+          "label": "E",
+          "correct": false,
+          "reason": "原文市场透明指了解库存供应，并非要求向顾客解释价格原因。"
+        }
+      ]
+    },
+    "c12-t2-p1:13": {
+      "answer": "D",
+      "stem": "Which TWO actions are recommended for improving conditions for farmers? A reducing the size of food stocks B attempting to ensure that prices rise at certain times of the year C organising co-operation between a wide range of interested parties D encouraging consumers to take a financial stake in farming E making customers aware of the reasons for changing food prices",
+      "evidence": [
+        {
+          "paragraph": 11,
+          "quote": "Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention."
+        }
+      ],
+      "reasoning": [
+        "社区支持农业要求消费者以订阅投入资金，并让生产者获得公平价格，这正是D所说消费者持有经济利益。",
+        "另一建议C来自H段各类利益相关者协同工作。库存缩减、保证季节性涨价、告知顾客价格变化原因都没有作为本文推荐的对应行动出现，应排除A、B、E。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "financial stake指消费者出资分担风险，而不是单纯了解价格。"
+      ],
+      "reviewTip": "financial stake指消费者出资分担风险，而不是单纯了解价格。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "与建立政府库存稳定市场的方向不符。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "没有建议确保某些季节价格上升。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "利益相关各方合作是H段明确建议。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "订阅投资让消费者参与农场风险，符合原文。"
+        },
+        {
+          "label": "E",
+          "correct": false,
+          "reason": "价格透明的对象是市场库存与供给，不等于向顾客解释涨跌原因。"
+        }
+      ]
+    },
+    "c12-t2-p2:14": {
+      "answer": "iv",
+      "stem": "Paragraph A",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "His goal was to locate the remains of a city called Vitcos, the last capital of the Inca civilisation."
+        }
+      ],
+      "reasoning": [
+        "A段介绍宾厄姆抵达南美时的计划：寻找印加最后首都Vitcos遗迹，并说明从Cusco沿河下降的路线。",
+        "主题是此次探险的目标，对应iv The aim of the trip。尽管路线也被介绍，本段尚未比较新旧道路；有关新路线的具体优势要到B段才出现。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "抓住His goal和plan确定出行目标，不要把所有路线词都配给new route。"
+      ],
+      "reviewTip": "抓住His goal和plan确定出行目标，不要把所有路线词都配给new route。"
+    },
+    "c12-t2-p2:15": {
+      "answer": "vi",
+      "stem": "Paragraph B",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "B When Bingham and his team set off down the Urubamba in late July, they had an advantage over travellers who had preceded them: a track had recently been blasted down the valley canyon to enable rubber to be brought up by mules from the jungle."
+        }
+      ],
+      "reasoning": [
+        "B段核心是新近炸出的河谷道路给探险队带来前人没有的优势，后面详细对比旧时旅客如何翻山绕开遗址附近。",
+        "所以vi A new route能覆盖新旧路径的比较。段中没有募集支持者或资金，不能因advantage就选Bingham gains support；优势来自道路而非他人支持。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把交通路线的优势与获得人物支持分开。"
+      ],
+      "reviewTip": "把交通路线的优势与获得人物支持分开。"
+    },
+    "c12-t2-p2:16": {
+      "answer": "viii",
+      "stem": "Paragraph C",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "In his book Lost City of the Incas, he relates that he made the ascent without having the least expectation that he would find anything at the top."
+        }
+      ],
+      "reasoning": [
+        "C段描写队友不愿上山，天气阴湿，宾厄姆本人也兴致不高，且承认不期待山顶有什么发现。",
+        "这些细节共同体现缺乏热情，故viii最合适。不能选dramatic description，因为本段重点是上山前的态度，后段才铺陈惊险与惊喜的文学描写。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "多处否定期待共同决定主旨，不能让后来的大发现覆盖当时心态。"
+      ],
+      "reviewTip": "多处否定期待共同决定主旨，不能让后来的大发现覆盖当时心态。"
+    },
+    "c12-t2-p2:17": {
+      "answer": "V",
+      "stem": "Paragraph D",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "D Bingham writes about the approach in vivid style in his book."
+        }
+      ],
+      "reasoning": [
+        "D段描述书中登山过程：可能出没的毒蛇、逐步出现的梯田和宏伟建筑，最后用不可置信的梦与着迷感受收束。",
+        "这种层层递进的生动描写正对应v A dramatic description。这里是在展示他的叙事方式，并非作者已经确认他当时立即理解遗址历史价值。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "戏剧化描写不等于历史认识准确，别和E段的日记证据混淆。"
+      ],
+      "reviewTip": "戏剧化描写不等于历史认识准确，别和E段的日记证据混淆。"
+    },
+    "c12-t2-p2:18": {
+      "answer": "i",
+      "stem": "Paragraph E",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "His journal entries of the time reveal a much more gradual appreciation of his achievement."
+        }
+      ],
+      "reasoning": [
+        "E段指出多年后出版的书是回顾性写作，而当时日记显示他只是逐渐认识发现的重要性，并未像书中那样立即震撼。",
+        "因此i同一次旅程的不同叙述最准确；段落功能是用当年记录对照后来的书，而不是继续单纯赞叹遗址或讲新的旅行路线。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "识别however后的转折：晚年回忆与当时日记构成对比。"
+      ],
+      "reviewTip": "识别however后的转折：晚年回忆与当时日记构成对比。"
+    },
+    "c12-t2-p2:19": {
+      "answer": "vii",
+      "stem": "Paragraph F",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "When he came to write the National Geographic magazine article that broke the story to the world in April 1913, he knew he had to produce a big idea."
+        }
+      ],
+      "reasoning": [
+        "F段写宾厄姆为了成名，在国家地理发表文章，把遗址解释为印加文明的起点和最后城市，并多年寻求证明。",
+        "主旨是公开发表他的理论，故vii。作者随后指出该理论不准确，不能因为出现信念就选common belief；广泛接受的新解释实际在G段。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "他个人坚持的理论不等于后来普遍接受的解释。"
+      ],
+      "reviewTip": "他个人坚持的理论不等于后来普遍接受的解释。"
+    },
+    "c12-t2-p2:20": {
+      "answer": "iii",
+      "stem": "Paragraph G",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "An idea which has gained wide acceptance over the past few years is that Machu Picchu was a moya, a country estate built by an Inca emperor to escape the cold winters of Cusco, where the elite could enjoy monumental architecture and spectacular views."
+        }
+      ],
+      "reasoning": [
+        "G段先提出遗址为何被提前遗弃的疑问，再介绍近年广泛被接受的解释：它是皇帝避寒庄园，死后后人另建庄园故而废弃。",
+        "因此iii A common belief概括的是目前较公认的看法。它不是宾厄姆的出生地兼最后城市理论，两者内容与接受程度均不同。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "wide acceptance是common belief的直接定位，注意理论提出者和时代不同。"
+      ],
+      "reviewTip": "wide acceptance是common belief的直接定位，注意理论提出者和时代不同。"
+    },
+    "c12-t2-p2:21": {
+      "answer": "TRUE",
+      "stem": "Bingham went to South America in search of an Inca city.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "His goal was to locate the remains of a city called Vitcos, the last capital of the Inca civilisation."
+        }
+      ],
+      "reasoning": [
+        "A段明确说明他到南美的目标是寻找Vitcos城遗迹，并称其为印加文明最后首都。",
+        "题干只概括成寻找一座印加城市，没有声称他原本目标就是马丘比丘，所以与原文一致，TRUE。不能因为实际发现城市与原目标不同而否定这个更宽泛的陈述。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "题干只说an Inca city，未指定Machu Picchu，不能自行补入。"
+      ],
+      "reviewTip": "题干只说an Inca city，未指定Machu Picchu，不能自行补入。"
+    },
+    "c12-t2-p2:22": {
+      "answer": "FALSE",
+      "stem": "Bingham chose a particular route down the Urubamba valley because it was the most common route used by travellers.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Almost all previous travellers had left the river at Ollantaytambo and taken a high pass across the mountains to rejoin the river lower down, thereby cutting a substantial corner, but also therefore never passing through the area around Machu Picchu."
+        }
+      ],
+      "reasoning": [
+        "原文说多数前人会在Ollantaytambo离开河流走高山隘口，而宾厄姆利用的是新近开出的河谷道路。",
+        "题干说他选择这条路因为它是旅客最常用路线，恰好把新路线与旧习惯颠倒，所以FALSE；不是没有比较，原文已明确对照前后路线差异。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "newly blasted与previous travellers相对照，判断哪条才是旧时常用路。"
+      ],
+      "reviewTip": "newly blasted与previous travellers相对照，判断哪条才是旧时常用路。"
+    },
+    "c12-t2-p2:23": {
+      "answer": "FALSE",
+      "stem": "Bingham understood the significance of Machu Picchu as soon as he saw it.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "At this stage, Bingham didn't realise the extent or the importance of the site, nor did he realise what use he could make of the discovery."
+        }
+      ],
+      "reasoning": [
+        "E段作者依据当时日记说，他那时既不知道遗址规模和重要性，也不知道怎样利用这项发现。",
+        "题干as soon as he saw it宣称立刻理解意义，与didn't realise直接相反，应选FALSE。D段书中的惊叹是多年后回顾叙事，不能压过作者在E段给出的核查结论。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "以作者对当年日记的判断为准，不把晚写的回忆当作即时反应。"
+      ],
+      "reviewTip": "以作者对当年日记的判断为准，不把晚写的回忆当作即时反应。"
+    },
+    "c12-t2-p2:24": {
+      "answer": "NOT GIVEN",
+      "stem": "Bingham returned to Machu Picchu in order to find evidence to support his theory.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Bingham made desperate attempts to prove this belief for nearly 40 years."
+        }
+      ],
+      "reasoning": [
+        "F段确实说他花近四十年努力证明自己的理论，但没有交代这些努力是否包括返回遗址，也没有说明返程的具体目的。",
+        "题干增加了returned这一行动及其动机；仅凭长期研究不能推出曾返现场搜证，亦无明确反证，故NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "努力证明理论不必然等于返回实地；动作本身缺乏信息。"
+      ],
+      "reviewTip": "努力证明理论不必然等于返回实地；动作本身缺乏信息。"
+    },
+    "c12-t2-p2:25": {
+      "answer": "rubber",
+      "stem": "25 The track that took Bingham down the Urubamba valley had been created for the transportation of [25] ____.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "B When Bingham and his team set off down the Urubamba in late July, they had an advantage over travellers who had preceded them: a track had recently been blasted down the valley canyon to enable rubber to be brought up by mules from the jungle."
+        }
+      ],
+      "reasoning": [
+        "新河谷道路最初并非专为探险开辟，而是为了让骡子把丛林中的橡胶运上来，宾厄姆只是因此获益。",
+        "题干transportation of后需要被运输的货物，所以填rubber。mules是运送工具或动物，jungle是来源地点，两者都不符合空位要求且不能替换货物名。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "辨别道路服务的货物rubber、运输动物mules和来源jungle。"
+      ],
+      "reviewTip": "辨别道路服务的货物rubber、运输动物mules和来源jungle。"
+    },
+    "c12-t2-p2:26": {
+      "answer": "farmer",
+      "stem": "26 Bingham found out about the ruins of Machu Picchu from a [26] ____ in the Urubamba valley.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "His companions showed no interest in accompanying him up the nearby hill to see some ruins that a local farmer, Melchor Arteaga, had told them about the night before."
+        }
+      ],
+      "reasoning": [
+        "C段说当地农民Melchor Arteaga前一晚告诉他们山上有遗迹，宾厄姆次日才去查看。",
+        "题干from a后需要职业或身份，而非专有姓名，因此填farmer。队友不感兴趣是旁支信息，不是遗迹消息来源；只许一个词，不要连同local一起填写。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "问身份用farmer，不填人名；从from a的语法也可判断。"
+      ],
+      "reviewTip": "问身份用farmer，不填人名；从from a的语法也可判断。"
+    },
+    "c12-t2-p3:27": {
+      "answer": "eye movements",
+      "stem": "Observing the [27] ____ of Russian- Bilingual people engage both languages simultaneously: a mechanism known as English bilingual people when asked to [28] ____ select certain objects",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Some of the most compelling evidence for this phenomenon, called 'language co-activation', comes from studying eye movements."
+        }
+      ],
+      "reasoning": [
+        "B段说双语共同激活的一项有力证据来自研究眼球运动，再用俄英双语者听到marker时也看邮票作例子。",
+        "表格左栏Observing the要求研究者观察的对象，故填eye movements两个词。stamp是具体注视物，不是观察指标，不能放进这一总括研究方法的空位。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "表格左栏填观察指标，右栏才是由观察得出的机制。"
+      ],
+      "reviewTip": "表格左栏填观察指标，右栏才是由观察得出的机制。"
+    },
+    "c12-t2-p3:28": {
+      "answer": "language co-activation",
+      "stem": "Observing the [27] ____ of Russian- Bilingual people engage both languages simultaneously: a mechanism known as English bilingual people when asked to [28] ____ select certain objects",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Some of the most compelling evidence for this phenomenon, called 'language co-activation', comes from studying eye movements."
+        }
+      ],
+      "reasoning": [
+        "B段先说明使用一种语言时另一种也会活跃，随后正式命名这种现象为language co-activation。",
+        "表格右栏同时使用两种语言的机制与定义完全相合，所以抄该术语。eye movements只是测量手段，不能当机制名称；保留连字符和activation词根，避免仅填language。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "机制名称与测量方法分列两栏，不要调换27和28的答案。"
+      ],
+      "reviewTip": "机制名称与测量方法分列两栏，不要调换27和28的答案。"
+    },
+    "c12-t2-p3:29": {
+      "answer": "Stroop Task",
+      "stem": "A test called the [29] ____ , focusing Bilingual people are more able to handle on naming colours tasks involving a skill called [30] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "In the classic Stroop Task, people see a word and are asked to name the colour of the word's font."
+        }
+      ],
+      "reasoning": [
+        "C段在讨论冲突管理后介绍经典Stroop Task，让参与者说出印刷字体颜色，而非读取单词本身。",
+        "题干明确问测试名称且给出naming colours线索，故填Stroop Task，两个词符合上限。颜色和词义不一致是任务设计，不是它的正式名称。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "任务名称取Stroop Task，不能以任务测量的能力替代。"
+      ],
+      "reviewTip": "任务名称取Stroop Task，不能以任务测量的能力替代。"
+    },
+    "c12-t2-p3:30": {
+      "answer": "conflict management",
+      "stem": "A test called the [29] ____ , focusing Bilingual people are more able to handle on naming colours tasks involving a skill called [30] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "For this reason, bilingual people often perform better on tasks that require conflict management."
+        }
+      ],
+      "reasoning": [
+        "C段说双语者经常处理语言竞争，因此在需要冲突管理的任务上表现更好，随后用Stroop Task举例。",
+        "表格asks involving a skill called后需能力名conflict management，不是测试名称。该能力体现为忽略不相关的词义、专注字体颜色，必须连读例子前的总括句。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "测试名29与能力30不同，回看例子之前的主题句。"
+      ],
+      "reviewTip": "测试名29与能力30不同，回看例子之前的主题句。"
+    },
+    "c12-t2-p3:31": {
+      "answer": "cognitive control",
+      "stem": "A test involving switching between tasks When changing strategies, bilingual people have superior [31] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Bilinguals are also better at switGhing between two tasks; for example, when bilinguals have to switch from categorizing objects by colour (red or green) to categorizing them by shape ( circle or triangle), they do so more quickly than monolingual people, reflecting better cognitive control when having to make rapid changes of strategy."
+        }
+      ],
+      "reasoning": [
+        "C段末从颜色分类切换为形状分类，双语者切换更快，作者将此解释为策略快速变化时有更好的认知控制。",
+        "表格When changing strategies正对应这句限定，答案cognitive control。不能填conflict management，因为它是前面颜色命名任务的能力概括，表格在这里换了测试。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "识别从Stroop任务到任务切换的转场，避免沿用前一空。"
+      ],
+      "reviewTip": "识别从Stroop任务到任务切换的转场，避免沿用前一空。"
+    },
+    "c12-t2-p3:32": {
+      "answer": "YES",
+      "stem": "Attitudes towards bilingualism have changed in recent years.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "In the past, such children were considered to be at a disadvantage compared with their monolingual peers."
+        }
+      ],
+      "reasoning": [
+        "A段把过去认为双语儿童处于劣势，与近几十年技术进步揭示双语优势并列对照。",
+        "题干attitudes have changed就是对过去负面看法到近期发现益处的概括，故YES。作者并未说所有偏见完全消失，题干也没有提出这种绝对要求，两者范围相容。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "past与Over the past few decades构成变化，不需额外要求人人改变态度。"
+      ],
+      "reviewTip": "past与Over the past few decades构成变化，不需额外要求人人改变态度。"
+    },
+    "c12-t2-p3:33": {
+      "answer": "NOT GIVEN",
+      "stem": "Bilingual people are better than monolingual people at guessing correctly what words are before they are finished.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Long before the word is finished, the brain's language system begins to guess what that word might be."
+        }
+      ],
+      "reasoning": [
+        "B段说明人们听词未完时，大脑会预测可能的词，并解释双语者会同时激活两种语言中的对应词。",
+        "但作者没有比较两组预测正确率，也没说双语者猜得更准确；同时激活范围更广不等于准确性更高，因此NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "激活更多候选词不是预测更准确，注意题干correctly新增评价。"
+      ],
+      "reviewTip": "激活更多候选词不是预测更准确，注意题干correctly新增评价。"
+    },
+    "c12-t2-p3:34": {
+      "answer": "NO",
+      "stem": "Bilingual people consistently name images faster than monolingual people.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "For instance, knowing more than one language can cause speakers to name pictures more slowly, and can increase 'tip-of-the-tongue states', when you can almost, but not quite, bring a word to mind."
+        }
+      ],
+      "reasoning": [
+        "C段明确指出多会一种语言可能让说出图片名称更慢，并更容易出现话到嘴边想不起的状态。",
+        "题干说双语者一贯更快，方向与这个反例相反，所以NO。其他任务中双语者切换更快，不代表图片命名也更快，不能跨任务移用优势。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "比较速度时先确认任务类型：命名图片与切换分类不同。"
+      ],
+      "reviewTip": "比较速度时先确认任务类型：命名图片与切换分类不同。"
+    },
+    "c12-t2-p3:35": {
+      "answer": "NO",
+      "stem": "Bilingual people's brains process single sounds more efficiently than monolingual people in all situations.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "When monolingual and bilingual adolescents listen to simple speech sounds without any intervening background noise, they show highly similar brain stem responses."
+        }
+      ],
+      "reasoning": [
+        "D段分两种情境：没有背景噪声时两组脑干反应十分相似，有噪声时双语者反应更强。",
+        "题干声称所有情况下都更高效，all situations被无噪声时相似这一事实直接反驳，故NO。不能只读后半段优势而忽略前面的条件限制。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "all situations是关键绝对范围；无噪声条件提供反例。"
+      ],
+      "reviewTip": "all situations是关键绝对范围；无噪声条件提供反例。"
+    },
+    "c12-t2-p3:36": {
+      "answer": "NOT GIVEN",
+      "stem": "Fewer bilingual people than monolingual people suffer from brain disease in old age.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "In a study of over 200 patients with Alzheimer's disease, a degenerative brain disease, bilingual patients reported showing initial symptoms of the disease an average of five years later than monolingual patients."
+        }
+      ],
+      "reasoning": [
+        "F段研究的是阿尔茨海默病患者，报告双语者症状平均晚五年出现，以及相同症状下脑部损害更多。",
+        "这些发现涉及发病表现时间和补偿能力，并没有比较所有老年人中患病比例。题干fewer people suffer是人数或概率主张，无法推出，故NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "症状延迟出现不等于更少人患病，区分时间与发生率。"
+      ],
+      "reviewTip": "症状延迟出现不等于更少人患病，区分时间与发生率。"
+    },
+    "c12-t2-p3:37": {
+      "answer": "D",
+      "stem": "an example of how bilingual and monolingual people's brains respond differently to a certain type of non-verbal auditory input",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "When researchers play the same sound to both groups in the presence of background noise, however, the bilingual listeners' neural response is considerably larger, reflecting better encoding of the sound's fundamental frequency, a feature of sound closely related to pitch perception."
+        }
+      ],
+      "reasoning": [
+        "D段比较两组在噪声背景下听简单声音时脑干反应，双语者对与音高感知有关的基本频率编码更好。",
+        "题干要非语词性听觉输入产生不同脑反应的例子，正对应这种声音声学特征处理，故D。B段谈词语识别与眼球运动，输入和测量对象均不符。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "锁定声音的频率与音高处理，别因B段也出现hear就误选。"
+      ],
+      "reviewTip": "锁定声音的频率与音高处理，别因B段也出现hear就误选。"
+    },
+    "c12-t2-p3:38": {
+      "answer": "G",
+      "stem": "a demonstration of how a bilingual upbringing has benefits even before we learn to speak",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "In one study, researchers taught seven-month-old babies growing up in monolingual or bilingual homes that when they heard a tinkling sound, a puppet appeared on one side of a screen."
+        }
+      ],
+      "reasoning": [
+        "G段研究七个月婴儿听声后预测木偶出现位置，位置改变时只有双语家庭婴儿能成功学会新规则。",
+        "这个年龄尚未学会说话，却已有规则转换优势，正符合题干before we learn to speak，故G。F段是老人认知保护，不能仅因都有benefits就选错年龄组。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "年龄seven-month-old是本题最明确的限定，不要泛找双语优势。"
+      ],
+      "reviewTip": "年龄seven-month-old是本题最明确的限定，不要泛找双语优势。"
+    },
+    "c12-t2-p3:39": {
+      "answer": "B",
+      "stem": "a description of the process by which people identify words that they hear",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "When we hear a word, we don't hear the entire word all at once: the sounds arrive in sequential order."
+        }
+      ],
+      "reasoning": [
+        "B段分步骤解释听词过程：声音依次到达，整词尚未结束，大脑就激活可能的候选词。",
+        "题干description of the process要求机制性说明，正是这一连续过程，所以B。随后邮票与marker的例子说明双语共同激活，但其前面的听词预测已足够定位。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "process通常对应顺序步骤，关注先听部分声音再预测整词。"
+      ],
+      "reviewTip": "process通常对应顺序步骤，关注先听部分声音再预测整词。"
+    },
+    "c12-t2-p3:40": {
+      "answer": "C",
+      "stem": "reference to some negative consequences of being bilingual",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "For instance, knowing more than one language can cause speakers to name pictures more slowly, and can increase 'tip-of-the-tongue states', when you can almost, but not quite, bring a word to mind."
+        }
+      ],
+      "reasoning": [
+        "C段以however引出代价：语言间持续竞争可能造成图片命名变慢以及话到嘴边想不起词。",
+        "题干negative consequences对应这些不利后果，故C。后半段虽然转回冲突管理和切换能力的优势，段落信息匹配只需包含所问内容，不要求整段都为负面。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "信息匹配允许同一段包含利弊；找到明确负面例子即可。"
+      ],
+      "reviewTip": "信息匹配允许同一段包含利弊；找到明确负面例子即可。"
+    },
+    "c12-t3-p1:1": {
+      "answer": "V",
+      "stem": "Paragraph A",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Some time after the Galapagos's birth, around five million years ago, the islands were colonised by one or more tortoises from mainland South America."
+        }
+      ],
+      "reasoning": [
+        "A段先描写岛屿地貌，随后追溯来自南美大陆的祖先龟如何定居各岛、适应不同环境并形成多个亚种。",
+        "其主线是龟类在岛上建立种群，对应v。虽然也提到没有天敌，但人类导致的衰退尚未展开，不能用下一段的负面发展标题概括本段。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "段中环境描写是背景，中心是定居与种群发展。"
+      ],
+      "reviewTip": "段中环境描写是背景，中心是定居与种群发展。"
+    },
+    "c12-t3-p1:2": {
+      "answer": "iii",
+      "stem": "Paragraph B",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "From the 17th century onwards, pirates took a few on board for food, but the arrival of whaling ships in the 1790s saw this exploitation grow exponentially."
+        }
+      ],
+      "reasoning": [
+        "B段依时间顺序列出海盗捕龟、捕鲸船大规模取用、定居者猎杀及引入外来物种，逐步解释种群下降。",
+        "这些都是对龟群不利的发展，故iii最全面。不是讲放归计划或龟寻找新家；段落中所有人类活动都应放在衰退因果链里理解。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "标题要涵盖捕捉、栖息地破坏和外来种，而非只选其中一个细节。"
+      ],
+      "reviewTip": "标题要涵盖捕捉、栖息地破坏和外来种，而非只选其中一个细节。"
+    },
+    "c12-t3-p1:3": {
+      "answer": "viii",
+      "stem": "Paragraph C",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "In 1989, work began on a tortoise-breeding centre just outside the town of Puerto Villamil on lsabela, dedicated to protecting the island's tortoise populations."
+        }
+      ],
+      "reasoning": [
+        "C段从现存亚种数量危急转到一九八九年建立繁育中心，说明保护计划启动及圈养繁育的成功。",
+        "因此viii保护项目的开始最贴切。段尾数量过多是项目成功后产生的问题，不能因此选择寻找家园的标题，因为本段尚未介绍实际放归办法。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "注意时间起点与繁育中心成立，后续运输问题不等于本段主旨。"
+      ],
+      "reviewTip": "注意时间起点与繁育中心成立，后续运输问题不等于本段主旨。"
+    },
+    "c12-t3-p1:4": {
+      "answer": "i",
+      "stem": "Paragraph D",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Captive-bred tortoises can't be reintroduced into the wild until they're at least five years old and weigh at least 4.5 kilograms, at which point their size and weight - and their hardened shells - are sufficient to protect them from predators."
+        }
+      ],
+      "reasoning": [
+        "D段说明放归有双重时间限制：过早时体重、硬壳不足以防天敌，过晚又会长得太大无法运输。",
+        "这共同支持i把握正确时机的重要性。题目不是笼统问龟体型，而是要概括两个相反风险如何形成有限操作窗口，不能只抓五岁数字。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "用too early与too late理解两端限制，核心是timing。"
+      ],
+      "reviewTip": "用too early与too late理解两端限制，核心是timing。"
+    },
+    "c12-t3-p1:5": {
+      "answer": "iv",
+      "stem": "Paragraph E",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "But in November 2010, the environmentalist and Galapagos National Park liaison officer Godfrey Merlin, a visiting private motor yacht captain and a helicopter pilot gathered around a table in a small cafe in Puerto Ayora on the island of Santa Cruz to work out more ambitious reintroduction."
+        }
+      ],
+      "reasoning": [
+        "E段先回顾人工背运龟群的艰难与小规模，再描述环保人士、船长和飞行员商议用直升机转运三百只龟。",
+        "主旨是规划比以往更宏大的办法，对应iv。实际装箱、载重及清理降落点在F段，不能提前把执行阶段标题放到本段。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "规划用work out和aim定位，执行细节则在下一段。"
+      ],
+      "reviewTip": "规划用work out和aim定位，执行细节则在下一段。"
+    },
+    "c12-t3-p1:6": {
+      "answer": "vi",
+      "stem": "Paragraph F",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Originally an air ambulance, the yacht's helicopter has a rear double door and a large internal space that's well suited for cargo, so a custom crate was designed to hold up to 33 tortoises with a total weight of about 150 kilograms."
+        }
+      ],
+      "reasoning": [
+        "F段详细交代直升机与经验飞行员、特制箱、载重控制、志愿者准备和护林员预清场地，呈现周密行动的落实。",
+        "所以vi实施精心准备的行动覆盖整段。虽然涉及装备来源，但不是仅讨论募款或找新家，标题必须兼顾运输准备与执行所需的多项工作。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "用特制箱、载重和清理降落点等多项步骤确认carefully prepared operation。"
+      ],
+      "reviewTip": "用特制箱、载重和清理降落点等多项步骤确认carefully prepared operation。"
+    },
+    "c12-t3-p1:7": {
+      "answer": "ii",
+      "stem": "Paragraph G",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Eventually, one tiny tortoise came across a fully grown giant who had been lumbering around the island for around a hundred years."
+        }
+      ],
+      "reasoning": [
+        "G段描写幼龟放归后的探索，最终一只小龟遇到已在岛上生活约百年的成年巨龟，两者并肩成为物种重生象征。",
+        "年轻与年老相遇正对应ii。这里不是新保护中心成立或寻找栖息地的计划，而是操作成功后具有象征意义的收束场景。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "tiny与fully grown、hundred years构成年龄对照。"
+      ],
+      "reviewTip": "tiny与fully grown、hundred years构成年龄对照。"
+    },
+    "c12-t3-p1:8": {
+      "answer": "pirates",
+      "stem": "• 17th century: small numbers taken onto ships used by [8] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "From the 17th century onwards, pirates took a few on board for food, but the arrival of whaling ships in the 1790s saw this exploitation grow exponentially."
+        }
+      ],
+      "reasoning": [
+        "B段先说十七世纪海盗带少量龟上船充当食物，再转入十八世纪末捕鲸船扩大利用，时间顺序清楚。",
+        "笔记空位对应十七世纪船只使用者，应填pirates。不能用whalers，因为他们属于后一个时期；也不能用food，因为本空问人群而非用途。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把17th century与pirates配对，别被后文whaling ships干扰。"
+      ],
+      "reviewTip": "把17th century与pirates配对，别被后文whaling ships干扰。"
+    },
+    "c12-t3-p1:9": {
+      "answer": "food",
+      "stem": "• 1790s: very large numbers taken onto whaling ships, kept for [9] ____ , and also used to produce [10] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Relatively immobile and capable of surviving for months without food or water, the tortoises were taken on board these ships to act as food supplies during long ocean passages."
+        }
+      ],
+      "reasoning": [
+        "捕鲸船大量带走龟，是利用它们行动缓慢且可长期不吃不喝的特点，将其作为漫长航程的食物储备。",
+        "笔记kept for之后问主要用途，因此填food。船上保存龟并不是为了繁育或观赏；oil是另一个加工用途，已由下一空单独提问。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "先分清活体储备食物与加工成油两种用途。"
+      ],
+      "reviewTip": "先分清活体储备食物与加工成油两种用途。"
+    },
+    "c12-t3-p1:10": {
+      "answer": "oil",
+      "stem": "• 1790s: very large numbers taken onto whaling ships, kept for [9] ____ , and also used to produce [10] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Sometimes, their bodies were processed into high grade oil."
+        }
+      ],
+      "reasoning": [
+        "B段在说明船上食物供应后补充，龟的身体有时也被加工成高品质油。",
+        "笔记also used to produce紧接另一用途，所需产物名词为oil。high grade只是质量修饰且本题限一个词；不能因oil常指石油就忽略这里的动物加工语境。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "produce后找产物oil，ONE WORD不抄质量形容词。"
+      ],
+      "reviewTip": "produce后找产物oil，ONE WORD不抄质量形容词。"
+    },
+    "c12-t3-p1:11": {
+      "answer": "settlers",
+      "stem": "• Hunted by [11] ____ on the islands",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "This historical exploitation was then exacerbated when settlers came to the islands."
+        }
+      ],
+      "reasoning": [
+        "原文转折到定居者抵达后进一步加剧利用，下一句They hunted明确把猎杀动作归给这群人。",
+        "笔记Hunted by后需要施动者，因此填settlers，保持复数。pirates与whaling ships属于此前海上利用阶段，不能回答岛上定居与农业扩张这一部分。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "跟踪They的指代对象settlers，不把相邻时代的人群混用。"
+      ],
+      "reviewTip": "跟踪They的指代对象settlers，不把相邻时代的人群混用。"
+    },
+    "c12-t3-p1:12": {
+      "answer": "species",
+      "stem": "[12] ____ not native to the islands, which also fed on baby tortoises and tortoises' [13] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "They also introduced alien species - ranging from cattle, pigs, goats, rats and dogs to plants and ants - that either prey on the eggs and young tortoises or damage or destroy their habitat."
+        }
+      ],
+      "reasoning": [
+        "定居者不仅猎龟、开垦土地，还引入牲畜、鼠、狗、植物和蚂蚁等外来种，它们破坏栖息地或捕食幼龟与卵。",
+        "笔记not native to the islands就是alien的释义，various后应填统领这些例子的species。不能只填某一种动物，否则无法概括并列列表。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "not native对应alien，答案是总类species而非个别物种。"
+      ],
+      "reviewTip": "not native对应alien，答案是总类species而非个别物种。"
+    },
+    "c12-t3-p1:13": {
+      "answer": "eggs",
+      "stem": "[12] ____ not native to the islands, which also fed on baby tortoises and tortoises' [13] ____",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "They also introduced alien species - ranging from cattle, pigs, goats, rats and dogs to plants and ants - that either prey on the eggs and young tortoises or damage or destroy their habitat."
+        }
+      ],
+      "reasoning": [
+        "原文用either…or区分外来种的两类危害，其中捕食对象是卵和幼龟，另一类是破坏栖息地。",
+        "笔记已给baby tortoises，另一并列对象只能是eggs。不能填ants或plants，因为它们是外来种例子而非龟的发育阶段，且eggs复数须保留。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "分清捕食者的例子与被捕食对象，eggs与young tortoises并列。"
+      ],
+      "reviewTip": "分清捕食者的例子与被捕食对象，eggs与young tortoises并列。"
+    },
+    "c12-t3-p2:14": {
+      "answer": "D",
+      "stem": "an acceptance that not all diseases can be totally eliminated",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "While people will always be prone to illness, the study of how geography affects our health could lead to the eradication of certain illnesses, and the prevention of others in the future."
+        }
+      ],
+      "reasoning": [
+        "D段在提出健康地理能帮助消除和预防部分疾病时，先承认人始终会有患病倾向。",
+        "题干not all diseases can be totally eliminated正是这种保留：并非所有疾病都能彻底清除，故D。A段虽说部分疾病已被消除，却没有给出这一对彻底消除的明确限制。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "题干要承认局限，关注while引出的保留，而不只是寻找eradication。"
+      ],
+      "reviewTip": "题干要承认局限，关注while引出的保留，而不只是寻找eradication。"
+    },
+    "c12-t3-p2:15": {
+      "answer": "C",
+      "stem": "examples of physical conditions caused by human behaviour",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Part of the problem is, of course, the massive number of cars being driven, in addition to factories that run on coal power."
+        }
+      ],
+      "reasoning": [
+        "C段列出哮喘、肺部和视力问题，并将它们联系到汽车、燃煤工厂及城市扩张砍伐森林造成的污染。",
+        "题干physical conditions指身体疾病或症状，human behaviour对应这些人为活动，所以C。不是地形本身引发的自然差异，必须同时满足人类行为与健康后果两部分。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "physical conditions在这里指身体状况，不要误解成自然地貌。"
+      ],
+      "reviewTip": "physical conditions在这里指身体状况，不要误解成自然地貌。"
+    },
+    "c12-t3-p2:16": {
+      "answer": "F",
+      "stem": "a reference to classifying diseases on the basis of how far they extend geographically",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "F Researchers study the interactions between humans and their environment that could lead to illness (such as asthma in places with high levels of pollution) and work to create a clear way of categorising illnesses, diseases and epidemics into local and global scales."
+        }
+      ],
+      "reasoning": [
+        "F段明确写研究者建立分类方式，把疾病和流行病按地方与全球尺度归类。",
+        "题干on the basis of how far they extend geographically是对地理传播范围的释义，所以F。E段谈比较地区发病频率，不等于按范围形成分类体系，不能只凭不同地区选E。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "classifying与categorising直接对应，local/global说明分类尺度。"
+      ],
+      "reviewTip": "classifying与categorising直接对应，local/global说明分类尺度。"
+    },
+    "c12-t3-p2:17": {
+      "answer": "G",
+      "stem": "reasons why the level of access to healthcare can vary within a country",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "In both developed and developing nations there is often a very large discrepancy between the options available to people in different social classes, income brackets, and levels of education."
+        }
+      ],
+      "reasoning": [
+        "G段比较国内不同社会阶层、收入和教育水平的人能获得的医疗选择，并举村庄与医院间有山的地理障碍。",
+        "题干问同一国家内医疗可及程度为何不同，社会差异和物理阻隔正提供原因，故G。前面疾病分布段研究的是患病而不是能否看医生。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "access to healthcare指能否获得服务，区分疾病风险与服务可及性。"
+      ],
+      "reviewTip": "access to healthcare指能否获得服务，区分疾病风险与服务可及性。"
+    },
+    "c12-t3-p2:18": {
+      "answer": "D",
+      "stem": "a description of health geography as a mixture of different academic fields",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Health geography is the combination of, on the one hand, knowledge regarding geography and methods used to analyse and interpret geographical information, and on the other, the study of health, diseases and healthcare practices around the world."
+        }
+      ],
+      "reasoning": [
+        "D段直接定义健康地理，把地理知识、地理信息分析解释方法，与世界各地健康疾病及医疗实践研究结合。",
+        "题干mixture of different academic fields对应combination和hybrid science，故D。不能因其他段谈应用实例就选它们，本题要学科构成的定义。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "combination和on the one hand/on the other标记两个领域的结合。"
+      ],
+      "reviewTip": "combination和on the one hand/on the other标记两个领域的结合。"
+    },
+    "c12-t3-p2:19": {
+      "answer": "B",
+      "stem": "a description of the type of area where a particular illness is rare",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Malaria is much less of a problem in high-altitude deserts, for instance."
+        }
+      ],
+      "reasoning": [
+        "B段先说温暖潮湿的热带环境利于传播疟疾的蚊子生长，再对比高海拔沙漠中疟疾问题小得多。",
+        "题干问某疾病罕见地区的类型，对应后一个反例区域，所以B。C段城市污染造成疾病频发，与rare方向相反，不能混淆。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "rare对应much less of a problem，注意不是问高发的热带区域。"
+      ],
+      "reviewTip": "rare对应much less of a problem，注意不是问高发的热带区域。"
+    },
+    "c12-t3-p2:20": {
+      "answer": "vaccinations",
+      "stem": "20 Certain diseases have disappeared, thanks to better [20] ____ and healthcare.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "A While many diseases that affect humans have been eradicated due to improvements in vaccinations and the availability of healthcare, there are still areas around the world where certain health issues are more prevalent."
+        }
+      ],
+      "reasoning": [
+        "A段第一句将许多疾病被消除归因于疫苗改进和医疗服务可获得性，题干保留healthcare作为并列原因。",
+        "所以空位填vaccinations，与better对应improvements。不能填diseases，因为那是消失的对象；也不能填antibiotics，后者出现在下一句耐药问题的讨论中。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "空位与healthcare并列，寻找已消除疾病的两个原因之一。"
+      ],
+      "reviewTip": "空位与healthcare并列，寻找已消除疾病的两个原因之一。"
+    },
+    "c12-t3-p2:21": {
+      "answer": "antibiotics",
+      "stem": "21 Because there is more contact between people, [21] ____ are losing their usefulness.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "As a result, super-viruses and other infections resistant to antibiotics are becoming more and more common."
+        }
+      ],
+      "reasoning": [
+        "A段解释人口流动与近距离接触增加，使超级病毒和对抗生素有抗性的感染更常见。",
+        "题干losing their usefulness把耐药结果概括为药效降低，空位应填antibiotics。不是说医疗服务本身无用，也不是疫苗改进失败，必须把抗性所针对的药物找出来。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "resistant to限定药物antibiotics，别把所有预防或医疗手段一概替代。"
+      ],
+      "reviewTip": "resistant to限定药物antibiotics，别把所有预防或医疗手段一概替代。"
+    },
+    "c12-t3-p2:22": {
+      "answer": "mosquito(e)s",
+      "stem": "22 Disease-causing [22] ____ are most likely to be found in hot, damp regions.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Perhaps one of the most obvious examples of this idea is malaria-prone areas, which are usually tropical regions that foster a warm and damp environment in which the mosquitos that can give people this disease can grow."
+        }
+      ],
+      "reasoning": [
+        "B段说明温暖潮湿的热带地区有利于能够传播疟疾的蚊子生长，题干hot, damp正对应warm and damp。",
+        "空位需要造成或传播疾病的生物，所以填mosquitos，标准另一拼法mosquitoes也接受。malaria是疾病名，不是热湿地区所发现的传播者，语义角色不同。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "把疾病malaria与传播生物mosquitos分开。"
+      ],
+      "reviewTip": "把疾病malaria与传播生物mosquitos分开。"
+    },
+    "c12-t3-p2:23": {
+      "answer": "factories",
+      "stem": "23 One cause of pollution is [23] ____ that burn a particular fuel.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Part of the problem is, of course, the massive number of cars being driven, in addition to factories that run on coal power."
+        }
+      ],
+      "reasoning": [
+        "C段把大量汽车与燃煤工厂并列为污染原因，题干burn a particular fuel指向工厂使用煤炭。",
+        "空位是定语从句that burn的先行主体，所以填factories，保留复数。coal是燃料，不是执行燃烧的设施；cars虽也污染，但文中此处没有配上特定燃料。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "空位问燃烧某种燃料的设施，不能把燃料coal本身填入。"
+      ],
+      "reviewTip": "空位问燃烧某种燃料的设施，不能把燃料coal本身填入。"
+    },
+    "c12-t3-p2:24": {
+      "answer": "forests",
+      "stem": "24 The growth of cities often has an impact on nearby [24] ____.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "The rapid industrialisation of some countries in recent years has also led to the cutting down of forests to allow for the expansion of big cities, which makes it even harder to fight the pollution with the fresh air that is produced by plants."
+        }
+      ],
+      "reasoning": [
+        "C段指出工业化促使大城市扩张，为给城市腾空间而砍伐森林，从而减少植物提供的新鲜空气。",
+        "题干growth of cities影响附近什么，答案为forests。不能填pollution当对象，因为本句是对砍伐行为的概括；后续污染加重属于森林减少的后果。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "先辨认城市扩张直接损害的对象，再区分其空气污染后果。"
+      ],
+      "reviewTip": "先辨认城市扩张直接损害的对象，再区分其空气污染后果。"
+    },
+    "c12-t3-p2:25": {
+      "answer": "Polio",
+      "stem": "25 [25] ____ is one disease that is growing after having been eradicated.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "It is an increasingly important area of study in a world where diseases like polio are re-emerging, respiratory diseases continue to spread, and malaria-prone areas are still fighting to find a better cure."
+        }
+      ],
+      "reasoning": [
+        "D段列出健康地理日益重要的背景，包括脊髓灰质炎这样的疾病重新出现、呼吸病扩散及疟疾问题。",
+        "题干growing after having been eradicated对应re-emerging，故填Polio。malaria在文中是仍需更好治疗的疾病，没有被说成消灭后再出现，不能按知名疾病随意替换。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "re-emerging锁定polio，与still fighting malaria的持续存在不同。"
+      ],
+      "reviewTip": "re-emerging锁定polio，与still fighting malaria的持续存在不同。"
+    },
+    "c12-t3-p2:26": {
+      "answer": "mountain",
+      "stem": "26 A physical barrier such as a [26] ____ can prevent people from reaching a hospital.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Individuals working in the area of the geography of healthcare provision attempt to assess the levels of healthcare in the area (for instance, it may be very difficult for people to get medical attention because there is a mountain between their village and the nearest hospital)."
+        }
+      ],
+      "reasoning": [
+        "G段举具体可及性障碍：村庄与最近医院之间有山，导致人们很难得到医疗。",
+        "题干physical barrier及prevent reaching对应这一空间阻隔，所以填mountain。村庄和医院是两端地点，山才是中间障碍；空前a也要求单数可数名词。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "抓住between确定阻挡物，别误填路程两端的村庄或医院。"
+      ],
+      "reviewTip": "抓住between确定阻挡物，别误填路程两端的村庄或医院。"
+    },
+    "c12-t3-p3:27": {
+      "answer": "dopamine",
+      "stem": "… had their brain activity monitored while listening to their favourite music. It was noted that the music stimulated the brain's neurons to release a substance called [27] ____ in two of the parts of the brain which are associated with feeling [28] ____ Researchers also observed that the neurons in the area of the brain called the [29] ____ were particularly active just before the participants' …",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "The first thing they discovered is that music triggers the production of dopamine - a chemical with a key role in setting people's moods - by the neurons (nerve cells) in both the dorsal and ventral regions of the brain."
+        }
+      ],
+      "reasoning": [
+        "蒙特利尔实验段报告，音乐会促使脑中两个区域的神经元生成多巴胺，这种化学物质参与情绪调节。",
+        "摘要release a substance called要求物质名称，所以填dopamine。neurons是产生或释放它的细胞，不能充当被释放物；扫描技术也只是测量工具，不是结果。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "辨别神经元、化学物质和脑成像技术各自角色。"
+      ],
+      "reviewTip": "辨别神经元、化学物质和脑成像技术各自角色。"
+    },
+    "c12-t3-p3:28": {
+      "answer": "pleasure",
+      "stem": "… It was noted that the music stimulated the brain's neurons to release a substance called [27] ____ in two of the parts of the brain which are associated with feeling [28] ____ Researchers also observed that the neurons in the area of the brain called the [29] ____ were particularly active just before the participants' favourite moments in the music - the period known as the [30] ____ …",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "As these two regions have long been linked with the experience of pleasure, this finding isn't particularly surprising."
+        }
+      ],
+      "reasoning": [
+        "同段说明背侧与腹侧两个区域早已被联系到愉悦体验，因此实验发现音乐在这些部位促发多巴胺并不特别意外。",
+        "摘要associated with feeling后要情绪名词pleasure，不能填dopamine，因为前一空已问化学物质；moods是更宽的调节范围，不是本句具体关联。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "两空分别问物质与感受，勿把dopamine和pleasure互换。"
+      ],
+      "reviewTip": "两空分别问物质与感受，勿把dopamine和pleasure互换。"
+    },
+    "c12-t3-p3:29": {
+      "answer": "caudate",
+      "stem": "… [27] ____ in two of the parts of the brain which are associated with feeling [28] ____ Researchers also observed that the neurons in the area of the brain called the [29] ____ were particularly active just before the participants' favourite moments in the music - the period known as the [30] ____ Activity in this part of the brain is associated with the expectation of 'reward' stimuli …",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "What is rather more significant is the finding that the dopamine neurons in the caudate - a region of the brain involved in learning stimulus-response associations, and in anticipating food and other 'reward' stimuli - were at their most active around 15 seconds before the participants' favourite moments in the music."
+        }
+      ],
+      "reasoning": [
+        "下一段将注意力集中到尾状核区域，报告其神经元在喜爱乐段到来前约十五秒达到最活跃状态。",
+        "摘要area of the brain called后需解剖部位caudate，不是整脑或细胞类型。后面的anticipatory phase是时间段名称，不能回答脑区名称。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "先判断空位类别：29是脑区，30是阶段。"
+      ],
+      "reviewTip": "先判断空位类别：29是脑区，30是阶段。"
+    },
+    "c12-t3-p3:30": {
+      "answer": "anticipatory phase",
+      "stem": "… neurons in the area of the brain called the [29] ____ were particularly active just before the participants' favourite moments in the music - the period known as the [30] ____ Activity in this part of the brain is associated with the expectation of 'reward' stimuli such as [31] ____",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "The researchers call this the 'anticipatory phase' and argue that the purpose of this activity is to help us predict the arrival of our favourite part."
+        }
+      ],
+      "reasoning": [
+        "研究者把喜爱片段到来前的这段神经活跃期称为anticipatory phase，并认为它帮助预测喜爱部分将至。",
+        "摘要the period known as直接问术语，因此填两个词。不能仅写anticipation而更改原文形式，也不能填fifteen seconds，因为那是近似时长，不是命名。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "known as要求原文阶段名称，而不是时间长度。"
+      ],
+      "reviewTip": "known as要求原文阶段名称，而不是时间长度。"
+    },
+    "c12-t3-p3:31": {
+      "answer": "food",
+      "stem": "… favourite moments in the music - the period known as the [30] ____ Activity in this part of the brain is associated with the expectation of 'reward' stimuli such as [31] ____",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "What is rather more significant is the finding that the dopamine neurons in the caudate - a region of the brain involved in learning stimulus-response associations, and in anticipating food and other 'reward' stimuli - were at their most active around 15 seconds before the participants' favourite moments in the music."
+        }
+      ],
+      "reasoning": [
+        "尾状核的介绍包含学习刺激反应关系，以及期待食物和其他奖励刺激这类功能。",
+        "摘要reward stimuli such as要一个奖励例子，food正是原文列举项。music是本次实验刺激，但不是这一插入说明中的例子；不能因全文主题为音乐而忽略such as的局部对应。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "答案来自脑区日常奖励功能的例子food，别只盯实验音乐。"
+      ],
+      "reviewTip": "答案来自脑区日常奖励功能的例子food，别只盯实验音乐。"
+    },
+    "c12-t3-p3:32": {
+      "answer": "B",
+      "stem": "What point does the writer emphasise in the first paragraph? A how dramatically our reactions to music can vary B how intense our physical responses to music can be C how little we know about the way that music affects us D how much music can tell us about how our brains operate",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "In other words, sound stirs us at our biological roots."
+        }
+      ],
+      "reasoning": [
+        "首段逐项列出瞳孔、脉搏、血压、皮肤电导、小脑及腿部血流等身体反应，末句归纳声音触及生物根基。",
+        "因此重点是音乐引起身体反应的强烈程度，选B。A没有个体差异比较；C不是论述知识匮乏；D脑运作只是其中一项，无法统领大量身体指标。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "主旨应覆盖整组身体反应，不能让brain一个细节取代整段。"
+      ],
+      "reviewTip": "主旨应覆盖整组身体反应，不能让brain一个细节取代整段。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "没有比较不同人的反应差异。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "多项生理指标共同强调反应强烈，符合整段。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "首段提出疑问后展示已知反应，并非强调知识不足。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "脑区活动只是诸多身体反应之一，范围过窄。"
+        }
+      ]
+    },
+    "c12-t3-p3:33": {
+      "answer": "C",
+      "stem": "What view of the Montreal study does the writer express in the second paragraph? A Its aims were innovative. B The approach was too simplistic. C It produced some remarkably precise data. D The technology used was unnecessarily complex.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Because the scientists were combining methodologies (PET and fMRI), they were able to obtain an impressively exact and detailed portrait of music in the brain."
+        }
+      ],
+      "reasoning": [
+        "作者虽说实验本身很直接、技术很先进，但真正评价结果时强调结合两种成像方法得到异常准确详尽的脑中音乐图景。",
+        "因此C精确数据最符合。A创新目标没有被强调；B把straightforward误读成过度简化的批评；D将复杂技术误解成多余，原文反而肯定其贡献。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分straightforward的中性简单与too simplistic的负面批评。"
+      ],
+      "reviewTip": "区分straightforward的中性简单与too simplistic的负面批评。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "段中没有评价研究目标新颖。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "实验直接不等于方法过度简化，作者未作此批评。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "impressively exact and detailed直接支持精确数据。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "作者说明联合技术提高精度，没有说复杂得无必要。"
+        }
+      ]
+    },
+    "c12-t3-p3:34": {
+      "answer": "A",
+      "stem": "What does the writer find interesting about the results of the Montreal study? A the timing of participants' neural responses to the music B the impact of the music on participants' emotional state C the section of participants' brains which was activated by the music D the type of music which had the strongest effect on participants' brains",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "What is rather more significant is the finding that the dopamine neurons in the caudate - a region of the brain involved in learning stimulus-response associations, and in anticipating food and other 'reward' stimuli - were at their most active around 15 seconds before the participants' favourite moments in the music."
+        }
+      ],
+      "reasoning": [
+        "作者用What is rather more significant强调尾状核神经元最活跃的时间在喜爱乐段到来前，而非实际高潮时。",
+        "所以新奇之处是神经反应的时机，选A。愉悦影响及涉及的区域本来就有研究关联；不同音乐种类虽均参与实验，却没有比较哪类影响最强。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "before是研究结果的关键；不要把已知愉悦反应当作新的发现。"
+      ],
+      "reviewTip": "before是研究结果的关键；不要把已知愉悦反应当作新的发现。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "最强活跃发生在高潮前，反应时机正是作者疑问。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "音乐带来愉悦已知，作者说此点不特别意外。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "一般区域与愉悦的关系早有研究，非此处强调。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "未按曲风比较强度，不能推出哪类最强。"
+        }
+      ]
+    },
+    "c12-t3-p3:35": {
+      "answer": "B",
+      "stem": "Why does the writer refer to Meyer's work on music and emotion? A to propose an original theory about the subject B to offer support for the findings of the Montreal study C to recommend the need for further research into the subject D to present a view which opposes that of the Montreal researchers",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "To demonstrate this psychological principle, the musicologist Leonard Meyer, in his classic book Emotion and Meaning in Music (1956), analysed the 5th movement of Beethoven's String Quartet in C-sharp minor, Op."
+        }
+      ],
+      "reasoning": [
+        "介绍Meyer时作者明确说用他的分析来展示上述心理原则：作曲家延迟重复预期模式，制造不确定与最终释放。",
+        "这为蒙特利尔实验中高潮前期待期的神经活跃提供解释和支持，故B。Meyer是一九五六年的既有研究，不是作者原创理论，也没有反对实验或要求进一步研究。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "连接To demonstrate与前文anticipatory phase，判断引用的论证功能。"
+      ],
+      "reviewTip": "连接To demonstrate与前文anticipatory phase，判断引用的论证功能。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "引用已有研究，不是提出作者原创理论。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "延迟满足的分析支持期待期神经活跃这一实验发现。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "该引用未呼吁开展后续实验。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "两者相互解释而非互相反驳。"
+        }
+      ]
+    },
+    "c12-t3-p3:36": {
+      "answer": "D",
+      "stem": "According to Leonard Meyer, what causes the listener's emotional response to music? A the way that the music evokes poignant memories in the listener B the association of certain musical chords with certain feelings C the listener's sympathy with the composer's intentions D the internal structure of the musical composition",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "While earlier theories of music focused on the way a sound can refer to the real world of images and experiences - its 'connotative' meaning - Meyer argued that the emotions we find in music come from the unfolding events of the music itself."
+        }
+      ],
+      "reasoning": [
+        "Meyer认为情绪来自乐曲自身事件的展开：模式被唤起后又被避开，使期待未获满足并形成悬念张力。",
+        "这正是作品内部结构的作用，选D。回忆与外部图像是早期理论方向，作者明确与其对照；同情作曲家或固定和弦对应某情绪也非本段主张。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "Meyer强调音乐内部模式，不要选被用来对照的外部联想理论。"
+      ],
+      "reviewTip": "Meyer强调音乐内部模式，不要选被用来对照的外部联想理论。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "回忆属于外部经验方向，并非Meyer的内部意义解释。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "原文没有固定和弦与固定情绪一一对应的说法。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "理解或同情作曲家意图不是情绪来源。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "模式的建立、延迟与完成形成内部结构，直接符合。"
+        }
+      ]
+    },
+    "c12-t3-p3:37": {
+      "answer": "F",
+      "stem": "37 The Montreal researchers discovered that",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "What is rather more significant is the finding that the dopamine neurons in the caudate - a region of the brain involved in learning stimulus-response associations, and in anticipating food and other 'reward' stimuli - were at their most active around 15 seconds before the participants' favourite moments in the music."
+        }
+      ],
+      "reasoning": [
+        "蒙特利尔研究发现尾状核神经元在喜爱片段前约十五秒最活跃，关键是音乐要点出现之前而非之后。",
+        "句尾F神经活动在关键点前增加准确重述结果。B说可预测后活动减少，是后段许多研究的概括；C、D涉及现实图像或过去经验，不是本次脑扫描的结论。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "用before与prior to对应，研究主体和发现时间都须匹配。"
+      ],
+      "reviewTip": "用before与prior to对应，研究主体和发现时间都须匹配。"
+    },
+    "c12-t3-p3:38": {
+      "answer": "B",
+      "stem": "38 Many studies have demonstrated that",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Numerous studies, after all, have demonstrated that dopamine neurons quickly adapt to predictable rewards."
+        }
+      ],
+      "reasoning": [
+        "第五段说许多研究表明多巴胺神经元会迅速适应可预见奖励，若已知下一步便不会兴奋。",
+        "因此B结果变得可预测时神经活动下降符合句干。F高潮前活动上升属于蒙特利尔具体研究；E延迟满足属于Meyer分析，不能把不同证据来源调换。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "Many studies与Numerous studies直接对应，后接可预测奖励的适应。"
+      ],
+      "reviewTip": "Many studies与Numerous studies直接对应，后接可预测奖励的适应。"
+    },
+    "c12-t3-p3:39": {
+      "answer": "E",
+      "stem": "39 Meyer's analysis of Beethoven's music shows that",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Meyer dissected 50 measures (bars) of the masterpiece, showing how Beethoven begins with the clear statement of a rhythmic and harmonic pattern and then, in an ingenious tonal dance, carefully holds off repeating it."
+        }
+      ],
+      "reasoning": [
+        "Meyer分析贝多芬先清晰呈现节奏和和声模式，再用变奏推迟重复，直到结尾才给出期待的和弦。",
+        "因此E有情感力量的音乐延迟给听众想听的内容，概括了作品结构。F神经活动时机不是这段乐谱分析直接测量的内容；C现实图像属于早期理论。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "holds off对应delays，关注分析对象是乐谱模式而非脑扫描。"
+      ],
+      "reviewTip": "holds off对应delays，关注分析对象是乐谱模式而非脑扫描。"
+    },
+    "c12-t3-p3:40": {
+      "answer": "C",
+      "stem": "40 Earlier theories of music suggested that",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "While earlier theories of music focused on the way a sound can refer to the real world of images and experiences - its 'connotative' meaning - Meyer argued that the emotions we find in music come from the unfolding events of the music itself."
+        }
+      ],
+      "reasoning": [
+        "末段先回顾早期理论侧重声音如何指向现实世界的图像与经历，即联想意义，然后才对照Meyer的内在意义。",
+        "所以句干Earlier theories接C音乐能唤起真实图像和事件。D虽也提过去经验，却将重点改成个人历史决定反应，超出原文这个关于表征内容的明确说法。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "用images与pictures、experiences与events的直接对应，避免选更泛的个人经历说。"
+      ],
+      "reviewTip": "用images与pictures、experiences与events的直接对应，避免选更泛的个人经历说。"
+    },
+    "c12-t4-p1:1": {
+      "answer": "obsidian",
+      "stem": "• Early humans used a material called [1] ____ to make the sharp points of their [2] ____",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Historians have discovered that a type of natural glass - obsidian - formed in places such as the mouth of a volcano as a result of the intense heat of an eruption melting sand - was first used as tips for spears."
+        }
+      ],
+      "reasoning": [
+        "首段把黑曜石称为一种天然玻璃，解释火山喷发高温熔沙形成，并说最早用它制作矛尖。",
+        "笔记a material called要求材料名称，所以填obsidian。glass过于宽泛，volcano是形成场所而不是材料；这与后面人工玻璃釉的出现是不同历史阶段。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "called后取具体材料名obsidian，勿填形成地点volcano。"
+      ],
+      "reviewTip": "called后取具体材料名obsidian，勿填形成地点volcano。"
+    },
+    "c12-t4-p1:2": {
+      "answer": "spears",
+      "stem": "• Early humans used a material called [1] ____ to make the sharp points of their [2] ____",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Historians have discovered that a type of natural glass - obsidian - formed in places such as the mouth of a volcano as a result of the intense heat of an eruption melting sand - was first used as tips for spears."
+        }
+      ],
+      "reasoning": [
+        "同一句说明早期天然玻璃最初被用作矛的尖端，笔记sharp points与tips一一对应。",
+        "their后应填拥有尖端的武器名称spears，保持复数；obsidian是上一空的材料，不能重复作为武器。后面石珠上釉则是装饰用途，不属于本条锐利尖端的描述。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "tips对应sharp points，找出尖端属于哪一种器物。"
+      ],
+      "reviewTip": "tips对应sharp points，找出尖端属于哪一种器物。"
+    },
+    "c12-t4-p1:3": {
+      "answer": "beads",
+      "stem": "• 4000 BC: [3] ____ made of stone were covered in a coating of man-made glass.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Archaeologists have even found evidence of man-made glass which dates back to 4000 BC; this took the form of glazes used for coating stone beads."
+        }
+      ],
+      "reasoning": [
+        "考古证据把公元前四千年的人工玻璃描述为用于覆盖石珠的釉，时间与笔记完全相同。",
+        "空位之后已有made of stone和玻璃覆盖层，所填是被覆盖物beads。不能填glazes，因为釉是覆盖材料；container在公元前一千五百年才出现，年代不同。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "将时间、石材和被涂层的对象三项一起核对，保留beads复数。"
+      ],
+      "reviewTip": "将时间、石材和被涂层的对象三项一起核对，保留beads复数。"
+    },
+    "c12-t4-p1:4": {
+      "answer": "impurities",
+      "stem": "• First century BC: glass was coloured because of the [4] ____ in the material.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "The glass made during this time was highly coloured due to the impurities of the raw material."
+        }
+      ],
+      "reasoning": [
+        "第二段说公元前一世纪的玻璃颜色很浓，原因是原料中的杂质，而后来的无色玻璃可主动加色。",
+        "笔记because of明确问早期颜色产生原因，因此填impurities。colouring materials属于后一阶段的人工着色，不能把两种颜色来源混为一谈；本空限一个词。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分杂质导致的自然带色与后来的主动添加色料。"
+      ],
+      "reviewTip": "区分杂质导致的自然带色与后来的主动添加色料。"
+    },
+    "c12-t4-p1:5": {
+      "answer": "Romans",
+      "stem": "• Until 4 76 AD: Only the [5] ____ knew how to make glass.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "The secret of glass making was taken across Europe by the Romans during this century."
+        }
+      ],
+      "reasoning": [
+        "原文说罗马人将制玻璃秘密带到欧洲，却严守技术，直到公元四七六年帝国崩溃知识才广泛传播。",
+        "笔记Until 476与Only限定此前掌握技术的人群，故填Romans。Venetians属于十世纪以后的技术名声，不能因同段出现就放到更早时段。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "用476 AD这一时间界线区分Romans与后来的Venetians。"
+      ],
+      "reviewTip": "用476 AD这一时间界线区分Romans与后来的Venetians。"
+    },
+    "c12-t4-p1:6": {
+      "answer": "lead",
+      "stem": "• 17th century: George Ravenscroft developed a process using [6] ____ to avoid the occurrence of [7] ____ in blown glass.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "He attempted to counter the effect of clouding that sometimes occurred in blown glass by introducing lead to the raw materials used in the process."
+        }
+      ],
+      "reasoning": [
+        "Ravenscroft为了应对吹制玻璃偶尔发生的浑浊现象，向原料加入铅，并因此创造出铅晶质玻璃。",
+        "笔记using后问工艺加入的物质，应填lead。crystal描述新玻璃类型，clouding是被解决的问题，都不是加入原料的成分；lead在这里是金属名词。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "投入物lead与待消除现象clouding分别对应6和7，不要调换。"
+      ],
+      "reviewTip": "投入物lead与待消除现象clouding分别对应6和7，不要调换。"
+    },
+    "c12-t4-p1:7": {
+      "answer": "clouding",
+      "stem": "• 17th century: George Ravenscroft developed a process using [6] ____ to avoid the occurrence of [7] ____ in blown glass.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "He attempted to counter the effect of clouding that sometimes occurred in blown glass by introducing lead to the raw materials used in the process."
+        }
+      ],
+      "reasoning": [
+        "同段把加入铅的目标写成counter the effect of clouding，即抵消玻璃浑浊的影响。",
+        "笔记avoid the occurrence of把这一问题改写为避免出现的现象，答案clouding。brilliance是新玻璃的优点，不是原先需要避免的问题；应按因果角色而不是邻近词选择。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "avoid后所指是坏现象，不能用改进后的brilliance代替。"
+      ],
+      "reviewTip": "avoid后所指是坏现象，不能用改进后的brilliance代替。"
+    },
+    "c12-t4-p1:8": {
+      "answer": "taxes",
+      "stem": "• Mid-19th century: British glass production developed after changes to laws concerning [8] ____",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Before that time, heavy taxes had been placed on the amount of glass melted in a glasshouse, and were levied continuously from 17 45 to 1845."
+        }
+      ],
+      "reasoning": [
+        "英国现代玻璃工业在一八四五年消费税法废除后才真正发展，之前按熔化玻璃量持续征收重税。",
+        "笔记laws concerning后需要法律所涉事项，所以填taxes。Excise Act是具体法名且超过一个词，glass只是受税商品，不能概括本题法律变化的直接内容。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "时间1845与repeal相连，法律变动的对象是税收taxes。"
+      ],
+      "reviewTip": "时间1845与repeal相连，法律变动的对象是税收taxes。"
+    },
+    "c12-t4-p1:9": {
+      "answer": "TRUE",
+      "stem": "In 1887, HM Ashley had the fastest bottle-producing machine that existed at the time.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "From 1887 onwards, glass making developed from traditional mouth-blowing to a semi-automatic process, after factory owner HM Ashley introduced a machine capable of producing 200 bottles per hour in Castleford, Yorkshire, England - more than three times quicker than any previous production method."
+        }
+      ],
+      "reasoning": [
+        "一八八七年Ashley的机器每小时可产二百瓶，原文明确说比任何此前生产方式快三倍多。",
+        "题干声称当时最快，any previous method提供足够比较范围支持TRUE。后面Owens机器更快发生在一九零七年，不能用二十年后的性能否定一八八七年的领先地位。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "比较最快时必须保留at the time，不拿后来的机器作反例。"
+      ],
+      "reviewTip": "比较最快时必须保留at the time，不拿后来的机器作反例。"
+    },
+    "c12-t4-p1:10": {
+      "answer": "FALSE",
+      "stem": "Michael Owens was hired by a large US company to design a fully-automated bottle manufacturing machine for them.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Then in 1907, the first fully automated machine was developed in the USA by Michael Owens - founder of the Owens Bottle Machine Company (later the major manufacturers Owens Illinois) - and installed in its factory."
+        }
+      ],
+      "reasoning": [
+        "原文将Owens称为该瓶机公司的创始人，并说他的全自动机器装在自家工厂。",
+        "题干改成一家大公司雇他为它设计机器，把创业者与外聘设计者关系倒置，所以FALSE。后来公司成为大型制造商不表示当初是别的公司聘请他，时间和身份都要读清。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "founder不是hired designer；公司后来的规模也不能倒推雇佣关系。"
+      ],
+      "reviewTip": "founder不是hired designer；公司后来的规模也不能倒推雇佣关系。"
+    },
+    "c12-t4-p1:11": {
+      "answer": "NOT GIVEN",
+      "stem": "Nowadays, most glass is produced by large international manufacturers.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "It has become a modem, hi-tech industry operating in a fiercely competitive global market where quality, design and service levels are critical to maintaining market share."
+        }
+      ],
+      "reasoning": [
+        "当代段说玻璃业是高科技大生意，处于竞争激烈的全球市场，现代工厂日产量巨大。",
+        "但没有统计大型跨国企业承担全球玻璃生产的份额，无法证明most。全球市场不等于多数产品由国际大厂生产，也未给出相反比例，因此NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "global market是市场范围，不能推出制造商规模及产量占比。"
+      ],
+      "reviewTip": "global market是市场范围，不能推出制造商规模及产量占比。"
+    },
+    "c12-t4-p1:12": {
+      "answer": "TRUE",
+      "stem": "Concern for the environment is leading to an increased demand for glass containers.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Glass is an ideal material for recycling, and with growing consumer concern for green issues, glass bottles and jars are becoming ever more popular."
+        }
+      ],
+      "reasoning": [
+        "末段直接把消费者日益关注绿色议题与玻璃瓶罐越来越受欢迎联系起来，随后解释回收的环保优势。",
+        "题干环境关切推动玻璃容器需求增长，是对这一因果关系的概括，所以TRUE。并不是说所有包装都会改用玻璃，题干也没有作这种扩大。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "growing concern与ever more popular对应原因和结果两端。"
+      ],
+      "reviewTip": "growing concern与ever more popular对应原因和结果两端。"
+    },
+    "c12-t4-p1:13": {
+      "answer": "FALSE",
+      "stem": "It is more expensive to produce recycled glass than to manufacture new glass.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "As less energy is needed to melt recycled glass than to melt down raw materials, this also saves fuel and production costs."
+        }
+      ],
+      "reasoning": [
+        "末段说熔化回收玻璃所需能量少于熔化原料，因而节省燃料和生产成本。",
+        "题干却声称回收玻璃比制造新玻璃更贵，与saves production costs明确相反，应判FALSE。原文已给成本比较，不必因没有具体价格数字而误选信息不足。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "save costs已经表达比较方向，无需具体金额也可判断贵或便宜。"
+      ],
+      "reviewTip": "save costs已经表达比较方向，无需具体金额也可判断贵或便宜。"
+    },
+    "c12-t4-p2:14": {
+      "answer": "D",
+      "stem": "14 What did the 2006 discovery of the animal bone reveal about the lynx?",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "If this is so, it would bring forward the tassel-eared cat's estimated extinction date by roughly 5,000 years."
+        }
+      ],
+      "reasoning": [
+        "二〇〇六年的骨头与其他发现说明猞猁在更近的历史年代仍存在，将原先六千年前灭绝的估计推近约五千年。",
+        "因此D在英国存活比过去认为的更久最准确。B把农业与灭绝作因果联系，原文只是交代原先估计早于农耕；A外形、C笼统年代均非发现所纠正的重点。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "比较新证据与旧估计的差异，重点是存活时间延后。"
+      ],
+      "reviewTip": "比较新证据与旧估计的差异，重点是存活时间延后。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "外形用于识别，但发现的关键是修正灭绝年代。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "旧估计说灭绝在农耕前，不等于农耕导致灭绝。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "仅说几千年前消失没有表达旧看法被推近这一核心。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "新证据显示存活至更晚年代，符合纠正后的结论。"
+        }
+      ]
+    },
+    "c12-t4-p2:15": {
+      "answer": "A",
+      "stem": "15 What point does the writer make about large predators in the third paragraph?",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Some of them drive dynamic processes that resonate through the whole food chain, creating niches for hundreds of species that might otherwise struggle to survive."
+        }
+      ],
+      "reasoning": [
+        "谈生态系统的段落说大型捕食者能推动贯穿食物链的动态过程，为数百物种创造生存空间，末句称杀手反成生命带来者。",
+        "这正支持A增加生物多样性。B损害生态方向相反；C行为随环境变化不是作者比较对象；D仅可回归原生区域的限制没有在此段提出。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "看predators对其他物种的作用，别因killers一词误判为生态破坏。"
+      ],
+      "reviewTip": "看predators对其他物种的作用，别因killers一词误判为生态破坏。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "为数百物种创造生态位直接支持多样性增加。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "作者强调捕食者的生态益处而非损害。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "原文比较有无捕食者的系统，不是同一动物行为变化。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "本段没有给出only native areas的排他限制。"
+        }
+      ]
+    },
+    "c12-t4-p2:16": {
+      "answer": "C",
+      "stem": "16 What does the writer suggest about British conservation in the fourth paragraph?",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "It has tned to preserve the living world as if it were a jar of pickles, letting nothing in and nothing out, keeping nature in a state of arrested development."
+        }
+      ],
+      "reasoning": [
+        "作者批评英国保护工作任意选择物种组合并努力阻止变化，把自然当成密封泡菜罐，忽略生态中动态关系。",
+        "因此C采用误导性的保护思路最贴切。A笼统称未达目标不如C准确表达批评缘由；B开始转向出现在后文，D广布物种也没有对应证据。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "泡菜罐比喻批评静态保存的思路，而不仅是在报告项目成败。"
+      ],
+      "reviewTip": "泡菜罐比喻批评静态保存的思路，而不仅是在报告项目成败。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "段落主要批评理念，把一般失败当主旨不够准确。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "态度开始改变在结尾，非此段内容。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "阻止生态自然变化的静态保护方法正受批评。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "只说任意组合，没有说专注分布最广物种。"
+        }
+      ]
+    },
+    "c12-t4-p2:17": {
+      "answer": "A",
+      "stem": "17 Protecting large areas of the sea from commercial fishing would result in",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "This policy would also greatly boost catches in the surrounding seas; the fishing industry's insistence on scouring every inch of seabed, leaving no breeding reserves, could not be more damaging to its own interests."
+        }
+      ],
+      "reasoning": [
+        "海洋保护段明确说禁止大片海域商业捕捞能提高周边海域捕获量，并批评不留繁育区会损害渔业自身利益。",
+        "因此A给渔业带来实际好处符合因果关系。B短期损失、C普遍反对、D技术变化都未被作者作为这一政策结果提出，不能自行补充推测。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "政策题按作者明确结果boost catches作答，不用现实猜测填补。"
+      ],
+      "reviewTip": "政策题按作者明确结果boost catches作答，不用现实猜测填补。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "周边渔获增长是明确实际收益。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "未报告短期损失。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "批评现有捕捞行为不等于断言普遍反对保护区。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有说明会促成捕捞技术改变。"
+        }
+      ]
+    },
+    "c12-t4-p2:18": {
+      "answer": "C",
+      "stem": "18 According fo the author, what distinguishes rewilding from other environmental campaigns?",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "One of the reasons why the enthusiasm for rewilding is spreading so quickly in Britain is that it helps to create a more inspiring vision than the green movement's usual promise of 'Follow us and the world will be slightly less awful than it would otherwise have been.'"
+        }
+      ],
+      "reasoning": [
+        "作者说再野化倡导者能说明支持什么，而非只反对什么，并认为这种较鼓舞人的愿景解释热情迅速扩散。",
+        "所以C正面信息更有吸引力是区别所在。B把articulate作表达能力更强误读，原文重点是表达内容；A可实现性与D科学原则更可靠均没有比较依据。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "articulate what they are for强调正向内容，不是口才高低。"
+      ],
+      "reviewTip": "articulate what they are for强调正向内容，不是口才高低。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "没有比较目标实现难度。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "articulate在此为陈述观点，未比较口才。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "鼓舞人的正面愿景解释吸引力，直接符合。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有对不同运动的科学依据作强弱比较。"
+        }
+      ]
+    },
+    "c12-t4-p2:19": {
+      "answer": "E",
+      "stem": "There would be many advantages to reintroducing the lynx to Britain. While there is no evidence that the lynx has ever put [19] ____ in danger, it would reduce the numbers of certain [20] ____ whose populations have increased enormously in recent decades. It would present only a minimal threat to [21] ____ , provided these were kept away from lynx habitats. Furthermore, the reintroduction programme would also link efficiently with initiatives to return native [22] ____ to certain areas of the country.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "The lynx presents no threat to human beings: there is no known instance of one preying on people."
+        }
+      ],
+      "reasoning": [
+        "猞猁段开头说没有已知猞猁捕食人的事例，因此称它对人不构成威胁。",
+        "摘要no evidence和in danger重述同一事实，被保护或不受威胁的对象应为humans，词表E。farm animals是后面有条件的低风险对象，不能把两句限定互换。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "人的风险是无已知捕食记录，牲畜风险则与远离林地有关。"
+      ],
+      "reviewTip": "人的风险是无已知捕食记录，牲畜风险则与远离林地有关。"
+    },
+    "c12-t4-p2:20": {
+      "answer": "D",
+      "stem": "There would be many advantages to reintroducing the lynx to Britain. While there is no evidence that the lynx has ever put [19] ____ in danger, it would reduce the numbers of certain [20] ____ whose populations have increased enormously in recent decades. It would present only a minimal threat to [21] ____ , provided these were kept away from lynx habitats. Furthermore, the reintroduction programme would also link efficiently with initiatives to return native [22] ____ to certain areas of the country.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "It rs a specialist preda_tor of roe deer, a species that has exploded rn Britain in recent decades, holding back, by intensive browsing, attempts to re-establish forests."
+        }
+      ],
+      "reasoning": [
+        "该段介绍猞猁专门捕食狍鹿，其数量近几十年在英国激增，并提到难以由人控制的外来梅花鹿。",
+        "摘要certain…whose populations have increased要概括这些被捕食的野生动物，词表D wild animals符合。B endangered species方向不对，原文强调数量过多而非濒危。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "populations increased指鹿群，勿因全文保护主题就选endangered species。"
+      ],
+      "reviewTip": "populations increased指鹿群，勿因全文保护主题就选endangered species。"
+    },
+    "c12-t4-p2:21": {
+      "answer": "F",
+      "stem": "There would be many advantages to reintroducing the lynx to Britain. While there is no evidence that the lynx has ever put [19] ____ in danger, it would reduce the numbers of certain [20] ____ whose populations have increased enormously in recent decades. It would present only a minimal threat to [21] ____ , provided these were kept away from lynx habitats. Furthermore, the reintroduction programme would also link efficiently with initiatives to return native [22] ____ to certain areas of the country.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "The lynx requires deep cover, and as such presents little risk to sheep and other livestock, which are supposed, as a condition of farm subsidies, to be kept out of the woods."
+        }
+      ],
+      "reasoning": [
+        "原文说猞猁需要浓密遮蔽，因此对羊及其他牲畜风险小，条件是这些家畜按补贴规定应留在林外。",
+        "摘要minimal threat及provided kept away完整保留这一条件，词表F farm animals正确。人类在前句另作说明，本空不能重复humans而丢失牲畜限制。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "provided后的栖息地隔离条件对应牲畜，并非一般人类安全说明。"
+      ],
+      "reviewTip": "provided后的栖息地隔离条件对应牲畜，并非一般人类安全说明。"
+    },
+    "c12-t4-p2:22": {
+      "answer": "A",
+      "stem": "There would be many advantages to reintroducing the lynx to Britain. While there is no evidence that the lynx has ever put [19] ____ in danger, it would reduce the numbers of certain [20] ____ whose populations have increased enormously in recent decades. It would present only a minimal threat to [21] ____ , provided these were kept away from lynx habitats. Furthermore, the reintroduction programme would also link efficiently with initiatives to return native [22] ____ to certain areas of the country.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "The attempt to reintroduce this predator marnes well with the aim of bringing forests back to parts of our bare and barren uplands."
+        }
+      ],
+      "reasoning": [
+        "原文指出重新引入这种捕食者，与让荒裸高地重新长出森林的目标相协调，鹿被控制也有利于树木恢复。",
+        "摘要return native…问被带回的植被，应选A trees。hillsides是恢复发生的地点而非回归物种，不能因uplands这个近义词而误填C。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "区分恢复对象trees与恢复地点hillsides。"
+      ],
+      "reviewTip": "区分恢复对象trees与恢复地点hillsides。"
+    },
+    "c12-t4-p2:23": {
+      "answer": "NO",
+      "stem": "Britain could become the first European country to reintroduce the lynx.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "The lynx has now been reintroduced to the Jura Mountains, the Alps, the Vosges in eastern France and the Harz mountains in Germany, and has re-established itself in many more places."
+        }
+      ],
+      "reasoning": [
+        "作者列出猞猁已被重新引入汝拉、阿尔卑斯、法国东部和德国山区，且欧洲其他地方已大规模再野化。",
+        "题干英国可能成为第一个重新引入猞猁的欧洲国家，与这些先例冲突，所以NO。英国计划尚未实行，但“第一”已被他国完成事实排除。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "first是判断核心，有既成欧洲先例即足以反驳。"
+      ],
+      "reviewTip": "first是判断核心，有既成欧洲先例即足以反驳。"
+    },
+    "c12-t4-p2:24": {
+      "answer": "NOT GIVEN",
+      "stem": "The large growth in the European lynx population since 1970 has exceeded conservationists' expectations.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "The European population has tripled since 1 970 to roughly 1 0,000."
+        }
+      ],
+      "reasoning": [
+        "原文给出欧洲猞猁数量自一九七〇年以来增至三倍、约一万只的事实，并说明扩散背景。",
+        "但没有写保护人士原本预期增幅，也没有说实际超过预期。题干新增expectations比较，增长幅度大本身不能证明出乎预料，故NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "实际增长数据不能代替事前预期，必须有两者比较才能判断exceeded。"
+      ],
+      "reviewTip": "实际增长数据不能代替事前预期，必须有两者比较才能判断exceeded。"
+    },
+    "c12-t4-p2:25": {
+      "answer": "YES",
+      "stem": "Changes in agricultural practices have extended the habitat of the lynx in Europe.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "As with wolves, bears, beavers, boar, bison, moose and many other species, the lynx has been able to spread as farming has left the hills and people discover that rt is more lucrative t? protect charismatic wildlife than to hunt ut, as tourists will pay for the chance to see rt."
+        }
+      ],
+      "reasoning": [
+        "欧洲扩散段说随着农耕退出山区，猞猁和其他动物得以扩展分布，提供了农业用地变化与野生动物空间增加的联系。",
+        "题干农业实践变化扩大猞猁栖息地与此相符，因此YES。它不是声称任何农业变化都有效，只概括本文所举的退耕背景。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "farming left hills是具体土地利用变化，对应栖息地重新开放。"
+      ],
+      "reviewTip": "farming left hills是具体土地利用变化，对应栖息地重新开放。"
+    },
+    "c12-t4-p2:26": {
+      "answer": "YES",
+      "stem": "It has become apparent that species reintroduction has commercial advantages.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "As with wolves, bears, beavers, boar, bison, moose and many other species, the lynx has been able to spread as farming has left the hills and people discover that rt is more lucrative t? protect charismatic wildlife than to hunt ut, as tourists will pay for the chance to see rt."
+        }
+      ],
+      "reasoning": [
+        "作者解释人们发现保护有吸引力的野生动物比猎杀更赚钱，因为游客愿意付费观看。",
+        "题干物种重引入有商业优势概括这一旅游收益，故YES。这里是明确的经济比较，不仅是审美或环境价值，不能因文章整体论生态就忽略商业因果。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "lucrative和tourists pay直接给出商业收益依据。"
+      ],
+      "reviewTip": "lucrative和tourists pay直接给出商业收益依据。"
+    },
+    "c12-t4-p3:27": {
+      "answer": "iv",
+      "stem": "Paragraph A",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Following the 2008 financial meltdown, which resulted in a deeper and more prolonged period of economic downturn than anyone expected, the search for explanations in the many post-mortems of the crisis has meant blame has been spread far and wide."
+        }
+      ],
+      "reasoning": [
+        "A段回顾金融危机后各方追究责任，政府、监管者、央行、审计员以及银行管理层都被审视。",
+        "标题iv多个外部机构被归责最能涵盖这份责任清单。段首虽提公司应改变董事角色，但那是文章引子，主体集中于危机后的责任追查，不是具体改革方案。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "标题应覆盖段落主体的多方追责，而非只抓开头改革一句。"
+      ],
+      "reviewTip": "标题应覆盖段落主体的多方追责，而非只抓开头改革一句。"
+    },
+    "c12-t4-p3:28": {
+      "answer": "ii",
+      "stem": "Paragraph B",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "B The knock-on effect of this scrutiny has been to make the governance of companies in general an issue of intense public debate and has significantly increased the pressures on, and the responsibilities of, directors."
+        }
+      ],
+      "reasoning": [
+        "B段说审查的连锁效果是公众辩论增强、董事压力责任与时间投入上升，会议及准备工作增多。",
+        "因此ii公司受到密切审查带来的影响最合适。没有说董事人数减少；议程过载是这些压力的实际结果，而非单独的董事经验不足问题。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "scrutiny与pressures、time增加形成因果链，对应impact。"
+      ],
+      "reviewTip": "scrutiny与pressures、time增加形成因果链，对应impact。"
+    },
+    "c12-t4-p3:29": {
+      "answer": "vi",
+      "stem": "Paragraph C",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "C Often, board business is devolved to committees in order to cope with the workload, which may be more efficient but can mean that the board as a whole is less involved in fully addressing some of the most important issues."
+        }
+      ],
+      "reasoning": [
+        "C段指出工作下放委员会虽可能提高效率，却让整个董事会较少充分参与重要问题，程序可能取代真正讨论。",
+        "因此vi并非所有董事都参与解决重大问题的风险直接吻合。不是说委员会成员太少或经验不足，主旨是分工导致整体参与和协作被削弱。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "less involved与not all directors take part同义，别把流程效率等同充分讨论。"
+      ],
+      "reviewTip": "less involved与not all directors take part同义，别把流程效率等同充分讨论。"
+    },
+    "c12-t4-p3:30": {
+      "answer": "viii",
+      "stem": "Paragraph D",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "D A radical solution, which may work for some very large companies whose businesses are extensive and complex, is the professional board, whose members would work up to three or four days a week, supported by their own dedicated staff and advisers."
+        }
+      ],
+      "reasoning": [
+        "D段提出适用于部分大公司的激进方案：职业化董事会每周投入三四天，并有专门人员及顾问支持。",
+        "其余内容讨论界限、薪酬、招聘和独立性风险，都是对该方案的补充，故viii改变董事会运行方式的提议。标题iii所有领域根本变化则属于全文结尾更广的展望。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "方案的适用范围是部分大公司，别扩大成所有企业必须如此。"
+      ],
+      "reviewTip": "方案的适用范围是部分大公司，别扩大成所有企业必须如此。"
+    },
+    "c12-t4-p3:31": {
+      "answer": "vii",
+      "stem": "Paragraph E",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "E One of the main criticisms of boards and their directors is that they do not focus sufficiently on longer-term matters of strategy, sustainability and governance, but instead concentrate too much on short-term financial metrics."
+        }
+      ],
+      "reasoning": [
+        "E段反复批评董事会忽视战略、可持续性和治理等长期事项，却受季度报告及短线投资者驱动，追逐近期财务数字。",
+        "因此vii董事会看得不够长远最概括主线。投资者结构和自动交易是使问题加剧的背景，不应只取这些细节另立主旨。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "longer-term与short-term的反复对照决定段落主旨。"
+      ],
+      "reviewTip": "longer-term与short-term的反复对照决定段落主旨。"
+    },
+    "c12-t4-p3:32": {
+      "answer": "i",
+      "stem": "Paragraph F",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "F Compensation for chief executives has become a combat zone where pitched battles between investors, management and board members are fought, often behind closed doors but increasingly frequently in the full glare of press attention."
+        }
+      ],
+      "reasoning": [
+        "F段围绕高管报酬的争斗，涉及投资者、管理层、董事会、薪酬投票权以及薪酬委员会主席辞职案例。",
+        "标题i关于高级管理者财务安排的争议完整覆盖内容。透明度是争议可能带来的效果，不能用它取代贯穿整段的薪酬冲突这一具体中心。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "compensation、pay、bonus和remuneration都指向薪酬争议。"
+      ],
+      "reviewTip": "compensation、pay、bonus和remuneration都指向薪酬争议。"
+    },
+    "c12-t4-p3:33": {
+      "answer": "iii",
+      "stem": "Paragraph G",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Boards of companies in all sectors will need to widen their perspective to encompass these issues and this may involve a realignment of corporate goals."
+        }
+      ],
+      "reasoning": [
+        "G段把金融危机带来的企业伦理与资本主义道德争论联系起来，要求各行业董事会拓宽视野，可能重新调整企业目标。",
+        "因此iii所有商业领域可能需要根本改变符合all sectors及goals realignment。不是只提某类银行换董事会结构，范围明显更广。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "all sectors与corporate goals提示跨行业、目标层面的调整。"
+      ],
+      "reviewTip": "all sectors与corporate goals提示跨行业、目标层面的调整。"
+    },
+    "c12-t4-p3:34": {
+      "answer": "YES",
+      "stem": "Close scrutiny of the behaviour of boards has increased since the economic downturn.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "The role of bank directors and management and their widely publicised failures have been extensively picked over and examined in reports, inquiries and commentaries."
+        }
+      ],
+      "reasoning": [
+        "A段说金融危机后，大量报告、调查和评论反复审视银行董事与管理层的失败，B段也讨论这种审查的后续压力。",
+        "题干经济下行以来对董事会行为的严密审查增加，与这一背景一致，故YES。作者并非说危机前从无审查，只是在描述之后的强化。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "危机后的多轮报告和调查支持审查加强，不需断言以前完全没有。"
+      ],
+      "reviewTip": "危机后的多轮报告和调查支持审查加强，不需断言以前完全没有。"
+    },
+    "c12-t4-p3:35": {
+      "answer": "NOT GIVEN",
+      "stem": "Banks have been mismanaged to a greater extent than other businesses.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "The role of bank directors and management and their widely publicised failures have been extensively picked over and examined in reports, inquiries and commentaries."
+        }
+      ],
+      "reasoning": [
+        "首段确实特别提到银行董事与管理层失误受到广泛关注，但同时说英国及其他地方的公司存在治理失败。",
+        "没有将银行与其他行业的失管程度作量化或强弱比较，题干greater extent超出信息，因此NOT GIVEN。报道多不能自动证明管理问题更严重。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "被审视得更多不等于失管程度更高，区分关注度与实际比较。"
+      ],
+      "reviewTip": "被审视得更多不等于失管程度更高，区分关注度与实际比较。"
+    },
+    "c12-t4-p3:36": {
+      "answer": "NO",
+      "stem": "Board meetings normally continue for as long as necessary to debate matters in full.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Agendas can become overloaded and this can mean the time for constructive debate must necessarily be restricted in favour of getting through the business."
+        }
+      ],
+      "reasoning": [
+        "B段指出会议议程可能过载，为了完成事务，建设性讨论的时间必然受到限制。",
+        "题干说会议通常会持续到足够充分辩论为止，与讨论时间被事务挤压的描述相反，应NO。会议次数增加也不等于每次都能不限时深入讨论，不能混淆数量与质量。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "restricted debate直接反驳as long as necessary，会议更多不代表讨论更充分。"
+      ],
+      "reviewTip": "restricted debate直接反驳as long as necessary，会议更多不代表讨论更充分。"
+    },
+    "c12-t4-p3:37": {
+      "answer": "NO",
+      "stem": "Using a committee structure would ensure that board members are fully informed about significant issues.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "C Often, board business is devolved to committees in order to cope with the workload, which may be more efficient but can mean that the board as a whole is less involved in fully addressing some of the most important issues."
+        }
+      ],
+      "reasoning": [
+        "C段说委员会分担工作可能提高效率，却会让董事会整体更少充分处理最重要问题，甚至只勾选程序而没有解决问题。",
+        "题干断言委员会结构能保证董事充分了解重大议题，ensure与原文警告相反，所以NO。效率上的可能好处不能消除参与不足这一明示风险。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "may be more efficient不等于ensure fully informed，注意作者转折后的风险。"
+      ],
+      "reviewTip": "may be more efficient不等于ensure fully informed，注意作者转折后的风险。"
+    },
+    "c12-t4-p3:38": {
+      "answer": "information",
+      "stem": "38 Before 2008, non-executive directors were at a disadvantage because of their lack of [38] ____.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "However, more professional and better-informed boards would have been particularly appropriate for banks where the executives had access to information that part-time non-executive directors lacked, leaving the latter unable to comprehend or anticipate the 2008 crash."
+        }
+      ],
+      "reasoning": [
+        "D段末说银行高管能获得兼职非执行董事缺少的信息，导致后者不能理解或预见二〇〇八年崩盘。",
+        "题干at a disadvantage because of lack直接问劣势来源，填information。staff和advisers属于所提新董事会的支持配置，并不是该历史比较中明确缺失的对象。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "答案来自银行高管与非执行董事的信息差，不是改革方案的配套人员。"
+      ],
+      "reviewTip": "答案来自银行高管与非执行董事的信息差，不是改革方案的配套人员。"
+    },
+    "c12-t4-p3:39": {
+      "answer": "financial",
+      "stem": "39 Boards tend to place too much emphasis on [39] ____ considerations that are only of short-term relevance.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "E One of the main criticisms of boards and their directors is that they do not focus sufficiently on longer-term matters of strategy, sustainability and governance, but instead concentrate too much on short-term financial metrics."
+        }
+      ],
+      "reasoning": [
+        "E段开头批评董事会过分集中短期财务指标，而未充分关注长期战略、可持续性和治理。",
+        "题干considerations只把metrics泛化，前面仍需形容词financial。不能填short-term，因为题干后面已经说明only of short-term relevance，重复时间而漏掉指标类别。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "词性和重复检查：空位修饰considerations，时间限定已在后面给出。"
+      ],
+      "reviewTip": "词性和重复检查：空位修饰considerations，时间限定已在后面给出。"
+    },
+    "c12-t4-p3:40": {
+      "answer": "shareholders/investors",
+      "stem": "40 On certain matters, such as pay, the board may have to accept the views of [40] ____.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Many would argue that this is in the interest of transparency and good governance as shareholders use their muscle in the area of pay to pressure boards to remove underperforming chief executives."
+        }
+      ],
+      "reasoning": [
+        "F段说股东利用薪酬议题的投票权向董事会施压，尤其约束或否决高管报酬政策。",
+        "题干董事会可能不得不接受谁的意见，故填shareholders；investors也是段首对应人群，可接受。chief executives是报酬被讨论者，不是以投票权施压的一方。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "辨别薪酬争议中被评薪者与拥有投票施压权者，答案取后者。"
+      ],
+      "reviewTip": "辨别薪酬争议中被评薪者与拥有投票施压权者，答案取后者。"
+    }
+  }
+}

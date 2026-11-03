@@ -3,10 +3,12 @@ export function ExamText({
   paragraphs,
   article = false,
   renderGap,
+  paragraphId,
 }: {
   paragraphs: string[];
   article?: boolean;
   renderGap?: (number: number) => ReactNode;
+  paragraphId?: (index: number) => string;
 }) {
   const content = (text: string) =>
     !renderGap
@@ -22,7 +24,12 @@ export function ExamText({
           article ? /^([A-K])\s+([A-Z'“‘"].+)/ : /^([A-K]|[ivx]{1,4})\s+(.+)/,
         );
         return (
-          <p key={i} className={label ? "exam-labeled-text" : undefined}>
+          <p
+            id={paragraphId?.(i)}
+            tabIndex={paragraphId ? -1 : undefined}
+            key={i}
+            className={label ? "exam-labeled-text" : undefined}
+          >
             {label ? (
               <>
                 <b className="exam-text-label">{label[1]}</b>

@@ -10,6 +10,7 @@ library = json.loads((ROOT / '.local/cambridge/text-draft.json').read_text())
 reading_labels = {
     'c16-t3-p3': {'Farmers and gardeners': 'C'},
     'c18-t1-p3': {'Even as our ability': 'C'},
+    'c18-t3-p1': {'Not only are the ingredients': 'C', 'Fly ash and slag': 'G'},
     'c18-t3-p2': {'But the glory days': 'B', 'Even as the market': 'C', 'The following year': 'D', 'The brothers made one final': 'F'},
     'c18-t4-p1': {'In North America': 'C'},
     'c19-t1-p2': {'By now, Rome': 'G'},
@@ -26,6 +27,7 @@ choice_labels = {
     'c18-t2-p2': {'indicating which aspects': 'D', 'to emphasise the need': 'C', 'creating a better world': 'C'},
     'c18-t3-p2': {'Not enough cars': 'B', 'needed several attempts': 'C', 'raised financial capital': 'B'},
     'c18-t3-p3': {'how unsuitable Shakespeare': 'C', 'It is relatively simple': 'C', 'students attempting interesting': 'B', 'students not achieving': 'C', "the environment where most": 'B'},
+    'c18-t3-p1': {'Markus Mannström': 'B', 'Anna Surgenor': 'C'},
     'c18-t4-p1': {'to grow plants successfully': 'B', 'to regulate the temperature': 'C', 'to generate power': 'D'},
     'c18-t4-p2': {'where the notion': 'A', 'how scientists have responded': 'C', 'help each other': 'B', 'have confidence in': 'C', 'generally have a low': 'B', 'will only work hard': 'C'},
     'c19-t1-p2': {'They managed to escape': 'B'},
@@ -52,12 +54,14 @@ replacements = {
     'c19-t3-p2': {'begin to release instead of': 'begin to release ______ instead of', 'areas have been cleared, are more': 'areas have been cleared, ______ are more', '..of the local environment': '______ of the local environment', 'through the ... which': 'through the ______ which'},
 }
 summary_options = {
+    'c13-t4-p3': ['measurement', 'security', 'implementation', 'profits', 'observation', 'communication', 'preservation'],
     'c15-t3-p3': ['ending', 'events', 'warning', 'links', 'records', 'variations', 'horror', 'people', 'plot'],
     'c15-t4-p3': ['funding', 'trees', 'rare species', 'moral standards', 'control', 'involvement', 'flooding', 'overfishing', 'worker support'],
     'c16-t1-p3': ['pressure', 'satisfaction', 'intuition', 'promotion', 'reliance', 'confidence', 'information'],
     'c16-t2-p2': ['solution', 'partnership', 'destruction', 'exaggeration', 'cleanliness', 'regulations', 'illness', 'nutrition'],
     'c16-t2-p3': ['opinions', 'confidence', 'view', 'modesty', 'problems', 'objectivity', 'fairness', 'experiences', 'range', 'reasons'],
     'c18-t4-p3': ['modest fame', 'vast range', 'record-breaking achievement', 'research methods', 'select group', 'professional interests', 'scientific debate', 'hazardous exploration', "biographer's perspective", 'narrow investigation'],
+    'c18-t3-p3': ['wrong classes', 'lower expectations', 'average learners', 'bottom sets', 'brightest pupils', 'disadvantaged backgrounds', 'weaker students', 'higher achievements', 'positive impressions'],
 }
 
 
@@ -83,6 +87,13 @@ def valid(s, question=False):
 for book in library:
     for paper in book['passages']:
         pid = paper['id']
+        for corrected_pid, number, answer in [
+            ('c15-t4-p1', '7', 'leaves (and) bark / bark (and) leaves'),
+            ('c17-t4-p1', '9', 'mosquitoes'),
+            ('c19-t4-p2', '16', 'E'),
+        ]:
+            if pid == corrected_pid:
+                paper['answers'][number] = answer
         reading = paper['reading']
         body = [tidy(s) for s in reading['paragraphs'] if valid(s)]
         if pid == 'c11-t4-p3':
@@ -117,7 +128,13 @@ for book in library:
             else:
                 joined.append(s)
         reading['paragraphs'] = [re.sub(r'([.!?\'”’]) \d{1,3}$', r'\1', s) for s in joined]
+        if pid == 'c13-t3-p2' and not any(s.startswith('F ') for s in reading['paragraphs']):
+            final_section = re.search(r'\nF\s+(In a study published.*?)(?=\n\s*65\s*\n)', paper['text'], re.S)
+            if final_section:
+                reading['paragraphs'].append('F ' + re.sub(r'\s+', ' ', final_section[1].replace('\u00ad', '')).strip())
         reading['title'] = tidy(reading['title'])
+        if pid == 'c16-t4-p2':
+            reading['paragraphs'] = [s.replace('circuit is NOT GIVEN', 'circuit is not given') for s in reading['paragraphs']]
         paper['title'] = reading['title']
         for section in paper['questionText']:
             text = '\n'.join(tidy(s) for s in section['paragraphs'] if valid(s, question=True))
@@ -125,6 +142,8 @@ for book in library:
                 text = text.replace('8 Some travel', 'B Some travel')
             if pid == 'c15-t1-p2':
                 text = text.replace('0 People who find', 'D People who find')
+            if pid == 'c18-t3-p3':
+                text = text.replace('phrases, A-l', 'phrases, A-I')
             for phrase, label in choice_labels.get(pid, {}).items():
                 if phrase == 'CIncluding time':
                     text = text.replace(phrase, '\nC Including time')
@@ -149,6 +168,8 @@ for book in library:
                 section['paragraphs'] = section['paragraphs'][:3] + ['Intensive farming versus aeroponic urban farming', 'Intensive farming — Growth: wide range of 4 ______ used; techniques pollute air.', 'Intensive farming — Selection: quality not good; varieties of fruit and vegetables chosen that can survive long 5 ______.', 'Intensive farming — Sale: 6 ______ receive very little of overall income.', 'Aeroponic urban farming — Growth: no soil used; nutrients added to water, which is recycled.', 'Aeroponic urban farming — Selection: produce chosen because of its 7 ______.']
             if pid == 'c18-t1-p3' and section['from'] == 32:
                 section['paragraphs'] = [s.replace('how .............. .... of space', 'how 32 ______ of space') for s in section['paragraphs']]
+            if pid == 'c13-t1-p1' and section['from'] == 8:
+                section['paragraphs'] = [('8 The website www.newzealand.com aimed to provide ready-made itineraries and packages for travel companies and individual tourists.') if s.startswith('8 packages') else s for s in section['paragraphs']]
             group = next(g for g in paper['groups'] if g['from'] == section['from'])
             if group['type'] == 'summary':
                 arr = section['paragraphs']

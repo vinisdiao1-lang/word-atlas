@@ -5,6 +5,8 @@ import { loadPacks, loadRecords, save } from "../cambridge/db";
 import { loadLibrary } from "../cambridge/library";
 import { ExamText } from "../cambridge/Text";
 import { gapParagraphs } from "../cambridge/gaps";
+import { DetailedExplanation } from "../cambridge/Explanation";
+import { repairKnownSourceAnswers } from "../cambridge/corrections";
 import {
   RULES,
   grade,
@@ -43,11 +45,11 @@ export function Cambridge() {
   const loadedKey = useRef<string | null>(null);
   const packs = useMemo(
     () =>
-      [
+      repairKnownSourceAnswers([
         ...new Map(
           [...websitePacks, ...localPacks].map((p) => [p.book, p]),
         ).values(),
-      ].sort((a, b) => a.book - b.book),
+      ]).sort((a, b) => a.book - b.book),
     [websitePacks, localPacks],
   );
   const papers = useMemo(() => packs.flatMap((p) => p.passages), [packs]);
@@ -334,7 +336,7 @@ export function Cambridge() {
               : "暂不可用"}
         </b>
         <p className="muted">
-          剑11–19文字版已内置，文章、题干和选项均可直接阅读。答题记录和复盘笔记保存在当前设备，请定期导出备份。
+          剑11–19文字版与1,440道逐题解析已内置，交卷后可查看原文依据和详细解题过程。答题记录和复盘笔记保存在当前设备，请定期导出备份。
         </p>
         {libraryLoading && (
           <p className="muted" role="status">
@@ -531,6 +533,7 @@ export function Cambridge() {
               </h2>
               <ExamText
                 article
+                paragraphId={(i) => `exam-paragraph-${paper.id}-${i + 1}`}
                 paragraphs={textPaper.reading?.paragraphs ?? [paper.text]}
               />
               <details className="exam-source-check">
@@ -562,8 +565,7 @@ export function Cambridge() {
               <h2>{done ? "错题复盘" : "阅读题目"}</h2>
               {done && (
                 <p className="muted">
-                  依据原始答案页核对。可修正 OCR
-                  判分，并记录错误原因和原文定位。这里只显示参考答案，不编造解题解析。
+                  查看本题原文定位、解题过程、同义改写和易错点。可核对原始答案页、修正判分，并记录复盘笔记。
                 </p>
               )}
               {active.tasks
@@ -755,6 +757,29 @@ export function Cambridge() {
                               标为答错
                             </button>
                           </div>
+                          <DetailedExplanation
+                            paper={textPaper}
+                            number={n}
+                            userAnswer={active.answers[id] ?? ""}
+                            onLocate={(paragraph) => {
+                              const element = document.getElementById(
+                                `exam-paragraph-${paper.id}-${paragraph}`,
+                              );
+                              element?.focus({ preventScroll: true });
+                              element?.scrollIntoView({
+                                block: "start",
+                                behavior: window.matchMedia(
+                                  "(prefers-reduced-motion: reduce)",
+                                ).matches
+                                  ? "auto"
+                                  : "smooth",
+                              });
+                              element?.classList.remove("exam-evidence-focus");
+                              requestAnimationFrame(() =>
+                                element?.classList.add("exam-evidence-focus"),
+                              );
+                            }}
+                          />
                           <label htmlFor={`note-${n}`}>复盘笔记</label>
                           <textarea
                             id={`note-${n}`}

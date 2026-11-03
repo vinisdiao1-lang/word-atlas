@@ -156,7 +156,7 @@ test("summary word lists retain all lettered options", () => {
       const section = p.questionText!.find((s) => s.from === group.from)!;
       const range = section.paragraphs
         .join(" ")
-        .match(/list of (?:words|phrases),\s*A[–-]([A-K])/i);
+        .match(/list of (?:words|phrases),?\s*A[–-]([A-K])/i);
       if (!range) continue;
       const start = section.paragraphs.findIndex(
         (s) => /^A /.test(s) && s.length < 100,
@@ -170,4 +170,20 @@ test("summary word lists retain all lettered options", () => {
         p.id,
       );
     }
+});
+
+test("source-checked corrections retain the missing section, question context and official key", () => {
+  const papers = source.flatMap((b) => b.passages);
+  assert.ok(
+    papers
+      .find((p) => p.id === "c13-t3-p2")!
+      .reading!.paragraphs[5].startsWith("F In a study published"),
+  );
+  assert.ok(
+    papers
+      .find((p) => p.id === "c13-t1-p1")!
+      .questionText!.find((g) => g.from === 8)!
+      .items![0].paragraphs[0].includes("ready-made itineraries"),
+  );
+  assert.equal(papers.find((p) => p.id === "c19-t4-p2")!.answers[16], "E");
 });

@@ -358,3 +358,70 @@
   outline: 2px solid var(--terra);
   outline-offset: 2px;
 }
+.exam-explanation {
+  margin: 24px 0;
+  padding: 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: var(--paper-2);
+  font-size: 14px;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+.exam-answer-sheet .exam-explanation summary {
+  font-weight: 700;
+  font-size: 16px;
+}
+.exam-explanation h4 {
+  margin: 22px 0 8px;
+  font-size: 14px;
+  color: var(--terra-ink);
+}
+.exam-explanation ul,
+.exam-explanation ol {
+  padding-left: 22px;
+  margin: 8px 0;
+}
+.exam-explanation li {
+  margin: 10px 0;
+}
+.exam-explanation dt {
+  font-weight: 600;
+}
+.exam-explanation dd {
+  margin: 4px 0 14px;
+}
+.exam-evidence blockquote {
+  margin: 10px 0 18px;
+  padding: 10px 14px;
+  border-left: 3px solid var(--sage-ink);
+  background: var(--paper);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.exam-review-tip {
+  padding: 14px;
+  background: var(--sage-soft);
+  border-radius: 10px;
+}
+.exam-prose p[id] {
+  scroll-margin-top: calc(var(--top) + 85px);
+}
+.exam-evidence-focus {
+  animation: exam-evidence-focus 4s ease-out;
+}
+@keyframes exam-evidence-focus {
+  from {
+    background: var(--sage-soft);
+    box-shadow: 0 0 0 8px var(--sage-soft);
+  }
+  to {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .exam-evidence-focus {
+    animation-duration: 1ms;
+  }
+}

@@ -1,0 +1,4480 @@
+{
+  "format": "word-atlas-explanations-v1",
+  "book": 19,
+  "items": {
+    "c19-t1-p1:1": {
+      "answer": "FALSE",
+      "stem": "People had expected Andy Murray to become the world's top tennis player for at least five years before 2016.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Yet five years previously, he had been regarded as a talented outsider who entered but never won the major tournaments."
+        }
+      ],
+      "reasoning": [
+        "题干把时间定在2016年前至少五年，并说人们已经预期穆雷成为世界第一。原文却说五年前他只是有天赋的局外人，参加大赛却从未获胜，这与当时已被看好登顶的说法方向相反。",
+        "这里比较的是当年的社会评价，而不是他后来是否真的成为世界第一。2016年的排名不能倒推成2011年人们已有同样的预期；outsider正是本题否定题干的关键，故为FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "had expected ... top",
+          "passage": "regarded as a talented outsider",
+          "explanation": "这里比较的是当年的社会评价，而不是他后来是否真的成为世界第一。2016年的排名不能倒推成2011年人们已有同样的预期；outsider正是本题否定题干的关键，故为FALSE。"
+        }
+      ],
+      "traps": [
+        "不要用后来成功的结果反推早先人们的预期。"
+      ],
+      "reviewTip": "不要用后来成功的结果反推早先人们的预期。"
+    },
+    "c19-t1-p1:2": {
+      "answer": "FALSE",
+      "stem": "The change that Andy Murray made to his rackets attracted a lot of attention.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Another change was so subtle as to pass more or less unnoticed."
+        }
+      ],
+      "reasoning": [
+        "第二段把两种改变作对照：邀请伦德尔入队是广为报道的明显变化，而球拍用线的变化非常细微，几乎没有被注意。题干谈的是后者，却说它引起了大量关注，正好把两种改变的特征对调。",
+        "定位时必须看change所指的具体内容，不能只看到同段widely publicised就选TRUE。该词修饰教练团队改变，不修饰球拍；真正对应球拍的是unnoticed，所以答案为FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "attracted a lot of attention",
+          "passage": "more or less unnoticed",
+          "explanation": "定位时必须看change所指的具体内容，不能只看到同段widely publicised就选TRUE。该词修饰教练团队改变，不修饰球拍；真正对应球拍的是unnoticed，所以答案为FALSE。"
+        }
+      ],
+      "traps": [
+        "同段出现相反描述时，先核对各自修饰的对象。"
+      ],
+      "reviewTip": "同段出现相反描述时，先核对各自修饰的对象。"
+    },
+    "c19-t1-p1:3": {
+      "answer": "NOT GIVEN",
+      "stem": "Most of the world's top players take a professional racket stringer on tour with them.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "\"Touring professionals have their rackets customised to their specific needs,' says Colin Triplow, a UK-based professional racket stringer."
+        }
+      ],
+      "reasoning": [
+        "原文引述一位英国职业穿线师，说明球拍按球员需求定制，但没有统计多少顶级球员会带穿线师巡回比赛。题干增加了most这一比例判断，也增加了take ... on tour这种人员随行安排。",
+        "职业穿线师的存在以及球员使用定制球拍，都不能证明大多数球员会让其同行。原文也没有说大多数人不这样做，因此既不能证实也不能反驳完整题干，应判NOT GIVEN而非FALSE。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "有专业人士被采访，不等于多数球员都带该人士出行。"
+      ],
+      "reviewTip": "有专业人士被采访，不等于多数球员都带该人士出行。"
+    },
+    "c19-t1-p1:4": {
+      "answer": "FALSE",
+      "stem": "Mike and Bob Bryan use rackets that are light in comparison to the majority of rackets.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "The rackets they use now weigh more than the average model and also have a denser string pattern (i.e."
+        }
+      ],
+      "reasoning": [
+        "原文明确说布赖恩兄弟现在的球拍比普通型号更重，同时线床更密。题干则说他们的球拍相比多数球拍更轻；比较的对象都是通常的球拍，重与轻构成直接反义关系。",
+        "不要让他们尝试不同油漆和长度的细节分散注意力，也不能用more crosses and mains去猜重量。作者已直接给出weigh more的比较结论，该结论反驳light，因此选FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "light in comparison",
+          "passage": "weigh more than the average model",
+          "explanation": "不要让他们尝试不同油漆和长度的细节分散注意力，也不能用more crosses and mains去猜重量。作者已直接给出weigh more的比较结论，该结论反驳light，因此选FALSE。"
+        }
+      ],
+      "traps": [
+        "比较题要同时圈出比较对象和比较方向。"
+      ],
+      "reviewTip": "比较题要同时圈出比较对象和比较方向。"
+    },
+    "c19-t1-p1:5": {
+      "answer": "NOT GIVEN",
+      "stem": "Werner Fischer played with a spaghetti-strung racket that he designed himself.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Racket modifications mainly date back to the 1970s, when the amateur German tennis player Werner Fischer started playing with the so-called spaghetti-strung racket."
+        }
+      ],
+      "reasoning": [
+        "第五段介绍菲舍尔在二十世纪七十年代开始使用意大利面式线床球拍，以及这种球拍为何被禁止。它说明谁使用了球拍，却没有交代设计者或发明者是谁。",
+        "题干中的he designed himself把使用者进一步认定为设计者，这个身份关系并未出现。不能因为他是文中最早被提到的使用者就推断由他亲自设计；同样也没有证据证明由别人设计，故为NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "使用、改装、设计和发明是不同关系，不能自动等同。"
+      ],
+      "reviewTip": "使用、改装、设计和发明是不同关系，不能自动等同。"
+    },
+    "c19-t1-p1:6": {
+      "answer": "TRUE",
+      "stem": "The weather can affect how professional players adjust the strings on their rackets.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "They will continually change it depending on various factors including the court surface, climatic conditions, and game styles."
+        }
+      ],
+      "reasoning": [
+        "第六段说明职业球员会根据多种因素持续改变球线及其张力，列举的因素包括场地、气候条件和比赛风格。题干中的weather正好对应原文的climatic conditions，调整对象也同为球线。",
+        "原文并非只说天气影响比赛表现，而是把气候直接列入改变球线设置的依据。主体、动作和影响因素均与题干一致，因此判TRUE；不需要额外寻找雨天或高温的具体实例。"
+      ],
+      "paraphrases": [
+        {
+          "question": "weather can affect ... adjust",
+          "passage": "change ... climatic conditions",
+          "explanation": "题干中的“weather can affect ... adjust”需要结合本题证据理解为“change ... climatic conditions”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "确认天气影响的是球线调整，而不是笼统的比赛结果。"
+      ],
+      "reviewTip": "确认天气影响的是球线调整，而不是笼统的比赛结果。"
+    },
+    "c19-t1-p1:7": {
+      "answer": "TRUE",
+      "stem": "It was believed that the change Pete Sampras made to his rackets contributed to his strong serve.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "For example, much of the serving power of US professional player Pete Sampras was attributed to the addition of four to five lead weights onto his rackets, and today many professionals have the weight adjusted during the manufacturing process."
+        }
+      ],
+      "reasoning": [
+        "第九段把桑普拉斯的发球力量部分归因于在球拍上加装铅配重。题干所说球拍改变有助于强力发球，就是对这一因果关系的改写，并未说这是他强力发球的唯一原因。",
+        "was attributed to表示被认为归因于，符合题干It was believed的语气；much of也支持contributed而非全部决定。因果方向和论断强度均一致，故答案TRUE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "contributed to his strong serve",
+          "passage": "serving power ... was attributed",
+          "explanation": "题干中的“contributed to his strong serve”需要结合本题证据理解为“serving power ... was attributed”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "contributed to不是唯一原因，不能把部分贡献误读成全因果。"
+      ],
+      "reviewTip": "contributed to不是唯一原因，不能把部分贡献误读成全因果。"
+    },
+    "c19-t1-p1:8": {
+      "answer": "paint",
+      "stem": "Mike and Bob Bryan made changes to the types of [8] ____ used on",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "thorough customisation process.' They explain how they have adjusted not only racket length, but even experimented with different kinds of paint."
+        }
+      ],
+      "reasoning": [
+        "第三段讲布赖恩兄弟的具体定制项目，先提到长度，随后说他们甚至试验不同种类的油漆。笔记保留了types of和racket frames，所缺的是涂在拍框上的材料名词paint。",
+        "本题不是要求填写一项任意的球拍改变。length虽然同段出现，却不能填入types of ... used on frames这一结构。paint为原文原词、不可数名词且只有一个词，符合ONE WORD ONLY。"
+      ],
+      "paraphrases": [
+        {
+          "question": "types of ... used on frames",
+          "passage": "different kinds of paint",
+          "explanation": "题干中的“types of ... used on frames”需要结合本题证据理解为“different kinds of paint”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "不要被同句较早出现的racket length干扰。"
+      ],
+      "reviewTip": "不要被同句较早出现的racket length干扰。"
+    },
+    "c19-t1-p1:9": {
+      "answer": "topspin",
+      "stem": "amount of [9] ____ it created.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "It created a string bed that generated so much topspin that it was quickly banned by the International Tennis Federation."
+        }
+      ],
+      "reasoning": [
+        "第五段给出禁用球拍的完整因果链：这种线床产生过多上旋，所以国际网联迅速将其禁用。题干保留amount of与because，需要填写造成禁令的旋转效果，答案是topspin。",
+        "spaghetti-strung是球拍的称呼，不能回答产生了什么；string bed则是结构，也不是被量化的效果。topspin同时满足原文因果关系和单词数量限制，拼写时应连写成一个词。"
+      ],
+      "paraphrases": [
+        {
+          "question": "because of the amount",
+          "passage": "generated so much topspin that",
+          "explanation": "题干中的“because of the amount”需要结合本题证据理解为“generated so much topspin that”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分球拍名称、结构和它产生的效果。"
+      ],
+      "reviewTip": "区分球拍名称、结构和它产生的效果。"
+    },
+    "c19-t1-p1:10": {
+      "answer": "training",
+      "stem": "the [10] ____ they do.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Today it is, in many ways, an aspect of the game that is equal in significance to nutrition or training."
+        }
+      ],
+      "reasoning": [
+        "第五段末说球拍改装如今的重要性可与营养或训练相比。笔记把nutrition改写成players’ diets，并保留or之后的另一个并列项目，因此空格填写training。",
+        "题干不是再次要求写diet的同义词，而是要求补上与饮食并列的行为。they do也适合do training这一搭配。training是不可数名词，一个词即可，不要擅自增加physical等修饰语。"
+      ],
+      "paraphrases": [
+        {
+          "question": "as important as players’ diets",
+          "passage": "equal in significance to nutrition or training",
+          "explanation": "题干中的“as important as players’ diets”需要结合本题证据理解为“equal in significance to nutrition or training”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "用并列结构定位另一个项目，不要重复已给出的diets。"
+      ],
+      "reviewTip": "用并列结构定位另一个项目，不要重复已给出的diets。"
+    },
+    "c19-t1-p1:11": {
+      "answer": "intestines / gut",
+      "stem": "All rackets used to have natural strings made from the [11] ____",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "At one time, all tennis rackets were strung with natural gut made from the outer layer of sheep or cow intestines."
+        }
+      ],
+      "reasoning": [
+        "第七段说明早期网球拍的天然肠线来自羊或牛的肠道外层。笔记用animals概括sheep or cow，空格要求动物身体部位，故填intestines；原书也接受同句的gut这一同义表达。",
+        "不能填sheep或cow，因为它们是动物种类而非of animals前的部位。也不应把outer layer抄入答案，这会超出一个词限制。按原书接受的单词变体填写即可，通常保留intestines的复数形式。"
+      ],
+      "paraphrases": [
+        {
+          "question": "of animals",
+          "passage": "sheep or cow intestines",
+          "explanation": "题干中的“of animals”需要结合本题证据理解为“sheep or cow intestines”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "空位问身体部位，不问动物种类或制作材料的修饰语。"
+      ],
+      "reviewTip": "空位问身体部位，不问动物种类或制作材料的修饰语。"
+    },
+    "c19-t1-p1:12": {
+      "answer": "weights",
+      "stem": "• Pete Sampras had metal [12] ____ put into the frames of",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "For example, much of the serving power of US professional player Pete Sampras was attributed to the addition of four to five lead weights onto his rackets, and today many professionals have the weight adjusted during the manufacturing process."
+        }
+      ],
+      "reasoning": [
+        "第九段说桑普拉斯在球拍上添加四至五个铅制配重，笔记用metal概括lead，要求补出被放进拍框中的物件。因此空格应为复数名词weights，而不是金属名称lead。",
+        "题干已经给出metal，若再填lead会重复材料层面而缺少物件。four to five也验证原文物件为复数。填写weights一个词既保持具体含义，也符合ONE WORD ONLY的要求。"
+      ],
+      "paraphrases": [
+        {
+          "question": "metal ... put into frames",
+          "passage": "lead weights onto his rackets",
+          "explanation": "题干中的“metal ... put into frames”需要结合本题证据理解为“lead weights onto his rackets”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "已给出的metal对应lead，真正缺少的是物件weights。"
+      ],
+      "reviewTip": "已给出的metal对应lead，真正缺少的是物件weights。"
+    },
+    "c19-t1-p1:13": {
+      "answer": "grips",
+      "stem": "• Gonçalo Oliveira changed the [13] ____on his racket handles.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "The professional Portuguese player Gonçalo Oliveira replaced the original grips of his rackets with something thinner because they had previously felt uncomfortable to hold."
+        }
+      ],
+      "reasoning": [
+        "第十段说奥利维拉因原来的握把握持不舒适，将原装握把换成较薄的版本。题干中的changed对应replaced，racket handles限定位置，所换的部件为grips。",
+        "handle只是位置或主体，不是这里被替换的原装覆盖部件；shape也是前一句另一种球员偏好，不能混用。答案应从奥利维拉这个具体例子提取，保留grips的复数形式且只填一个词。"
+      ],
+      "paraphrases": [
+        {
+          "question": "changed ... on his racket handles",
+          "passage": "replaced the original grips",
+          "explanation": "题干中的“changed ... on his racket handles”需要结合本题证据理解为“replaced the original grips”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "人名定位后读同一例子，别串到前文其他球员改变握柄形状的做法。"
+      ],
+      "reviewTip": "人名定位后读同一例子，别串到前文其他球员改变握柄形状的做法。"
+    },
+    "c19-t1-p2:14": {
+      "answer": "D",
+      "stem": "a reference to a denial of involvement in piracy",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "In the letters, the king of Alashiya (modern Cyprus) rejected Akhenaten's claims of a connection with the Lukka (based in modern-day Turkey)."
+        }
+      ],
+      "reasoning": [
+        "题干要找的不是海盗活动本身，而是否认参与或有关联的表述。D段叙述阿拉希亚国王驳斥法老关于其与卢卡海盗存在联系的说法，rejected claims正是denial的具体体现。",
+        "本段后半还承诺惩罚涉事臣民，但承诺惩罚不是题目核心；真正对应否认的是国王对联系指控的回应。段落字母为D，不能把阿拉希亚这个国家名称或海盗名称当成答案。"
+      ],
+      "paraphrases": [
+        {
+          "question": "denial of involvement",
+          "passage": "rejected ... claims of a connection",
+          "explanation": "题干中的“denial of involvement”需要结合本题证据理解为“rejected ... claims of a connection”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "信息匹配题锁定动作denial，而不是泛泛寻找海盗或国王。"
+      ],
+      "reviewTip": "信息匹配题锁定动作denial，而不是泛泛寻找海盗或国王。"
+    },
+    "c19-t1-p2:15": {
+      "answer": "G",
+      "stem": "details of how a campaign to eradicate piracy was carried out",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Taking personal command, Pompey divided the entire Mediterranean into 13 districts, assigning a fleet and commander to each."
+        }
+      ],
+      "reasoning": [
+        "G段不只说罗马击败海盗，而是交代具体行动步骤：把地中海分成十三个区域，为各区配置舰队与指挥官，清除一区后舰队再增援下一区，直到全部海域清理完成。",
+        "题干details of how ... carried out要求执行方法，以上分区、配置和逐区推进的程序完整对应。A段虽然也概括庞培消灭海盗，但没有这些操作细节，因此应选G而非A。"
+      ],
+      "paraphrases": [
+        {
+          "question": "how a campaign ... carried out",
+          "passage": "divided ... 13 districts",
+          "explanation": "题干中的“how a campaign ... carried out”需要结合本题证据理解为“divided ... 13 districts”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "概述结果和交代执行步骤并不是同一类信息。"
+      ],
+      "reviewTip": "概述结果和交代执行步骤并不是同一类信息。"
+    },
+    "c19-t1-p2:16": {
+      "answer": "C",
+      "stem": "a mention of the circumstances in which states in the ancient world would make use of pirates",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "C One should also add that it was not unknown in the first and second millennia BCE for governments to resort to pirates' services, especially during wartime, employing their skills and numbers against their opponents."
+        }
+      ],
+      "reasoning": [
+        "C段说古代政府有时会雇用海盗的技能和人数对付敌方，尤其是在战争时期。题干要求states在什么circumstances下会利用海盗，战时这个条件正是所需信息。",
+        "这一段还说明海盗先发动第一波攻击，为海军铺路，进一步证明make use of pirates指国家主动利用海盗服务。不能选D段法老遭受海盗侵扰的故事，因为受害和雇用的关系相反。"
+      ],
+      "paraphrases": [
+        {
+          "question": "circumstances ... make use of pirates",
+          "passage": "especially during wartime",
+          "explanation": "题干中的“circumstances ... make use of pirates”需要结合本题证据理解为“especially during wartime”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分国家受到海盗攻击与国家主动雇用海盗。"
+      ],
+      "reviewTip": "区分国家受到海盗攻击与国家主动雇用海盗。"
+    },
+    "c19-t1-p2:17": {
+      "answer": "A",
+      "stem": "a reference to how people today commonly view pirates",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "A When one mentions pirates, an image springs to most people's minds of a crew of misfits, daredevils and adventurers in command of a tall sailing ship in the Caribbean Sea."
+        }
+      ],
+      "reasoning": [
+        "A段开头直接描绘当今多数人想到海盗时浮现的形象：一群冒险者乘高帆船出没加勒比海。题干commonly view pirates与most people’s minds是同一层面的普遍印象。",
+        "后文转向更早的地中海海盗史，是为了纠正常见想象的时空局限。因此本题应抓开篇的当代印象，而不是选择记载古希腊人赞美海盗的E段；古人的评价不等于今天的常见看法。"
+      ],
+      "paraphrases": [
+        {
+          "question": "people today commonly view",
+          "passage": "an image springs to most people's minds",
+          "explanation": "题干中的“people today commonly view”需要结合本题证据理解为“an image springs to most people's minds”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "today与ancient Greeks的评价主体和时代不同。"
+      ],
+      "reviewTip": "today与ancient Greeks的评价主体和时代不同。"
+    },
+    "c19-t1-p2:18": {
+      "answer": "G",
+      "stem": "an explanation of how some people were encouraged not to return to piracy",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Although thousands of pirates died at the hands of Pompey's troops, as a long-term solution to the problem, many more were offered land in fertile areas located far from the sea."
+        }
+      ],
+      "reasoning": [
+        "G段说明罗马消灭海盗时，不只是杀戮，还给更多海盗提供远离海岸的肥沃土地，使他们转为生产性的农民。这个安置方案为海盗提供替代生计，解释了如何鼓励他们不再回到海盗生活。",
+        "题目问的是避免重操旧业的办法，不是惩罚曾经犯罪的人。F段的punishment和ransom不能回答这种长期行为转变；G段明确说这是long-term solution，因此选G。"
+      ],
+      "paraphrases": [
+        {
+          "question": "encouraged not to return",
+          "passage": "offered land ... far from the sea",
+          "explanation": "题干中的“encouraged not to return”需要结合本题证据理解为“offered land ... far from the sea”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "长期改造和单纯惩罚必须分开；注意远离海边的新生计。"
+      ],
+      "reviewTip": "长期改造和单纯惩罚必须分开；注意远离海边的新生计。"
+    },
+    "c19-t1-p2:19": {
+      "answer": "B",
+      "stem": "a mention of the need for many sailing vessels to stay relatively close to land",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Thus, in the ancient world most were restricted to a few well-known navigable routes that followed the coastline."
+        }
+      ],
+      "reasoning": [
+        "B段从船只技术限制解释航线：远洋帆船发明以前，古代船只难以长距离穿越开阔水域，所以多数船只能沿几条贴近海岸的熟知路线航行。题干stay relatively close to land就是followed the coastline的改写。",
+        "这里的need不是船员个人偏好，而是当时航海能力造成的限制。海湾为海盗提供躲藏处是同段另一条信息，不是本题所问“许多船必须靠岸航行”的原因，因此匹配B。"
+      ],
+      "paraphrases": [
+        {
+          "question": "stay relatively close to land",
+          "passage": "routes that followed the coastline",
+          "explanation": "题干中的“stay relatively close to land”需要结合本题证据理解为“routes that followed the coastline”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "不要把海盗利用海湾的原因，替换成商船航线受限的原因。"
+      ],
+      "reviewTip": "不要把海盗利用海湾的原因，替换成商船航线受限的原因。"
+    },
+    "c19-t1-p2:20": {
+      "answer": "B",
+      "stem": "Which TWO of the following statements does the writer make about inhabitants of the Mediterranean region in the ancient world? A They often used stolen vessels to carry out pirate attacks. B They managed to escape capture by the authorities because they knew the area so well. C They paid for information about the routes merchant ships would take. D They depended more on the sea for their livelihood than on farming. E They stored many of the goods taken in pirate attacks in coves along the coastline.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "In addition, knowledge of the local area helped the pirates to avoid retaliation once a state fleet arrived."
+        },
+        {
+          "paragraph": 3,
+          "quote": "While the Mediterranean region is predominantly fertile, some parts are rugged and hilly, even mountainous."
+        },
+        {
+          "paragraph": 3,
+          "quote": "In the ancient times, the inhabitants of these areas relied heavily on marine resources, including fish and salt."
+        }
+      ],
+      "reasoning": [
+        "题干这组选项谈古代地中海沿岸居民。B段末明确说当地地理知识帮助海盗避开国家舰队到来后的报复，选项B中熟悉地区而避免被当局抓捕，与这条信息一致。",
+        "本组还应选D：同段先交代崎岖山区的居民高度依赖鱼和盐等海洋资源。两道题共填B、D，顺序可以交换；不要把沿海海湾的用途从藏船、突袭扩大成储藏赃物，原文没有这样说。"
+      ],
+      "paraphrases": [
+        {
+          "question": "escape capture ... knew the area",
+          "passage": "knowledge ... avoid retaliation",
+          "explanation": "题干中的“escape capture ... knew the area”需要结合本题证据理解为“knowledge ... avoid retaliation”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "两选题按整个选项核对，海湾用于藏船不等于储存货物。"
+      ],
+      "reviewTip": "两选题按整个选项核对，海湾用于藏船不等于储存货物。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说居民大多有自己的船，没有说常用偷来的船袭击。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "熟悉海岸和航线帮助他们在国家舰队到来后避开报复，成立。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "原文强调本地人自身的航海知识，未提付款购买情报。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "崎岖山地居民高度依赖海洋资源，符合相比农业更靠海谋生的概括。"
+        },
+        {
+          "label": "E",
+          "correct": false,
+          "reason": "海湾用于藏船和隐蔽突袭，未说用于储藏掠夺来的货物。"
+        }
+      ]
+    },
+    "c19-t1-p2:21": {
+      "answer": "D",
+      "stem": "Which TWO of the following statements does the writer make about inhabitants of the Mediterranean region in the ancient world? A They often used stolen vessels to carry out pirate attacks. B They managed to escape capture by the authorities because they knew the area so well. C They paid for information about the routes merchant ships would take. D They depended more on the sea for their livelihood than on farming. E They stored many of the goods taken in pirate attacks in coves along the coastline.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "In the ancient times, the inhabitants of these areas relied heavily on marine resources, including fish and salt."
+        },
+        {
+          "paragraph": 3,
+          "quote": "While the Mediterranean region is predominantly fertile, some parts are rugged and hilly, even mountainous."
+        }
+      ],
+      "reasoning": [
+        "B段先说有些地区山地崎岖，与适合农业的肥沃地区不同，居民主要依赖鱼、盐等海洋资源生存。选项D把这种谋生结构概括为比农业更依赖海洋，符合段落对地理与生活的说明。",
+        "该组另一正确选项B来自段末熟悉当地地理而避开报复的描述。官方答案将20记为B、21记为D，但本组两个字母可任意顺序填写；不能因本题序号21就把选项排除到只有D可填。"
+      ],
+      "paraphrases": [
+        {
+          "question": "depended more on the sea for their livelihood",
+          "passage": "relied heavily on marine resources",
+          "explanation": "题干中的“depended more on the sea for their livelihood”需要结合本题证据理解为“relied heavily on marine resources”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "多选两空作为一组判断，两个正确字母不按出现顺序固定。"
+      ],
+      "reviewTip": "多选两空作为一组判断，两个正确字母不按出现顺序固定。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说居民大多有自己的船，没有说常用偷来的船袭击。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "熟悉海岸和航线帮助他们在国家舰队到来后避开报复，成立。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "原文强调本地人自身的航海知识，未提付款购买情报。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "崎岖山地居民高度依赖海洋资源，符合相比农业更靠海谋生的概括。"
+        },
+        {
+          "label": "E",
+          "correct": false,
+          "reason": "海湾用于藏船和隐蔽突袭，未说用于储藏掠夺来的货物。"
+        }
+      ]
+    },
+    "c19-t1-p2:22": {
+      "answer": "C",
+      "stem": "Which TWO of the following statements does the writer make about piracy and ancient Greece? A The state estimated that very few people were involved in piracy. B Attitudes towards piracy changed shortly after the lliad and the Odyssey were written. C Important officials were known to occasionally take part in piracy. D Every citizen regarded pirate attacks on cities as unacceptable. E Afavourable view of piracy is evident in certain ancient Greek texts.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Even high-ranking members of the state were not beyond engaging in such activities."
+        },
+        {
+          "paragraph": 7,
+          "quote": "Interestingly, in his works the Iliad and the Odyssey, the ancient Greek writer Homer not only condones, but praises the lifestyle and actions of pirates."
+        }
+      ],
+      "reasoning": [
+        "E段明确说连国家高层人员也会参与海盗活动，并举雅典使节偏离公务路线去掠夺埃及船只为例。这与选项C的important officials occasionally take part in piracy相符。",
+        "同组另一正确答案E来自荷马和修昔底德对海盗行为的肯定描写。原文反而说希腊对海盗的态度持续了数世纪，因此不能选声称史诗完成后不久态度就改变的B。22与23两个字母允许交换。"
+      ],
+      "paraphrases": [
+        {
+          "question": "Important officials ... take part",
+          "passage": "high-ranking members ... engaging",
+          "explanation": "题干中的“Important officials ... take part”需要结合本题证据理解为“high-ranking members ... engaging”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "识别不是抽象称赞，而是高官实际参与的具体例子。"
+      ],
+      "reviewTip": "识别不是抽象称赞，而是高官实际参与的具体例子。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说海盗人数众多，阻碍了限制海盗的尝试，并非很少。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "原文说相关态度在之后数世纪保持不变，不是很快改变。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "高层人员也参与海盗行为，雅典使节劫船是直接例证。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "希腊人并非总容忍海盗，但不等于每位公民均认为袭城不可接受。"
+        },
+        {
+          "label": "E",
+          "correct": true,
+          "reason": "荷马赞扬海盗，修昔底德也歌颂其大胆行为，古代文本有正面评价。"
+        }
+      ]
+    },
+    "c19-t1-p2:23": {
+      "answer": "E",
+      "stem": "Which TWO of the following statements does the writer make about piracy and ancient Greece? A The state estimated that very few people were involved in piracy. B Attitudes towards piracy changed shortly after the lliad and the Odyssey were written. C Important officials were known to occasionally take part in piracy. D Every citizen regarded pirate attacks on cities as unacceptable. E Afavourable view of piracy is evident in certain ancient Greek texts.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Interestingly, in his works the Iliad and the Odyssey, the ancient Greek writer Homer not only condones, but praises the lifestyle and actions of pirates."
+        }
+      ],
+      "reasoning": [
+        "E段谈荷马的《伊利亚特》和《奥德赛》，用condones和praises表明这些古希腊作品对海盗抱有宽容甚至赞扬的态度，因此选项E“某些古希腊文本呈现有利评价”正确。",
+        "不要把文中large number of pirates误读为人数很少，也不能因为某些希腊人试图限制海盗就推出every citizen都反对。另一正确选项为C，来自高层官员参与的例子；本组答案C、E可互换位置。"
+      ],
+      "paraphrases": [
+        {
+          "question": "a favourable view ... texts",
+          "passage": "condones ... praises",
+          "explanation": "题干中的“a favourable view ... texts”需要结合本题证据理解为“condones ... praises”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "some texts的有限范围不能扩大成每个公民都有同一态度。"
+      ],
+      "reviewTip": "some texts的有限范围不能扩大成每个公民都有同一态度。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说海盗人数众多，阻碍了限制海盗的尝试，并非很少。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "原文说相关态度在之后数世纪保持不变，不是很快改变。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "高层人员也参与海盗行为，雅典使节劫船是直接例证。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "希腊人并非总容忍海盗，但不等于每位公民均认为袭城不可接受。"
+        },
+        {
+          "label": "E",
+          "correct": true,
+          "reason": "荷马赞扬海盗，修昔底德也歌颂其大胆行为，古代文本有正面评价。"
+        }
+      ]
+    },
+    "c19-t1-p2:24": {
+      "answer": "grain",
+      "stem": "Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting [24] ____ to Rome resulted in calls for [25] ____for the pirates responsible. Nevertheless, piracy continued, with some pirates demanding a [26] ____ for the return of the Roman officials they captured.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Pirate attacks on grain ships, which were essential to Roman citizens, led to angry voices in the Senate, demanding punishment of the culprits."
+        }
+      ],
+      "reasoning": [
+        "F段先说罗马从海盗提供的奴隶中获益，再用But转折说明海盗开始触及罗马利益：运输谷物的船遭到攻击，而这些谷物对罗马公民至关重要。摘要vessels transporting ...对应grain ships。",
+        "空格问运输的货物，不能填slaves；奴隶出现在前一个受益层面，谷物才是导致元老院愤怒的受袭货物。grain是原文原词、不可数名词，满足ONE WORD ONLY。"
+      ],
+      "paraphrases": [
+        {
+          "question": "vessels transporting",
+          "passage": "grain ships",
+          "explanation": "题干中的“vessels transporting”需要结合本题证据理解为“grain ships”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "注意But前后的利益关系变化，别把奴隶和谷物两个货物混淆。"
+      ],
+      "reviewTip": "注意But前后的利益关系变化，别把奴隶和谷物两个货物混淆。"
+    },
+    "c19-t1-p2:25": {
+      "answer": "punishment",
+      "stem": "Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting [24] ____ to Rome resulted in calls for [25] ____for the pirates responsible. Nevertheless, piracy continued, with some pirates demanding a [26] ____ for the return of the Roman officials they captured.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Pirate attacks on grain ships, which were essential to Roman citizens, led to angry voices in the Senate, demanding punishment of the culprits."
+        }
+      ],
+      "reasoning": [
+        "F段说海盗袭击粮船后，元老院出现愤怒声音，要求惩罚罪犯。摘要calls for ... for the pirates responsible保留“要求对责任者采取什么行动”的关系，因此填punishment。",
+        "Rome did nothing说明要求没有立刻变成实际行动，却不影响“有人呼吁惩罚”这一事实。不要因为罗马未行动而改填相反意思，也不能填culprits，因为空格需要行动名词而非责任人的名称。"
+      ],
+      "paraphrases": [
+        {
+          "question": "calls for",
+          "passage": "demanding punishment",
+          "explanation": "题干中的“calls for”需要结合本题证据理解为“demanding punishment”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分提出要求与实际执行；本题只问呼吁的内容。"
+      ],
+      "reviewTip": "区分提出要求与实际执行；本题只问呼吁的内容。"
+    },
+    "c19-t1-p2:26": {
+      "answer": "ransom",
+      "stem": "Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting [24] ____ to Rome resulted in calls for [25] ____for the pirates responsible. Nevertheless, piracy continued, with some pirates demanding a [26] ____ for the return of the Roman officials they captured.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "By the Ist century BCE, emboldened pirates kidnapped prominent Roman dignitaries, asking for a large ransom to be paid."
+        }
+      ],
+      "reasoning": [
+        "F段末说海盗绑架罗马显贵，要求支付大笔赎金，并举凯撒遭绑架为例。摘要for the return of ... officials说明付钱的目的在于换回人质，对应的专门名词是ransom。",
+        "punishment属于元老院针对海盗的要求，和海盗向被绑者索取的钱不是同一方的诉求。ransom为单数名词，可与题干已经提供的a搭配；不要加入large造成超过一个词限制。"
+      ],
+      "paraphrases": [
+        {
+          "question": "for the return of ... officials",
+          "passage": "a large ransom to be paid",
+          "explanation": "题干中的“for the return of ... officials”需要结合本题证据理解为“a large ransom to be paid”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "核对索取者是海盗、对象是被绑官员、目的为释放人质。"
+      ],
+      "reviewTip": "核对索取者是海盗、对象是被绑官员、目的为释放人质。"
+    },
+    "c19-t1-p3:27": {
+      "answer": "D",
+      "stem": "What point does the writer make about misinformation in the first paragraph? A Misinformation is a relatively recent phenomenon. B Some people find it easy to identify misinformation. C Misinformation changes as it is passed from one person to another. D There may be a number of reasons for the spread of misinformation.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Deceiving others can offer an apparent opportunity to gain strategic advantage, to motivate others to action, or even to protect interpersonal bonds."
+        }
+      ],
+      "reasoning": [
+        "首个正文段列举传播虚假信息的多个动机：争取战略优势、促使他人行动，甚至保护人际关系；还补充误传可能是无意的。因此作者强调原因多样，选D，而非仅说明错误信息存在已久。",
+        "A说这是近期现象，被not a new problem直接否定；B的识别难易、C的传播中内容变化都不在本段重点之中。判断段落观点要概括列举事项的共同作用，不能只抓一个词或把个人常识补进文中。"
+      ],
+      "paraphrases": [
+        {
+          "question": "a number of reasons",
+          "passage": "gain ... motivate ... protect",
+          "explanation": "题干中的“a number of reasons”需要结合本题证据理解为“gain ... motivate ... protect”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "一串to ...动词结构通常是在列举原因；需概括整组而非单一例子。"
+      ],
+      "reviewTip": "一串to ...动词结构通常是在列举原因；需概括整组而非单一例子。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "首段说并非新问题，历史可追溯到言语交流初期。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "没有讨论部分人是否容易识别虚假信息。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "无意分享不等于信息在传播过程中必然改变。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "战略利益、促进行动、保护关系及无意误传构成多种原因。"
+        }
+      ]
+    },
+    "c19-t1-p3:28": {
+      "answer": "A",
+      "stem": "What does the writer say about the role of technology? A It may at some point provide us with a solution to misinformation. B It could fundamentally alter the way in which people regard information. C It has changed the way in which organisations use misinformation. D It has made it easier for people to check whether information is accurate.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Yet the means to correct misinformation might, over time, be found in those same patterns of mass communication and of the facilitated spread of information."
+        }
+      ],
+      "reasoning": [
+        "第二正文段先承认科技扩大虚假信息的传播，再用Yet转折说，纠正办法日后也可能在同样的大众传播模式中找到。选项A的may at some point provide a solution完整保留这种可能性和未来时间。",
+        "D把未来可能找到纠正办法改成目前已经更容易核查准确性，时间和完成状态都改变了。B、C则加入原文没有论证的看法或组织行为变化。作者的转折结论支持A，而非把科技仅视为问题来源。"
+      ],
+      "paraphrases": [
+        {
+          "question": "may at some point provide ... solution",
+          "passage": "might, over time, be found",
+          "explanation": "题干中的“may at some point provide ... solution”需要结合本题证据理解为“might, over time, be found”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "might, over time表示未来可能，不能等同已经实现的能力。"
+      ],
+      "reviewTip": "might, over time表示未来可能，不能等同已经实现的能力。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "Yet后说未来可能在大众传播模式中找到纠正手段，符合可能性语气。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "未说科技从根本上改变人们看待信息的方式。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "没有具体论述组织如何因科技改变使用虚假信息的方式。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "原文提出未来可能的解决办法，并非已更易核查准确性。"
+        }
+      ]
+    },
+    "c19-t1-p3:29": {
+      "answer": "C",
+      "stem": "What is the writer doing in the fourth paragraph? A comparing the different opinions people have of misinformation B explaining how the effects of misinformation have changed over time C outlining which issues connected with misinformation are significant today D describing the attitude of policy makers towards misinformation in the media",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "At least three observations related to misinformation in the contemporary mass-media environment warrant the attention of researchers, policy makers, and really everyone who watches television, listens to the radio, or reads information online."
+        }
+      ],
+      "reasoning": [
+        "题目问第四个正文段的写作作用。该段先指出至少三项现象值得研究者、决策者和公众关注，随后依次列出初次容易相信、媒体不事先阻拦、事后纠正耗费资源，故选C“概述当今重要问题”。",
+        "这不是比较不同群体的观点，也没有沿时间线解释影响如何变化；提到政策制定者只是列举应关注问题的人，不是在描写其态度。注意本文前有副标题，段落计数应按正文而非网页辅助文字计算。"
+      ],
+      "paraphrases": [
+        {
+          "question": "issues ... significant today",
+          "passage": "three observations ... warrant the attention",
+          "explanation": "题干中的“issues ... significant today”需要结合本题证据理解为“three observations ... warrant the attention”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "遇到问段落功能，要看总起句及First、Secondly、Thirdly的组织关系。"
+      ],
+      "reviewTip": "遇到问段落功能，要看总起句及First、Secondly、Thirdly的组织关系。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "该段列三项需关注现象，不是比较不同人群的意见。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "没有纵向比较过去和现在的影响变化。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "总起句及三项列举概括当下值得关注的问题，正确。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "政策制定者是应关注这些现象的人之一，段落并未描写他们的态度。"
+        }
+      ]
+    },
+    "c19-t1-p3:30": {
+      "answer": "D",
+      "stem": "What point does the writer make about regulation in the USA? A The guidelines issued by the FDA need to be simplified. B Regulation does not affect people's opinions of new prescription drugs. C The USA has more regulatory bodies than most other countries. D Regulation fails to prevent misinformation from appearing in the media.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Such programs, although laudable and useful, do not keep false advertising off the airwaves."
+        }
+      ],
+      "reasoning": [
+        "监管段解释美国机构偏重事后发现和通报，FDA的举报项目虽有价值，却不能阻止虚假广告播出。因此选D：监管并未在信息进入媒体之前把它拦住，而不是断言所有监管都毫无作用。",
+        "A的简化指南、C与其他国家比较机构数量，均未涉及。B也误读段尾：作者说即使成功纠正的信息仍可能影响态度，并非监管对药物观点完全没有影响。核心区分是事前预防与事后处理。"
+      ],
+      "paraphrases": [
+        {
+          "question": "fails to prevent ... appearing",
+          "passage": "do not keep ... off the airwaves",
+          "explanation": "题干中的“fails to prevent ... appearing”需要结合本题证据理解为“do not keep ... off the airwaves”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "post hoc与preemptive的区别是本题的关键，避免绝对化监管效果。"
+      ],
+      "reviewTip": "post hoc与preemptive的区别是本题的关键，避免绝对化监管效果。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文没有提出FDA指南太复杂或需要简化。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "成功纠正后仍影响态度，不等于监管完全不影响观点。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "没有跨国比较监管机构数量。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "监管偏重事后发现，不阻止错误广告播出，准确概括核心论点。"
+        }
+      ]
+    },
+    "c19-t1-p3:31": {
+      "answer": "G",
+      "stem": "What happens when people encounter misinformation? Although people have [31] ____to misinformation, there is debate about precisely how and when we label something as true or untrue. The philosophers Descartes and Spinoza had [32] ____ about how people engage with information. While Descartes …",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Although it is fairly routine for individuals to come across information that is false, the question of exactly how - and when - we mentally label information as true or false has garnered philosophical debate."
+        }
+      ],
+      "reasoning": [
+        "原文说个人遇到虚假信息是相当常见的事情。摘要Although people have ... to misinformation需要填一个表示接触频率的名词短语，G frequent exposure恰好对应fairly routine ... come across。",
+        "F extreme distrust虽然与信息真假有关，却既不符合本处“常常接触”的意思，也不能解释although引出的后续哲学争议。此题是选词列表题，输入字母G即可，不要把短语整段或原文单词直接抄成答案。"
+      ],
+      "paraphrases": [
+        {
+          "question": "frequent exposure",
+          "passage": "fairly routine ... come across",
+          "explanation": "题干中的“frequent exposure”需要结合本题证据理解为“fairly routine ... come across”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "先判断空位要表达接触频率，而不是人们的态度。"
+      ],
+      "reviewTip": "先判断空位要表达接触频率，而不是人们的态度。"
+    },
+    "c19-t1-p3:32": {
+      "answer": "J",
+      "stem": "… people have [31] ____to misinformation, there is debate about precisely how and when we label something as true or untrue. The philosophers Descartes and Spinoza had [32] ____ about how people engage with information. While Descartes believed that people accept or reject information after considering whether it is true or not, Spinoza argued that people accepted all information they …",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "The dilemma is neatly summarized by a contrast between how the 17th-century philosophers René Descartes and Baruch Spinoza described human information engagement, with conflicting predictions that only recently have been empirically tested in robust ways."
+        }
+      ],
+      "reasoning": [
+        "原文比较笛卡尔与斯宾诺莎对人们处理信息过程的不同看法，并说他们提出相冲突的预期。摘要had ... about how people engage with information需要概括这层意见差异，故选J different ideas。",
+        "两位哲学家并非研究者进行实验的对象，D experimental subjects不合身份；A constant conflict也夸大为持续冲突关系。原文只是理论解释不同，后面才交代这些解释近年受到实证检验。"
+      ],
+      "paraphrases": [
+        {
+          "question": "different ideas",
+          "passage": "conflicting predictions",
+          "explanation": "题干中的“different ideas”需要结合本题证据理解为“conflicting predictions”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "不要把理论分歧扩大成人物之间持续的冲突。"
+      ],
+      "reviewTip": "不要把理论分歧扩大成人物之间持续的冲突。"
+    },
+    "c19-t1-p3:33": {
+      "answer": "H",
+      "stem": "… accepted all information they encountered (and by default misinformation) and did not verify or reject it until afterwards. Moreover, Spinoza believed that a distinct [33] ____ is involved in these stages. Recent research has provided [34] ____ for Spinoza's theory and it would appear that people accept all encountered information as if it were true, even if this is for an extremely [35] …",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Descartes argued that a person only accepts or rejects information after considering its truth or falsehood; Spinoza argued that people accept all encountered information (or misinformation) by default and then subsequently verify or reject it through a separate cognitive process."
+        }
+      ],
+      "reasoning": [
+        "斯宾诺莎认为人们先默认接受信息，再通过一个独立的认知过程核实或否定。摘要a distinct ... is involved in these stages所需的是一个心理活动过程，因此对应H mental operation。",
+        "这里separate描述的是核查相对于初始接受而言的过程独立，而不是两位哲学家的分歧。选C different locations会把后面脑区位置的发现提前填到认知过程空位，虽然主题相近但语义对象不对。"
+      ],
+      "paraphrases": [
+        {
+          "question": "distinct mental operation",
+          "passage": "a separate cognitive process",
+          "explanation": "题干中的“distinct mental operation”需要结合本题证据理解为“a separate cognitive process”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "把“处理过程”与后面讨论的“脑区位置”分清。"
+      ],
+      "reviewTip": "把“处理过程”与后面讨论的“脑区位置”分清。"
+    },
+    "c19-t1-p3:34": {
+      "answer": "B",
+      "stem": "… and did not verify or reject it until afterwards. Moreover, Spinoza believed that a distinct [33] ____ is involved in these stages. Recent research has provided [34] ____ for Spinoza's theory and it would appear that people accept all encountered information as if it were true, even if this is for an extremely [35] ____, and do not label the information as true or false until later. …",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "In recent decades, empirical evidence from the research teams of Erik Asp of the University of Chicago and Daniel Gilbert at Harvard University, among others, has supported Spinoza's account: people appear to encode all new information as if it were true, even if only momentarily, and later tag the information as being either true or false, a pattern that seems consistent with the observation that mental resources for skepticism physically reside in a different part of the brain than the resources used in perceiving and encoding."
+        }
+      ],
+      "reasoning": [
+        "原文在介绍斯宾诺莎理论之后，写到近几十年的研究团队提供实证证据支持这一解释。摘要Recent research has provided ... for Spinoza’s theory需要表达理论得到的新支持，因此选B additional evidence。",
+        "研究团队本身或实验受试者并不等于研究所得的证据；另外，J different ideas指两位哲学家的不同理论，不能替代支持其中一种解释的实证结果。根据provided ... for的关系，空位是支持材料而非争论主体。"
+      ],
+      "paraphrases": [
+        {
+          "question": "additional evidence",
+          "passage": "empirical evidence",
+          "explanation": "题干中的“additional evidence”需要结合本题证据理解为“empirical evidence”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "注意从历史理论转到现代实证结果的层次变化。"
+      ],
+      "reviewTip": "注意从历史理论转到现代实证结果的层次变化。"
+    },
+    "c19-t1-p3:35": {
+      "answer": "E",
+      "stem": "… has provided [34] ____ for Spinoza's theory and it would appear that people accept all encountered information as if it were true, even if this is for an extremely [35] ____, and do not label the information as true or false until later. This is consistent with the fact that the resources for scepticism and the resources for perceiving and encoding are in [36] ____ in the brain.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "In recent decades, empirical evidence from the research teams of Erik Asp of the University of Chicago and Daniel Gilbert at Harvard University, among others, has supported Spinoza's account: people appear to encode all new information as if it were true, even if only momentarily, and later tag the information as being either true or false, a pattern that seems consistent with the observation that mental resources for skepticism physically reside in a different part of the brain than the resources used in perceiving and encoding."
+        }
+      ],
+      "reasoning": [
+        "原文说人们似乎会把所有新信息先按真信息编码，哪怕这种状态只有一瞬间。摘要for an extremely ...要求表示非常短的持续时间，E short period对应momentarily，且和后续later形成前后对照。",
+        "这并不意味着人们始终相信所有信息；之后仍会标记真假。因此不能选择constant conflict或extreme distrust这类描述心理态度、而非持续时长的短语。空前extremely也提示后面需要能描述时间长短的内容。"
+      ],
+      "paraphrases": [
+        {
+          "question": "extremely short period",
+          "passage": "only momentarily",
+          "explanation": "题干中的“extremely short period”需要结合本题证据理解为“only momentarily”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分初始瞬间接受与之后再次判断，不要把短暂阶段当最终信念。"
+      ],
+      "reviewTip": "区分初始瞬间接受与之后再次判断，不要把短暂阶段当最终信念。"
+    },
+    "c19-t1-p3:36": {
+      "answer": "C",
+      "stem": "… the information as true or false until later. This is consistent with the fact that the resources for scepticism and the resources for perceiving and encoding are in [36] ____ in the brain.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "In recent decades, empirical evidence from the research teams of Erik Asp of the University of Chicago and Daniel Gilbert at Harvard University, among others, has supported Spinoza's account: people appear to encode all new information as if it were true, even if only momentarily, and later tag the information as being either true or false, a pattern that seems consistent with the observation that mental resources for skepticism physically reside in a different part of the brain than the resources used in perceiving and encoding."
+        }
+      ],
+      "reasoning": [
+        "段末将心理处理的两个阶段与脑区区分联系起来：负责怀疑的资源，与负责感知和编码的资源位于不同脑区。摘要are in ... in the brain因此要填C different locations，而不是一种心理活动或理论分歧。",
+        "答案依据是physically和different part这样的空间表述。前面的separate cognitive process虽然也含“分开”，但它对应第33题的心理过程；此处已经转向资源在大脑中的实际位置，应按空位层次区分。"
+      ],
+      "paraphrases": [
+        {
+          "question": "different locations",
+          "passage": "a different part of the brain",
+          "explanation": "题干中的“different locations”需要结合本题证据理解为“a different part of the brain”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同一段反复出现different/separate，必须判断修饰的是过程还是位置。"
+      ],
+      "reviewTip": "同一段反复出现different/separate，必须判断修饰的是过程还是位置。"
+    },
+    "c19-t1-p3:37": {
+      "answer": "YES",
+      "stem": "Campaigns designed to correct misinformation will fail to achieve their purpose if people are unable to understand them.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "For corrective campaigns to be persuasive, audiences need to be able to comprehend them, which requires either effort to frame messages in ways that are accessible or effort to educate and sensitize audiences to the possibility of misinformation."
+        }
+      ],
+      "reasoning": [
+        "纠正信息的宣传要有说服力，原文明确提出受众必须能够理解。这是达到目的的必要条件，题干把它改写为：受众无法理解时，宣传就不能实现目标。两个表述在逻辑上等价，因此答案YES。",
+        "本题不是说“只要理解就一定成功”，原文还要求覆盖率、频次和资源等条件。注意必要条件的否定推导：缺少理解会妨碍说服，但理解本身不保证全部目标达成，不能因还有别的条件就判NO。"
+      ],
+      "paraphrases": [
+        {
+          "question": "fail ... unable to understand",
+          "passage": "need to be able to comprehend",
+          "explanation": "题干中的“fail ... unable to understand”需要结合本题证据理解为“need to be able to comprehend”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "必要条件可以反向表达为缺少该条件则失败，不等于充分条件。"
+      ],
+      "reviewTip": "必要条件可以反向表达为缺少该条件则失败，不等于充分条件。"
+    },
+    "c19-t1-p3:38": {
+      "answer": "NOT GIVEN",
+      "stem": "Attempts to teach elementary school students about misinformation have been opposed.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "That some audiences might be unaware of the potential for misinformation also suggests the utility of media literacy efforts as early as elementary school."
+        }
+      ],
+      "reasoning": [
+        "第八段认为从小学阶段开展媒体素养教育有用，原因是部分受众甚至没有意识到虚假信息可能存在。原文没有交代这些教育尝试是否已经实施，也未描述有人支持或反对的实际反应。",
+        "题干增加了have been opposed这种既成事实。作者建议某事有价值，不意味着现实中已遭反对；也不能反推不存在反对。因此原文不足以判断这一经历，答案为NOT GIVEN，而非根据作者赞成就判NO。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "作者提出建议，与社会是否已反对这项措施，是两类不同信息。"
+      ],
+      "reviewTip": "作者提出建议，与社会是否已反对这项措施，是两类不同信息。"
+    },
+    "c19-t1-p3:39": {
+      "answer": "NO",
+      "stem": "It may be possible to overcome the problem of misinformation in a relatively short period.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "The journey forward undoubtedly will be a long and arduous one."
+        }
+      ],
+      "reasoning": [
+        "最后一段预期解决虚假信息的道路漫长而艰难，并强调需要长时间协调努力，不存在一次性的万能办法。题干则认为可能在较短时间内克服问题，与作者给出的时间判断直接相反。",
+        "不能只看到段首有人积极研发补救措施就推断很快奏效；这是对投入的描述，不是对解决周期的乐观预测。long、over time和rather than any singular one-time panacea共同反驳short period，所以选NO。"
+      ],
+      "paraphrases": [
+        {
+          "question": "a relatively short period",
+          "passage": "a long and arduous one",
+          "explanation": "不能只看到段首有人积极研发补救措施就推断很快奏效；这是对投入的描述，不是对解决周期的乐观预测。long、over time和rather than any singular one-time panacea共同反驳short period，所以选NO。"
+        }
+      ],
+      "traps": [
+        "积极寻找方案不代表预期能在短时间内解决。"
+      ],
+      "reviewTip": "积极寻找方案不代表预期能在短时间内解决。"
+    },
+    "c19-t1-p3:40": {
+      "answer": "NOT GIVEN",
+      "stem": "The need to keep up with new information is hugely exaggerated in today's world.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Misinformation arises as a result of human fallibility and human information needs."
+        }
+      ],
+      "reasoning": [
+        "末段把虚假信息的产生归因于人类会犯错及信息需求，但没有评价人们不断获取新信息的需求是否被严重夸大。题干的hugely exaggerated是对这一需求的价值判断，原文没有提供对应态度。",
+        "信息需求被列为原因之一，并不能推出作者认为需求合理或过分，也不能把“虚假信息普遍”误作“追新需求被夸大”。因为缺少对需求程度及其评价的论证，答案为NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "因果说明不等于评价需求是否合理，尤其留意hugely这种程度词。"
+      ],
+      "reviewTip": "因果说明不等于评价需求是否合理，尤其留意hugely这种程度词。"
+    },
+    "c19-t2-p1:1": {
+      "answer": "piston",
+      "stem": "• In Watt and Boulton's steam engine, the movement of the [1] ____",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Watt later worked with the English manufacturer Matthew Boulton to invent a new steam engine driven by both the forward and backward strokes of the piston, while the gear mechanism it was connected to produced rotary motion."
+        }
+      ],
+      "reasoning": [
+        "第二段说明瓦特和博尔顿改进的蒸汽机利用活塞的前后往复运动，再通过相连的齿轮机构产生旋转运动。笔记movement of the ...与forward and backward strokes对应，空格所指的运动部件就是piston。",
+        "题干已经给出gear system，因此不能再填gear；steam engine也是整台设备而非其中的往复部件。piston是单数可数名词，空前已有the，填写一个词满足ONE WORD ONLY。"
+      ],
+      "paraphrases": [
+        {
+          "question": "movement ... linked to a gear system",
+          "passage": "strokes of the piston",
+          "explanation": "题干中的“movement ... linked to a gear system”需要结合本题证据理解为“strokes of the piston”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分产生往复运动的活塞与把运动转为旋转的齿轮机构。"
+      ],
+      "reviewTip": "区分产生往复运动的活塞与把运动转为旋转的齿轮机构。"
+    },
+    "c19-t2-p1:2": {
+      "answer": "coal",
+      "stem": "• A greater supply of [2] ____ was required to power steam engines.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "The demand for coal, which was a relatively cheap energy source, grew rapidly during the Industrial Revolution, as it was needed to run not only the factories used to produce manufactured goods, but also steam-powered transportation."
+        }
+      ],
+      "reasoning": [
+        "第三段说煤是较便宜的能源，工业革命期间对煤的需求快速增长，因为工厂以及蒸汽交通都需要它。笔记A greater supply ... required to power steam engines把需求增长改写为需要更多供应，因此填coal。",
+        "此处问的是驱动蒸汽设备所需的燃料，不是蒸汽本身，也不是上一段矿井排出的水。coal为不可数名词，一个词足够，不能把relatively cheap energy source整个描述抄入空格。"
+      ],
+      "paraphrases": [
+        {
+          "question": "greater supply ... to power",
+          "passage": "demand for coal ... needed to run",
+          "explanation": "题干中的“greater supply ... to power”需要结合本题证据理解为“demand for coal ... needed to run”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同一主题出现water、steam和coal时，按能源与用途关系定位。"
+      ],
+      "reviewTip": "同一主题出现water、steam和coal时，按能源与用途关系定位。"
+    },
+    "c19-t2-p1:3": {
+      "answer": "workshops",
+      "stem": "Before the Industrial Revolution, spinners and weavers worked at home and in [3] ____",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Britain had produced textiles like wool, linen and cotton, for hundreds of years, but prior to the Industrial Revolution, the British textile business was a true 'cottage industry', with the work performed in small workshops or even homes by individual spinners, weavers and dyers."
+        }
+      ],
+      "reasoning": [
+        "第四段回顾工业革命前的纺织业，称其为家庭手工业，纺纱工、织工和染工在小作坊甚至家中工作。笔记已给at home and in ...，用并列地点结构要求补出另一场所workshops。",
+        "factories出现在后文机械化之后，时代与空格前Before the Industrial Revolution不符。原文small只是修饰语，单词限制为一个词，应填写workshops并保留复数，不能把工厂作为常识答案。"
+      ],
+      "paraphrases": [
+        {
+          "question": "at home and in",
+          "passage": "small workshops or even homes",
+          "explanation": "题干中的“at home and in”需要结合本题证据理解为“small workshops or even homes”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "先看时间限定Before，避免把革命后的工厂移到革命前。"
+      ],
+      "reviewTip": "先看时间限定Before，避免把革命后的工厂移到革命前。"
+    },
+    "c19-t2-p1:4": {
+      "answer": "labour / labor",
+      "stem": "• Not as much [4] ____ was needed to produce cloth once the spinning jenny and power loom were invented.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "With these machines, relatively little labour was required to produce cloth, and the new, mechanised textile factories that opened around the country were quickly able to meet customer demand for cloth both at home and abroad."
+        }
+      ],
+      "reasoning": [
+        "第四段说明纺纱机和动力织机让织布与纺线容易得多，生产布料需要的劳动力相对很少。笔记Not as much ... was needed to produce cloth直接改写relatively little labour was required，因此填labour。",
+        "cloth是生产结果，machines是降低劳动力需求的工具，都不符合空位问“所需量减少的投入”这一关系。英式labour和美式labor均获接受，填其中一种即可，不能把两种拼写同时写上。"
+      ],
+      "paraphrases": [
+        {
+          "question": "Not as much ... was needed",
+          "passage": "relatively little labour was required",
+          "explanation": "题干中的“Not as much ... was needed”需要结合本题证据理解为“relatively little labour was required”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "辨清机器是原因，减少的劳动力才是被提问的结果。"
+      ],
+      "reviewTip": "辨清机器是原因，减少的劳动力才是被提问的结果。"
+    },
+    "c19-t2-p1:5": {
+      "answer": "quality",
+      "stem": "Smelting of iron ore with coke resulted in material that was better [5] ____",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "This method was cheaper and produced metals that were of a higher quality, enabling Britain's iron and steel production to expand in response to demand created by the Napoleonic Wars (1803-15) and the expansion of the railways from the 1830s."
+        }
+      ],
+      "reasoning": [
+        "铁工业段把用焦炭冶炼的新方法与传统木炭法比较，说新法更便宜且产出金属质量更高。笔记material that was better ...要求完成质量维度的比较，答案是quality。",
+        "原文cheaper是成本维度，不能填cost；higher quality对应题干better quality这一搭配。coke和charcoal则是工艺使用的燃料。空位只需一个名词，higher或better已经由题干表达，不必重复。"
+      ],
+      "paraphrases": [
+        {
+          "question": "better ...",
+          "passage": "of a higher quality",
+          "explanation": "题干中的“better ...”需要结合本题证据理解为“of a higher quality”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同一句并列的成本与质量要按题干better后的名词位置区分。"
+      ],
+      "reviewTip": "同一句并列的成本与质量要按题干better后的名词位置区分。"
+    },
+    "c19-t2-p1:6": {
+      "answer": "railway(s)",
+      "stem": "Demand for iron increased with the growth of the [6] ____",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "This method was cheaper and produced metals that were of a higher quality, enabling Britain's iron and steel production to expand in response to demand created by the Napoleonic Wars (1803-15) and the expansion of the railways from the 1830s."
+        }
+      ],
+      "reasoning": [
+        "第六段末指出铁钢产量扩大，回应拿破仑战争和十九世纪三十年代开始扩张的铁路所带来的需求。笔记growth of the ...指后一项基础建设的扩展，因此应填railways，原书也接受railway。",
+        "战争是另一个并列原因，却不适合这里growth of the的表述；铁路车辆或运输一般概念也不如原文的明确名词准确。注意不需要把from the 1830s加到答案中，一个词即可。"
+      ],
+      "paraphrases": [
+        {
+          "question": "growth of",
+          "passage": "the expansion of the railways",
+          "explanation": "题干中的“growth of”需要结合本题证据理解为“the expansion of the railways”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "并列原因题要核对被题干选中的具体原因，不要只凭离空位近的词。"
+      ],
+      "reviewTip": "并列原因题要核对被题干选中的具体原因，不要只凭离空位近的词。"
+    },
+    "c19-t2-p1:7": {
+      "answer": "sanitation",
+      "stem": "The new cities were dirty, crowded and lacked sufficient [7] ____",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "This rapid urbanisation brought significant challenges, as overcrowded cities suffered from pollution and inadequate sanitation."
+        }
+      ],
+      "reasoning": [
+        "第八段讲快速城市化带来的问题：拥挤城市受到污染且卫生设施不足。笔记dirty、crowded对应pollution、overcrowded，最后lacked sufficient ...直接改写inadequate sanitation，故填sanitation。",
+        "不能再填pollution，因为“缺乏足够污染”会与题意相反；housing虽与城市化有关，但本句没有作为所缺项目列出。sanitation是不可数名词，既符合语法也满足ONE WORD ONLY。不足的是卫生条件，不是城市人口或工厂数量。"
+      ],
+      "paraphrases": [
+        {
+          "question": "lacked sufficient",
+          "passage": "inadequate sanitation",
+          "explanation": "题干中的“lacked sufficient”需要结合本题证据理解为“inadequate sanitation”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "利用dirty/crowded两个已给线索，锁定并列问题中的卫生设施。"
+      ],
+      "reviewTip": "利用dirty/crowded两个已给线索，锁定并列问题中的卫生设施。"
+    },
+    "c19-t2-p1:8": {
+      "answer": "NOT GIVEN",
+      "stem": "Britain's canal network grew rapidly so that more goods could be transported around the country.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "In addition, steam-powered boats and ships were widely used to carry goods along Britain's canals as well as across the Atlantic."
+        }
+      ],
+      "reasoning": [
+        "原文提到蒸汽船通过英国运河以及横渡大西洋运货，但没有说明运河网络在这段时期是否快速扩张，也没有把扩张目的表述为运送更多国内货物。题干把存在的运河运输发展成了网络增长这一新事实。",
+        "有运输活动不等于基础设施一定扩张，更不能自行推断扩张速度和目的。文章明确说迅速增长的是煤炭需求，并非运河网络，所以不能借grew rapidly的印象判TRUE；原文也未否定扩张，答案NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "“使用既有运输网络”和“网络快速增长”不是同一命题。"
+      ],
+      "reviewTip": "“使用既有运输网络”和“网络快速增长”不是同一命题。"
+    },
+    "c19-t2-p1:9": {
+      "answer": "FALSE",
+      "stem": "Costs in the iron industry rose when the technique of smelting iron ore with coke was introduced.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "This method was cheaper and produced metals that were of a higher quality, enabling Britain's iron and steel production to expand in response to demand created by the Napoleonic Wars (1803-15) and the expansion of the railways from the 1830s."
+        }
+      ],
+      "reasoning": [
+        "新冶炼方法以焦炭代替木炭，原文直接评价This method was cheaper。题干却说引入这种方法时铁工业的成本上升，成本变化方向与cheaper相反，因此应判FALSE。",
+        "铁钢产量扩大和需求增长并不表示单位生产成本上升。定位后应先读新方法的直接比较结果，再区分生产量与成本两个指标，不能仅用工业规模变大推断成本也增加。"
+      ],
+      "paraphrases": [
+        {
+          "question": "Costs ... rose",
+          "passage": "This method was cheaper",
+          "explanation": "铁钢产量扩大和需求增长并不表示单位生产成本上升。定位后应先读新方法的直接比较结果，再区分生产量与成本两个指标，不能仅用工业规模变大推断成本也增加。"
+        }
+      ],
+      "traps": [
+        "成本、产量和需求是不同指标，不要相互替换。"
+      ],
+      "reviewTip": "成本、产量和需求是不同指标，不要相互替换。"
+    },
+    "c19-t2-p1:10": {
+      "answer": "NOT GIVEN",
+      "stem": "Samuel Morse's communication system was more reliable than that developed by William Cooke and Charles Wheatstone.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "In the 1830s and 1840s, Samuel Morse and other inventors worked on their own versions in the United States."
+        }
+      ],
+      "reasoning": [
+        "通信段交代库克和惠斯通取得首个商用电报系统专利，也说莫尔斯等人在美国研究自己的版本。原文没有比较两套系统的可靠性，更没有评价其中哪一个更可靠。",
+        "题干more reliable构成明确的优劣比较。系统研发时间、专利先后和英国铁路使用电报，都不能推出可靠性排名；即使知道历史背景也不能代替文内证据，因此答案是NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "出现比较级时，必须找原文是否真的比较相同指标。"
+      ],
+      "reviewTip": "出现比较级时，必须找原文是否真的比较相同指标。"
+    },
+    "c19-t2-p1:11": {
+      "answer": "TRUE",
+      "stem": "The economic benefits of industrialisation were limited to certain sectors of society.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Although industrialisation increased the country's economic output overall and improved the standard of living for the middle and upper classes, many poor people continued to struggle."
+        }
+      ],
+      "reasoning": [
+        "第九段先肯定全国经济总产出增加和中上阶层生活改善，随后用many poor people continued to struggle作对照，说明经济收益并未平均惠及所有社会群体。题干limited to certain sectors准确概括这一不均衡。",
+        "“全国总产出增加”不是“所有人都获益”的充分证据，后文工人低薪、长工时和危险环境强化了差异。因此题干的社会群体范围与原文一致，选TRUE，而不是被overall一词误导。"
+      ],
+      "paraphrases": [
+        {
+          "question": "certain sectors of society",
+          "passage": "middle and upper classes",
+          "explanation": "题干中的“certain sectors of society”需要结合本题证据理解为“middle and upper classes”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "overall经济增长不代表每个阶层的生活都改善。"
+      ],
+      "reviewTip": "overall经济增长不代表每个阶层的生活都改善。"
+    },
+    "c19-t2-p1:12": {
+      "answer": "TRUE",
+      "stem": "Some skilled weavers believed that the introduction of the new textile machines would lead to job losses.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Many had spent years learning their craft, and they feared that unskilled machine operators were robbing them of their livelihood."
+        }
+      ],
+      "reasoning": [
+        "第九段叙述熟练织工反对机械织机，是因为他们担心不熟练机器操作工会夺走自己的生计。题干some skilled weavers believed ... lead to job losses把这种担忧改写成可能失去工作，意思一致。",
+        "这道题判断的是工人相信或害怕什么，而非机器最终是否真的造成了所有人的失业。文中feared已经直接证明这种主观看法存在，不能要求额外的就业统计才选TRUE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "lead to job losses",
+          "passage": "robbing them of their livelihood",
+          "explanation": "题干中的“lead to job losses”需要结合本题证据理解为“robbing them of their livelihood”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "belief题只需核实观点确被持有，不必证明观点后来成真。"
+      ],
+      "reviewTip": "belief题只需核实观点确被持有，不必证明观点后来成真。"
+    },
+    "c19-t2-p1:13": {
+      "answer": "NOT GIVEN",
+      "stem": "There was some sympathy among local people for the Luddites who were arrested near Huddersfield.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "In the days that followed, other Luddites were arrested, and dozens were hanged or transported to Australia."
+        }
+      ],
+      "reasoning": [
+        "最后一段记录哈德斯菲尔德附近工厂袭击中有人中枪，之后有人被捕、处决或流放，但没有描述当地民众对被捕卢德派的同情或反感。官方行动不等于社区态度。",
+        "题干some sympathy among local people增加了一个未出现的群体及其情绪，不能从工人处境艰难自行推断旁人同情，也不能因政府处罚严厉推出民众不同情。因此判NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "政府反应、工人动机和当地民众态度应分别寻找证据。"
+      ],
+      "reviewTip": "政府反应、工人动机和当地民众态度应分别寻找证据。"
+    },
+    "c19-t2-p2:14": {
+      "answer": "D",
+      "stem": "reference to two chemical compounds which impact on performance",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "D Our challenge and threat responses essentially influence how our body responds to stressful situations, as both affect the production of adrenaline and cortisol -also known as 'stress hormones'."
+        }
+      ],
+      "reasoning": [
+        "D段将挑战反应和威胁反应与身体生化反应联系起来，明确点名肾上腺素和皮质醇这两种压力激素，并解释它们对血液循环、焦虑和运动表现的不同影响。题干two chemical compounds正是概括这两个名称。",
+        "不能只凭其他段出现stress或health就选择相近段落，因为题干要求“两种化合物”这一具体组合。D段同时具备名称和影响表现的机制，信息匹配应填段落字母D。"
+      ],
+      "paraphrases": [
+        {
+          "question": "two chemical compounds",
+          "passage": "adrenaline and cortisol",
+          "explanation": "题干中的“two chemical compounds”需要结合本题证据理解为“adrenaline and cortisol”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "两个具体名称同时出现，比笼统主题词stress更有定位价值。"
+      ],
+      "reviewTip": "两个具体名称同时出现，比笼统主题词stress更有定位价值。"
+    },
+    "c19-t2-p2:15": {
+      "answer": "F",
+      "stem": "examples of strategies for minimising the effects of stress",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Developing psychological skills, such as visualisation, can also help decrease physiological responses to threat."
+        }
+      ],
+      "reasoning": [
+        "F段集中提出减轻压力影响的策略，包括调整自我及他人使用的语言、把心跳加速重新理解为兴奋、进行想象训练，以及在训练中模拟竞赛压力。题干examples of strategies对应这一整组方法。",
+        "D段虽然解释身体如何受压力影响，却不是教人如何减轻影响；C段讲不同反应与表现的联系，也不提供这组干预步骤。依信息功能而不是主题相同来匹配，因此选F。"
+      ],
+      "paraphrases": [
+        {
+          "question": "strategies for minimising",
+          "passage": "Developing psychological skills",
+          "explanation": "题干中的“strategies for minimising”需要结合本题证据理解为“Developing psychological skills”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "机制解释、研究发现和应对策略是不同段落功能。"
+      ],
+      "reviewTip": "机制解释、研究发现和应对策略是不同段落功能。"
+    },
+    "c19-t2-p2:16": {
+      "answer": "A",
+      "stem": "how a sportsperson accounted for their own experience of stress",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Though the young player had been doing well in the tournament, she began having difficulty regulating her breathing and heart rate during a match, which she later attributed to 'the accumulation of the excitement and the buzz'."
+        }
+      ],
+      "reasoning": [
+        "A段介绍拉杜卡努退赛，并引述她后来在社交媒体上对呼吸和心率失调的解释，认为是兴奋和现场热烈氛围的累积所致。题干how a sportsperson accounted for their own experience对应她本人的事后归因。",
+        "C段也分析她面临的要求与资源，但那是文章运用理论解释，不是运动员自己的表述。题干强调their own，因此应定位带she later attributed和引号的A段，答案为A。"
+      ],
+      "paraphrases": [
+        {
+          "question": "accounted for their own experience",
+          "passage": "she later attributed",
+          "explanation": "题干中的“accounted for their own experience”需要结合本题证据理解为“she later attributed”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分运动员自己的解释与作者随后给出的理论分析。"
+      ],
+      "reviewTip": "区分运动员自己的解释与作者随后给出的理论分析。"
+    },
+    "c19-t2-p2:17": {
+      "answer": "C",
+      "stem": "study results indicating links between stress responses and performance",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Research shows that the challenge states lead to good performance, while threat states lead to poorer performance."
+        }
+      ],
+      "reasoning": [
+        "C段不仅定义challenge与threat两种状态，还明确说研究显示挑战状态带来好表现，而威胁状态带来较差表现。题干study results indicating links要求的正是压力反应与表现之间的研究结论。",
+        "D段的生理细节可能也涉及表现，却不如C段Research shows直接对应题干的研究结果。匹配时把stress responses、performance及研究表述同时核对，可避免因关键词散落不同段而误选。"
+      ],
+      "paraphrases": [
+        {
+          "question": "study results ... links",
+          "passage": "Research shows ... lead to",
+          "explanation": "题干中的“study results ... links”需要结合本题证据理解为“Research shows ... lead to”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "用Research shows锁定“研究结果”，不要只搜索performance。"
+      ],
+      "reviewTip": "用Research shows锁定“研究结果”，不要只搜索performance。"
+    },
+    "c19-t2-p2:18": {
+      "answer": "F",
+      "stem": "mention of people who can influence how athletes perceive their stress responses",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Positive stress responses can be promoted through the language that they and others - such as coaches or parents - use."
+        }
+      ],
+      "reasoning": [
+        "F段开头说积极压力反应可通过运动员自己和他人使用的语言来促进，具体他人包括教练和父母；随后又说心理学家可帮助改变运动员看待生理反应的方式。因此本题应选F。",
+        "题干people who can influence强调外部人员对运动员认知的影响，而不是运动员面临多少观众。A、C段的公众压力虽与人有关，但没有这组能够调整认知的支持者名单。"
+      ],
+      "paraphrases": [
+        {
+          "question": "people ... influence how ... perceive",
+          "passage": "coaches or parents",
+          "explanation": "题干中的“people ... influence how ... perceive”需要结合本题证据理解为“coaches or parents”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "people是能够提供干预的人，不是所有出现在体育场景中的人。"
+      ],
+      "reviewTip": "people是能够提供干预的人，不是所有出现在体育场景中的人。"
+    },
+    "c19-t2-p2:19": {
+      "answer": "injury",
+      "stem": "19 Performance stress involves many demands on the athlete, for example, coping with the possible risk of [19] ____",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "These demands include the high level of physical and mental effort required to succeed, and also the athlete's concerns about the difficulty of the event, their chance of succeeding, and any potential dangers such as injury."
+        }
+      ],
+      "reasoning": [
+        "B段把运动员需要应付的demands具体列出，包括身体和心理努力、赛事难度、成功机会以及伤病等潜在危险。题干possible risk of ...需要危险事件的名词，injury直接与potential dangers对应。",
+        "resource在同段被定义为应付这些要求的能力，例如信心和控制感，与空格所问的风险属于相反一侧。不要因为两个概念同段出现就混填，injury一个词满足限制。"
+      ],
+      "paraphrases": [
+        {
+          "question": "possible risk",
+          "passage": "potential dangers such as injury",
+          "explanation": "题干中的“possible risk”需要结合本题证据理解为“potential dangers such as injury”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "先把demands和resources分成两栏，风险属于前者。"
+      ],
+      "reviewTip": "先把demands和resources分成两栏，风险属于前者。"
+    },
+    "c19-t2-p2:20": {
+      "answer": "serves",
+      "stem": "20 Cortisol can cause tennis players to produce fewer good [20] ____",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "In tennis players, cortisol has been associated with more unsuccessful serves and greater anxiety."
+        }
+      ],
+      "reasoning": [
+        "D段结尾说网球运动员的皮质醇水平与更多失败发球及更强焦虑有关。题干把more unsuccessful serves转换为fewer good ...，失败更多与成功更少表达相同方向，因此填serves。",
+        "这是同义改写中常见的反义数量转换，不能机械寻找good一词。anxiety是另一个并列结果，但无法补成produce fewer good anxiety；serves为可数复数名词，适合fewer的语法要求。"
+      ],
+      "paraphrases": [
+        {
+          "question": "fewer good",
+          "passage": "more unsuccessful serves",
+          "explanation": "题干中的“fewer good”需要结合本题证据理解为“more unsuccessful serves”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "more unsuccessful可对应fewer successful，注意数量方向与形容词同时变化。"
+      ],
+      "reviewTip": "more unsuccessful可对应fewer successful，注意数量方向与形容词同时变化。"
+    },
+    "c19-t2-p2:21": {
+      "answer": "excitement",
+      "stem": "21 Psychologists can help athletes to view their physiological responses as the effect of a positive feeling such as [21] ____",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Psychologists can also help athletes change how they see their physiological responses - such as helping them see a higher heart rate as excitement, rather than nerves."
+        }
+      ],
+      "reasoning": [
+        "F段说心理学家可以帮助运动员重新看待生理变化，例如把心跳加快理解为兴奋而非紧张。题干positive feeling such as ...要求填这一积极解释中的情绪名词excitement。",
+        "higher heart rate是被解释的身体信号，不是空格所需的情绪；nerves则是被取代的消极理解，不能选反。rather than明确标示两种解释的对照，填写一个词即可。"
+      ],
+      "paraphrases": [
+        {
+          "question": "a positive feeling",
+          "passage": "excitement, rather than nerves",
+          "explanation": "题干中的“a positive feeling”需要结合本题证据理解为“excitement, rather than nerves”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "rather than前后方向相反，空位要求积极情绪而非紧张。"
+      ],
+      "reviewTip": "rather than前后方向相反，空位要求积极情绪而非紧张。"
+    },
+    "c19-t2-p2:22": {
+      "answer": "Visualisation / Visualization",
+      "stem": "22 [22] ____ is an example of a psychological technique which can reduce an athlete's stress responses.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Developing psychological skills, such as visualisation, can also help decrease physiological responses to threat."
+        }
+      ],
+      "reasoning": [
+        "F段把visualisation列为可降低对威胁的生理反应的心理技能，随后解释它可回想过去表现良好的场景或想象未来成功，从而产生控制感。题干a psychological technique所求的是这一技术名称。",
+        "训练中模拟竞技压力是同段另一方法，不能因为其同样有效就填整段training。空位作为句子主语需要一个名词，Visualisation或美式Visualization均被接受，任选一种拼写即可。"
+      ],
+      "paraphrases": [
+        {
+          "question": "psychological technique",
+          "passage": "visualisation",
+          "explanation": "题干中的“psychological technique”需要结合本题证据理解为“visualisation”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "用题干technique定位方法名称，别把后面的具体例子当答案。"
+      ],
+      "reviewTip": "用题干technique定位方法名称，别把后面的具体例子当答案。"
+    },
+    "c19-t2-p2:23": {
+      "answer": "B",
+      "stem": "Which TWO facts about Emma Raducanu's withdrawal from the Wimbledon tournament are mentioned in the text? A the stage at which she dropped out of the tournament B symptoms of her performance stress at the tournament C measures which she had taken to manage her stress levels D aspects of the Wimbledon tournament which increased her stress levels E reactions to her social media posts about her experience at Wimbledon",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Though the young player had been doing well in the tournament, she began having difficulty regulating her breathing and heart rate during a match, which she later attributed to 'the accumulation of the excitement and the buzz'."
+        },
+        {
+          "paragraph": 3,
+          "quote": "So, in Emma Raducanu's case, a much larger audience, higher expectations and facing a more skilful opponent, may all have led her to feel there were greater demands being placed on her at Wimbledon - but she didn't have the resources to tackle them."
+        }
+      ],
+      "reasoning": [
+        "A段明确记述拉杜卡努在比赛中难以调节呼吸和心率，这是压力的具体症状，所以选项B成立。文章没有交代她退赛发生在第几轮，也未转述社交媒体用户对她发言的反应。",
+        "本组另一个正确选项为D，来自C段讨论更大观众群、更高期待和更强对手等压力来源。两个空共同填写B、D，顺序可交换；症状的描述不能被误当成她已采取的管理措施。"
+      ],
+      "paraphrases": [
+        {
+          "question": "symptoms of performance stress",
+          "passage": "difficulty regulating her breathing and heart rate",
+          "explanation": "题干中的“symptoms of performance stress”需要结合本题证据理解为“difficulty regulating her breathing and heart rate”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "呼吸和心率异常属于症状，不是为了减压采取的措施。"
+      ],
+      "reviewTip": "呼吸和心率异常属于症状，不是为了减压采取的措施。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说退赛并提比赛中发生症状，但没有交代具体第几轮退赛。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "A段明确记载呼吸及心率调节困难，支持症状信息。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "后文列一般性方法，没有说她实际采用了哪些方法。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "C段列观众、期望及更强对手，说明赛事压力来源。"
+        },
+        {
+          "label": "E",
+          "correct": false,
+          "reason": "说她在社交媒体发言，不等于介绍他人对发言的反应。"
+        }
+      ]
+    },
+    "c19-t2-p2:24": {
+      "answer": "D",
+      "stem": "Which TWO facts about Emma Raducanu's withdrawal from the Wimbledon tournament are mentioned in the text? A the stage at which she dropped out of the tournament B symptoms of her performance stress at the tournament C measures which she had taken to manage her stress levels D aspects of the Wimbledon tournament which increased her stress levels E reactions to her social media posts about her experience at Wimbledon",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "So, in Emma Raducanu's case, a much larger audience, higher expectations and facing a more skilful opponent, may all have led her to feel there were greater demands being placed on her at Wimbledon - but she didn't have the resources to tackle them."
+        }
+      ],
+      "reasoning": [
+        "C段列举温网环境中可能增加拉杜卡努负担的因素：观众更多、期待更高以及对手更有技巧。这直接支持选项D所说比赛某些方面提高了她的压力水平。",
+        "选项C要求她本人已采取哪些管理措施，文章只在后文提出一般性方法，并未说她采用过这些方法。另一正确选项B为A段的呼吸与心率症状；23、24题B和D可以任意排序。"
+      ],
+      "paraphrases": [
+        {
+          "question": "aspects ... increased stress",
+          "passage": "larger audience, higher expectations",
+          "explanation": "题干中的“aspects ... increased stress”需要结合本题证据理解为“larger audience, higher expectations”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "不要把作者给所有运动员的建议，说成拉杜卡努已经采用的行动。"
+      ],
+      "reviewTip": "不要把作者给所有运动员的建议，说成拉杜卡努已经采用的行动。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说退赛并提比赛中发生症状，但没有交代具体第几轮退赛。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "A段明确记载呼吸及心率调节困难，支持症状信息。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "后文列一般性方法，没有说她实际采用了哪些方法。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "C段列观众、期望及更强对手，说明赛事压力来源。"
+        },
+        {
+          "label": "E",
+          "correct": false,
+          "reason": "说她在社交媒体发言，不等于介绍他人对发言的反应。"
+        }
+      ]
+    },
+    "c19-t2-p2:25": {
+      "answer": "A",
+      "stem": "Which TWO facts about anxiety are mentioned in Paragraph E of the text? A the factors which determine how severe it may be B how long it takes for its effects to become apparent C which of its symptoms is most frequently encountered D the types of athletes who are most likely to suffer from it E the harm that can result if athletes experience it too often",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "The intensity with which a person experiences anxiety depends on the demands and resources they have."
+        },
+        {
+          "paragraph": 5,
+          "quote": "Negative stress responses can be damaging to both physical and mental health- and repeated episodes of anxiety coupled with negative responses can increase risk of heart disease and depression."
+        }
+      ],
+      "reasoning": [
+        "E段说一个人焦虑的强度取决于所面临的要求及拥有的应对资源，这恰好回答选项A“哪些因素决定焦虑有多严重”。原文是强度的决定因素，并没有讨论焦虑从产生到显现需要多久。",
+        "本题限定Paragraph E，不能把其他段的运动表现分类搬来回答。E段虽列很多症状，却没有进行频率排名，也没有划分哪类运动员最容易焦虑；另一正确选项E在段末讨论反复焦虑的健康损害。"
+      ],
+      "paraphrases": [
+        {
+          "question": "how severe it may be",
+          "passage": "The intensity with which a person experiences anxiety",
+          "explanation": "how severe询问焦虑的强度，对应intensity；后面的demands and resources则解释由哪些因素决定这种强度，并非强度一词本身的同义表达。"
+        }
+      ],
+      "traps": [
+        "症状列表不是症状频率排名，intensity也不是出现速度。"
+      ],
+      "reviewTip": "症状列表不是症状频率排名，intensity也不是出现速度。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "E段指出要求与资源决定焦虑强度，正确。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "未说明焦虑经过多长时间才显现。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "列举症状但未比较各症状出现频率。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有按运动员类别比较最可能焦虑的群体。"
+        },
+        {
+          "label": "E",
+          "correct": true,
+          "reason": "反复焦虑和负面反应增加心脏病、抑郁症风险，正确。"
+        }
+      ]
+    },
+    "c19-t2-p2:26": {
+      "answer": "E",
+      "stem": "Which TWO facts about anxiety are mentioned in Paragraph E of the text? A the factors which determine how severe it may be B how long it takes for its effects to become apparent C which of its symptoms is most frequently encountered D the types of athletes who are most likely to suffer from it E the harm that can result if athletes experience it too often",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Negative stress responses can be damaging to both physical and mental health- and repeated episodes of anxiety coupled with negative responses can increase risk of heart disease and depression."
+        }
+      ],
+      "reasoning": [
+        "E段末明确警告，反复焦虑与消极压力反应一起出现，会提高心脏病和抑郁症风险。选项E“运动员过于频繁经历焦虑可能造成的伤害”准确对应repeated episodes及具体风险。",
+        "原文没有说某一症状最常见，也未提哪类运动员最容易焦虑，故不能选C或D。另一正确选项A来自前面要求与资源决定强度的句子，本组两个答案A、E允许互换，且不要把可能风险写成必然患病。"
+      ],
+      "paraphrases": [
+        {
+          "question": "how severe it may be",
+          "passage": "The intensity with which a person experiences anxiety",
+          "explanation": "how severe询问焦虑的强度，对应intensity；后面的demands and resources则解释由哪些因素决定这种强度，并非强度一词本身的同义表达。"
+        }
+      ],
+      "traps": [
+        "can increase risk表示风险提高，不等于每次焦虑都会导致疾病。"
+      ],
+      "reviewTip": "can increase risk表示风险提高，不等于每次焦虑都会导致疾病。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "E段指出要求与资源决定焦虑强度，正确。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "未说明焦虑经过多长时间才显现。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "列举症状但未比较各症状出现频率。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有按运动员类别比较最可能焦虑的群体。"
+        },
+        {
+          "label": "E",
+          "correct": true,
+          "reason": "反复焦虑和负面反应增加心脏病、抑郁症风险，正确。"
+        }
+      ]
+    },
+    "c19-t2-p3:27": {
+      "answer": "H",
+      "stem": "Maryam Mirzakhani is regarded as [27] ____ in the field of mathematics because she was the only female holder of the prestigious Fields Medal - a record that she retained at the time of her death. However, maths held little [28] ____ for her as a child …",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "She was the only woman to win the Fields Medal - the mathematical equivalent of a Nobel prize."
+        }
+      ],
+      "reasoning": [
+        "第一段说米尔扎哈尼是唯一赢得菲尔兹奖的女性。摘要because引出她在数学领域被视为什么的理由，因此H unique最合适，强调“独一无二”，而不是简单陈述她单身或只有一个人。",
+        "D single可以表示单个或单身，但无法准确概括她在获奖女性身份上的独特性；后文她童年数学表现普通，不影响成年获奖身份的唯一性。此题需输入字母H，不能只抄only woman。"
+      ],
+      "paraphrases": [
+        {
+          "question": "regarded as ... because ... only female",
+          "passage": "the only woman to win",
+          "explanation": "题干中的“regarded as ... because ... only female”需要结合本题证据理解为“the only woman to win”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分unique的独特性与single的数量或婚姻含义。"
+      ],
+      "reviewTip": "区分unique的独特性与single的数量或婚姻含义。"
+    },
+    "c19-t2-p3:28": {
+      "answer": "A",
+      "stem": "… of mathematics because she was the only female holder of the prestigious Fields Medal - a record that she retained at the time of her death. However, maths held little [28] ____ for her as a child and in fact her performance was below average until she was [29] ____ by a difficult puzzle that one of her siblings showed her. Later, as a professional mathematician, she had an inquiring mind …",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "She went to a highly selective girls' school but maths wasn't her interest - reading was."
+        }
+      ],
+      "reasoning": [
+        "第一段明确说米尔扎哈尼小时候兴趣不在数学，而在阅读，她很喜欢小说。摘要maths held little ... for her需要一个表示吸引力的名词，A appeal与wasn’t her interest对应。",
+        "不要因为她后来获得数学最高奖项就推定童年同样热爱数学。全文用这个例子反驳“高成就者从小就一定天资显著”的常见假设，因此应保留童年与成年之间的兴趣反差，选A。"
+      ],
+      "paraphrases": [
+        {
+          "question": "held little appeal",
+          "passage": "wasn't her interest",
+          "explanation": "题干中的“held little appeal”需要结合本题证据理解为“wasn't her interest”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "时间限定as a child比人物最终成就更重要。"
+      ],
+      "reviewTip": "时间限定as a child比人物最终成就更重要。"
+    },
+    "c19-t2-p3:29": {
+      "answer": "C",
+      "stem": "… a record that she retained at the time of her death. However, maths held little [28] ____ for her as a child and in fact her performance was below average until she was [29] ____ by a difficult puzzle that one of her siblings showed her. Later, as a professional mathematician, she had an inquiring mind and proved herself to be [30] ____ when things did not go smoothly. She said she got …",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "He shared a famous maths problem from a magazine that fascinated her - and she was hooked."
+        }
+      ],
+      "reasoning": [
+        "第一段后半说哥哥向她介绍杂志上的著名数学题，这个问题令她着迷，并让她开始投入数学。摘要was ... by a difficult puzzle对应被动结构，C intrigued表达受吸引、产生好奇。",
+        "F devoted通常需要to表示致力于，K intent也不能自然补成was intent by。题目不只是考词形：fascinated和hooked都说明谜题激发兴趣，而非证明她原来就已擅长数学。填写选项字母C。"
+      ],
+      "paraphrases": [
+        {
+          "question": "intrigued by a difficult puzzle",
+          "passage": "a ... problem ... fascinated her",
+          "explanation": "题干中的“intrigued by a difficult puzzle”需要结合本题证据理解为“a ... problem ... fascinated her”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "先核对was ... by的搭配，再用fascinated确认含义。"
+      ],
+      "reviewTip": "先核对was ... by的搭配，再用fascinated确认含义。"
+    },
+    "c19-t2-p3:30": {
+      "answer": "B",
+      "stem": "… she was [29] ____ by a difficult puzzle that one of her siblings showed her. Later, as a professional mathematician, she had an inquiring mind and proved herself to be [30] ____ when things did not go smoothly. She said she got the greatest [31] ____from making ground-breaking discoveries and in fact she was responsible for some extremely [32] ____ mathematical studies.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "In adult life it is clear that she was curious, excited by what she did and also resolute in the face of setbacks."
+        }
+      ],
+      "reasoning": [
+        "第二段说她作为成年数学家不仅好奇、兴奋，而且遇到挫折时意志坚定。摘要when things did not go smoothly就是面对setbacks，B determined与resolute含义一致。",
+        "这一空强调逆境中的坚持，不是上一题初次被谜题吸引的好奇，也不是提出研究创新的结果。只有把困难情境与态度一起核对，才能选determined；不要因为全文出现curious就把所有积极品质互相替换。"
+      ],
+      "paraphrases": [
+        {
+          "question": "when things did not go smoothly",
+          "passage": "resolute in the face of setbacks",
+          "explanation": "题干中的“when things did not go smoothly”需要结合本题证据理解为“resolute in the face of setbacks”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "把每种品质对应到具体情境：兴趣、逆境坚持、发现满足和创新成果各不同。"
+      ],
+      "reviewTip": "把每种品质对应到具体情境：兴趣、逆境坚持、发现满足和创新成果各不同。"
+    },
+    "c19-t2-p3:31": {
+      "answer": "J",
+      "stem": "… her. Later, as a professional mathematician, she had an inquiring mind and proved herself to be [30] ____ when things did not go smoothly. She said she got the greatest [31] ____from making ground-breaking discoveries and in fact she was responsible for some extremely [32] ____ mathematical studies.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "'Of course, the most rewarding part is the \"Aha\" moment, the excitement of discovery and enjoyment of understanding something new ..."
+        }
+      ],
+      "reasoning": [
+        "米尔扎哈尼认为最有回报的部分是恍然大悟、发现的兴奋和理解新事物的享受。摘要got the greatest ... from making ground-breaking discoveries需要她从发现中获得的心理满足，因此选J satisfaction。",
+        "E achievement指成就本身，不能准确替代从发现中体验的满足感；I innovative则是形容研究新颖的词，属于后一空。rewarding、excitement和enjoyment共同指向满足，而不是外部奖项。"
+      ],
+      "paraphrases": [
+        {
+          "question": "greatest satisfaction",
+          "passage": "most rewarding ... enjoyment",
+          "explanation": "题干中的“greatest satisfaction”需要结合本题证据理解为“most rewarding ... enjoyment”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分发现本身的成就与发现带来的主观满足。"
+      ],
+      "reviewTip": "区分发现本身的成就与发现带来的主观满足。"
+    },
+    "c19-t2-p3:32": {
+      "answer": "I",
+      "stem": "… ____ when things did not go smoothly. She said she got the greatest [31] ____from making ground-breaking discoveries and in fact she was responsible for some extremely [32] ____ mathematical studies.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "But most of the time, doing mathematics for me is like being on a long hike with no trail and no end in sight.' That trail took her to the heights of original research into mathematics."
+        }
+      ],
+      "reasoning": [
+        "第二段末说她最终达到原创数学研究的高度。摘要extremely ... mathematical studies需要修饰研究的形容词，I innovative概括original所指的新颖、创新，而不是重复描述她个人意志坚定。",
+        "J satisfaction和E achievement均为名词，放在此处不符合修饰studies的结构。即使innovative字面未出现，original research与创新研究在本语境中对应，不能把词表题误做必须寻找原文完全相同词形的题。"
+      ],
+      "paraphrases": [
+        {
+          "question": "innovative mathematical studies",
+          "passage": "original research into mathematics",
+          "explanation": "题干中的“innovative mathematical studies”需要结合本题证据理解为“original research into mathematics”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "选词时同时检查词性和original到innovative的同义改写。"
+      ],
+      "reviewTip": "选词时同时检查词性和original到innovative的同义改写。"
+    },
+    "c19-t2-p3:33": {
+      "answer": "YES",
+      "stem": "Many people who ended up winning prestigious intellectual prizes only reached an average standard when young.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Most Nobel prize winners were unexceptional in childhood."
+        }
+      ],
+      "reasoning": [
+        "第三段开头直接说大多数诺贝尔奖得主童年并不突出。题干把prestigious intellectual prizes概括诺贝尔奖，把average standard when young改写unexceptional in childhood，数量many也没有超过原文most的范围。",
+        "接着爱因斯坦的例子用于支持这种现象，不是说每一位获奖者都一样。题干只要求许多后来获重要智力奖项的人年轻时普通，原文可支持，因此答案YES。"
+      ],
+      "paraphrases": [
+        {
+          "question": "average standard when young",
+          "passage": "unexceptional in childhood",
+          "explanation": "题干中的“average standard when young”需要结合本题证据理解为“unexceptional in childhood”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "most能够支持many，但不能由个别例子扩成all。"
+      ],
+      "reviewTip": "most能够支持many，但不能由个别例子扩成all。"
+    },
+    "c19-t2-p3:34": {
+      "answer": "NOT GIVEN",
+      "stem": "Einstein's failures as a young man were due to his lack of confidence.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "He struggled at work initially, but he kept plugging away and eventually rewrote the laws of Newtonian mechanics with his theory of relativity."
+        }
+      ],
+      "reasoning": [
+        "第三段提到爱因斯坦说话较晚、入学考试部分失利以及早期工作挣扎，但未解释这些困难是由缺乏信心造成。题干在失败事实之外加入了一个具体心理原因。",
+        "文章也描述他坚持不懈，却不等于直接否认他可能缺乏信心。既没有这个因果归因，也没有相反的明确因果说明，故应判NOT GIVEN，而不是因为他最终成功就判NO。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "存在失败事实不代表原文交代了题干指定的失败原因。"
+      ],
+      "reviewTip": "存在失败事实不代表原文交代了题干指定的失败原因。"
+    },
+    "c19-t2-p3:35": {
+      "answer": "YES",
+      "stem": "It is difficult to reach agreement on whether some children are actually born gifted.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "While the jury is out on giftedness being innate and other factors potentially making the difference, what is certain is that the behaviours associated with high levels of performance are replicable and most can be taught - even traits such as curiosity."
+        }
+      ],
+      "reasoning": [
+        "第五段开头the jury is out表示相关问题尚无定论，具体议题正是天赋是否与生俱来、其他因素是否起作用。题干说对孩子是否天生有天赋很难达成一致，是这一表达的准确改写。",
+        "后文确定的是高表现相关行为可以复制、多数能教授，而不是已经完全证明所有天赋都后天形成。不要把后半句较肯定的行为训练结论扩大成先天与后天之争已有定论，因此选YES。"
+      ],
+      "paraphrases": [
+        {
+          "question": "difficult to reach agreement",
+          "passage": "the jury is out",
+          "explanation": "题干中的“difficult to reach agreement”需要结合本题证据理解为“the jury is out”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "分清尚有争议的innate giftedness与已较确定的可训练行为。"
+      ],
+      "reviewTip": "分清尚有争议的innate giftedness与已较确定的可训练行为。"
+    },
+    "c19-t2-p3:36": {
+      "answer": "NOT GIVEN",
+      "stem": "Einstein was upset by the public's view of his life's work.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "He struggled against rejection in early life but was undeterred."
+        }
+      ],
+      "reasoning": [
+        "末段提到爱因斯坦早期遭拒但不退缩，并引述他对坚持和品格的看法，未讨论公众如何评价他一生的研究，也未说他因此感到难过。题干引入了新评价主体和新情绪。",
+        "rejection不是public’s view of his life’s work的完整等同，undeterred也只说明没有被阻止前进，并不能替代对是否upset的明确描述。原文不足以判断这一情绪反应，应为NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "拒绝、评价、难过和是否放弃是不同信息，不能仅靠一个近义印象归并。"
+      ],
+      "reviewTip": "拒绝、评价、难过和是否放弃是不同信息，不能仅靠一个近义印象归并。"
+    },
+    "c19-t2-p3:37": {
+      "answer": "NO",
+      "stem": "Einstein put his success down to the speed at which he dealt with scientific questions.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "Did he think he was a genius or even gifted? He once wrote: 'It's not that I'm so smart, it's just that I stay with problems longer."
+        }
+      ],
+      "reasoning": [
+        "爱因斯坦的自述强调不是自己特别聪明，而是更长时间坚持研究问题。题干却把他的成功归因于处理科学问题的速度，实际上把耐久的坚持改成了快速解决，方向相反。",
+        "同段最后还强调品格而非智力造就伟大科学家，呼应不轻易放弃的解释。不要把“比别人更早成功”的常识带入；对本题而言，直接对照speed与stay ... longer即可判NO。"
+      ],
+      "paraphrases": [
+        {
+          "question": "speed ... dealt with questions",
+          "passage": "stay with problems longer",
+          "explanation": "同段最后还强调品格而非智力造就伟大科学家，呼应不轻易放弃的解释。不要把“比别人更早成功”的常识带入；对本题而言，直接对照speed与stay ... longer即可判NO。"
+        }
+      ],
+      "traps": [
+        "longer修饰坚持投入的时间，绝不是更快完成问题。"
+      ],
+      "reviewTip": "longer修饰坚持投入的时间，绝不是更快完成问题。"
+    },
+    "c19-t2-p3:38": {
+      "answer": "C",
+      "stem": "What does Eyre believe is needed for children to equal 'gifted' standards? A strict discipline from the teaching staff B assistance from their peers in the classroom C the development of a spirit of inquiry towards their studies D the determination to surpass everyone else's achievements",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "However, they must be taught the right attitudes and approaches to their learning and develop the attributes of high performers - curiosity, persistence and hard work, for example - an approach Eyre calls \"high performance learning'."
+        }
+      ],
+      "reasoning": [
+        "Eyre认为多数人可达到学校所谓天才水平，但要学到正确学习态度和方法，并培养好奇、坚持、努力等高表现特质。选项C的spirit of inquiry即探究精神，具体对应curiosity。",
+        "A的严格纪律、B的同伴帮助都不是本段提出的关键条件，D则把努力歪曲为必须超越所有人的竞争目标。文章强调能培养的学习品质与适当支持，不能把high performance理解为必须击败别人。"
+      ],
+      "paraphrases": [
+        {
+          "question": "spirit of inquiry",
+          "passage": "curiosity, persistence and hard work",
+          "explanation": "题干中的“spirit of inquiry”需要结合本题证据理解为“curiosity, persistence and hard work”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "辨认curiosity与spirit of inquiry的同义对应，别自行加入竞争性动机。"
+      ],
+      "reviewTip": "辨认curiosity与spirit of inquiry的同义对应，别自行加入竞争性动机。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "没有把教师严厉纪律列为达到高表现的关键。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "本段强调正确态度、方法和支持，没有提出同伴帮助这一特定要求。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "探究精神对应curiosity，是可培养的高表现特质，正确。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "努力与坚持并不等于以超越所有同龄人为目标。"
+        }
+      ]
+    },
+    "c19-t2-p3:39": {
+      "answer": "B",
+      "stem": "What is the result of Ericsson's research? A Very gifted students do not need to work on improving memory skills. B Being born with a special gift is not the key factor in becoming expert. C Including time for physical exercise is crucial in raising performance. D 10,000 hours of relevant and demanding work will create a genius.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "After research going back to 1980 into diverse achievements, from music to memory to sport, he doesn't think unique and innate talents are at the heart of performance."
+        }
+      ],
+      "reasoning": [
+        "Ericsson不认为独特的先天才能是高表现的核心，并通过受训练的普通学生记忆表现超过被视为天赋优越者的例子支持这一点。因此B“天生特殊禀赋不是成为专家的关键因素”最准确。",
+        "D把约一万小时的刻意练习简化为人人达到固定时数就能成为天才，但原文特别说这不是神奇数字，顶尖者还会继续投入。A和C分别加入天才不需练记忆及体育锻炼必不可少，均无依据。"
+      ],
+      "paraphrases": [
+        {
+          "question": "not the key factor",
+          "passage": "not ... at the heart of performance",
+          "explanation": "题干中的“not the key factor”需要结合本题证据理解为“not ... at the heart of performance”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "not a magic number是在限制一万小时说法，不能把它改成成才保证。"
+      ],
+      "reviewTip": "not a magic number是在限制一万小时说法，不能把它改成成才保证。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "普通受试学生通过记忆训练超过被认为有天赋者，不是天才无需练习。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "研究否定先天特殊才能是表现核心，支持此项。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "所研究领域包括运动，不等于所有高表现必须加入体育锻炼。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "原文说一万小时不是神奇数字，不能保证成为天才。"
+        }
+      ]
+    },
+    "c19-t2-p3:40": {
+      "answer": "D",
+      "stem": "In the penultimate paragraph, it is stated the key to some deprived children's success is A a regular and nourishing diet at home. B the loving support of more than one parent. C a community which has well-funded facilities for learning. D the guidance of someone who recognises the benefits of learning.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Interviews uncovered strong evidence of an adult or adults in the child's life who valued and supported education, either in the immediate or extended family or in the child's wider community."
+        }
+      ],
+      "reasoning": [
+        "倒数第二段研究发现，贫困环境中仍成功的孩子，生活中往往有重视并支持教育的成人，这些成人可能来自直系家庭、大家庭或社区。选项D强调认可学习价值者的指导，符合这一共同因素。",
+        "免费校餐、单亲家庭和贫困社区是被调查孩子面临的处境，不是成功原因；B还被单亲比例高这一事实削弱。原文也没有说社区设施资金充足，故不能把困难背景颠倒成资源优越。"
+      ],
+      "paraphrases": [
+        {
+          "question": "guidance ... recognises benefits of learning",
+          "passage": "adult ... valued and supported education",
+          "explanation": "题干中的“guidance ... recognises benefits of learning”需要结合本题证据理解为“adult ... valued and supported education”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区别样本的贫困特征与研究发现的支持因素。"
+      ],
+      "reviewTip": "区别样本的贫困特征与研究发现的支持因素。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "免费校餐是贫困指标，没有证明家中饮食规律充足是共同原因。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "超过半数来自单亲家庭，并未要求至少两位家长。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "多来自贫困地区，没有说社区学习设施资金充足。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "支持并重视教育的成人是访谈中揭示的共同因素。"
+        }
+      ]
+    },
+    "c19-t3-p1:1": {
+      "answer": "FALSE",
+      "stem": "Archaeological research had taken place on the island of Obi before the arrival of Ceri Shipton and his colleagues.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "In early April 2019, Dr Ceri Shipton and his colleagues from Australian National University became the first archaeologists to explore Obi, one of many tropical islands in Indonesia's Maluku Utara province."
+        }
+      ],
+      "reasoning": [
+        "开篇说希普顿及同事成为首批探索奥比岛的考古学家。题干却声称在他们到达之前，这个岛已经有考古研究活动，时间先后与first archaeologists的表述直接冲突。",
+        "这里first限定考古学家对奥比岛的探索，不是说他们是第一批到岛上的人；岛上本来就有居民。不能把人类早期居住证据当成现代考古研究的先例，因此应判FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "research ... before ... arrival",
+          "passage": "first archaeologists to explore",
+          "explanation": "这里first限定考古学家对奥比岛的探索，不是说他们是第一批到岛上的人；岛上本来就有居民。不能把人类早期居住证据当成现代考古研究的先例，因此应判FALSE。"
+        }
+      ],
+      "traps": [
+        "原文的first针对考古探索，不针对岛屿是否有人居住。"
+      ],
+      "reviewTip": "原文的first针对考古探索，不针对岛屿是否有人居住。"
+    },
+    "c19-t3-p1:2": {
+      "answer": "FALSE",
+      "stem": "At the Kelo sites, the researchers found the first clam shell axes ever to be discovered in the region.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Axes made from clam shells from roughly the same time had also previously been found elsewhere in this region, including on the nearby island of Gebe to the northeast."
+        }
+      ],
+      "reasoning": [
+        "第三段说同样年代的蛤壳斧此前已经在该地区其他地方被发现，包括附近的格贝岛。题干却称凯洛发现的是整个地区首次发现的蛤壳斧，与此前已有发现的事实不一致。",
+        "前文的first archaeologists仅指奥比岛，不可扩大为全地区任何相关文物都是首次发现。本题比较的是斧头发现的地区范围与发现时间，previously和elsewhere共同证明FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "first ... in the region",
+          "passage": "previously ... elsewhere in this region",
+          "explanation": "前文的first archaeologists仅指奥比岛，不可扩大为全地区任何相关文物都是首次发现。本题比较的是斧头发现的地区范围与发现时间，previously和elsewhere共同证明FALSE。"
+        }
+      ],
+      "traps": [
+        "岛上首次考古不等于整个地区首次发现这种器物。"
+      ],
+      "reviewTip": "岛上首次考古不等于整个地区首次发现这种器物。"
+    },
+    "c19-t3-p1:3": {
+      "answer": "TRUE",
+      "stem": "The size of Obi today is less than it was 18,000 years ago.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Sea levels were about 120 metres lower, meaning Obi was a much larger island, encompassing what is today the separate island of Bisa, as well as several other small islands nearby."
+        }
+      ],
+      "reasoning": [
+        "第四段说约一万八千年前海平面比现在低一百二十米，奥比岛面积大得多，还包括今天分离的比萨岛和附近小岛。题干说今天的奥比岛比当时更小，与这个比较方向完全相符。",
+        "注意海平面变化与岛屿面积的方向相反：海面低，露出陆地更多；海面上升后一些陆地被分成独立岛屿。因此不是说岛今天更大，答案TRUE，不能只看到larger就机械对应题干less。"
+      ],
+      "paraphrases": [
+        {
+          "question": "today is less",
+          "passage": "was a much larger island",
+          "explanation": "题干中的“today is less”需要结合本题证据理解为“was a much larger island”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "把比较双方写清：18,000年前更大，所以今天更小。"
+      ],
+      "reviewTip": "把比较双方写清：18,000年前更大，所以今天更小。"
+    },
+    "c19-t3-p1:4": {
+      "answer": "NOT GIVEN",
+      "stem": "A change in the climate around 11,700 years ago had a greater impact on Obi than on the surrounding islands.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "Roughly 11,700 years ago, as the most recent ice age ended, the climate became significantly warmer and wetter, no doubt making Obi's jungle much thicker."
+        }
+      ],
+      "reasoning": [
+        "第五段说明约一万一千七百年前气候变暖变湿，使奥比岛森林更浓密；没有将这种影响与周边岛屿作程度比较。题干greater impact ... than加入了一个跨岛屿的比较关系。",
+        "第三段提到格贝岛的斧头，第四段提到比萨岛的面积，均不是比较气候影响。不能把不同段落提到其他岛屿当成比较证据，也不能根据奥比的详细描述就认定其受影响最大，故NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "描述某地影响显著，不等于影响比其他地区更大。"
+      ],
+      "reviewTip": "描述某地影响显著，不等于影响比其他地区更大。"
+    },
+    "c19-t3-p1:5": {
+      "answer": "TRUE",
+      "stem": "The researchers believe there is a connection between warmer, wetter weather and a change in the material used to make axes.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "According to the researchers, it is no coincidence that around this time the first axes crafted from stone rather than sea shells appear, likely in response to their heavy-duty use for clearing and modification of the increasingly dense rainforest."
+        }
+      ],
+      "reasoning": [
+        "第五段将气候转暖变湿、雨林增密与石斧开始取代贝壳斧联系起来。研究者认为这不是巧合，石材更适合清理日益浓密的森林，且硬质刃口能保持锋利更久。",
+        "题干只要求研究者认为天气与工具材料变化存在联系，并没有要求证明气候是唯一原因。no coincidence、likely in response to及后面的材料性能解释共同支持这种关联，因此判TRUE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "a connection between ... weather ... material",
+          "passage": "it is no coincidence",
+          "explanation": "题干中的“a connection between ... weather ... material”需要结合本题证据理解为“it is no coincidence”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "likely in response to支持存在联系，但不要扩大成唯一原因或绝对证明。"
+      ],
+      "reviewTip": "likely in response to支持存在联系，但不要扩大成唯一原因或绝对证明。"
+    },
+    "c19-t3-p1:6": {
+      "answer": "NOT GIVEN",
+      "stem": "Shipton's team were surprised to find evidence of the Obi islanders' hunting practices.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Judging by the bones which the researchers unearthed in the Kelo caves, people living there mainly hunted the Rothschild's cuscus, a possum-like creature that still lives on Obi today."
+        }
+      ],
+      "reasoning": [
+        "第六段根据出土骨骼推断岛民主要捕猎库斯库斯，并推测用斧清林有助于狩猎。原文报告了证据与研究者推论，但没有描写团队看到这些证据时是否感到惊讶。",
+        "题干were surprised评价研究人员的心理反应，不能由发现重要或年代久远来推断。文中也没有说这是他们早已预料的结果，因此既无支持也无反驳，答案NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "发现了新证据，不自动意味着发现者感到惊讶。"
+      ],
+      "reviewTip": "发现了新证据，不自动意味着发现者感到惊讶。"
+    },
+    "c19-t3-p1:7": {
+      "answer": "FALSE",
+      "stem": "It is thought that the Kelo shelters were occupied continuously until about 1,000 years ago.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "But then, about 8,000 years ago, both were abandoned."
+        }
+      ],
+      "reasoning": [
+        "第八段明确说两个岩棚虽曾成功居住约一万年，但约八千年前都被弃用。第九段又说直到约一千年前重新占用前，没有继续使用的证据，因此题干occupied continuously不成立。",
+        "题目陷阱是把“曾居住一万年”和“一千年前再次入住”拼接成没有间断。应在时间线上标出八千年前至一千年前的空档，continuously正是被原文反驳的词，故FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "occupied continuously",
+          "passage": "both were abandoned",
+          "explanation": "题目陷阱是把“曾居住一万年”和“一千年前再次入住”拼接成没有间断。应在时间线上标出八千年前至一千年前的空档，continuously正是被原文反驳的词，故FALSE。"
+        }
+      ],
+      "traps": [
+        "连续居住需要整个区间无中断，重新入住意味着此前存在空档。"
+      ],
+      "reviewTip": "连续居住需要整个区间无中断，重新入住意味着此前存在空档。"
+    },
+    "c19-t3-p1:8": {
+      "answer": "caves",
+      "stem": "Excavations of rock shelters inside [8] ____ near the village of",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Just inland from the village of Kelo on Obi's northern coast, Shipton and his colleagues found two caves containing prehistoric rock shelters that were suitable for excavation."
+        }
+      ],
+      "reasoning": [
+        "第三段说研究者在凯洛村稍内陆找到两个洞穴，洞内包含适合发掘的史前岩棚。笔记rock shelters inside ...明确问岩棚所处的较大空间，因此应填caves。",
+        "不要填shelters，因为这个词已在题干中；village只是附近的参照地点，也不符合inside这个空间关系。原文two与复数caves一致，一个词满足ONE WORD ONLY，保留复数形式。"
+      ],
+      "paraphrases": [
+        {
+          "question": "shelters inside",
+          "passage": "caves containing ... rock shelters",
+          "explanation": "题干中的“shelters inside”需要结合本题证据理解为“caves containing ... rock shelters”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "层级关系是村庄附近的洞穴，洞穴里面的岩棚。"
+      ],
+      "reviewTip": "层级关系是村庄附近的洞穴，洞穴里面的岩棚。"
+    },
+    "c19-t3-p1:9": {
+      "answer": "stone",
+      "stem": "axes made out of [9] ____ , dating from around [11] ____,700 years ago",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "According to the researchers, it is no coincidence that around this time the first axes crafted from stone rather than sea shells appear, likely in response to their heavy-duty use for clearing and modification of the increasingly dense rainforest."
+        }
+      ],
+      "reasoning": [
+        "第五段把气候变化时期的工具材料由贝壳改成石头，并解释石材虽然打磨费时，但刃口维持锋利更久。笔记dated from around 11,700 years ago限定这个阶段，答案stone。",
+        "蛤壳对应更早约一万四千年的斧头，不符合这道题的时间限制；obsidian则是之后说明跨岛旅行的另一发现。stone为材料名词，直接用原文一个词，不需要加axes或harder。"
+      ],
+      "paraphrases": [
+        {
+          "question": "axes made out of",
+          "passage": "axes crafted from stone",
+          "explanation": "题干中的“axes made out of”需要结合本题证据理解为“axes crafted from stone”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "用年代区分同篇出现的贝壳斧、石斧和黑曜石。"
+      ],
+      "reviewTip": "用年代区分同篇出现的贝壳斧、石斧和黑曜石。"
+    },
+    "c19-t3-p1:10": {
+      "answer": "bones",
+      "stem": "[10] ____ of an animal: evidence of what ancient islanders ate",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Judging by the bones which the researchers unearthed in the Kelo caves, people living there mainly hunted the Rothschild's cuscus, a possum-like creature that still lives on Obi today."
+        }
+      ],
+      "reasoning": [
+        "研究团队根据出土的动物骨骼判断居民主要捕猎库斯库斯，这就是笔记evidence of what ancient islanders ate所说的食物证据。空格of an animal前需要物证名词，故填bones。",
+        "cuscus是动物种类，不是“某种动物的什么”这一结构所缺的遗存；axes是狩猎辅助工具，也不能直接证明吃了哪种动物。bones既对应出土证据，又保留原文复数，满足一个词限制。"
+      ],
+      "paraphrases": [
+        {
+          "question": "evidence of what ... ate",
+          "passage": "Judging by the bones",
+          "explanation": "题干中的“evidence of what ... ate”需要结合本题证据理解为“Judging by the bones”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分被食用的动物名称与支持饮食推断的考古遗存。"
+      ],
+      "reviewTip": "区分被食用的动物名称与支持饮食推断的考古遗存。"
+    },
+    "c19-t3-p1:11": {
+      "answer": "beads",
+      "stem": "axes made out of [9] ____ , dating from around [11] ____,700 years ago",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "It also revealed particular types of beads, similar to those previously found on islands in southern Wallacea."
+        }
+      ],
+      "reasoning": [
+        "第七段在黑曜石之后提到特定类型的珠子，与南华莱士群岛已有发现相似。笔记which resembled ones found on other islands保留“与别岛所发现物相像”的关系，因此填beads。",
+        "obsidian是前一条旅行证据，逻辑是奥比没有天然来源，而不是形态相似；两种证据不能串换。beads为可数复数，与ones和原文types of的表达相符，直接填一个词即可。"
+      ],
+      "paraphrases": [
+        {
+          "question": "resembled ones ... other islands",
+          "passage": "beads, similar to those previously found",
+          "explanation": "题干中的“resembled ones ... other islands”需要结合本题证据理解为“beads, similar to those previously found”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "两条跨岛证据分别是外来来源与器物相似，要按笔记对应。"
+      ],
+      "reviewTip": "两条跨岛证据分别是外来来源与器物相似，要按笔记对应。"
+    },
+    "c19-t3-p1:12": {
+      "answer": "pottery",
+      "stem": "had [12] ____ as well as items made out of metal",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Whatever the reason for the departure, there is no evidence for use of the Kelo shelters after this time, until about 1,000 years ago, when they were re-occupied by people who owned pottery as well as items made out of gold and silver."
+        }
+      ],
+      "reasoning": [
+        "第九段讲岩棚在约一千年前重新有人居住，这批人拥有陶器以及金银物品。笔记had ... as well as items made out of metal把gold and silver概括为metal，所缺的另一物品是pottery。",
+        "该发现属于重新占用阶段，不能接到约八千年前离弃的时间点上。pottery为不可数集合材料词，不写potteries，也不能重复填gold，因为金属物件已经由题干给出。"
+      ],
+      "paraphrases": [
+        {
+          "question": "as well as items made out of metal",
+          "passage": "pottery ... gold and silver",
+          "explanation": "题干中的“as well as items made out of metal”需要结合本题证据理解为“pottery ... gold and silver”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "在时间线上把八千年前离弃与一千年前重占用分开。"
+      ],
+      "reviewTip": "在时间线上把八千年前离弃与一千年前重占用分开。"
+    },
+    "c19-t3-p1:13": {
+      "answer": "spices",
+      "stem": "probably took part in the production and sale of [13] ____",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "It seems likely, in view of Obi's location, that this final phase of occupation also saw the Kelo shelters used by people involved in the historic trade in spices between the Maluku islands and the rest of the world."
+        }
+      ],
+      "reasoning": [
+        "末段推测最后一轮入住者可能参与马鲁古群岛与世界其他地方之间的香料贸易。笔记production and sale of ...概括这种贸易活动的商品，因此应填spices。",
+        "gold和silver在上一句描述居民拥有的器物，并没有说它们是这条历史贸易网络的主要商品。likelihood来自奥比的地理位置，题干probably保留了推测强度。答案用原文复数spices且只写一个词。"
+      ],
+      "paraphrases": [
+        {
+          "question": "production and sale",
+          "passage": "trade in spices",
+          "explanation": "题干中的“production and sale”需要结合本题证据理解为“trade in spices”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "拥有金银器物不等于从事金银贸易；看清trade in后的商品。"
+      ],
+      "reviewTip": "拥有金银器物不等于从事金银贸易；看清trade in后的商品。"
+    },
+    "c19-t3-p2:14": {
+      "answer": "G",
+      "stem": "reference to the need to ensure that inhabitants of wetland regions continue to benefit from them",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "'It's not that we just want to restore the biodiversity of wetlands - which we do - but we recognise there's a need to provide an income for local people.' This approach is supported by IWMI."
+        }
+      ],
+      "reasoning": [
+        "G段强调湿地保护不能只恢复生物多样性，还需给当地人提供收入；随后解释人们只有从湿地获益，才会愿意保护它。题干ensure inhabitants continue to benefit正是这一持续收益与保护动机的关系。",
+        "B段虽然也说湿地支撑生计，主要交代既有价值，而G段进一步提出保护规划必须照顾当地收入的要求。题目带need to ensure，应匹配明确提出这一条件的G段。"
+      ],
+      "paraphrases": [
+        {
+          "question": "need to ensure ... benefit",
+          "passage": "need to provide an income",
+          "explanation": "题干中的“need to ensure ... benefit”需要结合本题证据理解为“need to provide an income”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "描述当地人已经获益，与提出未来保护必须确保获益的要求不同。"
+      ],
+      "reviewTip": "描述当地人已经获益，与提出未来保护必须确保获益的要求不同。"
+    },
+    "c19-t3-p2:15": {
+      "answer": "A",
+      "stem": "the proportion of wetlands which have already been lost",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "But according to the World Wide Fund for Nature (WWFN), half of the world's wetlands have disappeared since 1990 - converted or destroyed for commercial development, drainage schemes and the extraction of minerals and peat\"."
+        }
+      ],
+      "reasoning": [
+        "A段给出已消失湿地的比例：自1990年以来，世界湿地有一半消失。题干the proportion ... already been lost所求的就是损失份额，而不是破坏的原因或未来可能失去多少土地。",
+        "E段的40 per cent涉及一些省份未来可能损失的陆地面积，统计对象、地域和时间都不同。不能见到百分比就选该段，half以及world’s wetlands才与题干完整对应，因此填A。"
+      ],
+      "paraphrases": [
+        {
+          "question": "proportion ... already been lost",
+          "passage": "half ... have disappeared",
+          "explanation": "题干中的“proportion ... already been lost”需要结合本题证据理解为“half ... have disappeared”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "统计题同时核对比例、统计对象、地域和过去/未来时点。"
+      ],
+      "reviewTip": "统计题同时核对比例、统计对象、地域和过去/未来时点。"
+    },
+    "c19-t3-p2:16": {
+      "answer": "H",
+      "stem": "reference to the idea that people are beginning to appreciate the value of wetlands",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "'Awareness of the importance of wetlands is growing,' he says."
+        }
+      ],
+      "reasoning": [
+        "H段中麦卡特尼谨慎乐观，认为人们对湿地重要性的认识正在提高，虽然退化仍快速持续，但情况在慢慢变化。题干beginning to appreciate the value就是认识价值增长的改写。",
+        "G段关注收入与参与规划的条件，B、C段解释湿地本身的价值，都没有H段这种公众认识开始变化的趋势判断。选择H时应保留其谨慎语气，不能扩大为湿地损失已经停止。"
+      ],
+      "paraphrases": [
+        {
+          "question": "beginning to appreciate the value",
+          "passage": "Awareness ... is growing",
+          "explanation": "题干中的“beginning to appreciate the value”需要结合本题证据理解为“Awareness ... is growing”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "意识提高和生态破坏已经逆转是两个不同结论。"
+      ],
+      "reviewTip": "意识提高和生态破坏已经逆转是两个不同结论。"
+    },
+    "c19-t3-p2:17": {
+      "answer": "B",
+      "stem": "mention of the cultural significance of wetlands",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Consequently, they are of considerable religious, historical and archaeological value to many communities around the world."
+        }
+      ],
+      "reasoning": [
+        "B段解释人类长期聚居湿地，湿地在发展史中作用重要，因此对许多社区具有宗教、历史和考古价值。这一组三项价值属于文化意义，直接对应题干cultural significance。",
+        "C段的风暴防护和气候作用属于环境功能；D段的油棕收入属于经济用途，虽然都谈价值，却不是本题指定的文化层面。信息匹配要先分类，避免只凭value这个共有词选择。"
+      ],
+      "paraphrases": [
+        {
+          "question": "cultural significance",
+          "passage": "religious, historical and archaeological value",
+          "explanation": "题干中的“cultural significance”需要结合本题证据理解为“religious, historical and archaeological value”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "把湿地价值分为文化、生态和经济三类后再匹配。"
+      ],
+      "reviewTip": "把湿地价值分为文化、生态和经济三类后再匹配。"
+    },
+    "c19-t3-p2:18": {
+      "answer": "carbon",
+      "stem": "18 Peatlands which have been drained begin to release [18] ____ instead of storing it.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "When peatlands are drained for cultivation, they become net carbon emitters instead of active carbon stores, and, according to Marcel Silvius, head of Climate-smart Land-use at WI, this practice causes six per cent of all global carbon emissions."
+        }
+      ],
+      "reasoning": [
+        "D段说泥炭地被排水后，由活跃的碳储存地转变为净碳排放源。题干release ... instead of storing it保留了emitters与stores的相反关系，所缺的同一物质是carbon。",
+        "后文CO2、methane解释碳转化出的气体，但本题对照的是原句中的carbon emitters和carbon stores，不能任意挑一种气体替代。carbon为不可数名词、一个词，和代词it一致。前后比较必须是同一种被储存和排放的物质。"
+      ],
+      "paraphrases": [
+        {
+          "question": "release ... instead of storing",
+          "passage": "carbon emitters ... carbon stores",
+          "explanation": "题干中的“release ... instead of storing”需要结合本题证据理解为“carbon emitters ... carbon stores”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "先锁定instead of连接的同一对象，不要把后面具体气体当作空格答案。"
+      ],
+      "reviewTip": "先锁定instead of连接的同一对象，不要把后面具体气体当作空格答案。"
+    },
+    "c19-t3-p2:19": {
+      "answer": "fires",
+      "stem": "19 Once peatland areas have been cleared, [19] ____ are more likely to occur.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "The clearance of peatlands for planting also increases the risk of forest fires, which release huge amounts of CO2."
+        }
+      ],
+      "reasoning": [
+        "D段在排水释放碳之后，指出清理泥炭地用于种植还会提高森林火灾风险。题干once ... cleared, ... more likely把increases the risk转换成发生可能性增加，答案为fires。",
+        "风险提高不等于每块清理地都会起火，题干more likely恰好保留可能性。根据ONE WORD ONLY，不能填forest fires两个词；fires这个复数中心名词已足以在上下文中表达林火。不要把森林清理误读成火灾已经发生。"
+      ],
+      "paraphrases": [
+        {
+          "question": "more likely to occur",
+          "passage": "increases the risk",
+          "explanation": "题干中的“more likely to occur”需要结合本题证据理解为“increases the risk”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "字数限制要求从forest fires中取中心名词fires。"
+      ],
+      "reviewTip": "字数限制要求从forest fires中取中心名词fires。"
+    },
+    "c19-t3-p2:20": {
+      "answer": "biodiversity",
+      "stem": "20 Clearing peatland forests to make way for oil palm plantations destroys the [20] ____ of the local environment.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "'We're seeing huge peatland forests with extremely high biodiversity value being lost for a few decades of oil palm revenues,' says Silvius."
+        }
+      ],
+      "reasoning": [
+        "D段引用席尔维乌斯，指出高生物多样性价值的泥炭森林为了数十年油棕收益而消失。题干destroys the ... of the local environment要求被破坏的生态属性，因此填biodiversity。",
+        "revenues是开发者短期获得的经济收益，与题干local environment属性不一致；carbon属于同段另一项功能，也不是这里“森林清除损失丰富物种”的核心。答案是一个不可数概念名词，不加value超过单词限制。"
+      ],
+      "paraphrases": [
+        {
+          "question": "destroys ... local environment",
+          "passage": "high biodiversity value being lost",
+          "explanation": "题干中的“destroys ... local environment”需要结合本题证据理解为“high biodiversity value being lost”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "把被牺牲的生态价值与换来的短期收入分开。"
+      ],
+      "reviewTip": "把被牺牲的生态价值与换来的短期收入分开。"
+    },
+    "c19-t3-p2:21": {
+      "answer": "ditches",
+      "stem": "21 Water is drained out of peatlands through the [21] ____ which are created by logging companies.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "They dig ditches to enter the peat swamps by boat and then float the logs out the same way."
+        }
+      ],
+      "reasoning": [
+        "E段描述伐木公司先挖沟渠让船进入沼泽、运出原木，随后这些沟渠又被用来排干泥炭地。题干through the ... created by logging companies对应这种先交通后排水的设施，答案ditches。",
+        "boats只是利用沟渠运输的工具，corn、oil palms是排水之后种植的作物，都不能回答水从哪里被引走。ditches为复数原词，符合companies create多条沟渠的语境，填写一个词即可。"
+      ],
+      "paraphrases": [
+        {
+          "question": "through ... created by logging companies",
+          "passage": "They dig ditches",
+          "explanation": "题干中的“through ... created by logging companies”需要结合本题证据理解为“They dig ditches”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "注意These指前一句的ditches，串联其两个先后用途。"
+      ],
+      "reviewTip": "注意These指前一句的ditches，串联其两个先后用途。"
+    },
+    "c19-t3-p2:22": {
+      "answer": "subsidence",
+      "stem": "22 Draining peatlands leads to [22] ____: a serious problem which can eventually result in coastal flooding and land loss.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "Meanwhile, the remainder of the solid matter in the peat starts to move downwards, in a process known as subsidence**."
+        }
+      ],
+      "reasoning": [
+        "E段说明水排走之后，泥炭剩余固体开始下沉，这个过程名叫subsidence；随后解释热带地区每年下沉的幅度及未来海水淹没土地的危险。题干后面的coastal flooding and land loss正是其后果。",
+        "空格要求导致这些后果的过程名，而不是后果flooding本身，也不是排水设施ditches。subsidence是不可数名词，直接用作者命名的词最准确，脚注也将其解释为地表下沉。"
+      ],
+      "paraphrases": [
+        {
+          "question": "leads to ... flooding and land loss",
+          "passage": "a process known as subsidence",
+          "explanation": "题干中的“leads to ... flooding and land loss”需要结合本题证据理解为“a process known as subsidence”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "过程、原因和后果依次为排水、下沉、洪水及土地流失，别把层次倒置。"
+      ],
+      "reviewTip": "过程、原因和后果依次为排水、下沉、洪水及土地流失，别把层次倒置。"
+    },
+    "c19-t3-p2:23": {
+      "answer": "A",
+      "stem": "23 Communities living in wetland regions must be included in discussions about the future of these areas.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "'For sustainability, it's essential that local people are involved in wetland planning and decision making and have clear rights to use wetlands.'"
+        }
+      ],
+      "reasoning": [
+        "G段引述麦卡特尼说，为了可持续性，当地人必须参与湿地规划与决策，并清楚拥有使用湿地的权利。题干included in discussions about the future就是把planning and decision making概括为未来讨论。",
+        "这段开头先引用席尔维乌斯谈收入，后面转为麦卡特尼谈参与，不能按段首人名直接作答。人物列表中Matthew McCartney是A，因此填A而非同段出现的C。"
+      ],
+      "paraphrases": [
+        {
+          "question": "included in discussions",
+          "passage": "involved in ... planning and decision making",
+          "explanation": "题干中的“included in discussions”需要结合本题证据理解为“involved in ... planning and decision making”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "人物匹配追踪引号归属和says，不要只认段首人名。"
+      ],
+      "reviewTip": "人物匹配追踪引号归属和says，不要只认段首人名。"
+    },
+    "c19-t3-p2:24": {
+      "answer": "C",
+      "stem": "24 Official policies towards wetlands vary from one nation to the next.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "'Different governments have different attitudes,' he says, and goes on to explain that some countries place a high priority on restoring wetlands, while others still deny the issue."
+        }
+      ],
+      "reasoning": [
+        "H段明确由席尔维乌斯指出不同政府态度不同：一些国家优先恢复湿地，另一些仍否认这个问题。题干policies vary from one nation to the next就是对这一国家间差异的概括。",
+        "同段随后麦卡特尼表达谨慎乐观，但那是对认识趋势的评价，不是前面政府政策差异的发言。应依据引述归属选Marcel Silvius，对应人物列表C，不因段内另有人名就更换答案。"
+      ],
+      "paraphrases": [
+        {
+          "question": "policies vary ... nation",
+          "passage": "Different governments have different attitudes",
+          "explanation": "题干中的“policies vary ... nation”需要结合本题证据理解为“Different governments have different attitudes”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同段有两名专家时，把各自论点单独标注。"
+      ],
+      "reviewTip": "同段有两名专家时，把各自论点单独标注。"
+    },
+    "c19-t3-p2:25": {
+      "answer": "D",
+      "stem": "25 People cause harm to wetlands without having any intention to do so.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "'I've worked on wetland issues for 20 years and have never met anybody who wanted to damage a wetland,' he says."
+        }
+      ],
+      "reasoning": [
+        "F段中蒂克纳说自己二十年来没有遇到故意想破坏湿地的人；很多影响只是人们谋生行为的结果。题干without having any intention to do so准确概括“造成损害但并非有意”的关系。",
+        "这不是否认湿地确实受到伤害，而是区分行为结果与行为意图。观点来自Dave Tickner，人物列表D；不能把他不归咎于蓄意破坏，误读成他认为开发没有生态影响。"
+      ],
+      "paraphrases": [
+        {
+          "question": "without ... intention",
+          "passage": "never met anybody who wanted to damage",
+          "explanation": "题干中的“without ... intention”需要结合本题证据理解为“never met anybody who wanted to damage”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "意图无恶意不代表实际没有损害。"
+      ],
+      "reviewTip": "意图无恶意不代表实际没有损害。"
+    },
+    "c19-t3-p2:26": {
+      "answer": "B",
+      "stem": "26 Initiatives to reverse environmental damage need not be complex. List of Experts",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "'It can be as simple as planting a few trees per hectare to create shade and substantially change a microclimate,' he says."
+        }
+      ],
+      "reasoning": [
+        "C段中范艾克举例，恢复生态可以简单到每公顷种几棵树以提供遮阴、显著改变微气候。题干need not be complex概括as simple as这一例子的结论，故选Pieter van Eijk，对应B。",
+        "他还说实施气候项目并非主要是金钱问题，但题干问复杂程度而非成本。不要将B段麦卡特尼关于生计的说明混进来；人物、具体方法和“简单”这一评价都在同一引述中。"
+      ],
+      "paraphrases": [
+        {
+          "question": "need not be complex",
+          "passage": "as simple as planting a few trees",
+          "explanation": "题干中的“need not be complex”需要结合本题证据理解为“as simple as planting a few trees”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "从具体例子提炼“不一定复杂”，不能扩大为所有修复都容易或便宜。"
+      ],
+      "reviewTip": "从具体例子提炼“不一定复杂”，不能扩大为所有修复都容易或便宜。"
+    },
+    "c19-t3-p3:27": {
+      "answer": "D",
+      "stem": "What does the reader learn about the conversation in the first paragraph? A The speakers are communicating in different languages. B Neither of the speakers is familiar with their environment. C The topic of the conversation is difficult for both speakers. D Aspects of the conversation are challenging for both speakers.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "I'm struggling to follow him in English, on a scratchy line that reminds me we are nearly 10,000 kilometres apart - and that distance is still an obstacle to communication even if you're speaking the same language, as we are."
+        }
+      ],
+      "reasoning": [
+        "首个正文段同时描写车站的背景噪声给韦贝尔一侧的语音识别造成挑战，以及作者在遥远另一端因线路嘈杂而难以听懂英语。两人虽使用同一种语言，交流条件仍都存在困难，因此选D。",
+        "A与as we are所说明的同说英语冲突；B没有环境不熟悉的证据，C把听觉与传输障碍误成话题难懂。题目问对话让读者了解到什么，应综合噪声、远距离和不稳定线路，而不是只找语言名称。"
+      ],
+      "paraphrases": [
+        {
+          "question": "challenging for both speakers",
+          "passage": "struggling to follow him",
+          "explanation": "题干中的“challenging for both speakers”需要结合本题证据理解为“struggling to follow him”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "交流困难可能来自物理条件，而非语言不同或讨论主题太难。"
+      ],
+      "reviewTip": "交流困难可能来自物理条件，而非语言不同或讨论主题太难。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "作者明确说双方都在用英语。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "没有说任一方不熟悉所在地点。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "困难来自背景噪声和线路，而不是话题内容。"
+        },
+        {
+          "label": "D",
+          "correct": true,
+          "reason": "韦贝尔所处车站噪声及作者听线困难，说明双方交流都有挑战。"
+        }
+      ]
+    },
+    "c19-t3-p3:28": {
+      "answer": "A",
+      "stem": "What assists the electronic translator during lectures at Karlsruhe Institute of Technology? A the repeated content of lectures B the students' reading skills C the languages used D the lecturers' technical ability",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "It helps that lecturers speak clearly, don't have to compete with background chatter, and say much the same thing each year."
+        }
+      ],
+      "reasoning": [
+        "卡尔斯鲁厄的电子翻译把德语讲座变成学生可读的英语文字。段末列出有利条件：讲师说话清晰、没有背景闲谈，并且每年所说内容大致相同。四个选项中只有A重复内容准确对应最后一项。",
+        "B把学生阅读能力当成原因，但原文只说输出形式是可阅读文字；C的语言本身、D的讲师技术能力都未被列为帮助翻译的因素。不能因该机构研究计算机就推定讲师技术专长是系统有效的原因。"
+      ],
+      "paraphrases": [
+        {
+          "question": "repeated content of lectures",
+          "passage": "much the same thing each year",
+          "explanation": "题干中的“repeated content of lectures”需要结合本题证据理解为“much the same thing each year”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分输出能被阅读，与学生阅读技巧帮助翻译系统这两个关系。"
+      ],
+      "reviewTip": "区分输出能被阅读，与学生阅读技巧帮助翻译系统这两个关系。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "每年讲述大致相同内容，直接列为有利条件。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "原文说学生可阅读翻译输出，没有说阅读技巧改善系统。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "未说德语或英语本身使系统更容易工作。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "讲师在技术领域任职不等于系统依赖其技术操作能力。"
+        }
+      ]
+    },
+    "c19-t3-p3:29": {
+      "answer": "C",
+      "stem": "When referring to The Hitchhiker's Guide to the Galaxy, the writer suggests that A the Babel fish was considered undesirable at the time. B this book was not seriously intending to predict the future. C artificial speech translation was not a surprising development. D some speech translation techniques are better than others.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "It came to represent one of those devices that technology enthusiasts dream of long before they become practically realisable, like TVs flat enough to hang on walls: objects that we once could only dream of having but that are now commonplace."
+        }
+      ],
+      "reasoning": [
+        "作者引用《银河系漫游指南》的巴别鱼，并把它与曾只能想象、如今常见的平板电视并列，说明人们在技术可实现以前很早就设想过这种翻译装置。因此C“这项发展并非出人意料”最符合类比作用。",
+        "作者没有评价小说是否认真预测未来，也未比较不同翻译技术优劣。提到科幻不代表当时人们讨厌这种装置；本段重点是先有长期愿景，再逐渐成为现实，而非技术突然毫无预兆地出现。"
+      ],
+      "paraphrases": [
+        {
+          "question": "not a surprising development",
+          "passage": "dream of long before ... realisable",
+          "explanation": "题干中的“not a surprising development”需要结合本题证据理解为“dream of long before ... realisable”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "引用作品题要解释作者用这个例子论证什么，不是评论作品本身。"
+      ],
+      "reviewTip": "引用作品题要解释作者用这个例子论证什么，不是评论作品本身。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "没有说巴别鱼在当时不受欢迎。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "作者不讨论小说创作是否意在认真预测未来。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "先有长期科幻想象再有实现，说明这种发展有思想先例。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "本段不比较不同翻译技术的优劣。"
+        }
+      ]
+    },
+    "c19-t3-p3:30": {
+      "answer": "B",
+      "stem": "What does the writer say about sharing earpieces? A It is something people will get used to doing. B The reluctance to do this is understandable. C The equipment will be unnecessary in the future. D It is something few people need to worry about.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "That can't have been totally unexpected."
+        }
+      ],
+      "reasoning": [
+        "第六段引述奥乔亚说人们不愿与陌生人共用一只翻译耳机，作者随即评论这并不完全出人意料。意思是这种顾虑可以理解，故选B，而不是断言人们最终一定会习惯分享。",
+        "随后提出的解决办法是设备普及到陌生人本来就各有一套，并非未来不再需要翻译耳机。原文也没有估计只有很少人担心；作者谨慎讨论普及速度，不能把可能方案当成确定趋势。"
+      ],
+      "paraphrases": [
+        {
+          "question": "reluctance ... understandable",
+          "passage": "can't have been totally unexpected",
+          "explanation": "题干中的“reluctance ... understandable”需要结合本题证据理解为“can't have been totally unexpected”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "分清“理解顾虑”“预测会习惯”与“人人自带设备”的不同命题。"
+      ],
+      "reviewTip": "分清“理解顾虑”“预测会习惯”与“人人自带设备”的不同命题。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "作者没有预测人们必然习惯共用耳机。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "That cannot have been totally unexpected表明这种不愿意可以理解。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "解决方案是设备足够普及、各有一套，并非设备不再必要。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有估计担忧者占比很少。"
+        }
+      ]
+    },
+    "c19-t3-p3:31": {
+      "answer": "C",
+      "stem": "31 Speech translation methods are developing fast in Japan",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "There is still a long way to go, though."
+        }
+      ],
+      "reasoning": [
+        "第七段先说日本等亚洲国家的语音翻译发展很快，随即用though转折指出还有很长路要走。句子前半developing fast in Japan应接C but they are far from perfect，完整保留发展与不足的让步关系。",
+        "不能选A笼统的concerns而忽视C对“仍有很长路”的直接概括。后文所列即时性、离线使用和隐私要求说明现有系统尚不完善，不是说发展速度慢。选择句尾时需让转折与论证都匹配。"
+      ],
+      "paraphrases": [
+        {
+          "question": "but ... far from perfect",
+          "passage": "still a long way to go",
+          "explanation": "题干中的“but ... far from perfect”需要结合本题证据理解为“still a long way to go”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "发展快与尚不完善可以同时成立，注意though带出的转折。"
+      ],
+      "reviewTip": "发展快与尚不完善可以同时成立，注意though带出的转折。"
+    },
+    "c19-t3-p3:32": {
+      "answer": "E",
+      "stem": "32 TV interviews that use translation voiceover methods are successful",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "A translation system needs to be simultaneous, like the translator's voice speaking over the foreign politician being interviewed on the TV, rather than in sections that oblige speakers to pause after every few remarks and wait for the translation to be delivered."
+        }
+      ],
+      "reasoning": [
+        "第七段把电视上对外国政客的同步配音采访作为理想例子，与每说几句话就要停下来等翻译的方式对比。电视例子有效是因为翻译即时进行，因此应接E because translation is immediate。",
+        "原文不是强调电视采访克服噪声，所以D despite the noise issues不符本句论证。题目中的successful要找紧随例子解释的机制：simultaneous与pause and wait相反，而非凭使用场景联想到别的问题。"
+      ],
+      "paraphrases": [
+        {
+          "question": "translation is immediate",
+          "passage": "needs to be simultaneous",
+          "explanation": "题干中的“translation is immediate”需要结合本题证据理解为“needs to be simultaneous”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "例子的作用由前后对比决定；此处对比即时翻译与分段等待。"
+      ],
+      "reviewTip": "例子的作用由前后对比决定；此处对比即时翻译与分段等待。"
+    },
+    "c19-t3-p3:33": {
+      "answer": "F",
+      "stem": "33 Future translation systems should address people appropriately",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Systems not only need to cope with physical challenges such as noise, they will also need to be socially aware by addressing people in the right way."
+        }
+      ],
+      "reasoning": [
+        "第八段把技术挑战之外的社会意识作为新要求：翻译系统应以正确方式称呼人，尊重学术地位等文化礼仪。因此句首address people appropriately应接F and have an awareness of good manners。",
+        "这不是让所有系统使用相同的称呼习惯，而是能识别当地规范，避免失礼。其他句尾关注即时性、技术缺陷或担忧，均不能补出本处的社会礼节层面；good manners概括了etiquette-sensitive的要求。"
+      ],
+      "paraphrases": [
+        {
+          "question": "awareness of good manners",
+          "passage": "socially aware ... addressing people",
+          "explanation": "题干中的“awareness of good manners”需要结合本题证据理解为“socially aware ... addressing people”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "address在此是称呼、对待某人，不是邮寄地址。"
+      ],
+      "reviewTip": "address在此是称呼、对待某人，不是邮寄地址。"
+    },
+    "c19-t3-p3:34": {
+      "answer": "B",
+      "stem": "34 Users may be able to maintain their local customs",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "At the same time, they might help to preserve local customs, slowing the spread of habits associated with international English, such as its readiness to get on first-name terms."
+        }
+      ],
+      "reasoning": [
+        "第八段说礼仪敏感的翻译器可尊重不同文化规范，同时减缓国际英语习惯扩散，例如很快互称名字。它能适应差异，而不必强迫所有交流服从一种通行做法，因此句尾选B。",
+        "本题并不是说系统无需任何礼貌规范，而是无需把所有地区统一成标准英语社交习惯。其结果是用户可以保留本地称呼与礼仪；若把standard practices读成完全不守规矩，就会误解原文。"
+      ],
+      "paraphrases": [
+        {
+          "question": "maintain their local customs",
+          "passage": "preserve local customs",
+          "explanation": "题干中的“maintain their local customs”需要结合本题证据理解为“preserve local customs”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分尊重多样文化与统一套用一种国际惯例，别误读成无须礼貌。"
+      ],
+      "reviewTip": "区分尊重多样文化与统一套用一种国际惯例，别误读成无须礼貌。"
+    },
+    "c19-t3-p3:35": {
+      "answer": "NO",
+      "stem": "Language translation systems will be seen as very useful throughout the academic and professional worlds.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Professors and other professionals will not outsource language awareness to software, though."
+        }
+      ],
+      "reasoning": [
+        "第九段明确说教授和其他专业人士不会把语言意识外包给软件；即使技术成熟，也会增加语言技能的价值。作者保留了学术和职业交流中人类语言理解的重要性，反对把自动翻译视为全面替代。",
+        "题干throughout the academic and professional worlds将这类系统的有用性作了全面肯定，但原文指出这些人群仍不会依赖软件完成语言意识层面的工作。应结合not outsource与末段never substitute理解这种限制，答案NO。"
+      ],
+      "paraphrases": [
+        {
+          "question": "very useful throughout ... worlds",
+          "passage": "will not outsource ... to software",
+          "explanation": "题干throughout the academic and professional worlds将这类系统的有用性作了全面肯定，但原文指出这些人群仍不会依赖软件完成语言意识层面的工作。应结合not outsource与末段never substitute理解这种限制，答案NO。"
+        }
+      ],
+      "traps": [
+        "不要把技术在某些场景有用，扩大成学术职业领域全面依赖它。"
+      ],
+      "reviewTip": "不要把技术在某些场景有用，扩大成学术职业领域全面依赖它。"
+    },
+    "c19-t3-p3:36": {
+      "answer": "YES",
+      "stem": "The overall value of automated translation to family life is yet to be shown.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Whether it will help people conduct their family lives or relationships is open to question - though one noteworthy possibility is that it could overcome the language barriers that often arise between generations after migration, leaving children and their grandparents without a shared language."
+        }
+      ],
+      "reasoning": [
+        "第九段直接说自动翻译是否有助于家庭生活和人际关系仍有疑问。题干overall value ... is yet to be shown表达尚未证实整体价值，与open to question的谨慎态度一致，故为YES。",
+        "后面作者提出可能帮助移民家庭不同代际沟通，只是一种noteworthy possibility，并不代表家庭生活的总体收益已被证实。不能用一个潜在用途消除段首保留意见，应把整体评价与具体可能性区分。"
+      ],
+      "paraphrases": [
+        {
+          "question": "is yet to be shown",
+          "passage": "is open to question",
+          "explanation": "题干中的“is yet to be shown”需要结合本题证据理解为“is open to question”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "possible用途不等于overall value已经确定。"
+      ],
+      "reviewTip": "possible用途不等于overall value已经确定。"
+    },
+    "c19-t3-p3:37": {
+      "answer": "NO",
+      "stem": "Automated translation could make life more difficult for immigrant families.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "Whether it will help people conduct their family lives or relationships is open to question - though one noteworthy possibility is that it could overcome the language barriers that often arise between generations after migration, leaving children and their grandparents without a shared language."
+        }
+      ],
+      "reasoning": [
+        "作者提出自动翻译可能克服移民后不同代际之间的语言障碍，例如儿童与祖父母不再共享语言。题干则说它可能让移民家庭生活更困难，和原文提出的改善方向相反。",
+        "本题不是要求证明技术必然解决家庭沟通，而是比较两种“可能”的方向：原文是帮助越过障碍，题干是增加困难。既然方向冲突，答案NO；不要因为作者对家庭整体效益仍保留疑问就一概判NOT GIVEN。"
+      ],
+      "paraphrases": [
+        {
+          "question": "make life more difficult",
+          "passage": "overcome the language barriers",
+          "explanation": "本题不是要求证明技术必然解决家庭沟通，而是比较两种“可能”的方向：原文是帮助越过障碍，题干是增加困难。既然方向冲突，答案NO；不要因为作者对家庭整体效益仍保留疑问就一概判NOT GIVEN。"
+        }
+      ],
+      "traps": [
+        "未证实整体效益不等于没有谈具体改善的可能。"
+      ],
+      "reviewTip": "未证实整体效益不等于没有谈具体改善的可能。"
+    },
+    "c19-t3-p3:38": {
+      "answer": "NOT GIVEN",
+      "stem": "Visual aspects of language translation are being considered by scientists.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "Even if voice-morphing technology simulates the speaker's voice, their lip movements won't match, and they will look like they are in a dubbed movie."
+        }
+      ],
+      "reasoning": [
+        "最后一段指出即便模仿说话者声音，译音与嘴唇动作仍不同步，看起来像配音电影。这里是作者对视觉不协调的分析，但没有提到科学家是否正在研究、考虑或解决视觉方面的问题。",
+        "题干being considered by scientists增加了特定行动主体及正在发生的研究活动。技术缺陷被指出，并不能自动证明已有科学家投入相关研究；原文也未说他们完全不考虑，故为NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "作者识别一个问题，不等于科学家已在研究这个问题。"
+      ],
+      "reviewTip": "作者识别一个问题，不等于科学家已在研究这个问题。"
+    },
+    "c19-t3-p3:39": {
+      "answer": "NOT GIVEN",
+      "stem": "International scientists have found English easier to translate into other languages than Latin.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "Sharing a language can promote a sense of belonging and community, as with the international scientists who use English as a lingua franca, where their predecessors used Latin."
+        }
+      ],
+      "reasoning": [
+        "末段只是举国际科学家现在用英语作通用语、前辈曾用拉丁语的例子，论证共享语言能促进归属与共同体。没有比较英语和拉丁语翻译成其他语言的难易程度。",
+        "题干easier to translate是一个新增指标，而且要求科学家做过这种比较。语言在不同历史时期承担相同功能，不意味着翻译容易程度有高低，因此不能借英语更常见的常识补证，答案NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "历史上通用语的更替，与翻译难易的比较无关。"
+      ],
+      "reviewTip": "历史上通用语的更替，与翻译难易的比较无关。"
+    },
+    "c19-t3-p3:40": {
+      "answer": "YES",
+      "stem": "As far as language is concerned, there is a difference between people's social and practical needs.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "Though the practical need for a common language will diminish, the social value of sharing one will persist."
+        }
+      ],
+      "reasoning": [
+        "最后一段明确区分共享语言的实际需要与社会价值：自动翻译可能减少日常沟通对共同语言的实用依赖，但共同语言带来的归属感、社区联系及细微理解仍将存在。题干正概括这一区别。",
+        "文章并未因为实用需求下降就认定学习语言无价值，反而强调社会功能持续。social和practical两个维度被直接并列对照，因此YES有明确依据，不必依赖前文某个具体设备的例子来推测。"
+      ],
+      "paraphrases": [
+        {
+          "question": "difference ... social and practical needs",
+          "passage": "practical need ... social value",
+          "explanation": "题干中的“difference ... social and practical needs”需要结合本题证据理解为“practical need ... social value”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "技术可降低沟通门槛，但不等于共享语言的社会价值消失。"
+      ],
+      "reviewTip": "技术可降低沟通门槛，但不等于共享语言的社会价值消失。"
+    },
+    "c19-t4-p1:1": {
+      "answer": "FALSE",
+      "stem": "Forty years ago, there were fewer butterflies in Britain than at present.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "According to conservationists, populations of around two thirds of butterfly species have declined in Britain over the past 40 years."
+        }
+      ],
+      "reasoning": [
+        "第一段说过去四十年英国约三分之二蝴蝶物种的种群减少，这意味着当时的数量通常比现在更多。题干却说四十年前更少，把下降趋势的时间比较反向表达，因此为FALSE。",
+        "不能看到declined便直接对应fewer而忽略fewer修饰哪个时间点。原文从过去到现在下降，题干从过去与现在比较却说过去较少，必须把两端标清后再判断，不能混用“现在较少”和“过去较少”。"
+      ],
+      "paraphrases": [
+        {
+          "question": "Forty years ago ... fewer",
+          "passage": "over the past 40 years ... declined",
+          "explanation": "不能看到declined便直接对应fewer而忽略fewer修饰哪个时间点。原文从过去到现在下降，题干从过去与现在比较却说过去较少，必须把两端标清后再判断，不能混用“现在较少”和“过去较少”。"
+        }
+      ],
+      "traps": [
+        "趋势题把起点、终点与比较词写成箭头，防止方向倒置。"
+      ],
+      "reviewTip": "趋势题把起点、终点与比较词写成箭头，防止方向倒置。"
+    },
+    "c19-t4-p1:2": {
+      "answer": "TRUE",
+      "stem": "Caterpillars are eaten by a number of different predators.",
+      "evidence": [
+        {
+          "paragraph": 1,
+          "quote": "Butterfly eggs develop into caterpillars and these insects, which are the second stage in a new butterfly's lifecycle, consume vast quantities of plant material, and in turn act as prey for birds as well as bats and other small mammals."
+        }
+      ],
+      "reasoning": [
+        "第一段说毛毛虫既是鸟类的猎物，也是蝙蝠和其他小型哺乳动物的猎物。题干a number of different predators概括这些不同捕食者，Caterpillars are eaten则改写act as prey，主客体一致。",
+        "caterpillars consume plant material讲它们吃植物，是食物链另一侧的信息，不能与它们被谁吃相混。鸟、蝙蝠及其他哺乳动物已足以支持多个捕食者的有限概括，所以答案TRUE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "eaten by ... different predators",
+          "passage": "prey for birds ... bats ... mammals",
+          "explanation": "题干中的“eaten by ... different predators”需要结合本题证据理解为“prey for birds ... bats ... mammals”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "食物链两端分清：毛毛虫吃植物，同时被其他动物捕食。"
+      ],
+      "reviewTip": "食物链两端分清：毛毛虫吃植物，同时被其他动物捕食。"
+    },
+    "c19-t4-p1:3": {
+      "answer": "FALSE",
+      "stem": "'Phenology' is a term used to describe a creature's ability to alter the location of a lifecycle event.",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "Scientists refer to the timing of such lifecycle events as 'phenology', so when an animal or plant starts to do something earlier in the year than it usually does, it is said to be 'advancing its phenology'."
+        }
+      ],
+      "reasoning": [
+        "第二段给phenology的定义是生命周期事件的时间安排，例如活动或繁殖在一年中何时发生。题干却把它定义为改变事件发生地点的能力，把时间概念换成了地点概念。",
+        "原文changing the time of year和starts ... earlier都强调时间而非location；也不只是泛指适应能力。因此这不是信息不足，而是定义中的关键维度直接冲突，应判FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "alter the location",
+          "passage": "timing of such lifecycle events",
+          "explanation": "原文changing the time of year和starts ... earlier都强调时间而非location；也不只是泛指适应能力。因此这不是信息不足，而是定义中的关键维度直接冲突，应判FALSE。"
+        }
+      ],
+      "traps": [
+        "术语定义题逐项核对维度，时间、地点、能力不能互换。"
+      ],
+      "reviewTip": "术语定义题逐项核对维度，时间、地点、能力不能互换。"
+    },
+    "c19-t4-p1:4": {
+      "answer": "NOT GIVEN",
+      "stem": "Some species of butterfly have a reduced lifespan due to spring temperature increases.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "In Britain, as the average spring temperature has increased by roughly 0.5 °C over the past 20 years, species have advanced by between three days and a week on average, to keep in line with cooler temperatures."
+        }
+      ],
+      "reasoning": [
+        "第三段说春季变暖后，蝴蝶生命周期事件平均提前三天到一周，但没有说个体寿命因此缩短。事件更早发生与生命持续时间变短是两个不同测量指标。",
+        "后文讨论繁殖代数增加、某些物种数量下滑，也不等于同一只蝴蝶活得更短。题干reduced lifespan需要出生至死亡时长的证据，文中未给出这种数据，所以应为NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "提前出现不等于寿命缩短，种群数量下降也不等于个体寿命下降。"
+      ],
+      "reviewTip": "提前出现不等于寿命缩短，种群数量下降也不等于个体寿命下降。"
+    },
+    "c19-t4-p1:5": {
+      "answer": "FALSE",
+      "stem": "There is a clear reason for the adaptations that butterflies are making to climate change.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "Is this a sign that butterflies are well equipped to cope with climate change, and readily adjust to new temperatures? Or are these populations under stress, being dragged along unwillingly by unnaturally fast changes? The answer is still unknown, but a new study is seeking to answer these questions."
+        }
+      ],
+      "reasoning": [
+        "第三段提出两种对适应变化的解释：蝴蝶是否善于应对变暖，还是被迫跟随异常快速的变化承受压力。作者紧接着说答案仍未知，研究正试图回答。题干clear reason则声称已有明确解释。",
+        "文章的确说明温度变化与提前发生相联系，但题干针对的是这种适应背后的性质与原因是否清楚。原文明确标记unknown，不能因为研究已经开始就说结论明确，因此答案FALSE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "a clear reason",
+          "passage": "The answer is still unknown",
+          "explanation": "文章的确说明温度变化与提前发生相联系，但题干针对的是这种适应背后的性质与原因是否清楚。原文明确标记unknown，不能因为研究已经开始就说结论明确，因此答案FALSE。"
+        }
+      ],
+      "traps": [
+        "发现现象、提出假说和确认原因是三个阶段，研究中不等于已查清。"
+      ],
+      "reviewTip": "发现现象、提出假说和确认原因是三个阶段，研究中不等于已查清。"
+    },
+    "c19-t4-p1:6": {
+      "answer": "TRUE",
+      "stem": "The data used in the study was taken from the work of amateur butterfly watchers.",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "First, the researchers pulled together data from millions of records that had been submitted by butterfly enthusiasts - people who spend their free time observing the activities of different species."
+        }
+      ],
+      "reasoning": [
+        "第四段说研究者汇集数百万条蝴蝶爱好者提交的记录，并解释这些人利用空闲时间观察不同物种活动。题干amateur butterfly watchers正对应非职业爱好者，数据来源的关系完全一致。",
+        "随后研究者估计数量和分布，是对记录的分析方式，不改变原始资料来自爱好者这一事实。不能把负责统计的研究者误认为全部一手观察记录的采集者，因此判TRUE。"
+      ],
+      "paraphrases": [
+        {
+          "question": "amateur butterfly watchers",
+          "passage": "enthusiasts ... free time observing",
+          "explanation": "题干中的“amateur butterfly watchers”需要结合本题证据理解为“enthusiasts ... free time observing”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "分清提供原始记录的人与汇总分析资料的研究者。"
+      ],
+      "reviewTip": "分清提供原始记录的人与汇总分析资料的研究者。"
+    },
+    "c19-t4-p1:7": {
+      "answer": "colonies",
+      "stem": "lives in large [7] ____",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "For these species, such as Britain's tiniest butterfly, the dainty Small Blue, whose colonies are up to a hundred strong, some develop into butterflies early in spring, allowing their summer generations to complete another reproductive cycle by autumn so that more population growth occurs."
+        }
+      ],
+      "reasoning": [
+        "第六段以小蓝蝶为例，说明其群落可达一百只。笔记lives in large ...要求描述共同生活的群体，colonies对应原文的群落名词，而不是个体大小或分布区域。",
+        "Britain’s tiniest描述的是每只蝴蝶体型小，与群落规模大并不矛盾。答案应为复数colonies，不能填hundred，因为题干要求群体的名称，不是数量，且原词能够满足一个词限制。"
+      ],
+      "paraphrases": [
+        {
+          "question": "lives in large",
+          "passage": "colonies ... up to a hundred strong",
+          "explanation": "题干中的“lives in large”需要结合本题证据理解为“colonies ... up to a hundred strong”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "体型小与群落大不冲突；空格问群体名称而非数字。"
+      ],
+      "reviewTip": "体型小与群落大不冲突；空格问群体名称而非数字。"
+    },
+    "c19-t4-p1:8": {
+      "answer": "spring",
+      "stem": "first appears at the start of [8] ____",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "For these species, such as Britain's tiniest butterfly, the dainty Small Blue, whose colonies are up to a hundred strong, some develop into butterflies early in spring, allowing their summer generations to complete another reproductive cycle by autumn so that more population growth occurs."
+        }
+      ],
+      "reasoning": [
+        "第六段说小蓝蝶有些个体在早春成蝶，使夏季世代能在秋季前完成另一轮繁殖。笔记first appears at the start of ...把early改写为at the start of，所缺季节是spring。",
+        "summer与autumn同句出现，但分别对应后续世代和完成繁殖的时点，不是首次出现的季节。按整条时间链核对便能排除相邻季节的干扰，填写spring一个词即可。"
+      ],
+      "paraphrases": [
+        {
+          "question": "at the start of",
+          "passage": "early in spring",
+          "explanation": "题干中的“at the start of”需要结合本题证据理解为“early in spring”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同一句有三个季节，按出现、繁殖及完成的事件对应。"
+      ],
+      "reviewTip": "同一句有三个季节，按出现、繁殖及完成的事件对应。"
+    },
+    "c19-t4-p1:9": {
+      "answer": "endangered",
+      "stem": "• is considered to be more [9] ____ than other species",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "The beautiful High Brown Fritillary, often described as Britain's most endangered butterfly, is in this group."
+        }
+      ],
+      "reasoning": [
+        "第七段称高棕珍蛱蝶经常被描述为英国最濒危的蝴蝶。笔记more ... than other species用比较结构表达其濒危程度突出，答案应填形容词endangered。",
+        "不能填decline，因为它是名词或动词，不能自然放入more ... than的此处结构；也不能把前文的habitat当成程度属性。most endangered可被概括为比其他物种更濒危，词形保持原样。"
+      ],
+      "paraphrases": [
+        {
+          "question": "more ... than other species",
+          "passage": "most endangered butterfly",
+          "explanation": "题干中的“more ... than other species”需要结合本题证据理解为“most endangered butterfly”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "利用more ... than判断空位需形容词，并定位这一个物种的具体评价。"
+      ],
+      "reviewTip": "利用more ... than判断空位需形容词，并定位这一个物种的具体评价。"
+    },
+    "c19-t4-p1:10": {
+      "answer": "habitat(s)",
+      "stem": "• its caterpillars occupy a limited range of [10] ____",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Indeed, worryingly, it was found that the species in this group that specialise in very specific habitat types, often related to the caterpillar's preferred diet, actually tended to be most at harm from advancing phenology."
+        }
+      ],
+      "reasoning": [
+        "第七段讨论一年只繁殖一代的物种，其中依赖非常特定栖息地的种类受提前物候的伤害更大；随后举高棕珍蛱蝶，只见于萌生林和石灰岩地貌。笔记limited range of ...对应狭窄的栖息地类型。",
+        "diet是决定其栖息地偏好的关联因素，不是空格所问占据的环境类型。答案用habitats较自然，原书也接受单数habitat；只填写其中一种，不需把具体两种地点全抄进去。"
+      ],
+      "paraphrases": [
+        {
+          "question": "limited range",
+          "passage": "very specific habitat types",
+          "explanation": "题干中的“limited range”需要结合本题证据理解为“very specific habitat types”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "问居住环境就选habitat，不要因食性相关而替换成diet。"
+      ],
+      "reviewTip": "问居住环境就选habitat，不要因食性相关而替换成diet。"
+    },
+    "c19-t4-p1:11": {
+      "answer": "Europe",
+      "stem": "• is already able to reproduce twice a year in warm areas of [11] ____",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Many of Britain's single-generation species show the capacity, in continental Europe, to add a second generation in years that are sufficiently warm."
+        }
+      ],
+      "reasoning": [
+        "第八段说英国一些一年一代的蝴蝶，在欧洲大陆足够温暖的年份已表现出增加第二代的能力，小银蓝蝶是可能在英国也发生这种转变的例子。笔记already ... in warm areas of ...要求现有能力出现的地区。",
+        "UK指未来可能出现同样好处的地方，不是已观察到能力的地区。根据ONE WORD ONLY，填写Europe而非continental Europe；首字母大小写不影响含义，但地名通常规范写大写。"
+      ],
+      "paraphrases": [
+        {
+          "question": "already ... warm areas",
+          "passage": "in continental Europe",
+          "explanation": "题干中的“already ... warm areas”需要结合本题证据理解为“in continental Europe”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "already与might ... in the UK将已观察地区和未来可能地区区分。"
+      ],
+      "reviewTip": "already与might ... in the UK将已观察地区和未来可能地区区分。"
+    },
+    "c19-t4-p1:12": {
+      "answer": "southern",
+      "stem": "• is found in [12] ____ areas of England",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "The White Admiral of southern England, a much sought-after butterfly, experienced a significant increase in numbers from the 1920s but has shown a considerable decline in the past 20 years."
+        }
+      ],
+      "reasoning": [
+        "最后一段一开始用southern England限定白斑天蛾蝶的英国分布区域。笔记found in ... areas of England保留England并要求一个修饰方位的词，因此填southern。",
+        "后文二十年数量下降、金银花食性与气候变化均属于另一组信息，不能填入地理修饰位置。southern为形容词，能直接修饰areas；south虽然含义接近，却不是原文此处应复制的词形。"
+      ],
+      "paraphrases": [
+        {
+          "question": "... areas of England",
+          "passage": "southern England",
+          "explanation": "题干中的“... areas of England”需要结合本题证据理解为“southern England”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "填空保留原文形容词词形，southern与south的语法位置不同。"
+      ],
+      "reviewTip": "填空保留原文形容词词形，southern与south的语法位置不同。"
+    },
+    "c19-t4-p1:13": {
+      "answer": "diet",
+      "stem": "• both climate change and the [13] ____ of the caterpillar are possible reasons for decline",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "This may be because the caterpillar exists solely on a diet of a plant called honeysuckle."
+        }
+      ],
+      "reasoning": [
+        "末段说白斑蝶数量减少可能因为毛毛虫只以金银花为食，同时也可能受气候变化影响。笔记both climate change and the ... of the caterpillar把两个潜在原因并列，空格应为diet。",
+        "honeysuckle是食物的具体植物名，而题干the ... of the caterpillar要求概括毛毛虫的食性。原文may与likely表明可能因素，不是已证实唯一原因；答案用diet一个词即可，不能写整种植物名称替换关系。"
+      ],
+      "paraphrases": [
+        {
+          "question": "the ... of the caterpillar",
+          "passage": "solely on a diet",
+          "explanation": "题干中的“the ... of the caterpillar”需要结合本题证据理解为“solely on a diet”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "分清食性这一原因与具体食物名称，保留原文的可能性语气。"
+      ],
+      "reviewTip": "分清食性这一原因与具体食物名称，保留原文的可能性语气。"
+    },
+    "c19-t4-p2:14": {
+      "answer": "C",
+      "stem": "reference to the rapidly increasing need for one raw material in the transport industry",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Mining corporations argue that deep-sea exploration could help diversify the supply of metals and point to the fact that demand for resources such as copper, aluminium, cobalt for electric car batteries and other metals to power technology and smartphones, is soaring."
+        }
+      ],
+      "reasoning": [
+        "C段说金属资源需求飞涨，特别列到电动车电池所需的钴。题干one raw material in the transport industry将cobalt与electric car batteries概括成交通行业的一种原材料，且soaring对应rapidly increasing。",
+        "同句也提铜、铝和智能手机，但交通行业这一限定把最直接的证据锁定在电动车电池。F段虽然提社会需求上升，没有指定运输行业材料，信息不如C段完整，故答案C。"
+      ],
+      "paraphrases": [
+        {
+          "question": "transport industry ... rapidly increasing need",
+          "passage": "cobalt for electric car batteries ... soaring",
+          "explanation": "题干中的“transport industry ... rapidly increasing need”需要结合本题证据理解为“cobalt for electric car batteries ... soaring”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "在列举中同时匹配材料、用途行业和需求增速三个条件。"
+      ],
+      "reviewTip": "在列举中同时匹配材料、用途行业和需求增速三个条件。"
+    },
+    "c19-t4-p2:15": {
+      "answer": "F",
+      "stem": "a rough estimate of the area of the Earth covered by the oceans",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "F The oceans occupy around 70% of the planet and are relatively unexplored, says Mike Johnston, chief executive of Nautilus, a Canadian underwater exploration company: 'It makes sense to explore this untapped potential in an environmentally sustainable way, instead of continually looking at the fast depleting land resources of the planet to meet society's rising needs.' Those leading the global rush to place giant mining machines thousands of metres below the sea surface say the environmental impacts will be far lower than on land."
+        }
+      ],
+      "reasoning": [
+        "F段由约翰斯顿开头指出海洋覆盖地球约百分之七十。题干rough estimate of the area of the Earth对应around 70% of the planet，数量、统计对象与近似语气完全一致。",
+        "不要把C段海底金属储量比陆地更多，或开采深度六千米，误认作地球海洋覆盖面积；它们测量的维度不同。此题只需匹配承载这一面积估计的段落字母F。"
+      ],
+      "paraphrases": [
+        {
+          "question": "rough estimate ... area",
+          "passage": "around 70% of the planet",
+          "explanation": "题干中的“rough estimate ... area”需要结合本题证据理解为“around 70% of the planet”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "百分比也要核对统计对象；覆盖面积不是矿藏储量或开采深度。"
+      ],
+      "reviewTip": "百分比也要核对统计对象；覆盖面积不是矿藏储量或开采深度。"
+    },
+    "c19-t4-p2:16": {
+      "answer": "E",
+      "stem": "how a particular underwater habitat, where minerals and organisms co-exist, is formed",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "E Scientific research - including a recent paper in Marine Policy journal - has suggested the deep seabed, and hydrothermal vents, which are created when seawater meets volcanic magma, have crucial impacts upon biodiversity and the global climate."
+        }
+      ],
+      "reasoning": [
+        "E段直接解释热液喷口的形成：海水与火山岩浆相遇，并紧接着说矿物丰富的喷口及周边也是许多动物的栖息地。题干habitat where minerals and organisms co-exist及how ... formed两项信息同时对应。",
+        "F段讨论开采立场，并没有形成机制；不能因为段内也出现active vents就选F。本题原书答案页第16题为E，定位必须看带which are created when的定义句，而不是只找喷口名称。"
+      ],
+      "paraphrases": [
+        {
+          "question": "how ... habitat ... is formed",
+          "passage": "created when seawater meets volcanic magma",
+          "explanation": "题干中的“how ... habitat ... is formed”需要结合本题证据理解为“created when seawater meets volcanic magma”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "喷口名称可重复出现，形成机制由created when这句独有地定位。"
+      ],
+      "reviewTip": "喷口名称可重复出现，形成机制由created when这句独有地定位。"
+    },
+    "c19-t4-p2:17": {
+      "answer": "D",
+      "stem": "reference to the fact that the countries of the world have yet to agree on rules for the exploration of the seabed",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "D But environmental and legal groups have urged caution, arguing there are potentially massive and unknown ramifications for the environment and for nearby communities, and that the global regulatory framework is not yet drafted."
+        }
+      ],
+      "reasoning": [
+        "D段开头列环境与法律团体的担忧，除了未知环境后果，也指出全球监管框架尚未制定。题干countries ... have yet to agree on rules概括全球规则仍未建立的状态，因此匹配D。",
+        "F段有行业与批评者意见分歧，但不是国际规则框架的制定状态；仅有不同意见不足以满足题干所问。not yet drafted与have yet to agree都强调尚未完成，不能误读成已有统一规则。"
+      ],
+      "paraphrases": [
+        {
+          "question": "have yet to agree on rules",
+          "passage": "global regulatory framework is not yet drafted",
+          "explanation": "题干中的“have yet to agree on rules”需要结合本题证据理解为“global regulatory framework is not yet drafted”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "have yet to与not yet都表示尚未，不是已完成。"
+      ],
+      "reviewTip": "have yet to与not yet都表示尚未，不是已完成。"
+    },
+    "c19-t4-p2:18": {
+      "answer": "D",
+      "stem": "18 Amove away from the exploration of heavily mined reserves on land is a good idea.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "F The oceans occupy around 70% of the planet and are relatively unexplored, says Mike Johnston, chief executive of Nautilus, a Canadian underwater exploration company: 'It makes sense to explore this untapped potential in an environmentally sustainable way, instead of continually looking at the fast depleting land resources of the planet to meet society's rising needs.' Those leading the global rush to place giant mining machines thousands of metres below the sea surface say the environmental impacts will be far lower than on land."
+        }
+      ],
+      "reasoning": [
+        "F段约翰斯顿认为，应以环境可持续方式探索未开发海洋潜力，而不是不断寻找日益枯竭的陆地资源。题干a move away ... heavily mined reserves on land概括这种由陆地转向海洋的主张。",
+        "这不是作者或所有科学家的一致立场，而是海底勘探公司负责人Mike Johnston的论点。人物列表D对应他，不能与同段后半坚决警告生态破坏的Tunnicliffe混淆。"
+      ],
+      "paraphrases": [
+        {
+          "question": "move away from ... land",
+          "passage": "instead of ... depleting land resources",
+          "explanation": "题干中的“move away from ... land”需要结合本题证据理解为“instead of ... depleting land resources”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同段正反双方发言须分清，支持海洋开发者是Johnston。"
+      ],
+      "reviewTip": "同段正反双方发言须分清，支持海洋开发者是Johnston。"
+    },
+    "c19-t4-p2:19": {
+      "answer": "B",
+      "stem": "19 The negative effects of undersea exploration on local areas and their inhabitants are being ignored.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "'Despite arising in the last half century, the \"new global gold rush\" of deep-sea mining shares many features with past resource scrambles - including a general disregard for environmental and social impacts, and the marginalisation of indigenous peoples and their rights,' a paper, written by Julie Hunter and Julian Aguon, from Blue Ocean Law, and Pradeep Singh, from the Center for Marine Environmental Sciences, Bremen, argues."
+        }
+      ],
+      "reasoning": [
+        "D段引述Hunter、Aguon和Singh共同撰写的论文，批评深海采矿与以往资源争夺一样，忽视环境、社会影响以及原住民权利。题干local areas and their inhabitants对应环境与当地人两方面。",
+        "主张归属不是D段开头泛称的所有团体，而是随后具体署名的三位作者，人物列表B将三人合为一个选项。不要因后文其他科学家也反对采矿，就把具体发言归给他们。"
+      ],
+      "paraphrases": [
+        {
+          "question": "effects ... being ignored",
+          "passage": "disregard for environmental and social impacts",
+          "explanation": "题干中的“effects ... being ignored”需要结合本题证据理解为“disregard for environmental and social impacts”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "人物匹配依署名和引文范围，而不是按支持或反对的大阵营猜。"
+      ],
+      "reviewTip": "人物匹配依署名和引文范围，而不是按支持或反对的大阵营猜。"
+    },
+    "c19-t4-p2:20": {
+      "answer": "A",
+      "stem": "20 There are more worthwhile things to extract from the sea than minerals.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "'In sustainability terms, this could be a better way of exploiting the economic potential of the deep sea,' he argues."
+        }
+      ],
+      "reasoning": [
+        "B段中厄普顿主张先寻找海底物种的药物潜力，认为从可持续性看这是更好的经济开发方式；他担忧抢采矿物会毁掉救命药物的机会。题干more worthwhile ... than minerals正是这个价值比较。",
+        "他的专业背景和前段抗生素发现构成论证依据，而不是完全反对所有海洋资源利用。人物列表A为Mat Upton，应把“药物比抢矿更值得”这一具体观点与其他人单纯要求谨慎的意见区分。"
+      ],
+      "paraphrases": [
+        {
+          "question": "more worthwhile ... than minerals",
+          "passage": "a better way ... economic potential",
+          "explanation": "题干中的“more worthwhile ... than minerals”需要结合本题证据理解为“a better way ... economic potential”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "反对抢矿不等于反对一切海洋利用，找作者更推崇的替代收益。"
+      ],
+      "reviewTip": "反对抢矿不等于反对一切海洋利用，找作者更推崇的替代收益。"
+    },
+    "c19-t4-p2:21": {
+      "answer": "E",
+      "stem": "21 No other form of human exploration will have such a destructive impact on marine life as deep-sea mining.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "'Mining will be the greatest assault on deep-sea ecosystems ever inflicted by humans,' according to hydrothermal vent expert Verena Tunnicliffe, at the University of Victoria in Canada."
+        }
+      ],
+      "reasoning": [
+        "F段图尼克利夫把采矿称为人类加诸深海生态的最大攻击。题干No other form ... such a destructive impact将greatest改写为没有其他人类探索具有同等破坏程度，含义一致。",
+        "同段约翰斯顿反而说海底开采环境影响会比陆地低，两人的评价方向截然不同。应选择Verena Tunnicliffe，对应E，不能因同处F段就把所有内容归到段首的公司负责人。"
+      ],
+      "paraphrases": [
+        {
+          "question": "No other ... such a destructive impact",
+          "passage": "greatest assault ... ever inflicted",
+          "explanation": "题干中的“No other ... such a destructive impact”需要结合本题证据理解为“greatest assault ... ever inflicted”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "最高级与No other ... as ... often同义；同时注意说话者已切换。"
+      ],
+      "reviewTip": "最高级与No other ... as ... often同义；同时注意说话者已切换。"
+    },
+    "c19-t4-p2:22": {
+      "answer": "B",
+      "stem": "22 More is known about outer space than about what lies beneath the oceans.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "'The surface of the Moon, Mars and even Venus have all been mapped and studied in much greater detail, leading marine scientists to commonly remark that, with respect to the deep sea, \"We don't yet know what we need to know\".'"
+        }
+      ],
+      "reasoning": [
+        "D段三位论文作者指出，月球、火星甚至金星表面得到的地图测绘和研究，比深海详细得多。题干More is known about outer space than ... oceans就是这一知识详略比较。",
+        "不要因为话题涉及海洋科学就选海洋学家Copley；本段明确将比较放在三人论文论证中，人物选项B正确。引用科学家常说的话不改变本题在文中归属的这组作者。"
+      ],
+      "paraphrases": [
+        {
+          "question": "More is known about outer space",
+          "passage": "Moon, Mars ... studied in much greater detail",
+          "explanation": "题干中的“More is known about outer space”需要结合本题证据理解为“Moon, Mars ... studied in much greater detail”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "人物题以文章中具体引用归属为准，不凭专业名称联想。"
+      ],
+      "reviewTip": "人物题以文章中具体引用归属为准，不凭专业名称联想。"
+    },
+    "c19-t4-p2:23": {
+      "answer": "C",
+      "stem": "23 There is one marine life habitat where experts agree mining should not take place. List of People",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "'On deep sea vents, scientists are clear,' says Dr Jon Copley of the National Oceanography Centre, Southampton: 'we don't want mining on them.'"
+        }
+      ],
+      "reasoning": [
+        "E段科普热液喷口及其生态作用后，科普利说对于深海喷口，科学家立场明确：不希望在上面开采。题干one habitat where experts agree精准对应指定生境和科学家共识，因此选人物C。",
+        "Tunnicliffe在F段也反对活动喷口开采，但题干特别问“专家一致”的表达，原文由Copley说scientists are clear。应区分相近立场者的不同措辞，不能仅按反对开采就选E。"
+      ],
+      "paraphrases": [
+        {
+          "question": "experts agree",
+          "passage": "scientists are clear",
+          "explanation": "题干中的“experts agree”需要结合本题证据理解为“scientists are clear”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "相似观点可由多人表达，题干“共识”对应scientists are clear。"
+      ],
+      "reviewTip": "相似观点可由多人表达，题干“共识”对应scientists are clear。"
+    },
+    "c19-t4-p2:24": {
+      "answer": "waste",
+      "stem": "… believe that the mineral resources lying under the sea may be superior to those found in the earth. They also say that these can be removed without producing much [24] ____• The extraction is often done by adapting the [25] ____ that has already been used to work on land. The method of excavation involves removing the seawater from the slurry that is brought up to ships and returning …",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "They say that deep-sea mining could yield far superior ore to land mining with little, if any, waste."
+        }
+      ],
+      "reasoning": [
+        "C段介绍的是采矿公司的论点：深海矿石可能更优质，而且开采几乎不产生废物。摘要without producing much ...对应little, if any, waste，因此填waste。",
+        "作者随后会引入环境团体反对意见，并不改变此空所转述的公司说法。不能因后文提废物排放的风险就否认该答案；题目考的是谁主张什么，而非该主张是否已被证实。"
+      ],
+      "paraphrases": [
+        {
+          "question": "without producing much",
+          "passage": "little, if any, waste",
+          "explanation": "题干中的“without producing much”需要结合本题证据理解为“little, if any, waste”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "先标记Mining corporations believe，避免把转述观点当作者最终结论。"
+      ],
+      "reviewTip": "先标记Mining corporations believe，避免把转述观点当作者最终结论。"
+    },
+    "c19-t4-p2:25": {
+      "answer": "machinery",
+      "stem": "… sea may be superior to those found in the earth. They also say that these can be removed without producing much [24] ____• The extraction is often done by adapting the [25] ____ that has already been used to work on land. The method of excavation involves removing the seawater from the slurry that is brought up to ships and returning it to the seabed. However, concerned groups strongly …",
+      "evidence": [
+        {
+          "paragraph": 4,
+          "quote": "Different methods of extraction exist, but most involve employing some form of converted machinery previously used in terrestrial mining to excavate materials from the sea floor, at depths of up to 6,000 metres, then drawing a seawater slurry, containing rock and other solid particles, from the sea floor to ships on the surface."
+        }
+      ],
+      "reasoning": [
+        "C段说多数开采方法会使用此前陆地采矿的某种改装机械，在海底挖掘后把浆液抽到船上。摘要adapting ... already been used to work on land对应converted machinery和terrestrial mining，答案machinery。",
+        "vessel只是之后负责运输的船只，slurry是机械挖出的岩石与海水混合物，都不是被改装的陆地设备。machinery是不可数名词，不能加s，填写一个词满足字数限制。"
+      ],
+      "paraphrases": [
+        {
+          "question": "adapting ... used ... on land",
+          "passage": "converted machinery ... terrestrial mining",
+          "explanation": "题干中的“adapting ... used ... on land”需要结合本题证据理解为“converted machinery ... terrestrial mining”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分工具machinery、产出slurry和运输vessel三个过程要素。"
+      ],
+      "reviewTip": "区分工具machinery、产出slurry和运输vessel三个过程要素。"
+    },
+    "c19-t4-p2:26": {
+      "answer": "caution",
+      "stem": "… of excavation involves removing the seawater from the slurry that is brought up to ships and returning it to the seabed. However, concerned groups strongly believe that [26] ____ is necessary due to the possible number of unidentified consequences.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "D But environmental and legal groups have urged caution, arguing there are potentially massive and unknown ramifications for the environment and for nearby communities, and that the global regulatory framework is not yet drafted."
+        }
+      ],
+      "reasoning": [
+        "D段环境和法律团体认为后果可能极大且未知，因此敦促谨慎。摘要concerned groups ... necessary due to ... unidentified consequences保留相同主体和理由，空格应填caution。",
+        "不是要求写environment或regulation等相关名词；后者虽同段出现，但“谨慎”才是urged直接要求的行动态度。caution是不可数名词，可以作为is necessary的主语，一个词即可。未知的后果正是主张谨慎的理由，而非采矿公司的乐观预测。"
+      ],
+      "paraphrases": [
+        {
+          "question": "... is necessary",
+          "passage": "have urged caution",
+          "explanation": "题干中的“... is necessary”需要结合本题证据理解为“have urged caution”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "同段相关概念很多，按urged的直接宾语找被要求的态度。"
+      ],
+      "reviewTip": "同段相关概念很多，按urged的直接宾语找被要求的态度。"
+    },
+    "c19-t4-p3:27": {
+      "answer": "C",
+      "stem": "What is the writer doing in the first paragraph? A setting out two opposing views about human nature B justifying his opinion about our tendency to be greedy C describing a commonly held belief about people's behaviour D explaining why he thinks that humans act in a selfish manner",
+      "evidence": [
+        {
+          "paragraph": 2,
+          "quote": "There has long been a general assumption that human beings are essentially selfish."
+        }
+      ],
+      "reasoning": [
+        "首个正文段以长期存在的普遍假设开头，陈述人本质自私、争夺资源和权力，即使善良也可能怀有隐藏目的。这是在介绍常见的人性观，不是作者已证明或最终赞同的个人解释，因此选C。",
+        "整篇后面会反驳这种假设，但不能把后文反方观点搬进首段，说首段已列两种对立看法。A误置篇章结构；B、D则把引述社会观念误当作者在为自己的主张辩护。"
+      ],
+      "paraphrases": [
+        {
+          "question": "commonly held belief",
+          "passage": "a general assumption",
+          "explanation": "题干中的“commonly held belief”需要结合本题证据理解为“a general assumption”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "开头的general assumption提示这是被介绍的流行看法，未必是作者立场。"
+      ],
+      "reviewTip": "开头的general assumption提示这是被介绍的流行看法，未必是作者立场。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "首段只介绍流行的自私人性观，对立观点在后文展开。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "这不是为作者自己的贪婪观辩护，而是陈述general assumption。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "长期普遍假设及其具体表现构成首段内容，正确。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "作者尚未在此段解释自己为何认为人自私，后文反而反驳这一假设。"
+        }
+      ]
+    },
+    "c19-t4-p3:28": {
+      "answer": "C",
+      "stem": "What point is made about Richard Dawkins' book The Selfish Gene? A Its appeal lay in the radical nature of its ideas. B Its success was due to the scientific support it offered. C It presented a view that was in line with the attitudes of its time. D It took an innovative approach to the analysis of human psychology.",
+      "evidence": [
+        {
+          "paragraph": 3,
+          "quote": "This bleak view of human nature is closely associated with the science writer Richard Dawkins, whose 1976 book The Selfish Gene became popular because it fitted so well with - and helped to justify - the competitive and individualistic ethos that was so prevalent in late 20th-century societies."
+        }
+      ],
+      "reasoning": [
+        "第二正文段解释《自私的基因》流行，是因为它非常契合并帮助证明二十世纪晚期社会的竞争性和个人主义风气。选项C强调与当时态度一致，正对应fitted so well with。",
+        "A把契合既有风气歪曲为观点激进新奇；B的科学支持并不是本段给出的畅销原因，D的创新分析方法也未提出。题目问成书成功的原因，需要保留because后面的时代背景关系。"
+      ],
+      "paraphrases": [
+        {
+          "question": "in line with ... attitudes of its time",
+          "passage": "fitted so well with",
+          "explanation": "题干中的“in line with ... attitudes of its time”需要结合本题证据理解为“fitted so well with”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "书受欢迎的社会原因与理论声称的科学依据不是同一问题。"
+      ],
+      "reviewTip": "书受欢迎的社会原因与理论声称的科学依据不是同一问题。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "原文说它契合既有时代风气，不是因观点激进而成功。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "理论引用进化心理学，但本题问流行原因，because指向时代态度。"
+        },
+        {
+          "label": "C",
+          "correct": true,
+          "reason": "与当时竞争、个人主义风气吻合并帮助其合理化，正确。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有将创新分析方法作为该书特点或成功原因。"
+        }
+      ]
+    },
+    "c19-t4-p3:29": {
+      "answer": "B",
+      "stem": "What does the writer suggest about the prehistoric era in the fourth paragraph? A Societies were more complex than many people believe. B Supplies of natural resources were probably relatively plentiful. C Most estimates about population sizes are likely to be inaccurate. D Humans moved across continents more than was previously thought.",
+      "evidence": [
+        {
+          "paragraph": 5,
+          "quote": "With such small population densities, it seems unlikely that prehistoric hunter-gatherer groups had to compete against each other for resources or had any need to develop ruthlessness and competitiveness, or to go to war."
+        }
+      ],
+      "reasoning": [
+        "第四个正文段给出史前人口稀少的估计，再推断采猎群体不太可能需要彼此争夺资源。选项B“自然资源相对充足”是相对于稀少人口而言的合理概括，说明生存未必像普遍假设那样激烈。",
+        "作者没有说人口估计大多不准确，也未讨论跨大陆移动比人们想象的更多。A的社会结构复杂程度不在这一段论证中；关键是人口密度低减少了资源竞争压力，不是资源无限。"
+      ],
+      "paraphrases": [
+        {
+          "question": "resources ... relatively plentiful",
+          "passage": "small population densities ... unlikely ... compete",
+          "explanation": "题干中的“resources ... relatively plentiful”需要结合本题证据理解为“small population densities ... unlikely ... compete”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "relatively plentiful是相对人口需求充足，不能扩大为资源绝对无限。"
+      ],
+      "reviewTip": "relatively plentiful是相对人口需求充足，不能扩大为资源绝对无限。",
+      "options": [
+        {
+          "label": "A",
+          "correct": false,
+          "reason": "本段讨论人口密度与资源竞争，不是社会复杂性。"
+        },
+        {
+          "label": "B",
+          "correct": true,
+          "reason": "人口很少使资源竞争不太必要，支持相对充裕的推论。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "作者引用人口估计作为论据，没有说估计大多不准。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "没有比较人类跨大陆移动的频繁程度。"
+        }
+      ]
+    },
+    "c19-t4-p3:30": {
+      "answer": "A",
+      "stem": "The writer refers to Bruce Knauft's work as support for the idea that A selfishness is a relatively recent development in human societies. B only people in isolated communities can live in an unselfish manner. C very few lifestyles have survived unchanged since prehistoric times. D hunter-gatherer cultures worldwide are declining in number.",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "There is significant evidence to back this notion from contemporary hunter-gatherer groups, who live in the same way as prehistoric humans did."
+        }
+      ],
+      "reasoning": [
+        "作者用仍维持采猎生活的现代群体说明平等和分享可作为正常社会机制，再以此反驳“人从史前起就必然自私竞争”的假设。Knauft的观察支持自私可能是较晚出现的特征，因此选A。",
+        "B的only过强，原文未说只有隔绝群体能无私；C、D关注生活方式存续数量或文化衰退，不是引用研究的论证目标。应把例子放回全文的古今特征比较，而非只提取研究对象。"
+      ],
+      "paraphrases": [
+        {
+          "question": "selfishness ... relatively recent",
+          "passage": "contemporary hunter-gatherer groups",
+          "explanation": "题干中的“selfishness ... relatively recent”需要结合本题证据理解为“contemporary hunter-gatherer groups”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "例证作用题要连到作者要反驳的早期自私假设。"
+      ],
+      "reviewTip": "例证作用题要连到作者要反驳的早期自私假设。",
+      "options": [
+        {
+          "label": "A",
+          "correct": true,
+          "reason": "现代采猎群体显示分享与平等，为较晚出现自私特征的解释提供支持。"
+        },
+        {
+          "label": "B",
+          "correct": false,
+          "reason": "only把例证扩大为唯一可能条件，原文没有如此限定。"
+        },
+        {
+          "label": "C",
+          "correct": false,
+          "reason": "提及采猎生活延续，是为比较人性而非统计延续生活方式有多少。"
+        },
+        {
+          "label": "D",
+          "correct": false,
+          "reason": "研究引用不是为了说明世界采猎文化数量减少。"
+        }
+      ]
+    },
+    "c19-t4-p3:31": {
+      "answer": "egalitarianism",
+      "stem": "Bruce Knauft's research shows that contemporary hunter-gatherer societies tend to exhibit a high level of [31] ____ in all areas of life. In these cultures, distributing resources fairly among all members is a moral obligation. These societies also employ strategies to prevent differences in [32] ____ occurring: for example, …",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "As the anthropologist Bruce Knauft has remarked, hunter-gatherers are characterised by 'extreme political and sexual egalitarianism'."
+        }
+      ],
+      "reasoning": [
+        "Knauft将采猎群体概括为高度政治与性别平等，并举不积累财产、道义上分享所有东西及避免地位差异等表现。摘要high level of ... in all areas of life需要这个统摄性的概念，答案egalitarianism。",
+        "property、possessions是被分享或不积累的对象，不是描述整体社会组织原则的词。根据ONE WORD ONLY应抄这一抽象名词，注意其拼写较长，不要误写为形容词egalitarian。"
+      ],
+      "paraphrases": [
+        {
+          "question": "high level ... all areas of life",
+          "passage": "political and sexual egalitarianism",
+          "explanation": "题干中的“high level ... all areas of life”需要结合本题证据理解为“political and sexual egalitarianism”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "用后面的分享和无地位差异验证总括概念，而非挑某个具体财物。"
+      ],
+      "reviewTip": "用后面的分享和无地位差异验证总括概念，而非挑某个具体财物。"
+    },
+    "c19-t4-p3:32": {
+      "answer": "status",
+      "stem": "… of life. In these cultures, distributing resources fairly among all members is a moral obligation. These societies also employ strategies to prevent differences in [32] ____ occurring: for example, the !Kung follow a custom whereby the credit for one person's success at [33] ____ is given to another member of the group. Individuals who behave in a [34] ____manner are punished by being …",
+      "evidence": [
+        {
+          "paragraph": 6,
+          "quote": "They also have methods of preserving egalitarianism by ensuring that disparities of status don't arise."
+        }
+      ],
+      "reasoning": [
+        "第六段末说群体有维持平等的方法，确保地位差异不会产生。摘要prevent differences in ... occurring几乎逐项改写ensuring disparities ... don’t arise，因此填status。",
+        "不要因前面说不积累property就填财产，空格对应的是随后明确提出的status差异，下一段交换箭矢与归属荣誉的例子正解释如何防止个人地位攀升。status为不可数概念名词，一个词足够。"
+      ],
+      "paraphrases": [
+        {
+          "question": "prevent differences ... occurring",
+          "passage": "disparities of status don't arise",
+          "explanation": "题干中的“prevent differences ... occurring”需要结合本题证据理解为“disparities of status don't arise”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "disparities和differences同义，先找完整结构而非仅找附近名词。"
+      ],
+      "reviewTip": "disparities和differences同义，先找完整结构而非仅找附近名词。"
+    },
+    "c19-t4-p3:33": {
+      "answer": "hunting",
+      "stem": "… societies also employ strategies to prevent differences in [32] ____ occurring: for example, the !Kung follow a custom whereby the credit for one person's success at [33] ____ is given to another member of the group. Individuals who behave in a [34] ____manner are punished by being excluded from the group, and women have a considerable amount of [35] ____ in choices regarding work and …",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "The !Kung people of southern Africa, for example, swap arrows before going hunting and when an animal is killed, the acclaim does not go to the person who fired the arrow, but to the person the arrow belongs to."
+        }
+      ],
+      "reasoning": [
+        "第七段说昆族出猎前交换箭，击中动物后功劳归箭的主人而非射箭者，以免个人因猎绩获得过高地位。摘要success at ... given to another member对应狩猎成功与功劳转移，因此填hunting。",
+        "arrows是用来实现这个习俗的工具，不能自然补成success at arrows；killed也不是所需的活动名词。hunting同时符合at后接名词性活动以及ONE WORD ONLY的要求。"
+      ],
+      "paraphrases": [
+        {
+          "question": "success at",
+          "passage": "going hunting ... acclaim does not go ... fired",
+          "explanation": "题干中的“success at”需要结合本题证据理解为“going hunting ... acclaim does not go ... fired”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "空位问获得成功的活动，而非交换的工具。"
+      ],
+      "reviewTip": "空位问获得成功的活动，而非交换的工具。"
+    },
+    "c19-t4-p3:34": {
+      "answer": "domineering",
+      "stem": "… for example, the !Kung follow a custom whereby the credit for one person's success at [33] ____ is given to another member of the group. Individuals who behave in a [34] ____manner are punished by being excluded from the group, and women have a considerable amount of [35] ____ in choices regarding work and marriage.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "And if a person becomes too domineering, the other members of the group ostracise them, exiling the offender from society."
+        }
+      ],
+      "reasoning": [
+        "第七段接着描述，如果某人过于专横，其他成员会排斥并将其逐出社会。摘要behave in a ... manner要求修饰行为方式的形容词，因此填domineering，与原文的被惩罚原因一致。",
+        "ostracise或exiling是群体采取的惩罚动作，不是造成惩罚的行为特点。selfish虽然符合全文大主题，但原文此处给出更精确的形容词，填空应使用原词并避免擅自替换同义词。"
+      ],
+      "paraphrases": [
+        {
+          "question": "behave in a ... manner",
+          "passage": "becomes too domineering",
+          "explanation": "题干中的“behave in a ... manner”需要结合本题证据理解为“becomes too domineering”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "区分引起排斥的行为特质与排斥这项处罚本身。"
+      ],
+      "reviewTip": "区分引起排斥的行为特质与排斥这项处罚本身。"
+    },
+    "c19-t4-p3:35": {
+      "answer": "autonomy",
+      "stem": "… given to another member of the group. Individuals who behave in a [34] ____manner are punished by being excluded from the group, and women have a considerable amount of [35] ____ in choices regarding work and marriage.",
+      "evidence": [
+        {
+          "paragraph": 7,
+          "quote": "Women in hunter-gatherer groups worldwide often benefit from a high level of autonomy, being able to select their own marriage partners,decide what work they do and work whenever they choose to."
+        }
+      ],
+      "reasoning": [
+        "第七段说这些群体的女性拥有较高自主权，能够选择婚姻伴侣、工作内容和工作时间。摘要considerable amount of ... in choices regarding work and marriage概括这一自主决定的权利，因此答案autonomy。",
+        "custody rights是随后关于婚姻破裂后对子女权利的补充，不是涵盖工作与择偶的共同概念。men do not dictate从反面支持自主权，但空格应填正面抽象名词autonomy，而非把整句照抄进去。"
+      ],
+      "paraphrases": [
+        {
+          "question": "choices regarding work and marriage",
+          "passage": "a high level of autonomy",
+          "explanation": "题干中的“choices regarding work and marriage”需要结合本题证据理解为“a high level of autonomy”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "列举的多项自由共同解释autonomy，不要把单项权利当总概念。"
+      ],
+      "reviewTip": "列举的多项自由共同解释autonomy，不要把单项权利当总概念。"
+    },
+    "c19-t4-p3:36": {
+      "answer": "NOT GIVEN",
+      "stem": "Some anthropologists are mistaken about the point when the number of societies such as the !Kung began to decline.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Many anthropologists believe that societies such as the !Kung were normal until a few thousand years ago, when population growth led to the development of agriculture and a settled lifestyle."
+        }
+      ],
+      "reasoning": [
+        "第八段转述许多人类学家认为，类似昆族的社会直到几千年前仍属常态，人口增长后来促成农业和定居。作者没有说其中一些人对这类社会数量开始减少的具体时点判断错误。",
+        "题干Some ... mistaken about the point when增加了学者之间判断失误的评价。文中描述一个历史变化，并不等于指出有人把年代弄错；同样也未确认所有人判断正确，因此NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "转述一种历史观点，不等于评价某些学者的年代判断对错。"
+      ],
+      "reviewTip": "转述一种历史观点，不等于评价某些学者的年代判断对错。"
+    },
+    "c19-t4-p3:37": {
+      "answer": "NO",
+      "stem": "Humans who developed warlike traits in prehistory would have had an advantage over those who did not.",
+      "evidence": [
+        {
+          "paragraph": 8,
+          "quote": "Individuals who behaved selfishly and ruthlessly would be less likely to survive, since they would have been ostracised from their groups."
+        }
+      ],
+      "reasoning": [
+        "第八段认为自私、残酷者会被群体排斥，反而不易生存；战争、种族主义和男性支配等特质在史前缺乏益处。题干却说发展好战特质的人会比其他人更有优势，和作者推论相反。",
+        "不能把前文作为被批判对象的“竞争使残酷者幸存”假设，当成作者最终结论。此题应读取In view of the above之后的反驳，比较benefit与less likely to survive的方向，因此答案NO。"
+      ],
+      "paraphrases": [
+        {
+          "question": "would have had an advantage",
+          "passage": "would be less likely to survive",
+          "explanation": "不能把前文作为被批判对象的“竞争使残酷者幸存”假设，当成作者最终结论。此题应读取In view of the above之后的反驳，比较benefit与less likely to survive的方向，因此答案NO。"
+        }
+      ],
+      "traps": [
+        "跟踪作者从介绍常见假设转入反驳的立场变化。"
+      ],
+      "reviewTip": "跟踪作者从介绍常见假设转入反驳的立场变化。"
+    },
+    "c19-t4-p3:38": {
+      "answer": "YES",
+      "stem": "Being peaceful and cooperative is a natural way for people to behave.",
+      "evidence": [
+        {
+          "paragraph": 9,
+          "quote": "It makes more sense, then, to see traits such as cooperation, egalitarianism, altruism and peacefulness as innate characteristics of human beings."
+        }
+      ],
+      "reasoning": [
+        "第九段明确说，更合理的是把合作、平等、利他和和平看作人类先天特质，这些特征在人类生活中存在数万年，今天可能仍很强。题干natural way对应innate，peaceful和cooperative直接对应列举。",
+        "这不是说现代人从不自私，而是作者对基本人性的判断；后文会解释环境和心理变化可能导致负面特征。因此题干对和平合作的有限概括受到明确支持，选YES。"
+      ],
+      "paraphrases": [
+        {
+          "question": "natural way ... peaceful and cooperative",
+          "passage": "innate characteristics ... cooperation ... peacefulness",
+          "explanation": "题干中的“natural way ... peaceful and cooperative”需要结合本题证据理解为“innate characteristics ... cooperation ... peacefulness”，判断对象、范围和逻辑关系应保持一致。"
+        }
+      ],
+      "traps": [
+        "天然倾向不等于每个人每时每刻都会表现同样行为。"
+      ],
+      "reviewTip": "天然倾向不等于每个人每时每刻都会表现同样行为。"
+    },
+    "c19-t4-p3:39": {
+      "answer": "NOT GIVEN",
+      "stem": "Negative traits are more apparent in some modern cultures than in others.",
+      "evidence": [
+        {
+          "paragraph": 11,
+          "quote": "I believe that the end of the hunter-gatherer lifestyle and the advent of farming was connected to a psychological change that occurred in some groups of people."
+        }
+      ],
+      "reasoning": [
+        "最后一段认为某些群体在采猎结束和农业出现后发生心理变化，带来新的自私与等级社会。但作者没有对现代不同文化进行比较，也未评判哪种现代文化负面特征更多。",
+        "题干more apparent in some modern cultures than in others要求当代跨文化比较，原文some groups指历史转变中的群体，不能直接置换为现代文化排名。没有相反比较也不能判NO，故答案NOT GIVEN。"
+      ],
+      "paraphrases": [],
+      "traps": [
+        "历史上的some groups不能自动等同现代不同文化之间的比较。"
+      ],
+      "reviewTip": "历史上的some groups不能自动等同现代不同文化之间的比较。"
+    },
+    "c19-t4-p3:40": {
+      "answer": "NO",
+      "stem": "Animal research has failed to reveal a link between changes in the environment and the emergence of aggressive tendencies.",
+      "evidence": [
+        {
+          "paragraph": 10,
+          "quote": "Research has shown repeatedly that when the natural habitats of primates such as apes and gorillas are disrupted, they tend to become more violent and hierarchical."
+        }
+      ],
+      "reasoning": [
+        "倒数第二段明确说研究一再显示，猿与大猩猩的自然栖息地遭破坏后，往往变得更暴力、更有等级性。题干却说动物研究未能揭示环境变化与攻击倾向之间的联系，直接否认原文已反复观察到的关系。",
+        "这里并不要求证明人类完全相同，也不需要把关联提升为唯一因果；对动物研究而言，habitats disrupted与more violent已经提供所问联系，因此答案NO，而非因类推人类仍属推测就选NOT GIVEN。"
+      ],
+      "paraphrases": [
+        {
+          "question": "failed to reveal a link",
+          "passage": "Research has shown repeatedly ... more violent",
+          "explanation": "这里并不要求证明人类完全相同，也不需要把关联提升为唯一因果；对动物研究而言，habitats disrupted与more violent已经提供所问联系，因此答案NO，而非因类推人类仍属推测就选NOT GIVEN。"
+        }
+      ],
+      "traps": [
+        "区分动物研究已经显示的联系与作者对人类变化的进一步推测。"
+      ],
+      "reviewTip": "区分动物研究已经显示的联系与作者对人类变化的进一步推测。"
+    }
+  }
+}

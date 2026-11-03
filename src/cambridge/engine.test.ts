@@ -107,3 +107,15 @@ test("shared spelling endings retain their common prefix and numeric commas are 
   assert.ok(!answerVariants("urban centres/centers").includes("centers"));
   assert.ok(answerVariants("(the) harbour / harbor").includes("the harbor"));
 });
+test("the huarango medicine answer requires both parts and accepts either order", () => {
+  const variants = answerVariants("leaves (and) bark / bark (and) leaves");
+  for (const answer of [
+    "leaves bark",
+    "bark leaves",
+    "leaves and bark",
+    "bark and leaves",
+  ])
+    assert.ok(variants.includes(answer), answer);
+  for (const answer of ["leaves", "bark", "leaves leaves"])
+    assert.ok(!variants.includes(answer), answer);
+});
