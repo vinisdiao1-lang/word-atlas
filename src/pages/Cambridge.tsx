@@ -4,6 +4,7 @@ import { useStore } from "../store/store";
 import { loadPacks, loadRecords, save } from "../cambridge/db";
 import { loadLibrary } from "../cambridge/library";
 import { ExamText } from "../cambridge/Text";
+import { gapParagraphs } from "../cambridge/gaps";
 import {
   RULES,
   grade,
@@ -580,7 +581,9 @@ export function Cambridge() {
                     ),
                     item = section?.items?.find((item) => item.number === n),
                     firstInGroup =
-                      index === 0 || (g && visible[index - 1] < g.from);
+                      index === 0 || (g && visible[index - 1] < g.from),
+                    inline = g && section ? gapParagraphs(g, section) : null;
+                  if (inline && !done && !firstInGroup) return null;
                   return (
                     <div
                       className={`exam-answer ${done ? (mark === true ? "is-right" : mark === false ? "is-wrong" : "is-pending") : ""}`}
@@ -596,9 +599,48 @@ export function Cambridge() {
                           </h3>
                           <ExamText
                             paragraphs={
-                              section.items
+                              inline ??
+                              (section.items
                                 ? (section.intro ?? [])
-                                : section.paragraphs
+                                : section.paragraphs)
+                            }
+                            renderGap={
+                              inline
+                                ? (number) => {
+                                    const gapId = qid(paper.id, number);
+                                    return (
+                                      <span className="exam-inline-gap">
+                                        <sup>{number}</sup>
+                                        <input
+                                          id={`answer-${number}`}
+                                          aria-label={`第 ${number} 题填空`}
+                                          type="text"
+                                          maxLength={200}
+                                          autoComplete="off"
+                                          autoCapitalize="none"
+                                          spellCheck={false}
+                                          disabled={done}
+                                          value={active.answers[gapId] ?? ""}
+                                          onChange={(e) =>
+                                            update((a) =>
+                                              a.submittedAt ||
+                                              (a.deadline &&
+                                                Date.now() >= a.deadline)
+                                                ? a
+                                                : {
+                                                    ...a,
+                                                    answers: {
+                                                      ...a.answers,
+                                                      [gapId]: e.target.value,
+                                                    },
+                                                  },
+                                            )
+                                          }
+                                        />
+                                      </span>
+                                    );
+                                  }
+                                : undefined
                             }
                           />
                           {section.judgmentOptions && (
@@ -608,15 +650,17 @@ export function Cambridge() {
                           )}
                         </div>
                       )}
-                      <label htmlFor={`answer-${n}`}>
-                        <b>第 {n} 题</b>
-                        <small>
-                          {g ? kindLabel[g.type] : ""}
-                          {g?.anyOrder ? " · 多选题可任意顺序" : ""}
-                        </small>
-                      </label>
+                      {(!inline || done) && (
+                        <label htmlFor={`answer-${n}`}>
+                          <b>第 {n} 题</b>
+                          <small>
+                            {g ? kindLabel[g.type] : ""}
+                            {g?.anyOrder ? " · 多选题可任意顺序" : ""}
+                          </small>
+                        </label>
+                      )}
                       {item && <ExamText paragraphs={item.paragraphs} />}
-                      {section?.judgmentOptions && !done ? (
+                      {inline ? null : section?.judgmentOptions && !done ? (
                         <div
                           className="exam-answer-options"
                           role="group"

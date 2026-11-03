@@ -328,3 +328,33 @@
   color: var(--ink);
   line-height: 1.5;
 }
+.exam-inline-gap {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  max-width: 100%;
+  margin: 2px 5px;
+  vertical-align: baseline;
+}
+.exam-inline-gap sup {
+  font-size: 11px;
+  color: var(--terra-ink);
+  font-weight: 700;
+}
+.exam-answer .exam-inline-gap input {
+  display: inline-block;
+  width: 12ch;
+  max-width: 100%;
+  min-width: 7ch;
+  padding: 5px 7px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 2px solid var(--terra);
+  border-radius: 4px 4px 0 0;
+  background: var(--paper);
+}
+.exam-answer .exam-inline-gap input:focus {
+  outline: 2px solid var(--terra);
+  outline-offset: 2px;
+}

@@ -72,7 +72,9 @@ def tidy(s):
     return s.strip()
 
 
-def valid(s):
+def valid(s, question=False):
+    if question and re.search(r'[.]{3,}', s) and re.search(r'[A-Za-z]{3}', s):
+        return True
     if re.match(r'^\d{1,2}\s*[.]{2,}', s):
         return True
     return bool(s and not s.isdigit() and len(s) > 3 and not re.search(r'[pр]\.\s*\d+\D*$', s) and not re.search(r'ir.?Languag|MierCre|ul>\.|\[R', s, re.I) and not (len(s) < 70 and len(re.findall('[A-Za-z0-9]', s)) / len(s) < .55))
@@ -118,7 +120,7 @@ for book in library:
         reading['title'] = tidy(reading['title'])
         paper['title'] = reading['title']
         for section in paper['questionText']:
-            text = '\n'.join(tidy(s) for s in section['paragraphs'] if valid(s))
+            text = '\n'.join(tidy(s) for s in section['paragraphs'] if valid(s, question=True))
             if pid == 'c14-t4-p2':
                 text = text.replace('8 Some travel', 'B Some travel')
             if pid == 'c15-t1-p2':
@@ -133,6 +135,20 @@ for book in library:
             for old, new in replacements.get(pid, {}).items():
                 text = text.replace(old, new)
             section['paragraphs'] = [s.strip() for s in text.split('\n') if s.strip()]
+            if pid == 'c11-t2-p1' and section['from'] == 9:
+                section['paragraphs'] = section['paragraphs'][:4] + ['9 ______ attached to hull by wires', '10 ______ to prevent hull being sucked into mud', 'legs are placed into 11 ______', 'hull is lowered into 12 ______', '13 ______ used as extra protection for the hull']
+            if pid == 'c15-t4-p1' and section['from'] == 6:
+                section['paragraphs'] = section['paragraphs'][:4] + ['Part of tree — Traditional use', '6 ______ — fuel', '7 ______ and ______ — medicine', '8 ______ — construction']
+            if pid == 'c16-t1-p1' and section['from'] == 8:
+                section['paragraphs'] = [s.replace('platform where a was located', 'platform where a 11 ______ was located') for s in section['paragraphs']]
+            if pid == 'c16-t4-p1' and section['from'] == 1:
+                section['paragraphs'] = section['paragraphs'][:4] + ['1 ______ to direct the tunnelling', 'water runs into a 2 ______ used by local people', 'vertical shafts to remove earth and for 3 ______', 'Cross-section of a Roman Qanat Shaft', '4 ______ made of wood or stone', '5 ______ attached to the plumb line', 'handholds and footholds used for 6 ______']
+            if pid == 'c18-t1-p1' and section['from'] == 1:
+                section['paragraphs'] = section['paragraphs'][:4] + ['1 Vertical tubes are used to grow strawberries, ______ and herbs.', '2 There will eventually be a daily harvest of as much as ______ in weight of fruit and vegetables.', "3 It may be possible that the farm's produce will account for as much as 10% of the city's ______ overall."]
+            if pid == 'c18-t1-p1' and section['from'] == 4:
+                section['paragraphs'] = section['paragraphs'][:3] + ['Intensive farming versus aeroponic urban farming', 'Intensive farming — Growth: wide range of 4 ______ used; techniques pollute air.', 'Intensive farming — Selection: quality not good; varieties of fruit and vegetables chosen that can survive long 5 ______.', 'Intensive farming — Sale: 6 ______ receive very little of overall income.', 'Aeroponic urban farming — Growth: no soil used; nutrients added to water, which is recycled.', 'Aeroponic urban farming — Selection: produce chosen because of its 7 ______.']
+            if pid == 'c18-t1-p3' and section['from'] == 32:
+                section['paragraphs'] = [s.replace('how .............. .... of space', 'how 32 ______ of space') for s in section['paragraphs']]
             group = next(g for g in paper['groups'] if g['from'] == section['from'])
             if group['type'] == 'summary':
                 arr = section['paragraphs']
