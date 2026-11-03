@@ -51,6 +51,14 @@ replacements = {
     'c19-t2-p2': {'risk of..... . . ..': 'risk of ______.', 'produce fewer good': 'produce fewer good ______.', 'of a positive feeling such as': 'of a positive feeling such as ______.', '22 ... is an example': '22 ______ is an example'},
     'c19-t3-p2': {'begin to release instead of': 'begin to release ______ instead of', 'areas have been cleared, are more': 'areas have been cleared, ______ are more', '..of the local environment': '______ of the local environment', 'through the ... which': 'through the ______ which'},
 }
+summary_options = {
+    'c15-t3-p3': ['ending', 'events', 'warning', 'links', 'records', 'variations', 'horror', 'people', 'plot'],
+    'c15-t4-p3': ['funding', 'trees', 'rare species', 'moral standards', 'control', 'involvement', 'flooding', 'overfishing', 'worker support'],
+    'c16-t1-p3': ['pressure', 'satisfaction', 'intuition', 'promotion', 'reliance', 'confidence', 'information'],
+    'c16-t2-p2': ['solution', 'partnership', 'destruction', 'exaggeration', 'cleanliness', 'regulations', 'illness', 'nutrition'],
+    'c16-t2-p3': ['opinions', 'confidence', 'view', 'modesty', 'problems', 'objectivity', 'fairness', 'experiences', 'range', 'reasons'],
+    'c18-t4-p3': ['modest fame', 'vast range', 'record-breaking achievement', 'research methods', 'select group', 'professional interests', 'scientific debate', 'hazardous exploration', "biographer's perspective", 'narrow investigation'],
+}
 
 
 def tidy(s):
@@ -65,6 +73,8 @@ def tidy(s):
 
 
 def valid(s):
+    if re.match(r'^\d{1,2}\s*[.]{2,}', s):
+        return True
     return bool(s and not s.isdigit() and len(s) > 3 and not re.search(r'[pр]\.\s*\d+\D*$', s) and not re.search(r'ir.?Languag|MierCre|ul>\.|\[R', s, re.I) and not (len(s) < 70 and len(re.findall('[A-Za-z0-9]', s)) / len(s) < .55))
 
 
@@ -126,6 +136,11 @@ for book in library:
             group = next(g for g in paper['groups'] if g['from'] == section['from'])
             if group['type'] == 'summary':
                 arr = section['paragraphs']
+                if pid in summary_options:
+                    option_start = next((i for i, s in enumerate(arr) if s.startswith('A ') or s.startswith('pressure B satisfaction')), len(arr))
+                    arr = arr[:option_start] + [f'{chr(65+i)} {word}' for i, word in enumerate(summary_options[pid])]
+                    if pid == 'c15-t4-p3':
+                        arr = [s.replace('A-J', 'A-I') for s in arr]
                 last_instruction = max((i for i, s in enumerate(arr[:4]) if re.match(r'^(?:Complete|Choose|Write)\b', s)), default=-1)
                 start = last_instruction + 1
                 if start < len(arr) and len(arr[start]) < 100 and not re.search(r'[.!?]', arr[start]):

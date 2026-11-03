@@ -136,3 +136,25 @@ test("heading options start at i and follow an uninterrupted sequence", () => {
       assert.ok(labels.length >= group.to - group.from + 1, p.id);
     }
 });
+
+test("summary word lists retain all lettered options", () => {
+  for (const p of source.flatMap((book) => book.passages))
+    for (const group of p.groups.filter((g) => g.type === "summary")) {
+      const section = p.questionText!.find((s) => s.from === group.from)!;
+      const range = section.paragraphs
+        .join(" ")
+        .match(/list of (?:words|phrases),\s*A[–-]([A-K])/i);
+      if (!range) continue;
+      const start = section.paragraphs.findIndex(
+        (s) => /^A /.test(s) && s.length < 100,
+      );
+      assert.ok(start >= 0, p.id);
+      assert.deepEqual(
+        section.paragraphs.slice(start).map((s) => s.match(/^([A-K]) /)?.[1]),
+        Array.from({ length: range[1].charCodeAt(0) - 64 }, (_, i) =>
+          String.fromCharCode(65 + i),
+        ),
+        p.id,
+      );
+    }
+});
