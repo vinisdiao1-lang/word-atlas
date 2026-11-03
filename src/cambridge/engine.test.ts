@@ -51,10 +51,26 @@ test("stage thresholds round up actual selected question counts", () => {
   assert.equal(requiredCorrect(3, 14), 8);
   assert.equal(requiredCorrect(3, 4), 3);
 });
-test("only specified question types enter each stage", () => {
+test("Passage 1 includes every original question; other stages select specified types", () => {
   assert.deepEqual(stageNumbers(p, 1), [1, 2, 3]);
   assert.deepEqual(stageNumbers(p, 2), []);
   assert.deepEqual(stageNumbers(p, 3), [1, 2]);
+  const complete = {
+    ...p,
+    numbers: [1, 2, 3, 4],
+    groups: [
+      ...p.groups,
+      {
+        from: 4,
+        to: 4,
+        type: "other" as const,
+        instruction: "",
+        anyOrder: false,
+      },
+    ],
+  };
+  assert.deepEqual(stageNumbers(complete, 1), [1, 2, 3, 4]);
+  assert.deepEqual(stageNumbers(complete, 3), [1, 2]);
 });
 test("multi-select accepts either order and never awards duplicate selections twice", () => {
   assert.equal(

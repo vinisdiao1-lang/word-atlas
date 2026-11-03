@@ -145,9 +145,26 @@ export function Cambridge() {
       ),
     [papers, learned],
   );
-  const unlocked = (s: number) =>
-    s === 1 ||
-    records.attempts.some((a) => a.stage === s - 1 && passed(a, papers));
+  useEffect(() => {
+    if (!ready || !papers.length) return;
+    setRecords((r) => {
+      let changed = false;
+      const attempts = r.attempts.map((a) => {
+        if (a.mode !== "stage" || a.stage !== 1 || a.submittedAt) return a;
+        const tasks = a.tasks.map((task) => {
+          const paper = papers.find((p) => p.id === task.paperId);
+          if (!paper || task.numbers.join(",") === paper.numbers.join(","))
+            return task;
+          changed = true;
+          return { ...task, numbers: [...paper.numbers] };
+        });
+        return tasks.some((task, i) => task !== a.tasks[i])
+          ? { ...a, tasks }
+          : a;
+      });
+      return changed ? { ...r, attempts } : r;
+    });
+  }, [ready, papers]);
   const candidates = papers
     .filter(
       (p) =>
@@ -296,7 +313,7 @@ export function Cambridge() {
           到完整模考。
         </h1>
         <p className="lede">
-          剑 11–18 按你的规则逐级练习，剑 19 保留原卷顺序做考前模拟。
+          剑 11–18 可自由选择 Passage 练习，剑 19 保留原卷顺序做考前模拟。
         </p>
       </header>
       {error && (
@@ -417,7 +434,7 @@ export function Cambridge() {
                     ? `${result.pending} 题答案待核对，暂不判定达标`
                     : active.mode === "stage"
                       ? passed(active, papers)
-                        ? "已达标，可进入下一阶段"
+                        ? "已达标"
                         : "尚未达标，先复盘再练习"
                       : "模考完成，以下复盘不换算雅思分数"}
                 </span>
@@ -735,17 +752,21 @@ export function Cambridge() {
               <button
                 key={r.name}
                 className={`panel ${stage === i + 1 ? "is-on" : ""}`}
-                disabled={!unlocked(i + 1)}
                 onClick={() => setStage(i + 1)}
               >
                 <small>
                   阶段 {i + 1} · Passage {i + 1}
-                  {!unlocked(i + 1) ? " · 待解锁" : ""}
                 </small>
                 <h2>{r.name}</h2>
-                <p>{r.types.map((t) => kindLabel[t]).join(" + ")}</p>
+                <p>
+                  {i === 0
+                    ? "完整 13 题 · 全部原卷题型"
+                    : r.types.map((t) => kindLabel[t]).join(" + ")}
+                </p>
                 <b>
-                  答对 ≥ {r.numerator}/{r.denominator}，按实际题数向上取整
+                  {i === 0
+                    ? "答对 11/13 达标"
+                    : `答对 ≥ ${r.numerator}/${r.denominator}，按实际题数向上取整`}
                 </b>
               </button>
             ))}
@@ -761,9 +782,12 @@ export function Cambridge() {
               只看包含已背单词的文章（按原形匹配并优先覆盖更多词）
             </label>
             <p className="muted">
-              已学 {learned.length}{" "}
-              词。这里只练指定题型，不补题、不跨文章凑数。达标按本篇实际筛选题数计算。
-              T1–T4 表示本册第 1–4 套；剑12 对应原书 Test 5–8。
+              已学 {learned.length} 词。
+              {stage === 1
+                ? "Passage 1 每篇练完整的第 1–13 题，答对 11 题达标。"
+                : "本阶段练指定题型，按本篇实际筛选题数等比例计算达标。"}
+              三个阶段均可自由选择。 T1–T4 表示本册第 1–4 套；剑12 对应原书 Test
+              5–8。
             </p>
             <div className="exam-candidates">
               {candidates.map((p) => {

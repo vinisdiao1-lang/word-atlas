@@ -96,6 +96,7 @@ export const requiredCorrect = (stage: number, count: number) =>
     (count * RULES[stage - 1].numerator) / RULES[stage - 1].denominator,
   );
 export function stageNumbers(p: Paper, stage: number) {
+  if (stage === 1) return [...p.numbers];
   return p.numbers.filter((n) =>
     p.groups.some(
       (g) =>

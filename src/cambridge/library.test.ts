@@ -14,6 +14,19 @@ const source = JSON.parse(
 ) as Pack[];
 const root = "/word-atlas/cambridge/v1/pages/";
 
+test("all 32 training Passage 1 papers contain the complete questions 1–13", () => {
+  const papers = source
+    .flatMap((book) => book.passages)
+    .filter((p) => p.book < 19 && p.passage === 1);
+  assert.equal(papers.length, 32);
+  for (const p of papers)
+    assert.deepEqual(
+      stageNumbers(p, 1),
+      Array.from({ length: 13 }, (_, i) => i + 1),
+      p.id,
+    );
+});
+
 test("deployed library covers all nine books, 36 full reading tests and 1,440 questions", () => {
   const packs = parseLibrary(source, root);
   assert.deepEqual(
