@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
+import { readFileSync } from "node:fs";
 import {
   requiredCorrect,
   stageNumbers,
@@ -42,6 +43,45 @@ const attempt = (answers: Record<string, string>): Attempt => ({
   notes: {},
   marks: {},
   startedAt: 1,
+});
+test("optional alternatives keep their required noun and accept the source hyphenated answer", () => {
+  const branches = answerVariants("(its/ huarango / the) branches");
+  for (const answer of [
+    "branches",
+    "its branches",
+    "huarango branches",
+    "the branches",
+  ])
+    assert.ok(branches.includes(answer), answer);
+  for (const answer of ["its", "huarango", "the"])
+    assert.ok(!branches.includes(answer), answer);
+  assert.ok(answerVariants("car(-) sharing").includes("car-sharing"));
+  assert.ok(answerVariants("car(-) sharing").includes("car sharing"));
+});
+test("the source notes allow only traffic and crime to exchange places", () => {
+  const books = JSON.parse(
+    readFileSync("public/cambridge/v2/library.json", "utf8"),
+  );
+  const paper: Paper = books.find((b: { book: number }) => b.book === 14)
+    .passages[0];
+  const answers = Object.fromEntries(
+    Object.entries(paper.answers).map(([n, answer]) => [
+      paper.id + ":" + n,
+      answer,
+    ]),
+  ) as Record<string, string>;
+  answers[paper.id + ":4"] = "crime";
+  answers[paper.id + ":5"] = "traffic";
+  const record = {
+    ...attempt(answers),
+    tasks: [{ paperId: paper.id, numbers: paper.numbers }],
+  };
+  assert.equal(grade(record, [paper]).correct, 13);
+  answers[paper.id + ":5"] = "crime";
+  assert.equal(grade(record, [paper]).correct, 12);
+  answers[paper.id + ":4"] = "rules";
+  answers[paper.id + ":5"] = "traffic";
+  assert.equal(grade(record, [paper]).correct, 12);
 });
 test("stage thresholds round up actual selected question counts", () => {
   assert.equal(requiredCorrect(1, 6), 6);

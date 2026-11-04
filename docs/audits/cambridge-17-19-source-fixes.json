@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-03",
+  "fixes": [
+    {
+      "paper": "c17-t2-p2",
+      "sourceImage": "c17-p44.jpg",
+      "before": "24/26空位缺失，25空位点线不完整",
+      "after": "恢复原句句中空位"
+    },
+    {
+      "paper": "c17-t3-p2",
+      "sourceImage": "c17-p66.jpg",
+      "before": "23–26句中空位丢失",
+      "after": "恢复原句空位"
+    },
+    {
+      "paper": "c18-t2-p1",
+      "sourceImage": "c18-p40.jpg",
+      "before": "Stage 1/2/3被识别为题号",
+      "after": "gaps解析器跳过阶段标题"
+    },
+    {
+      "paper": "c18-t3-p3",
+      "sourceImage": "c18-p70.jpg",
+      "before": "双栏串行污染第7段、截断第10段",
+      "after": "恢复low socioeconomic class及同伴语言工具句"
+    },
+    {
+      "paper": "c19-t2-p3",
+      "sourceImage": "c19-p48.jpg",
+      "before": "双栏串行污染第6–9段",
+      "after": "按原图将字串放回所属段落，段号不变"
+    },
+    {
+      "paper": "c19-t3-p1",
+      "sourceImage": "c19-p64.jpg",
+      "before": "11,700日期被识别为第11题空位",
+      "after": "排除千位逗号数字，保留真实beads题位"
+    }
+  ]
+}

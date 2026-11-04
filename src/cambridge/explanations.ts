@@ -1,4 +1,4 @@
-import type { Paper } from "./engine";
+import { unorderedAnswersFor, type Paper } from "./engine";
 
 export interface Explanation {
   answer: string;
@@ -16,12 +16,9 @@ export interface ExplanationBook {
   items: Record<string, Explanation>;
 }
 export function explanationAnswerLabel(paper: Paper, number: number): string {
-  const group = paper.groups.find((g) => number >= g.from && number <= g.to);
-  return group?.anyOrder
-    ? `${paper.numbers
-        .filter((n) => n >= group.from && n <= group.to)
-        .map((n) => paper.answers[n])
-        .join("、")}（本组选项，顺序不限）`
+  const numbers = unorderedAnswersFor(paper, number);
+  return numbers
+    ? `${numbers.map((n) => paper.answers[n]).join("、")}（本组答案，顺序不限）`
     : paper.answers[number];
 }
 const isText = (value: unknown): value is string =>
@@ -83,7 +80,7 @@ export function loadExplanationBook(book: number): Promise<ExplanationBook> {
   let request = books.get(book);
   if (!request) {
     request = fetch(
-      `${import.meta.env.BASE_URL}cambridge/explanations/c${book}.json?v=1`,
+      `${import.meta.env.BASE_URL}cambridge/explanations/c${book}.json?v=review-20261103`,
     )
       .then(async (response) => {
         if (!response.ok)

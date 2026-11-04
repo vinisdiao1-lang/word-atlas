@@ -28,6 +28,7 @@ export interface Paper {
   text: string;
   numbers: number[];
   groups: Group[];
+  unorderedAnswerSets?: number[][];
   answers: Record<string, string>;
   pages: Page[];
   answerPage: Page;
@@ -91,6 +92,16 @@ export const kindLabel: Record<Kind, string> = {
   other: "其他原卷题型",
 };
 export const qid = (id: string, n: number) => `${id}:${n}`;
+export function unorderedAnswerSets(paper: Paper): number[][] {
+  return [
+    ...paper.groups
+      .filter((g) => g.anyOrder)
+      .map((g) => paper.numbers.filter((n) => n >= g.from && n <= g.to)),
+    ...(paper.unorderedAnswerSets ?? []),
+  ];
+}
+export const unorderedAnswersFor = (paper: Paper, number: number) =>
+  unorderedAnswerSets(paper).find((numbers) => numbers.includes(number));
 export const requiredCorrect = (stage: number, count: number) =>
   Math.ceil(
     (count * RULES[stage - 1].numerator) / RULES[stage - 1].denominator,
@@ -112,6 +123,7 @@ const normal = (s: string) =>
     .toLowerCase()
     .replace(/not\s*given/g, "notgiven")
     .replace(/[’‘]/g, "'")
+    .replace(/\s*-\s*/g, "-")
     .replace(/[{}|]/g, "")
     .replace(/(?<=\d),(?=\d)/g, "")
     .replace(/\s+/g, " ")
@@ -124,7 +136,9 @@ export function answerVariants(raw: string): string[] {
   if (optional)
     return [
       ...answerVariants(cleaned.replace(optional[0], "")),
-      ...answerVariants(cleaned.replace(optional[0], optional[1])),
+      ...optional[1]
+        .split(/\s*\/\s*|\s+OR\s+/i)
+        .flatMap((part) => answerVariants(cleaned.replace(optional[0], part))),
     ];
   const parts = cleaned.split(/\s*\/\s*|\s+OR\s+/i);
   if (parts.length > 1) {
@@ -162,8 +176,8 @@ export function grade(a: Attempt, papers: Paper[]) {
           ? null
           : answerVariants(key).includes(normal(value));
     }
-    for (const g of p.groups.filter((g) => g.anyOrder)) {
-      const nums = task.numbers.filter((n) => n >= g.from && n <= g.to);
+    for (const set of unorderedAnswerSets(p)) {
+      const nums = task.numbers.filter((n) => set.includes(n));
       if (nums.length < 2) continue;
       const keys = nums.map((n) => p.answers[n]).filter(Boolean);
       if (keys.length !== nums.length) {
@@ -233,6 +247,21 @@ export function validatePack(v: unknown, bundledImageRoot?: string): Pack {
     )
       throw Error("文章结构或原卷题号不完整。");
     ids.add(x.id);
+    if (x.unorderedAnswerSets) {
+      const sets = x.unorderedAnswerSets;
+      if (
+        !Array.isArray(sets) ||
+        sets.some(
+          (set) =>
+            !Array.isArray(set) ||
+            set.length < 2 ||
+            set.some((n) => !Number.isInteger(n) || !x.numbers.includes(n)),
+        ) ||
+        new Set(unorderedAnswerSets(x).flat()).size !==
+          unorderedAnswerSets(x).flat().length
+      )
+        throw Error("顺序不限的答案分组无效。");
+    }
     if (
       x.reading &&
       (typeof x.reading.title !== "string" ||

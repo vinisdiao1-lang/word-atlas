@@ -165,13 +165,7 @@
         "第五段明确说1863年开通的大都会线是世界第一条地下铁路。题干说在它开通前其他国家已经建有地下铁路，直接否定其世界首次地位，因此FALSE。",
         "前文overground railway是地面铁路，虽然已存在并形成车站环线，但不是题干underground railway。不要把铁路普遍存在当作地下铁路已存在，定位时必须保留这一技术类别的限定。"
       ],
-      "paraphrases": [
-        {
-          "question": "Other countries ... before",
-          "passage": "the world’s first underground railway",
-          "explanation": "题干中的“Other countries ... before”需要结合本题证据理解为“the world’s first underground railway”，判断对象、范围和逻辑关系应保持一致。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "overground与underground仅一词之差，却决定世界首次判断。"
       ],
@@ -190,13 +184,7 @@
         "第五段提供开通首日接近四万乘客以及第一年九百五十万次出行的实绩，但没有给出开通前预测首日会有多少人。题干more ... than predicted需要实际与预期的两个数值或明确比较。",
         "四万人看起来很多，也不能自行认定超出预测；全年使用量同样不能提供首日预估。原文未说高于或低于预期，因此NOT GIVEN，不能用个人对数字大小的感受代替文内比较依据。"
       ],
-      "paraphrases": [
-        {
-          "question": "more ... than predicted",
-          "passage": "almost 40,000 passengers",
-          "explanation": "题干中的“more ... than predicted”需要结合本题证据理解为“almost 40,000 passengers”，判断对象、范围和逻辑关系应保持一致。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "预测比较题必须同时找到预测值与实际值，只有实际数字不够。"
       ],
@@ -265,13 +253,7 @@
         "最后一段描述伦敦城与南伦敦线车厢狭窄，窗户很小且位于屋顶下方。题干说窗户在视线高度，和原文给出的高位位置不一致，因此FALSE。",
         "后面的原因是设计者以为乘客不想看隧道墙，这有助于理解为何把窗放得高，但不应自行推断别的车厢也一样。此题只问这条线的车窗位置，抓住below the roof即可。"
       ],
-      "paraphrases": [
-        {
-          "question": "at eye level",
-          "passage": "just below the roof",
-          "explanation": "题干中的“at eye level”需要结合本题证据理解为“just below the roof”，判断对象、范围和逻辑关系应保持一致。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "位置题核对具体参照物，屋顶下方不能直接等同乘客眼睛高度。"
       ],
@@ -290,13 +272,7 @@
         "作者称这条铁路是重大的技术成就，但明确说它没有盈利。题干financial success讲财务成功，与did not make a profit相反，所以FALSE，而非因为它技术先进就判TRUE。",
         "接着提到1900年的中央伦敦线很受欢迎，是另一条线路；不能把后者的popular移到前者上。技术、客流受欢迎程度及财务盈利是不同评价维度，判断时要保留专有线路名称与指标。"
       ],
-      "paraphrases": [
-        {
-          "question": "financial success",
-          "passage": "did not make a profit",
-          "explanation": "题干中的“financial success”需要结合本题证据理解为“did not make a profit”，判断对象、范围和逻辑关系应保持一致。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "technical achievement与financial success可同时一真一假，不要混淆。"
       ],
@@ -315,13 +291,7 @@
         "原文说Tuppenny Tube在1900年开通，使用新电力机车，很受欢迎，之后网络继续扩展；没有提到列车准点率或是否几乎总按时运行。题干增加了运行守时这一具体服务指标。",
         "受欢迎可能由多种原因造成，不能自动推出准点；也不能把之前另一条线供电不稳定的问题移到这条线，得出不准点。既无正面也无反面依据，应判NOT GIVEN。"
       ],
-      "paraphrases": [
-        {
-          "question": "nearly always ran on time",
-          "passage": "very popular",
-          "explanation": "题干中的“nearly always ran on time”需要结合本题证据理解为“very popular”，判断对象、范围和逻辑关系应保持一致。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "popular不是punctual，且前一条线路的问题不能迁移到后一条。"
       ],
@@ -408,7 +378,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots."
+          "quote": "Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots. These factors mean that they may not be as accessible to the general public, require more energy to run and contribute to urban heat."
         }
       ],
       "reasoning": [
@@ -556,10 +526,6 @@
       "answer": "C",
       "stem": "When comparing twentieth-century stadiums to ancient amphitheatres in Section D, which TWO negative features does the writer mention? A They are less imaginatively designed. B They are less spacious. C They are in less convenient locations. D They ar",
       "evidence": [
-        {
-          "paragraph": 9,
-          "quote": "Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots."
-        },
         {
           "paragraph": 9,
           "quote": "Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots. These factors mean that they may not be as accessible to the general public, require more energy to run and contribute to urban heat."
@@ -729,8 +695,8 @@
           "quote": "Stadiums are ideal\nfor these purposes, because their canopies have a large surface area for fitting photovoltaic panels and rise high enough (more than 40 metres) to make use of micro wind turbines."
         },
         {
-          "paragraph": 13,
-          "quote": "Stadiums are ideal\nfor these purposes, because their canopies have a large surface area for fitting photovoltaic panels and rise high enough (more than 40 metres) to make use of micro wind turbines."
+          "paragraph": 12,
+          "quote": "This opens the space up to families and a wider cross-section of society, instead of catering only to sportspeople and supporters."
         }
       ],
       "reasoning": [
@@ -1594,7 +1560,7 @@
       "evidence": [
         {
           "paragraph": 1,
-          "quote": "A It took at least 3,000 years for humans to learn how to domesticate the wild tomato and cultivate it for food."
+          "quote": "A It took at least 3,000 years for humans to learn how to domesticate the wild tomato and cultivate it for food. Now two separate teams in Brazil and China have done it all over again in less than three years. And they have done it better in some ways, as the re-domesticated tomatoes are more nutritious than the ones we eat at present."
         }
       ],
       "reasoning": [
@@ -1619,7 +1585,7 @@
       "evidence": [
         {
           "paragraph": 11,
-          "quote": "‘They are quite tasty,’ says Kudla."
+          "quote": "‘They are quite tasty,’ says Kudla. ‘A little bit strong. And very aromatic.’"
         }
       ],
       "reasoning": [
@@ -1765,7 +1731,7 @@
     },
     "c17-t2-p2:24": {
       "answer": "flavour / flavor",
-      "stem": "24 An undesirable trait such as loss of may be caused by a mutation in a tomato gene [24] ____.",
+      "stem": "24 An undesirable trait such as loss of [24] ____ may be caused by a mutation in a tomato gene.",
       "evidence": [
         {
           "paragraph": 6,
@@ -1790,7 +1756,7 @@
     },
     "c17-t2-p2:25": {
       "answer": "size",
-      "stem": "25 By modifying one gene in a tomato plant, researchers made the tomato three times its original  [25] ____.",
+      "stem": "25 By modifying one gene in a tomato plant, researchers made the tomato three times its original [25] ____",
       "evidence": [
         {
           "paragraph": 9,
@@ -1815,7 +1781,7 @@
     },
     "c17-t2-p2:26": {
       "answer": "salt",
-      "stem": "26 A type of tomato which was not badly affected by , and was rich in vitamin C, was produced by a team of researchers in China [26] ____.",
+      "stem": "26 A type of tomato which was not badly affected by [26] ____, and was rich in vitamin C, was produced by a team of researchers in China.",
       "evidence": [
         {
           "paragraph": 12,
@@ -2569,7 +2535,11 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "That immensely high yield – which is predominantly what makes it so profitable – is potentially also an ecological benefit."
+          "quote": "F Even the deforestation argument isn’t as straightforward as it seems. Oil palm plantations produce at least four and potentially up to ten times more oil per hectare than soybean, rapeseed, sunflower or other competing oils. That immensely high yield – which is predominantly what makes it so profitable – is potentially also an ecological benefit. If ten times more palm oil can be produced from a patch of land than any competing oil, then ten times more land would need to be cleared in order to produce the same volume of oil from that competitor."
+        },
+        {
+          "paragraph": 8,
+          "quote": "As Shankar explains: ‘[Palm oil production] actually sequesters more carbon in some ways than other alternatives. […] Of course, if you’re cutting down virgin forest it’s terrible – that’s what’s happening in Indonesia and Malaysia, it’s been allowed to get out of hand. But if it’s\nreplacing rice, for example, it might actually sequester more carbon.’"
         }
       ],
       "reasoning": [
@@ -2644,7 +2614,7 @@
       "evidence": [
         {
           "paragraph": 10,
-          "quote": "The bird’s nest fern (Asplenium nidus) grows on trees in an epiphytic fashion (meaning it’s dependent on the tree only for support, not for nutrients), and is native to many tropical regions, where as a keystone species it performs a vital ecological role."
+          "quote": "Ellwood believes that reintroducing the bird’s nest fern into oil palm plantations could potentially allow these areas to recover their biodiversity, providing a home for all manner of species, from fungi and bacteria, to invertebrates such as insects, amphibians, reptiles and even mammals."
         }
       ],
       "reasoning": [
@@ -2804,7 +2774,7 @@
         },
         {
           "paragraph": 9,
-          "quote": "Over the past decade or so, an agreement has gradually been reached regarding standards that producers of palm oil have to meet in order for their product to be regarded as officially ‘sustainable’."
+          "quote": "The RSPO insists upon no virgin forest clearing, transparency and regular assessment of carbon stocks, among other criteria."
         }
       ],
       "reasoning": [
@@ -2852,7 +2822,7 @@
     },
     "c17-t3-p2:23": {
       "answer": "solid",
-      "stem": "23 One advantage of palm oil for manufacturers is that it stays even when not refrigerated [23] ____.",
+      "stem": "23 One advantage of palm oil for manufacturers is that it stays [23] ____ even when not refrigerated.",
       "evidence": [
         {
           "paragraph": 1,
@@ -2877,7 +2847,7 @@
     },
     "c17-t3-p2:24": {
       "answer": "(Sumatran) orangutan / orang-utan",
-      "stem": "24 The is the best known of the animals suffering habitat loss as a result of the spread of oil palm plantations [24] ____.",
+      "stem": "24 The [24] ____ is the best known of the animals suffering habitat loss as a result of the spread of oil palm plantations.",
       "evidence": [
         {
           "paragraph": 3,
@@ -2902,7 +2872,7 @@
     },
     "c17-t3-p2:25": {
       "answer": "carbon stocks",
-      "stem": "25 As one of its criteria for the certification of sustainable palm oil, the RSPO insists that growers check on a routine basis [25] ____.",
+      "stem": "25 As one of its criteria for the certification of sustainable palm oil, the RSPO insists that growers check [25] ____ on a routine basis.",
       "evidence": [
         {
           "paragraph": 9,
@@ -2927,7 +2897,7 @@
     },
     "c17-t3-p2:26": {
       "answer": "biodiversity",
-      "stem": "26 Ellwood and his researchers are looking into whether the bird’s nest fern could restore in areas where oil palm trees are grown [26] ____.",
+      "stem": "26 Ellwood and his researchers are looking into whether the bird’s nest fern could restore [26] ____ in areas where oil palm trees are grown.",
       "evidence": [
         {
           "paragraph": 10,
@@ -3925,6 +3895,10 @@
         {
           "paragraph": 2,
           "quote": "During this period, Germany and Scandinavia had excellent literacy rates, but their economies grew slowly and they industrialised late."
+        },
+        {
+          "paragraph": 2,
+          "quote": "‘Modern cross-country analyses have also struggled to find evidence that education causes economic growth, even though there is plenty of evidence that growth increases education,’ she adds."
         }
       ],
       "reasoning": [
@@ -3946,7 +3920,7 @@
         {
           "label": "A",
           "correct": false,
-          "reason": "跨国及历史研究不少，问题在难证明因果而非研究少。"
+          "reason": "原文没有说明识字率与个人收入研究做了多少；难以证明的是教育与国家经济增长的因果，不能据此推出个人收入研究很少。"
         },
         {
           "label": "B",
@@ -3976,6 +3950,10 @@
       "evidence": [
         {
           "paragraph": 2,
+          "quote": "During this period, Germany and Scandinavia had excellent literacy rates, but their economies grew slowly and they industrialised late."
+        },
+        {
+          "paragraph": 2,
           "quote": "‘Modern cross-country analyses have also struggled to find evidence that education causes economic growth, even though there is plenty of evidence that growth increases education,’ she adds."
         }
       ],
@@ -3998,7 +3976,7 @@
         {
           "label": "A",
           "correct": false,
-          "reason": "跨国及历史研究不少，问题在难证明因果而非研究少。"
+          "reason": "原文没有说明识字率与个人收入研究做了多少；难以证明的是教育与国家经济增长的因果，不能据此推出个人收入研究很少。"
         },
         {
           "label": "B",
@@ -4081,6 +4059,10 @@
         {
           "paragraph": 8,
           "quote": "It was also the case that local guilds and merchant associations were extremely powerful and legislated against anything that undermined their monopolies."
+        },
+        {
+          "paragraph": 8,
+          "quote": "In villages throughout the region, guilds blocked labour migration and resisted changes that might reduce their influence."
         }
       ],
       "reasoning": [
@@ -4132,7 +4114,7 @@
       "evidence": [
         {
           "paragraph": 4,
-          "quote": "But displays of the feat go back centuries."
+          "quote": "D To the uninitiated, blindfold chess seems to call for superhuman skill. But displays of the feat go back centuries. The first recorded game in Europe was played in 13th-century Florence. In 1947, the Argentinian grandmaster Miguel Najdorf played 45 simultaneous games in his mind, winning 39 in the 24-hour session."
         }
       ],
       "reasoning": [

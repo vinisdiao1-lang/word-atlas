@@ -20,9 +20,19 @@ export function repairKnownSourceAnswers(packs: Pack[]): Pack[] {
     ...pack,
     passages: pack.passages.map((paper) => {
       const fix = corrections[paper.id];
-      return fix && paper.answers[fix.number] === fix.old
-        ? { ...paper, answers: { ...paper.answers, [fix.number]: fix.answer } }
-        : paper;
+      const corrected =
+        fix && paper.answers[fix.number] === fix.old
+          ? {
+              ...paper,
+              answers: { ...paper.answers, [fix.number]: fix.answer },
+            }
+          : paper;
+      return corrected.id === "c14-t1-p1" &&
+        !corrected.unorderedAnswerSets &&
+        corrected.answers[4] === "traffic" &&
+        corrected.answers[5] === "crime"
+        ? { ...corrected, unorderedAnswerSets: [[4, 5]] }
+        : corrected;
     }),
   }));
 }

@@ -45,8 +45,9 @@ export function gapParagraphs(
   }
   const seen = new Set<number>();
   for (let i = start; i < paragraphs.length; i++) {
+    if (/^(?:Stage|Step|Phase)\s+\d+\s*:\s*$/i.test(paragraphs[i])) continue;
     paragraphs[i] = paragraphs[i].replace(
-      /\b(\d{1,2})(?![\dA-Za-z%])(?:\s*[._…·]+)*/g,
+      /\b(\d{1,2})(?![\dA-Za-z%]|,\d)(?:\s*[._…·]+)*/g,
       (raw, number) => {
         const n = Number(number);
         if (n < group.from || n > group.to || seen.has(n)) return raw;

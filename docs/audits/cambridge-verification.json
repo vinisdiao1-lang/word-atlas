@@ -1,0 +1,2130 @@
+{
+  "date": "2026-11-03",
+  "scope": {
+    "books": "11–19",
+    "readingTests": 36,
+    "questions": 1440,
+    "sourceAnswerPagesVisuallyCompared": 36,
+    "semanticReviewQuestions": 1440
+  },
+  "answerValueChangesThisReview": 0,
+  "changedExplanationEntries": 338,
+  "changedEntriesByBook": {
+    "11": 17,
+    "12": 14,
+    "13": 160,
+    "14": 26,
+    "15": 14,
+    "16": 25,
+    "17": 24,
+    "18": 26,
+    "19": 32
+  },
+  "gradingFixes": [
+    "剑14 Test1第4/5题按原答案页允许traffic与crime互换，不允许重复使用或与其它题交换。",
+    "car(-) sharing正确接受car-sharing；(its/ huarango / the) branches/trunk保留必需名词，不再接受单独its/huarango。"
+  ],
+  "sourceFixReports": [
+    "cambridge-11-13-source-fixes.json",
+    "cambridge-14-16-source-fixes.json",
+    "cambridge-17-19-source-fixes.json"
+  ],
+  "verification": {
+    "unitAndSourceTests": 57,
+    "validExplanations": 1440,
+    "invalidExplanations": 0
+  },
+  "method": "原书答案页逐页视觉比对；三个独立子任务逐篇阅读原文与全部题干后逐题复核；主任务整合、修正题面与判分并运行回归。",
+  "limits": [
+    "语义核验由AI依据提供的原卷完成，保留原书答案；题目有考试式隐含推断时，不扩大成原文没有的事实。",
+    "修订题数包含措辞、对照和证据完善，不代表同等数量的答案值错误。"
+  ],
+  "sha256": {
+    "public/cambridge/v2/library.json": "661295eebd65dd4c0f419311dc3af149711a986713d82f4c778f2fc184206ded",
+    "public/cambridge/explanations/c11.json": "a359f239e2d979b4dfeaaeb506140c86a8b877133943e5ada5ebcb6749bf5a9e",
+    "public/cambridge/explanations/c12.json": "43cbcb7ed949db765e652ef1f41c792986cb5cfe635d173a895d2c1a319e25b8",
+    "public/cambridge/explanations/c13.json": "fbbf9903582b698f9d03273e43ab2a636bd739fd0db55ba74e3fbb5f5cda6383",
+    "public/cambridge/explanations/c14.json": "d2864e369bca69caa13c604a043c09a7952be8dcca6515e6503048267768c906",
+    "public/cambridge/explanations/c15.json": "866a466dedbd91df58fe763176a907f0c2d26fccef2b856eae99a0e15a066b04",
+    "public/cambridge/explanations/c16.json": "f9cd314d83c87c299d340dff7eae67c31559b72f99acfd7be9ea997fb736b95e",
+    "public/cambridge/explanations/c17.json": "142587c0b12062414ef4ff3d4e565795d3d620306d12f2990647cdb5f6f2bcc3",
+    "public/cambridge/explanations/c18.json": "e0d7dfcc1bc73bd0f50ac463ec3444ae45bbbc6b76f3f2805c3a50fd23cea89f",
+    "public/cambridge/explanations/c19.json": "0caca94ef7075840524ace5f182fe91109f01dcd077398d23cc6b85c140f7a00",
+    "docs/audits/cambridge-11-13-review.json": "4c25b22f0f893fe7d3224ba9dd4b1e72949032f5d2dae2ab43e712dcb9f3f610",
+    "docs/audits/cambridge-answer-key-review.json": "c6c9f86e265912a267923f76c4ab169d99564c999551bd30696a0921fbe345c2",
+    "docs/audits/cambridge-14-16-review.json": "25935f54506883b0b039fd2f906c766c5636d3305feadd458167de721f3d0bff",
+    "docs/audits/cambridge-17-19-review.json": "7a3530777188b48e8d7f757b26aa6f4f004ea30b1267b6cf07b914ba0d7d67ed"
+  },
+  "changedEntries": [
+    {
+      "qid": "c11-t1-p2:22",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c11-t1-p2:23",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c11-t1-p2:24",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c11-t1-p2:25",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c11-t2-p1:7",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c11-t2-p2:24",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c11-t2-p2:25",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c11-t2-p2:26",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c11-t2-p3:27",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c11-t3-p1:8",
+      "changedFields": [
+        "evidence",
+        "traps"
+      ]
+    },
+    {
+      "qid": "c11-t3-p2:18",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c11-t3-p3:29",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c11-t3-p3:31",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c11-t3-p3:33",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c11-t4-p1:5",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c11-t4-p2:17",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c11-t4-p3:28",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t1-p2:17",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t1-p2:18",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t1-p2:19",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t1-p3:32",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t1-p3:39",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:10",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:11",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:12",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:13",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c12-t2-p2:18",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t3-p1:11",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t3-p2:15",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t3-p3:32",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c12-t4-p2:16",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:1",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:2",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:4",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:5",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:6",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:7",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:8",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:9",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:10",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:11",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:12",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:13",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:14",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:15",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:16",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:17",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:18",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:19",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:20",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:21",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:22",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:23",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:24",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:25",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:26",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:27",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:28",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:29",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:30",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:31",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:32",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:33",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:34",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:35",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:36",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:37",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:38",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:39",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:40",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:1",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:2",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:4",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:5",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:6",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:7",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:8",
+      "changedFields": [
+        "paraphrases",
+        "traps"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:9",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:10",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:11",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:12",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:13",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:14",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:15",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:16",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:17",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:18",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:19",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:20",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:21",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:22",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:23",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:24",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:25",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:26",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:27",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:28",
+      "changedFields": [
+        "paraphrases",
+        "options"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:29",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:30",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:31",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:32",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:33",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:34",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:35",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:36",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:37",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:38",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:39",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:40",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:1",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:2",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:4",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:5",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:6",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:7",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:8",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:9",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:10",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:11",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:12",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:13",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:14",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:15",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:16",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:17",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:18",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:19",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:20",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:21",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:22",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:23",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:24",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:25",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:26",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:27",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:28",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:29",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:30",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:31",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:32",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:33",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:34",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:35",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:36",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:37",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:38",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:39",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:40",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:1",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:2",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:4",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:5",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:6",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:7",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:8",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:9",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:10",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:11",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:12",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:13",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:14",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:15",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:16",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:17",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:18",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:19",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:20",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:21",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:22",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:23",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:24",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:25",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:26",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:27",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:28",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:29",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:30",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:31",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:32",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:33",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:34",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:35",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:36",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:37",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:38",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:39",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:40",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t1-p1:1",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t1-p1:4",
+      "changedFields": [
+        "reasoning",
+        "traps",
+        "reviewTip"
+      ]
+    },
+    {
+      "qid": "c14-t1-p1:5",
+      "changedFields": [
+        "reasoning",
+        "traps",
+        "reviewTip"
+      ]
+    },
+    {
+      "qid": "c14-t1-p1:11",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t1-p3:33",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t1-p3:35",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t2-p1:2",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c14-t2-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t2-p1:5",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t2-p2:23",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c14-t2-p3:33",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c14-t2-p3:35",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c14-t2-p3:40",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t3-p1:4",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t3-p2:21",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c14-t3-p2:22",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c14-t3-p3:34",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t4-p1:6",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c14-t4-p1:12",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t4-p2:20",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t4-p2:22",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t4-p2:25",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c14-t4-p2:26",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c14-t4-p3:28",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c14-t4-p3:30",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c14-t4-p3:33",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t1-p1:6",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t1-p1:10",
+      "changedFields": [
+        "traps"
+      ]
+    },
+    {
+      "qid": "c15-t1-p2:18",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c15-t2-p2:20",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c15-t2-p3:37",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t3-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t3-p1:5",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t3-p2:26",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c15-t4-p1:9",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t4-p1:13",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t4-p2:14",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t4-p2:25",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c15-t4-p3:36",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c15-t4-p3:39",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t1-p1:3",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t1-p1:13",
+      "changedFields": [
+        "traps"
+      ]
+    },
+    {
+      "qid": "c16-t1-p2:25",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c16-t1-p2:26",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c16-t1-p3:30",
+      "changedFields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "qid": "c16-t2-p1:2",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t2-p1:8",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t2-p2:16",
+      "changedFields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "qid": "c16-t2-p2:23",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t2-p2:25",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t2-p3:29",
+      "changedFields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "qid": "c16-t2-p3:36",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c16-t2-p3:37",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t2-p3:38",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t3-p1:2",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t3-p3:27",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t3-p3:30",
+      "changedFields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t3-p3:37",
+      "changedFields": [
+        "traps"
+      ]
+    },
+    {
+      "qid": "c16-t4-p1:8",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t4-p2:14",
+      "changedFields": [
+        "options"
+      ]
+    },
+    {
+      "qid": "c16-t4-p2:15",
+      "changedFields": [
+        "options"
+      ]
+    },
+    {
+      "qid": "c16-t4-p2:21",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c16-t4-p2:25",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c16-t4-p3:36",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c16-t4-p3:37",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:7",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:8",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:11",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:12",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:13",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c17-t1-p2:17",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t1-p2:23",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t1-p2:26",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:17",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:18",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:24",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:25",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:26",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:14",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:17",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:22",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:23",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:24",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:25",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:26",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c17-t4-p2:23",
+      "changedFields": [
+        "evidence",
+        "options"
+      ]
+    },
+    {
+      "qid": "c17-t4-p2:24",
+      "changedFields": [
+        "evidence",
+        "options"
+      ]
+    },
+    {
+      "qid": "c17-t4-p2:26",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c17-t4-p3:27",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t1-p1:8",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t1-p3:30",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t1-p3:35",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t2-p1:1",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c18-t2-p1:10",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c18-t2-p1:12",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t2-p2:14",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t2-p2:19",
+      "changedFields": [
+        "options"
+      ]
+    },
+    {
+      "qid": "c18-t2-p2:26",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t2-p3:27",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t2-p3:28",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t3-p1:1",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t3-p1:9",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t3-p2:16",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c18-t3-p2:26",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:27",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:29",
+      "changedFields": [
+        "options"
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:30",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:33",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:35",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c18-t4-p1:4",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t4-p1:10",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t4-p1:11",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t4-p2:20",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c18-t4-p2:24",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c18-t4-p3:39",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:4",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:8",
+      "changedFields": [
+        "stem",
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:9",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:10",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:11",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:12",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t1-p2:21",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t1-p2:23",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:15",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:18",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:24",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:26",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c19-t2-p3:38",
+      "changedFields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c19-t2-p3:39",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:7",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:8",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:9",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:11",
+      "changedFields": [
+        "stem"
+      ]
+    },
+    {
+      "qid": "c19-t3-p2:21",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t3-p2:22",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:27",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:30",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:35",
+      "changedFields": [
+        "evidence",
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:9",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:10",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:11",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:12",
+      "changedFields": [
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:13",
+      "changedFields": [
+        "evidence",
+        "reasoning"
+      ]
+    },
+    {
+      "qid": "c19-t4-p2:16",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t4-p2:20",
+      "changedFields": [
+        "evidence"
+      ]
+    },
+    {
+      "qid": "c19-t4-p3:30",
+      "changedFields": [
+        "evidence",
+        "paraphrases"
+      ]
+    },
+    {
+      "qid": "c19-t4-p3:37",
+      "changedFields": [
+        "evidence"
+      ]
+    }
+  ]
+}

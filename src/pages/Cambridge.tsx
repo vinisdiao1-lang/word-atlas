@@ -6,12 +6,14 @@ import { loadLibrary } from "../cambridge/library";
 import { ExamText } from "../cambridge/Text";
 import { gapParagraphs } from "../cambridge/gaps";
 import { DetailedExplanation } from "../cambridge/Explanation";
+import { explanationAnswerLabel } from "../cambridge/explanations";
 import { repairKnownSourceAnswers } from "../cambridge/corrections";
 import {
   RULES,
   grade,
   passed,
   qid,
+  unorderedAnswersFor,
   requiredCorrect,
   stageNumbers,
   validatePack,
@@ -645,6 +647,18 @@ export function Cambridge() {
                                 : undefined
                             }
                           />
+                          {paper.unorderedAnswerSets
+                            ?.filter((set) =>
+                              set.every(
+                                (n) => n >= section.from && n <= section.to,
+                              ),
+                            )
+                            .map((set) => (
+                              <p className="muted" key={set.join("-")}>
+                                第 {set.join("、")}{" "}
+                                题答案顺序不限，每个答案只能使用一次。
+                              </p>
+                            ))}
                           {section.judgmentOptions && (
                             <p className="muted">
                               请选择 {section.judgmentOptions.join(" / ")}。
@@ -657,7 +671,9 @@ export function Cambridge() {
                           <b>第 {n} 题</b>
                           <small>
                             {g ? kindLabel[g.type] : ""}
-                            {g?.anyOrder ? " · 多选题可任意顺序" : ""}
+                            {unorderedAnswersFor(paper, n)
+                              ? " · 本组答案可任意顺序"
+                              : ""}
                           </small>
                         </label>
                       )}
@@ -721,8 +737,9 @@ export function Cambridge() {
                           <p>
                             参考答案：
                             <b>
-                              {paper.answers[n] ||
-                                "未可靠识别，请查看原始答案页"}
+                              {paper.answers[n]
+                                ? explanationAnswerLabel(paper, n)
+                                : "未可靠识别，请查看原始答案页"}
                             </b>
                           </p>
                           <p>

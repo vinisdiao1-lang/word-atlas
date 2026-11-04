@@ -15,8 +15,8 @@ test("either-order explanations show the full accepted choice set rather than a 
   const paper = source
     .flatMap((b) => b.passages)
     .find((p) => p.id === "c19-t1-p2")!;
-  assert.equal(explanationAnswerLabel(paper, 20), "B、D（本组选项，顺序不限）");
-  assert.equal(explanationAnswerLabel(paper, 21), "B、D（本组选项，顺序不限）");
+  assert.equal(explanationAnswerLabel(paper, 20), "B、D（本组答案，顺序不限）");
+  assert.equal(explanationAnswerLabel(paper, 21), "B、D（本组答案，顺序不限）");
   assert.equal(explanationAnswerLabel(p, 1), p.answers[1]);
 });
 const example: Explanation = {

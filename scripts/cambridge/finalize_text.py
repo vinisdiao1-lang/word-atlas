@@ -2,6 +2,9 @@
 from pathlib import Path
 import json
 import re
+from review_11_13 import apply_review_fixes as review_11_13
+from review_14_16 import apply_review_fixes as review_14_16
+from review_17_19 import apply_review_fixes as review_17_19
 
 ROOT = Path(__file__).resolve().parents[2]
 library = json.loads((ROOT / '.local/cambridge/text-draft.json').read_text())
@@ -248,6 +251,13 @@ for book in library:
             if sorted(found) == expected and not group['anyOrder'] and group['type'] in ['choice', 'judgment', 'heading', 'paragraph-match']:
                 section['intro'] = intro
                 section['items'] = [{'number': n, 'paragraphs': found[n]} for n in expected]
+
+for review in [review_11_13, review_14_16, review_17_19]:
+    review(library)
+for book in library:
+    for paper in book['passages']:
+        if paper['id'] == 'c14-t1-p1':
+            paper['unorderedAnswerSets'] = [[4, 5]]
 
 target = ROOT / 'public/cambridge/v2/library.json'
 target.parent.mkdir(parents=True, exist_ok=True)

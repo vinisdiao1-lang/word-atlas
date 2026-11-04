@@ -1,0 +1,1375 @@
+{
+  "status": "complete",
+  "scope": [
+    17,
+    18,
+    19
+  ],
+  "method": "逐篇阅读完整原文及题干，再核对逐题推理、选项归属、关键词对照与证据覆盖；现有结构检查仅作为补充。",
+  "reviewedIds": [
+    "c17-t1-p1:1",
+    "c17-t1-p1:2",
+    "c17-t1-p1:3",
+    "c17-t1-p1:4",
+    "c17-t1-p1:5",
+    "c17-t1-p1:6",
+    "c17-t1-p1:7",
+    "c17-t1-p1:8",
+    "c17-t1-p1:9",
+    "c17-t1-p1:10",
+    "c17-t1-p1:11",
+    "c17-t1-p1:12",
+    "c17-t1-p1:13",
+    "c17-t1-p2:14",
+    "c17-t1-p2:15",
+    "c17-t1-p2:16",
+    "c17-t1-p2:17",
+    "c17-t1-p2:18",
+    "c17-t1-p2:19",
+    "c17-t1-p2:20",
+    "c17-t1-p2:21",
+    "c17-t1-p2:22",
+    "c17-t1-p2:23",
+    "c17-t1-p2:24",
+    "c17-t1-p2:25",
+    "c17-t1-p2:26",
+    "c17-t1-p3:27",
+    "c17-t1-p3:28",
+    "c17-t1-p3:29",
+    "c17-t1-p3:30",
+    "c17-t1-p3:31",
+    "c17-t1-p3:32",
+    "c17-t1-p3:33",
+    "c17-t1-p3:34",
+    "c17-t1-p3:35",
+    "c17-t1-p3:36",
+    "c17-t1-p3:37",
+    "c17-t1-p3:38",
+    "c17-t1-p3:39",
+    "c17-t1-p3:40",
+    "c17-t2-p1:1",
+    "c17-t2-p1:2",
+    "c17-t2-p1:3",
+    "c17-t2-p1:4",
+    "c17-t2-p1:5",
+    "c17-t2-p1:6",
+    "c17-t2-p1:7",
+    "c17-t2-p1:8",
+    "c17-t2-p1:9",
+    "c17-t2-p1:10",
+    "c17-t2-p1:11",
+    "c17-t2-p1:12",
+    "c17-t2-p1:13",
+    "c17-t2-p2:14",
+    "c17-t2-p2:15",
+    "c17-t2-p2:16",
+    "c17-t2-p2:17",
+    "c17-t2-p2:18",
+    "c17-t2-p2:19",
+    "c17-t2-p2:20",
+    "c17-t2-p2:21",
+    "c17-t2-p2:22",
+    "c17-t2-p2:23",
+    "c17-t2-p2:24",
+    "c17-t2-p2:25",
+    "c17-t2-p2:26",
+    "c17-t2-p3:27",
+    "c17-t2-p3:28",
+    "c17-t2-p3:29",
+    "c17-t2-p3:30",
+    "c17-t2-p3:31",
+    "c17-t2-p3:32",
+    "c17-t2-p3:33",
+    "c17-t2-p3:34",
+    "c17-t2-p3:35",
+    "c17-t2-p3:36",
+    "c17-t2-p3:37",
+    "c17-t2-p3:38",
+    "c17-t2-p3:39",
+    "c17-t2-p3:40",
+    "c17-t3-p1:1",
+    "c17-t3-p1:2",
+    "c17-t3-p1:3",
+    "c17-t3-p1:4",
+    "c17-t3-p1:5",
+    "c17-t3-p1:6",
+    "c17-t3-p1:7",
+    "c17-t3-p1:8",
+    "c17-t3-p1:9",
+    "c17-t3-p1:10",
+    "c17-t3-p1:11",
+    "c17-t3-p1:12",
+    "c17-t3-p1:13",
+    "c17-t3-p2:14",
+    "c17-t3-p2:15",
+    "c17-t3-p2:16",
+    "c17-t3-p2:17",
+    "c17-t3-p2:18",
+    "c17-t3-p2:19",
+    "c17-t3-p2:20",
+    "c17-t3-p2:21",
+    "c17-t3-p2:22",
+    "c17-t3-p2:23",
+    "c17-t3-p2:24",
+    "c17-t3-p2:25",
+    "c17-t3-p2:26",
+    "c17-t3-p3:27",
+    "c17-t3-p3:28",
+    "c17-t3-p3:29",
+    "c17-t3-p3:30",
+    "c17-t3-p3:31",
+    "c17-t3-p3:32",
+    "c17-t3-p3:33",
+    "c17-t3-p3:34",
+    "c17-t3-p3:35",
+    "c17-t3-p3:36",
+    "c17-t3-p3:37",
+    "c17-t3-p3:38",
+    "c17-t3-p3:39",
+    "c17-t3-p3:40",
+    "c17-t4-p1:1",
+    "c17-t4-p1:2",
+    "c17-t4-p1:3",
+    "c17-t4-p1:4",
+    "c17-t4-p1:5",
+    "c17-t4-p1:6",
+    "c17-t4-p1:7",
+    "c17-t4-p1:8",
+    "c17-t4-p1:9",
+    "c17-t4-p1:10",
+    "c17-t4-p1:11",
+    "c17-t4-p1:12",
+    "c17-t4-p1:13",
+    "c17-t4-p2:14",
+    "c17-t4-p2:15",
+    "c17-t4-p2:16",
+    "c17-t4-p2:17",
+    "c17-t4-p2:18",
+    "c17-t4-p2:19",
+    "c17-t4-p2:20",
+    "c17-t4-p2:21",
+    "c17-t4-p2:22",
+    "c17-t4-p2:23",
+    "c17-t4-p2:24",
+    "c17-t4-p2:25",
+    "c17-t4-p2:26",
+    "c17-t4-p3:27",
+    "c17-t4-p3:28",
+    "c17-t4-p3:29",
+    "c17-t4-p3:30",
+    "c17-t4-p3:31",
+    "c17-t4-p3:32",
+    "c17-t4-p3:33",
+    "c17-t4-p3:34",
+    "c17-t4-p3:35",
+    "c17-t4-p3:36",
+    "c17-t4-p3:37",
+    "c17-t4-p3:38",
+    "c17-t4-p3:39",
+    "c17-t4-p3:40",
+    "c18-t1-p1:1",
+    "c18-t1-p1:2",
+    "c18-t1-p1:3",
+    "c18-t1-p1:4",
+    "c18-t1-p1:5",
+    "c18-t1-p1:6",
+    "c18-t1-p1:7",
+    "c18-t1-p1:8",
+    "c18-t1-p1:9",
+    "c18-t1-p1:10",
+    "c18-t1-p1:11",
+    "c18-t1-p1:12",
+    "c18-t1-p1:13",
+    "c18-t1-p2:14",
+    "c18-t1-p2:15",
+    "c18-t1-p2:16",
+    "c18-t1-p2:17",
+    "c18-t1-p2:18",
+    "c18-t1-p2:19",
+    "c18-t1-p2:20",
+    "c18-t1-p2:21",
+    "c18-t1-p2:22",
+    "c18-t1-p2:23",
+    "c18-t1-p2:24",
+    "c18-t1-p2:25",
+    "c18-t1-p2:26",
+    "c18-t1-p3:27",
+    "c18-t1-p3:28",
+    "c18-t1-p3:29",
+    "c18-t1-p3:30",
+    "c18-t1-p3:31",
+    "c18-t1-p3:32",
+    "c18-t1-p3:33",
+    "c18-t1-p3:34",
+    "c18-t1-p3:35",
+    "c18-t1-p3:36",
+    "c18-t1-p3:37",
+    "c18-t1-p3:38",
+    "c18-t1-p3:39",
+    "c18-t1-p3:40",
+    "c18-t2-p1:1",
+    "c18-t2-p1:2",
+    "c18-t2-p1:3",
+    "c18-t2-p1:4",
+    "c18-t2-p1:5",
+    "c18-t2-p1:6",
+    "c18-t2-p1:7",
+    "c18-t2-p1:8",
+    "c18-t2-p1:9",
+    "c18-t2-p1:10",
+    "c18-t2-p1:11",
+    "c18-t2-p1:12",
+    "c18-t2-p1:13",
+    "c18-t2-p2:14",
+    "c18-t2-p2:15",
+    "c18-t2-p2:16",
+    "c18-t2-p2:17",
+    "c18-t2-p2:18",
+    "c18-t2-p2:19",
+    "c18-t2-p2:20",
+    "c18-t2-p2:21",
+    "c18-t2-p2:22",
+    "c18-t2-p2:23",
+    "c18-t2-p2:24",
+    "c18-t2-p2:25",
+    "c18-t2-p2:26",
+    "c18-t2-p3:27",
+    "c18-t2-p3:28",
+    "c18-t2-p3:29",
+    "c18-t2-p3:30",
+    "c18-t2-p3:31",
+    "c18-t2-p3:32",
+    "c18-t2-p3:33",
+    "c18-t2-p3:34",
+    "c18-t2-p3:35",
+    "c18-t2-p3:36",
+    "c18-t2-p3:37",
+    "c18-t2-p3:38",
+    "c18-t2-p3:39",
+    "c18-t2-p3:40",
+    "c18-t3-p1:1",
+    "c18-t3-p1:2",
+    "c18-t3-p1:3",
+    "c18-t3-p1:4",
+    "c18-t3-p1:5",
+    "c18-t3-p1:6",
+    "c18-t3-p1:7",
+    "c18-t3-p1:8",
+    "c18-t3-p1:9",
+    "c18-t3-p1:10",
+    "c18-t3-p1:11",
+    "c18-t3-p1:12",
+    "c18-t3-p1:13",
+    "c18-t3-p2:14",
+    "c18-t3-p2:15",
+    "c18-t3-p2:16",
+    "c18-t3-p2:17",
+    "c18-t3-p2:18",
+    "c18-t3-p2:19",
+    "c18-t3-p2:20",
+    "c18-t3-p2:21",
+    "c18-t3-p2:22",
+    "c18-t3-p2:23",
+    "c18-t3-p2:24",
+    "c18-t3-p2:25",
+    "c18-t3-p2:26",
+    "c18-t3-p3:27",
+    "c18-t3-p3:28",
+    "c18-t3-p3:29",
+    "c18-t3-p3:30",
+    "c18-t3-p3:31",
+    "c18-t3-p3:32",
+    "c18-t3-p3:33",
+    "c18-t3-p3:34",
+    "c18-t3-p3:35",
+    "c18-t3-p3:36",
+    "c18-t3-p3:37",
+    "c18-t3-p3:38",
+    "c18-t3-p3:39",
+    "c18-t3-p3:40",
+    "c18-t4-p1:1",
+    "c18-t4-p1:2",
+    "c18-t4-p1:3",
+    "c18-t4-p1:4",
+    "c18-t4-p1:5",
+    "c18-t4-p1:6",
+    "c18-t4-p1:7",
+    "c18-t4-p1:8",
+    "c18-t4-p1:9",
+    "c18-t4-p1:10",
+    "c18-t4-p1:11",
+    "c18-t4-p1:12",
+    "c18-t4-p1:13",
+    "c18-t4-p2:14",
+    "c18-t4-p2:15",
+    "c18-t4-p2:16",
+    "c18-t4-p2:17",
+    "c18-t4-p2:18",
+    "c18-t4-p2:19",
+    "c18-t4-p2:20",
+    "c18-t4-p2:21",
+    "c18-t4-p2:22",
+    "c18-t4-p2:23",
+    "c18-t4-p2:24",
+    "c18-t4-p2:25",
+    "c18-t4-p2:26",
+    "c18-t4-p3:27",
+    "c18-t4-p3:28",
+    "c18-t4-p3:29",
+    "c18-t4-p3:30",
+    "c18-t4-p3:31",
+    "c18-t4-p3:32",
+    "c18-t4-p3:33",
+    "c18-t4-p3:34",
+    "c18-t4-p3:35",
+    "c18-t4-p3:36",
+    "c18-t4-p3:37",
+    "c18-t4-p3:38",
+    "c18-t4-p3:39",
+    "c18-t4-p3:40",
+    "c19-t1-p1:1",
+    "c19-t1-p1:2",
+    "c19-t1-p1:3",
+    "c19-t1-p1:4",
+    "c19-t1-p1:5",
+    "c19-t1-p1:6",
+    "c19-t1-p1:7",
+    "c19-t1-p1:8",
+    "c19-t1-p1:9",
+    "c19-t1-p1:10",
+    "c19-t1-p1:11",
+    "c19-t1-p1:12",
+    "c19-t1-p1:13",
+    "c19-t1-p2:14",
+    "c19-t1-p2:15",
+    "c19-t1-p2:16",
+    "c19-t1-p2:17",
+    "c19-t1-p2:18",
+    "c19-t1-p2:19",
+    "c19-t1-p2:20",
+    "c19-t1-p2:21",
+    "c19-t1-p2:22",
+    "c19-t1-p2:23",
+    "c19-t1-p2:24",
+    "c19-t1-p2:25",
+    "c19-t1-p2:26",
+    "c19-t1-p3:27",
+    "c19-t1-p3:28",
+    "c19-t1-p3:29",
+    "c19-t1-p3:30",
+    "c19-t1-p3:31",
+    "c19-t1-p3:32",
+    "c19-t1-p3:33",
+    "c19-t1-p3:34",
+    "c19-t1-p3:35",
+    "c19-t1-p3:36",
+    "c19-t1-p3:37",
+    "c19-t1-p3:38",
+    "c19-t1-p3:39",
+    "c19-t1-p3:40",
+    "c19-t2-p1:1",
+    "c19-t2-p1:2",
+    "c19-t2-p1:3",
+    "c19-t2-p1:4",
+    "c19-t2-p1:5",
+    "c19-t2-p1:6",
+    "c19-t2-p1:7",
+    "c19-t2-p1:8",
+    "c19-t2-p1:9",
+    "c19-t2-p1:10",
+    "c19-t2-p1:11",
+    "c19-t2-p1:12",
+    "c19-t2-p1:13",
+    "c19-t2-p2:14",
+    "c19-t2-p2:15",
+    "c19-t2-p2:16",
+    "c19-t2-p2:17",
+    "c19-t2-p2:18",
+    "c19-t2-p2:19",
+    "c19-t2-p2:20",
+    "c19-t2-p2:21",
+    "c19-t2-p2:22",
+    "c19-t2-p2:23",
+    "c19-t2-p2:24",
+    "c19-t2-p2:25",
+    "c19-t2-p2:26",
+    "c19-t2-p3:27",
+    "c19-t2-p3:28",
+    "c19-t2-p3:29",
+    "c19-t2-p3:30",
+    "c19-t2-p3:31",
+    "c19-t2-p3:32",
+    "c19-t2-p3:33",
+    "c19-t2-p3:34",
+    "c19-t2-p3:35",
+    "c19-t2-p3:36",
+    "c19-t2-p3:37",
+    "c19-t2-p3:38",
+    "c19-t2-p3:39",
+    "c19-t2-p3:40",
+    "c19-t3-p1:1",
+    "c19-t3-p1:2",
+    "c19-t3-p1:3",
+    "c19-t3-p1:4",
+    "c19-t3-p1:5",
+    "c19-t3-p1:6",
+    "c19-t3-p1:7",
+    "c19-t3-p1:8",
+    "c19-t3-p1:9",
+    "c19-t3-p1:10",
+    "c19-t3-p1:11",
+    "c19-t3-p1:12",
+    "c19-t3-p1:13",
+    "c19-t3-p2:14",
+    "c19-t3-p2:15",
+    "c19-t3-p2:16",
+    "c19-t3-p2:17",
+    "c19-t3-p2:18",
+    "c19-t3-p2:19",
+    "c19-t3-p2:20",
+    "c19-t3-p2:21",
+    "c19-t3-p2:22",
+    "c19-t3-p2:23",
+    "c19-t3-p2:24",
+    "c19-t3-p2:25",
+    "c19-t3-p2:26",
+    "c19-t3-p3:27",
+    "c19-t3-p3:28",
+    "c19-t3-p3:29",
+    "c19-t3-p3:30",
+    "c19-t3-p3:31",
+    "c19-t3-p3:32",
+    "c19-t3-p3:33",
+    "c19-t3-p3:34",
+    "c19-t3-p3:35",
+    "c19-t3-p3:36",
+    "c19-t3-p3:37",
+    "c19-t3-p3:38",
+    "c19-t3-p3:39",
+    "c19-t3-p3:40",
+    "c19-t4-p1:1",
+    "c19-t4-p1:2",
+    "c19-t4-p1:3",
+    "c19-t4-p1:4",
+    "c19-t4-p1:5",
+    "c19-t4-p1:6",
+    "c19-t4-p1:7",
+    "c19-t4-p1:8",
+    "c19-t4-p1:9",
+    "c19-t4-p1:10",
+    "c19-t4-p1:11",
+    "c19-t4-p1:12",
+    "c19-t4-p1:13",
+    "c19-t4-p2:14",
+    "c19-t4-p2:15",
+    "c19-t4-p2:16",
+    "c19-t4-p2:17",
+    "c19-t4-p2:18",
+    "c19-t4-p2:19",
+    "c19-t4-p2:20",
+    "c19-t4-p2:21",
+    "c19-t4-p2:22",
+    "c19-t4-p2:23",
+    "c19-t4-p2:24",
+    "c19-t4-p2:25",
+    "c19-t4-p2:26",
+    "c19-t4-p3:27",
+    "c19-t4-p3:28",
+    "c19-t4-p3:29",
+    "c19-t4-p3:30",
+    "c19-t4-p3:31",
+    "c19-t4-p3:32",
+    "c19-t4-p3:33",
+    "c19-t4-p3:34",
+    "c19-t4-p3:35",
+    "c19-t4-p3:36",
+    "c19-t4-p3:37",
+    "c19-t4-p3:38",
+    "c19-t4-p3:39",
+    "c19-t4-p3:40"
+  ],
+  "corrections": [
+    {
+      "qid": "c17-t1-p1:7",
+      "reason": "原关键词对照把相反或未获证实的命题写成“需要理解为”，会错误暗示同义；推理本身正确，移除该误导对照。",
+      "changes": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:8",
+      "reason": "原关键词对照把相反或未获证实的命题写成“需要理解为”，会错误暗示同义；推理本身正确，移除该误导对照。",
+      "changes": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:11",
+      "reason": "原关键词对照把相反或未获证实的命题写成“需要理解为”，会错误暗示同义；推理本身正确，移除该误导对照。",
+      "changes": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:12",
+      "reason": "原关键词对照把相反或未获证实的命题写成“需要理解为”，会错误暗示同义；推理本身正确，移除该误导对照。",
+      "changes": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c17-t1-p1:13",
+      "reason": "原关键词对照把相反或未获证实的命题写成“需要理解为”，会错误暗示同义；推理本身正确，移除该误导对照。",
+      "changes": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c17-t1-p2:17",
+      "reason": "补上可达性、耗能及城市热量的完整结果句，原引用仅列设计特征不足展示所述全部缺点。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c17-t1-p2:23",
+      "reason": "删除重复引用，保留同时包含位置与单一用途及后果的完整段落。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c17-t1-p2:26",
+      "reason": "原两条引用重复指向发电装置，缺少另一正确选项B社区用途的证据，补第12段。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        13,
+        12
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:17",
+      "reason": "原证据只有早期三千年，补齐不足三年的现代研究，完整展示比较两端。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:18",
+      "reason": "补齐个人口味评价的完整三句，支持解析中的味浓及芳香。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        11
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:24",
+      "reason": "原题干片段把填空位置移至句末；按loss of后缺失风味的语法还原解析题干。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c17-t2-p2:26",
+      "reason": "原题干片段把填空位置移至句末；将空位还原到affected by之后。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        12
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:14",
+      "reason": "题目要求a range，补足高产少占地和固碳两类潜在优势证据。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        7,
+        8
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:17",
+      "reason": "补充引入鸟巢蕨可恢复种植园生物多样性的直接机制句，原证据仅说明关键种的一般生态作用。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        10
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:22",
+      "reason": "原两条证据重复说明时间，补另一正确选项B的透明度标准。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9,
+        9
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:23",
+      "reason": "将解析题干中被错误放至句末的空位还原至语法要求的原题位置。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:24",
+      "reason": "将解析题干中被错误放至句末的空位还原至语法要求的原题位置。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:25",
+      "reason": "将解析题干中被错误放至句末的空位还原至语法要求的原题位置。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c17-t3-p2:26",
+      "reason": "将解析题干中被错误放至句末的空位还原至语法要求的原题位置。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        10
+      ]
+    },
+    {
+      "qid": "c17-t4-p2:23",
+      "reason": "A项将个人收入研究数量与教育—国家经济增长因果混为一谈；原排除理由声称研究很多也无依据，改为准确指出题干新增信息。",
+      "changes": [
+        "options",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "c17-t4-p2:24",
+      "reason": "A项将个人收入研究数量与教育—国家经济增长因果混为一谈；原排除理由声称研究很多也无依据，改为准确指出题干新增信息。",
+      "changes": [
+        "options",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "c17-t4-p2:26",
+      "reason": "补齐另一正确选项B有关劳工迁移的依据。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8,
+        8
+      ]
+    },
+    {
+      "qid": "c17-t4-p3:27",
+      "reason": "题目earlier examples为复数，补出佛罗伦萨和Najdorf两例，原引用仅笼统说历史悠久。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c18-t1-p1:8",
+      "reason": "补屋顶农场证据，原引文仅有地下停车场，不能独立展示above与below两端。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2,
+        6
+      ]
+    },
+    {
+      "qid": "c18-t1-p3:30",
+      "reason": "对比题证据必须同时呈现航空米级定位与太空追踪不连续；原仅引用机场调度的半边。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c18-t1-p3:35",
+      "reason": "补破产运营商不会花钱移除卫星的结论，原引用仅是疑问句。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c18-t2-p1:1",
+      "reason": "原解析stem误取Stage 1阶段标签；还原实际问工具材料的题干。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c18-t2-p1:10",
+      "reason": "bluestones误译为蓝砂岩；改为蓝石，与第3阶段砂岩sarsens区分。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c18-t2-p1:12",
+      "reason": "补该假说具体指多个群体分阶段建造的前句，原证据仅指代this hypothesis。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c18-t2-p2:14",
+      "reason": "补通用AI可完成全范围任务的句子，使未来能力限制的判断有完整依据。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c18-t2-p2:19",
+      "reason": "排除A应依据本段内容而非将will额外强化为“必然”，修正排除理由。",
+      "changes": [
+        "options"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c18-t2-p2:26",
+      "reason": "原引用是括号中的半句，补全医生被剥夺控制权的整句以明确主体。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        10
+      ]
+    },
+    {
+      "qid": "c18-t2-p3:27",
+      "reason": "以同段完整内容展示“天才”称呼与死亡五百年是两项独立事实，原只引死亡句。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c18-t2-p3:28",
+      "reason": "补齐气候危机预测与瘟疫统计，便于检查文中没有两者死亡人数比较。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c18-t3-p1:1",
+      "reason": "题目industrial processes为复数，补全燃煤与冶炼两种副产品产生过程。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c18-t3-p1:9",
+      "reason": "补长距离运输使用化石燃料可能抵消净减碳的结论句，原证据仅提示需计算。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c18-t3-p2:16",
+      "reason": "C段直接强调安静及加速；没有量化污染排放，不把气味比较扩成该段已证明清洁。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c18-t3-p2:26",
+      "reason": "明确严格法规的实证车型是Model B，避免混为前述Model E逐辆认证。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:27",
+      "reason": "多样学习需要由整段多组任务体现；原只引用给部分学生简本，补完整段落。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:30",
+      "reason": "定义脚手架须包括前句教师教材等support，原仅引用逐步移除而无所指。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:29",
+      "reason": "A选项是学习路径的比喻，并非字面登山路线；修正原排除理由的稻草人解读。",
+      "changes": [
+        "options"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:35",
+      "reason": "原排除说明提到了选项表不存在的higher expectations，改为准确比较真实I/H选项与B。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c18-t4-p1:4",
+      "reason": "补地面排水结合的第二例，原仅有living walls不能展示examples完整列表。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c18-t4-p1:10",
+      "reason": "双选每题均展示储水与深土多品种两项依据，原各自只有一项，10还缺水这一指代对象。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c18-t4-p1:11",
+      "reason": "双选每题均展示储水与深土多品种两项依据，原各自只有一项，10还缺水这一指代对象。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c18-t4-p2:20",
+      "reason": "补学生察觉需要帮助会抵消效果的解释，使without being aware与subtle之间的推理完整。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c18-t4-p2:24",
+      "reason": "原说明将题干称为直接逆转因果，过度简化不同概念；改为结合成就比较及演讲实例判断立场。",
+      "changes": [
+        "reasoning",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c18-t4-p3:39",
+      "reason": "补其他科学家丰富档案和Wegener资料稀少的比较两端，不能仅用抽象传记原则支撑具体比较。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8,
+        9
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:4",
+      "reason": "原证据在缩写i.e.处错误截断；补完整重拍与密线床句。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:8",
+      "reason": "去掉上一句破碎引用，直接引用长度和油漆定制的完整句。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:8",
+      "reason": "原解析stem仅取到断行片段，补齐同一原题的上下文。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:9",
+      "reason": "原解析stem仅取到断行片段，补齐同一原题的上下文。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:10",
+      "reason": "原解析stem仅取到断行片段，补齐同一原题的上下文。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:11",
+      "reason": "原解析stem仅取到断行片段，补齐同一原题的上下文。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t1-p1:12",
+      "reason": "原解析stem仅取到断行片段，补齐同一原题的上下文。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t1-p2:21",
+      "reason": "双选题补另一正确项B熟悉当地而避开报复的依据。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "qid": "c19-t1-p2:23",
+      "reason": "双选题补另一正确项C高层官员参与的依据。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        7,
+        7
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:15",
+      "reason": "strategies复数需展示多种方法，原引文只有visualisation一项。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:18",
+      "reason": "补心理学家改变运动员看待生理反应的直接句，原只引教练父母语言。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:24",
+      "reason": "双选题补另一正确项B的呼吸、心率症状依据。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3,
+        1
+      ]
+    },
+    {
+      "qid": "c19-t2-p2:26",
+      "reason": "补另一正确项A的强度决定因素，并将对照改为本题E频繁焦虑危害，而非复制25题的强度词。",
+      "changes": [
+        "evidence",
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5,
+        5
+      ]
+    },
+    {
+      "qid": "c19-t2-p3:38",
+      "reason": "探究精神对应curiosity；坚持和努力是同列另两项品质，不应全部写成inquiry的同义词。",
+      "changes": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t2-p3:39",
+      "reason": "补一万小时并非神奇保证的原句，支撑D项的具体排除。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        7,
+        7
+      ]
+    },
+    {
+      "qid": "c18-t3-p3:33",
+      "reason": "root已按原图恢复low socioeconomic class原句，更新被OCR污染的证据，并去掉解析中对损坏文本的补猜。",
+      "changes": [
+        "evidence",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:7",
+      "reason": "补一千年前重新占用前无使用证据的时间线另一端，展示continuous为何被反驳。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8,
+        9
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:8",
+      "reason": "修复断行题干，并将被误识别为11题空位的日期11,700恢复，真正11题是beads。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:9",
+      "reason": "修复断行题干，并将被误识别为11题空位的日期11,700恢复，真正11题是beads。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:11",
+      "reason": "修复断行题干，并将被误识别为11题空位的日期11,700恢复，真正11题是beads。",
+      "changes": [
+        "stem"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t3-p2:21",
+      "reason": "补沟渠随后被用来排水的第二句，原只引运输用途。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t3-p2:22",
+      "reason": "补下沉导致未来淹水、土地损失的后果证据，原只引过程名称。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:27",
+      "reason": "双方交流困难不能仅引作者难听懂；补车站背景噪声及全通话条件。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:30",
+      "reason": "That的所指需含陌生人共用耳机的顾虑，补前句避免孤立评价句。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:35",
+      "reason": "原推理把very useful throughout偷换成全面替代，重写为作者对专业领域态度的保留；官方NO已独立对原答案页确认，不扩大成所有专业用途都无用。",
+      "changes": [
+        "reasoning",
+        "evidence",
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        9,
+        10
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:9",
+      "reason": "原自造/不统一的中文物种名（尤其White Admiral被写成蛾蝶）不可靠，保留原文确切英文名避免分类错误。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:10",
+      "reason": "原自造/不统一的中文物种名（尤其White Admiral被写成蛾蝶）不可靠，保留原文确切英文名避免分类错误。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:11",
+      "reason": "原自造/不统一的中文物种名（尤其White Admiral被写成蛾蝶）不可靠，保留原文确切英文名避免分类错误。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:12",
+      "reason": "原自造/不统一的中文物种名（尤其White Admiral被写成蛾蝶）不可靠，保留原文确切英文名避免分类错误。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:13",
+      "reason": "原自造/不统一的中文物种名（尤其White Admiral被写成蛾蝶）不可靠，保留原文确切英文名避免分类错误。",
+      "changes": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:10",
+      "reason": "补High Brown Fritillary与特定两种栖息地的直接连接，原引文仅泛说该类物种特化。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:13",
+      "reason": "题干两项可能成因需同时出现，补气候变化而非只引用饮食。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t4-p2:16",
+      "reason": "补矿物丰富喷口也是动物栖息地的第二句，满足题干形成机制和矿物/生物共存两个条件。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t4-p2:20",
+      "reason": "原this better way的药物所指不明，补寻找海洋药物的前文。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c19-t4-p3:30",
+      "reason": "原证据只说存在支持证据，未引Knauft具体发现；补分享平等观察与后续史前—近年转变的论证语境；移除非同义对照。",
+      "changes": [
+        "evidence",
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6,
+        8
+      ]
+    },
+    {
+      "qid": "c19-t4-p3:37",
+      "reason": "题干问warlike，补直接说warfare等特质在史前无益的句子，原仅引用自私残忍者被排斥。",
+      "changes": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    }
+  ],
+  "reviewedCount": 480,
+  "bookCounts": {
+    "17": 160,
+    "18": 160,
+    "19": 160
+  },
+  "limitations": "本记录是对用户提供原文、题干和答案页的逐题语义复核，不是出版社发布的官方解析或零错误保证。",
+  "correctedQuestionCount": 81,
+  "correctionOperations": 84,
+  "verification": {
+    "coverage": "480 distinct question ids, 160 per book",
+    "command": "npm run check:explanations",
+    "result": "1440/1440, errors 0",
+    "officialAnswerImageChecked": [
+      "c19-p124.jpg (Test3 Q35 NO confirmed)"
+    ]
+  }
+}

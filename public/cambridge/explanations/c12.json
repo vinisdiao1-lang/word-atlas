@@ -330,7 +330,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "This is a variant on joining a bridge club or a gym, and similarly brings them into contact with like-minded people."
+          "quote": "Many collectors collect to develop their social life, attending meetings of a group of collectors and exchanging information on items. This is a variant on joining a bridge club or a gym, and similarly brings them into contact with like-minded people."
         }
       ],
       "reasoning": [
@@ -348,8 +348,12 @@
       "stem": "18 Collecting sometimes involves a life-long [18] ____ for a special item.",
       "evidence": [
         {
+          "paragraph": 4,
+          "quote": "Another motive for collecting is the desire to find something special, or a particular example of the collected item, such as a rare early recording by a particular singer."
+        },
+        {
           "paragraph": 5,
-          "quote": "Some may spend their whole lives in a hunt for this."
+          "quote": "Some may spend their whole lives in a hunt for this. Psychologically, this can give a purpose to a life that otherwise feels aimless. There is a danger, though, that if the individual is ever lucky enough to find what they're looking for, rather than celebrating their success, they may feel empty, now that the goal that drove them on has gone."
         }
       ],
       "reasoning": [
@@ -368,7 +372,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "Psychologically, this can give a purpose to a life that otherwise feels aimless."
+          "quote": "Some may spend their whole lives in a hunt for this. Psychologically, this can give a purpose to a life that otherwise feels aimless. There is a danger, though, that if the individual is ever lucky enough to find what they're looking for, rather than celebrating their success, they may feel empty, now that the goal that drove them on has gone."
         }
       ],
       "reasoning": [
@@ -615,7 +619,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "We have a separate word for it: arson."
+          "quote": "F It is at this point that 'Arson for Profit' becomes supremely relevant. That course is presumably all about means. how to detect and prosecute criminal activity. It is therefore assumed that the end is good in an ethical sense. When I ask fire science students to articulate the end, or purpose, of their field, they eventually generalize to something like, 'The safety and welfare of society,' which seems right. As we have seen, someone could use the very same knowledge of means to achieve a much less noble end, such as personal profit via destructive, dangerous, reckless activity. But we would not call that firefighting. We have a separate word for it: arson. Similarly, if you employed the 'principles of marketing' in an unprincipled way, you would not be doing marketing. We have another term for it: fraud. Kant gives the example of a doctor and a poisoner, who use the identical knowledge to achieve their divergent ends. We would say that one is practicing medicine, the other, murder."
         }
       ],
       "reasoning": [
@@ -748,7 +752,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "Bue wouldn't this also be the perfect course for prospective arsonists to sign up for? My point is not to criticize academic programs in fire science: they are highly welcome as part of the increasing professionalization of this and many other occupations."
+          "quote": "B Naturally, the course is intended for prospective arson investigators, who can learn all the tricks of the trade for detecting whether a fire was deliberately set, discovering who did it, and establishing a chain of evidence for effective prosecution in a court of law. Bue wouldn't this also be the perfect course for prospective arsonists to sign up for? My point is not to criticize academic programs in fire science: they are highly welcome as part of the increasing professionalization of this and many other occupations. However, it's not unknown for a firefighter to torch a building. This example suggests how dishonest and illegal behavior, with the help of higher education, can creep into every aspect of public and business life."
         }
       ],
       "reasoning": [
@@ -957,7 +961,11 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Fan explained that 'in addition to reducing crop yields, climate change increases the magnitude and the frequency of extreme weather events, which increase smallholder vulnerability.' The growing unpredictability of weather patterns increases farmers' difficulty in managing weather-related risks."
+          "quote": "G Many essayists mentioned climate change and its consequences for small-scale agriculture. Fan explained that 'in addition to reducing crop yields, climate change increases the magnitude and the frequency of extreme weather events, which increase smallholder vulnerability.' The growing unpredictability of weather patterns increases farmers' difficulty in managing weather-related risks. According to this author, one solution would be to develop crop varieties that are more resilient to new climate trends and extreme weather patterns. Accordingly, Pat Mooney, co-founder and executive director of the ETC Group, suggested that 'if we are to survive climate change, we must adopt policies that let peasants diversify the plant and animal species and varieties/breeds that make up our menus.'"
+        },
+        {
+          "paragraph": 11,
+          "quote": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices. One commentator suggested farmers can gain greater control over prices and minimise price volatility by selling directly to consumers. Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention. Direct food distribution systems not only encourage small-scale agriculture but also give consumers more control over the food they consume, she wrote."
         }
       ],
       "reasoning": [
@@ -1002,8 +1010,12 @@
       "stem": "Which TWO problems are mentioned which affect farmers with small farms in developing countries? A lack of demand for locally produced food B lack of irrigation programmes C being unable to get insurance D the effects of changing weather patterns E having to sell their goods to intermediary buyers",
       "evidence": [
         {
+          "paragraph": 9,
+          "quote": "G Many essayists mentioned climate change and its consequences for small-scale agriculture. Fan explained that 'in addition to reducing crop yields, climate change increases the magnitude and the frequency of extreme weather events, which increase smallholder vulnerability.' The growing unpredictability of weather patterns increases farmers' difficulty in managing weather-related risks. According to this author, one solution would be to develop crop varieties that are more resilient to new climate trends and extreme weather patterns. Accordingly, Pat Mooney, co-founder and executive director of the ETC Group, suggested that 'if we are to survive climate change, we must adopt policies that let peasants diversify the plant and animal species and varieties/breeds that make up our menus.'"
+        },
+        {
           "paragraph": 11,
-          "quote": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices."
+          "quote": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices. One commentator suggested farmers can gain greater control over prices and minimise price volatility by selling directly to consumers. Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention. Direct food distribution systems not only encourage small-scale agriculture but also give consumers more control over the food they consume, she wrote."
         }
       ],
       "reasoning": [
@@ -1049,7 +1061,11 @@
       "evidence": [
         {
           "paragraph": 10,
-          "quote": "Others, like Marcel Vernooij and Marcel Beukeboom, suggested that in order to 'apply what we already know', all stakeholders, including business, government, scientists and civil society, must work together, starting at the beginning of the value chain."
+          "quote": "H Some participating authors and commentators argued in favour of community based and autonomous risk management strategies through collective action groups, co-operatives or producers' groups. Such groups enhance market opportunities for small-scale producers, reduce marketing costs and synchronise buying and selling with seasonal price conditions. According to Murphy, 'collective action offers an important way for farmers to strengthen their political and economic bargaining power, and to reduce their business risks.' One commentator, Giel Ton, warned that collective action does not come as a free good. It takes time, effort and money to organise, build trust and to experiment. Others, like Marcel Vernooij and Marcel Beukeboom, suggested that in order to 'apply what we already know', all stakeholders, including business, government, scientists and civil society, must work together, starting at the beginning of the value chain."
+        },
+        {
+          "paragraph": 11,
+          "quote": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices. One commentator suggested farmers can gain greater control over prices and minimise price volatility by selling directly to consumers. Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention. Direct food distribution systems not only encourage small-scale agriculture but also give consumers more control over the food they consume, she wrote."
         }
       ],
       "reasoning": [
@@ -1094,12 +1110,16 @@
       "stem": "Which TWO actions are recommended for improving conditions for farmers? A reducing the size of food stocks B attempting to ensure that prices rise at certain times of the year C organising co-operation between a wide range of interested parties D encouraging consumers to take a financial stake in farming E making customers aware of the reasons for changing food prices",
       "evidence": [
         {
+          "paragraph": 10,
+          "quote": "H Some participating authors and commentators argued in favour of community based and autonomous risk management strategies through collective action groups, co-operatives or producers' groups. Such groups enhance market opportunities for small-scale producers, reduce marketing costs and synchronise buying and selling with seasonal price conditions. According to Murphy, 'collective action offers an important way for farmers to strengthen their political and economic bargaining power, and to reduce their business risks.' One commentator, Giel Ton, warned that collective action does not come as a free good. It takes time, effort and money to organise, build trust and to experiment. Others, like Marcel Vernooij and Marcel Beukeboom, suggested that in order to 'apply what we already know', all stakeholders, including business, government, scientists and civil society, must work together, starting at the beginning of the value chain."
+        },
+        {
           "paragraph": 11,
-          "quote": "Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention."
+          "quote": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices. One commentator suggested farmers can gain greater control over prices and minimise price volatility by selling directly to consumers. Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention. Direct food distribution systems not only encourage small-scale agriculture but also give consumers more control over the food they consume, she wrote."
         }
       ],
       "reasoning": [
-        "社区支持农业要求消费者以订阅投入资金，并让生产者获得公平价格，这正是D所说消费者持有经济利益。",
+        "社区支持农业中，消费者通过订阅向当地农民投入资金，并保证生产者获得公平价格。这对应D中take a financial stake，即出资参与并分担农业风险；原文并未要求消费者取得农场所有权或股权。",
         "另一建议C来自H段各类利益相关者协同工作。库存缩减、保证季节性涨价、告知顾客价格变化原因都没有作为本文推荐的对应行动出现，应排除A、B、E。"
       ],
       "paraphrases": [],
@@ -1217,7 +1237,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "His journal entries of the time reveal a much more gradual appreciation of his achievement."
+          "quote": "E We should remember, however, that Lost City of the Incas is a work of hindsight, not written until 1948, many years after his journey. His journal entries of the time reveal a much more gradual appreciation of his achievement. He spent the afternoon at the ruins noting down the dimensions of some of the buildings, then descended and rejoined his companions, to whom he seems to have said little about his discovery. At this stage, Bingham didn't realise the extent or the importance of the site, nor did he realise what use he could make of the discovery."
         }
       ],
       "reasoning": [
@@ -1844,7 +1864,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "This historical exploitation was then exacerbated when settlers came to the islands."
+          "quote": "This historical exploitation was then exacerbated when settlers came to the islands. They hunted the tortoises and destroyed their habitat to clear land for agriculture."
         }
       ],
       "reasoning": [
@@ -1920,7 +1940,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "Part of the problem is, of course, the massive number of cars being driven, in addition to factories that run on coal power."
+          "quote": "C In some countries, geographical factors influence the health and well-being of the population in very obvious ways. In many large cities, the wind is not strong enough to clear the air of the massive amounts of smog and pollution that cause asthma, lung problems, eyesight issues and more in the people who live there. Part of the problem is, of course, the massive number of cars being driven, in addition to factories that run on coal power. The rapid industrialisation of some countries in recent years has also led to the cutting down of forests to allow for the expansion of big cities, which makes it even harder to fight the pollution with the fresh air that is produced by plants."
         }
       ],
       "reasoning": [
@@ -2243,7 +2263,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "In other words, sound stirs us at our biological roots."
+          "quote": "Why does music make us feel? On the one hand, music is a purely abstract art form, devoid of language or explicit ideas. And yet, even though music says little, it still manages to touch us deeply. When listening to our favourite songs, our body betrays all the symptoms of emotional arousal. The pupils in our eyes dilate, our pulse and blood pressure rise, the electrical conductance of our skin is lowered, and the cerebellum, a brain region associated with bodily movement, becomes strangely active. Blood is even re-directed to the muscles in our legs. In other words, sound stirs us at our biological roots."
         }
       ],
       "reasoning": [
@@ -2857,8 +2877,8 @@
         }
       ],
       "reasoning": [
-        "作者批评英国保护工作任意选择物种组合并努力阻止变化，把自然当成密封泡菜罐，忽略生态中动态关系。",
-        "因此C采用误导性的保护思路最贴切。A笼统称未达目标不如C准确表达批评缘由；B开始转向出现在后文，D广布物种也没有对应证据。"
+        "作者批评英国保护工作任意选择物种组合并努力阻止变化，把自然当成密封泡菜罐，忽略生态中不断变化的关系。",
+        "因此C taken a misguided approach意为采用了不当、方向有误的保护方法，最贴合这种理念批评。A笼统称未达目标不如C准确；B开始转向出现在后文，D广布物种也没有对应证据。"
       ],
       "paraphrases": [],
       "traps": [

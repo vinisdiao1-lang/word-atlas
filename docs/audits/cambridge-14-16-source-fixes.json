@@ -1,0 +1,38 @@
+{
+  "method": "逐一查看随用户提供PDF提取的原卷图片，确认文字与空位；本文件不根据答案反推修改题干。",
+  "fixes": [
+    {
+      "id": "c14-t2-p3:35",
+      "field": "questionText paragraphs and corresponding intro/items strings",
+      "sourceImage": "public/cambridge/v1/pages/c14-p50.jpg",
+      "printedPage": 49,
+      "before": "35 Numerous training sessions are aimed at people who feel they are not enough.",
+      "after": "35 Numerous training sessions are aimed at people who feel they are not ______ enough.",
+      "reason": "原卷在not和enough之间有答案横线，OCR漏掉空位会使答题框被错误追加到句末。"
+    },
+    {
+      "id": "c14-t3-p2",
+      "field": "reading.paragraphs[9] prefix only",
+      "sourceImage": "public/cambridge/v1/pages/c14-p65.jpg",
+      "printedPage": 64,
+      "before": "With every bit of wilderness that disappears, we deprive ourselves of potential medicines.",
+      "after": "I With every bit of wilderness that disappears, we deprive ourselves of potential medicines.",
+      "reason": "原卷末段左侧明确标注I。只补段落标签，保持该段索引及所有正文文字不变。"
+    },
+    {
+      "id": "c16-t4-p2:21",
+      "field": "questionText paragraphs and corresponding intro/items strings",
+      "sourceImage": "public/cambridge/v1/pages/c16-p89.jpg",
+      "printedPage": 89,
+      "before": "Studies by Ziming Liu show that students are tending to .ead .............. words and phrases",
+      "after": "Studies by Ziming Liu show that students are tending to read 21 ______ words and phrases",
+      "reason": "原卷明确为read，之后是21号题空位，再接words and phrases；恢复漏掉的首字母与题号。"
+    }
+  ],
+  "invariants": [
+    "reading段落数量、次序和原索引保持不变",
+    "已有questionText.items或intro里的同一文字同步修复",
+    "重复应用不产生重复题号、段号或额外空位",
+    "本脚本不修改答案、题型、题号范围或原文证据字符串"
+  ]
+}

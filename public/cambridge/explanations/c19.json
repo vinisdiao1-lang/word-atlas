@@ -77,7 +77,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "The rackets they use now weigh more than the average model and also have a denser string pattern (i.e."
+          "quote": "The rackets they use now weigh more than the average model and also have a denser string pattern (i.e. more crosses and mains)."
         }
       ],
       "reasoning": [
@@ -167,11 +167,11 @@
     },
     "c19-t1-p1:8": {
       "answer": "paint",
-      "stem": "Mike and Bob Bryan made changes to the types of [8] ____ used on",
+      "stem": "Mike and Bob Bryan made changes to the types of [8] ____ used on their racket frames.",
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "thorough customisation process.' They explain how they have adjusted not only racket length, but even experimented with different kinds of paint."
+          "quote": "They explain how they have adjusted not only racket length, but even experimented with different kinds of paint."
         }
       ],
       "reasoning": [
@@ -192,7 +192,7 @@
     },
     "c19-t1-p1:9": {
       "answer": "topspin",
-      "stem": "amount of [9] ____ it created.",
+      "stem": "Players were not allowed to use the spaghetti-strung racket because of the amount of [9] ____ it created.",
       "evidence": [
         {
           "paragraph": 5,
@@ -217,7 +217,7 @@
     },
     "c19-t1-p1:10": {
       "answer": "training",
-      "stem": "the [10] ____ they do.",
+      "stem": "Changes to rackets can be regarded as being as important as players’ diets or the [10] ____ they do.",
       "evidence": [
         {
           "paragraph": 5,
@@ -242,7 +242,7 @@
     },
     "c19-t1-p1:11": {
       "answer": "intestines / gut",
-      "stem": "All rackets used to have natural strings made from the [11] ____",
+      "stem": "All rackets used to have natural strings made from the [11] ____ of animals.",
       "evidence": [
         {
           "paragraph": 7,
@@ -267,7 +267,7 @@
     },
     "c19-t1-p1:12": {
       "answer": "weights",
-      "stem": "• Pete Sampras had metal [12] ____ put into the frames of",
+      "stem": "Pete Sampras had metal [12] ____ put into the frames of his rackets.",
       "evidence": [
         {
           "paragraph": 9,
@@ -536,6 +536,10 @@
         {
           "paragraph": 3,
           "quote": "While the Mediterranean region is predominantly fertile, some parts are rugged and hilly, even mountainous."
+        },
+        {
+          "paragraph": 3,
+          "quote": "In addition, knowledge of the local area helped the pirates to avoid retaliation once a state fleet arrived."
         }
       ],
       "reasoning": [
@@ -644,6 +648,10 @@
         {
           "paragraph": 7,
           "quote": "Interestingly, in his works the Iliad and the Odyssey, the ancient Greek writer Homer not only condones, but praises the lifestyle and actions of pirates."
+        },
+        {
+          "paragraph": 7,
+          "quote": "Even high-ranking members of the state were not beyond engaging in such activities."
         }
       ],
       "reasoning": [
@@ -1528,7 +1536,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "Developing psychological skills, such as visualisation, can also help decrease physiological responses to threat."
+          "quote": "F But there are many ways athletes can ensure they respond positively under pressure. Positive stress responses can be promoted through the language that they and others - such as coaches or parents - use. Psychologists can also help athletes change how they see their physiological responses - such as helping them see a higher heart rate as excitement, rather than nerves. Developing psychological skills, such as visualisation, can also help decrease physiological responses to threat. Visualisation may involve the athlete recreating a mental picture of a time when they performed well, or picturing themselves doing well in the future. This can help create a feeling of control over the stressful event. Recreating competitive pressure during training can also help athletes learn how to deal with stress. An example of this might be scoring athletes against their peers to create a sense of competition. This would increase the demands which players experience compared to a normal training session, while still allowing them to practise coping with stress."
         }
       ],
       "reasoning": [
@@ -1603,7 +1611,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "Positive stress responses can be promoted through the language that they and others - such as coaches or parents - use."
+          "quote": "Positive stress responses can be promoted through the language that they and others - such as coaches or parents - use. Psychologists can also help athletes change how they see their physiological responses - such as helping them see a higher heart rate as excitement, rather than nerves."
         }
       ],
       "reasoning": [
@@ -1785,6 +1793,10 @@
         {
           "paragraph": 3,
           "quote": "So, in Emma Raducanu's case, a much larger audience, higher expectations and facing a more skilful opponent, may all have led her to feel there were greater demands being placed on her at Wimbledon - but she didn't have the resources to tackle them."
+        },
+        {
+          "paragraph": 1,
+          "quote": "Though the young player had been doing well in the tournament, she began having difficulty regulating her breathing and heart rate during a match, which she later attributed to 'the accumulation of the excitement and the buzz'."
         }
       ],
       "reasoning": [
@@ -1893,6 +1905,10 @@
         {
           "paragraph": 5,
           "quote": "Negative stress responses can be damaging to both physical and mental health- and repeated episodes of anxiety coupled with negative responses can increase risk of heart disease and depression."
+        },
+        {
+          "paragraph": 5,
+          "quote": "The intensity with which a person experiences anxiety depends on the demands and resources they have."
         }
       ],
       "reasoning": [
@@ -1901,9 +1917,9 @@
       ],
       "paraphrases": [
         {
-          "question": "how severe it may be",
-          "passage": "The intensity with which a person experiences anxiety",
-          "explanation": "how severe询问焦虑的强度，对应intensity；后面的demands and resources则解释由哪些因素决定这种强度，并非强度一词本身的同义表达。"
+          "question": "harm ... experience it too often",
+          "passage": "repeated episodes ... increase risk of heart disease and depression",
+          "explanation": "too often对应反复出现repeated episodes；harm由心脏病和抑郁症风险增加具体说明。文中保留coupled with negative responses的条件，不能说一次焦虑必然致病。"
         }
       ],
       "traps": [
@@ -2217,8 +2233,8 @@
       "paraphrases": [
         {
           "question": "spirit of inquiry",
-          "passage": "curiosity, persistence and hard work",
-          "explanation": "题干中的“spirit of inquiry”需要结合本题证据理解为“curiosity, persistence and hard work”，判断对象、范围和逻辑关系应保持一致。"
+          "passage": "curiosity",
+          "explanation": "inquiry强调提问、探索和求知，直接对应好奇心curiosity。persistence和hard work是原文同列的其他高表现品质，并非inquiry的同义词。"
         }
       ],
       "traps": [
@@ -2255,6 +2271,10 @@
         {
           "paragraph": 7,
           "quote": "After research going back to 1980 into diverse achievements, from music to memory to sport, he doesn't think unique and innate talents are at the heart of performance."
+        },
+        {
+          "paragraph": 7,
+          "quote": "Deliberate practice, that stretches you every step of the way, and around 10,000 hours of it, is what produces the goods. It's not a magic number - the highest performers move on to doing a whole lot more, of course."
         }
       ],
       "reasoning": [
@@ -2487,6 +2507,10 @@
         {
           "paragraph": 8,
           "quote": "But then, about 8,000 years ago, both were abandoned."
+        },
+        {
+          "paragraph": 9,
+          "quote": "Whatever the reason for the departure, there is no evidence for use of the Kelo shelters after this time, until about 1,000 years ago, when they were re-occupied by people who owned pottery as well as items made out of gold and silver."
         }
       ],
       "reasoning": [
@@ -2507,7 +2531,7 @@
     },
     "c19-t3-p1:8": {
       "answer": "caves",
-      "stem": "Excavations of rock shelters inside [8] ____ near the village of",
+      "stem": "Excavations of rock shelters inside [8] ____ near the village of Kelo revealed evidence of prehistoric occupation.",
       "evidence": [
         {
           "paragraph": 3,
@@ -2532,7 +2556,7 @@
     },
     "c19-t3-p1:9": {
       "answer": "stone",
-      "stem": "axes made out of [9] ____ , dating from around [11] ____,700 years ago",
+      "stem": "axes made out of [9] ____ , dating from around 11,700 years ago",
       "evidence": [
         {
           "paragraph": 5,
@@ -2582,7 +2606,7 @@
     },
     "c19-t3-p1:11": {
       "answer": "beads",
-      "stem": "axes made out of [9] ____ , dating from around [11] ____,700 years ago",
+      "stem": "- [11] ____ which resembled ones found on other islands.",
       "evidence": [
         {
           "paragraph": 7,
@@ -2836,7 +2860,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "They dig ditches to enter the peat swamps by boat and then float the logs out the same way."
+          "quote": "They dig ditches to enter the peat swamps by boat and then float the logs out the same way. These are then used to drain water out of the peatlands to allow for the planting of corn, oil palms or pulpwood trees."
         }
       ],
       "reasoning": [
@@ -2861,7 +2885,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "Meanwhile, the remainder of the solid matter in the peat starts to move downwards, in a process known as subsidence**."
+          "quote": "Meanwhile, the remainder of the solid matter in the peat starts to move downwards, in a process known as subsidence**. .Peat comprises 90 per cent water, so this is one of the most alarming consequences of peatland clearances. 'In the tropics, peat subsides at about four centimetres a year, so within half a century, very large landscapes on Sumatra and Borneo will become flooded as the peat drops below water level,' says Silvius. 'It's a huge catastrophe that's in preparation. Some provinces will lose 40 per cent of their landmass.'"
         }
       ],
       "reasoning": [
@@ -2986,7 +3010,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "I'm struggling to follow him in English, on a scratchy line that reminds me we are nearly 10,000 kilometres apart - and that distance is still an obstacle to communication even if you're speaking the same language, as we are."
+          "quote": "Noise, Alex Waibel tells me, is one of the major challenges that artificial speech translation has to meet. A device may be able to recognise speech in a laboratory, or a meeting room, but will struggle to cope with the kind of background noise 1 can hear in my office surrounding Professor Waibel as he speaks to me from Kyoto station in Japan. I'm struggling to follow him in English, on a scratchy line that reminds me we are nearly 10,000 kilometres apart - and that distance is still an obstacle to communication even if you're speaking the same language, as we are. We haven't reached the future yet. If we had, Waibel would have been able to speak more comfortably in his native German and I would have been able to hear his words in English."
         }
       ],
       "reasoning": [
@@ -3127,7 +3151,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "That can't have been totally unexpected."
+          "quote": "'We find that there's a barrier with sharing one of the earphones with a stranger;' says Ochoa. That can't have been totally unexpected."
         }
       ],
       "reasoning": [
@@ -3274,20 +3298,18 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Professors and other professionals will not outsource language awareness to software, though."
+          "quote": "Professors and other professionals will not outsource language awareness to software, though. If the technology matures into seamless, ubiquitous artificial speech translation, it will actually add value to language skills."
+        },
+        {
+          "paragraph": 10,
+          "quote": "And software will never be a substitute for the subtle but vital understanding that comes with knowledge of a language."
         }
       ],
       "reasoning": [
-        "第九段明确说教授和其他专业人士不会把语言意识外包给软件；即使技术成熟，也会增加语言技能的价值。作者保留了学术和职业交流中人类语言理解的重要性，反对把自动翻译视为全面替代。",
-        "题干throughout the academic and professional worlds将这类系统的有用性作了全面肯定，但原文指出这些人群仍不会依赖软件完成语言意识层面的工作。应结合not outsource与末段never substitute理解这种限制，答案NO。"
+        "本题原书答案页给NO。题干将自动翻译在学术及专业领域的前景作了广泛肯定，关键范围词是throughout。作者却马上强调，教授和其他专业人士不会把语言意识交给软件；即使技术成熟，语言技能本身仍会增值，结尾又保留了软件不能代替细微语言理解的界限。",
+        "这里应读出作者对专业领域作用范围的保留，而不能把very useful改写成“完全替代人类”再反驳。NO也不等于任何专业场景都毫无用途：前文德语讲座生成英语字幕就是具体用途。判题针对题干的全面肯定与作者的限制性评价，须保留这一范围差别。"
       ],
-      "paraphrases": [
-        {
-          "question": "very useful throughout ... worlds",
-          "passage": "will not outsource ... to software",
-          "explanation": "题干throughout the academic and professional worlds将这类系统的有用性作了全面肯定，但原文指出这些人群仍不会依赖软件完成语言意识层面的工作。应结合not outsource与末段never substitute理解这种限制，答案NO。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "不要把技术在某些场景有用，扩大成学术职业领域全面依赖它。"
       ],
@@ -3610,7 +3632,7 @@
         }
       ],
       "reasoning": [
-        "第七段称高棕珍蛱蝶经常被描述为英国最濒危的蝴蝶。笔记more ... than other species用比较结构表达其濒危程度突出，答案应填形容词endangered。",
+        "第七段称High Brown Fritillary经常被描述为英国最濒危的蝴蝶。笔记more ... than other species用比较结构表达其濒危程度突出，答案应填形容词endangered。",
         "不能填decline，因为它是名词或动词，不能自然放入more ... than的此处结构；也不能把前文的habitat当成程度属性。most endangered可被概括为比其他物种更濒危，词形保持原样。"
       ],
       "paraphrases": [
@@ -3631,11 +3653,11 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "Indeed, worryingly, it was found that the species in this group that specialise in very specific habitat types, often related to the caterpillar's preferred diet, actually tended to be most at harm from advancing phenology."
+          "quote": "Indeed, worryingly, it was found that the species in this group that specialise in very specific habitat types, often related to the caterpillar's preferred diet, actually tended to be most at harm from advancing phenology. The beautiful High Brown Fritillary, often described as Britain's most endangered butterfly, is in this group. It is found only in coppiced woodland and limestone pavement habitats."
         }
       ],
       "reasoning": [
-        "第七段讨论一年只繁殖一代的物种，其中依赖非常特定栖息地的种类受提前物候的伤害更大；随后举高棕珍蛱蝶，只见于萌生林和石灰岩地貌。笔记limited range of ...对应狭窄的栖息地类型。",
+        "第七段讨论一年只繁殖一代的物种，其中依赖非常特定栖息地的种类受提前物候的伤害更大；随后举High Brown Fritillary，只见于萌生林和石灰岩地貌。笔记limited range of ...对应狭窄的栖息地类型。",
         "diet是决定其栖息地偏好的关联因素，不是空格所问占据的环境类型。答案用habitats较自然，原书也接受单数habitat；只填写其中一种，不需把具体两种地点全抄进去。"
       ],
       "paraphrases": [
@@ -3660,7 +3682,7 @@
         }
       ],
       "reasoning": [
-        "第八段说英国一些一年一代的蝴蝶，在欧洲大陆足够温暖的年份已表现出增加第二代的能力，小银蓝蝶是可能在英国也发生这种转变的例子。笔记already ... in warm areas of ...要求现有能力出现的地区。",
+        "第八段说英国一些一年一代的蝴蝶，在欧洲大陆足够温暖的年份已表现出增加第二代的能力，Silver-studded Blue是可能在英国也发生这种转变的例子。笔记already ... in warm areas of ...要求现有能力出现的地区。",
         "UK指未来可能出现同样好处的地方，不是已观察到能力的地区。根据ONE WORD ONLY，填写Europe而非continental Europe；首字母大小写不影响含义，但地名通常规范写大写。"
       ],
       "paraphrases": [
@@ -3685,7 +3707,7 @@
         }
       ],
       "reasoning": [
-        "最后一段一开始用southern England限定白斑天蛾蝶的英国分布区域。笔记found in ... areas of England保留England并要求一个修饰方位的词，因此填southern。",
+        "最后一段一开始用southern England限定White Admiral的英国分布区域。笔记found in ... areas of England保留England并要求一个修饰方位的词，因此填southern。",
         "后文二十年数量下降、金银花食性与气候变化均属于另一组信息，不能填入地理修饰位置。southern为形容词，能直接修饰areas；south虽然含义接近，却不是原文此处应复制的词形。"
       ],
       "paraphrases": [
@@ -3706,11 +3728,11 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "This may be because the caterpillar exists solely on a diet of a plant called honeysuckle."
+          "quote": "This may be because the caterpillar exists solely on a diet of a plant called honeysuckle. But it is also likely to be due to climate change."
         }
       ],
       "reasoning": [
-        "末段说白斑蝶数量减少可能因为毛毛虫只以金银花为食，同时也可能受气候变化影响。笔记both climate change and the ... of the caterpillar把两个潜在原因并列，空格应为diet。",
+        "末段说White Admiral数量减少可能因为毛毛虫只以金银花为食，同时也可能受气候变化影响。笔记both climate change and the ... of the caterpillar把两个潜在原因并列，空格应为diet。",
         "honeysuckle是食物的具体植物名，而题干the ... of the caterpillar要求概括毛毛虫的食性。原文may与likely表明可能因素，不是已证实唯一原因；答案用diet一个词即可，不能写整种植物名称替换关系。"
       ],
       "paraphrases": [
@@ -3781,7 +3803,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "E Scientific research - including a recent paper in Marine Policy journal - has suggested the deep seabed, and hydrothermal vents, which are created when seawater meets volcanic magma, have crucial impacts upon biodiversity and the global climate."
+          "quote": "E Scientific research - including a recent paper in Marine Policy journal - has suggested the deep seabed, and hydrothermal vents, which are created when seawater meets volcanic magma, have crucial impacts upon biodiversity and the global climate. The mineral-rich vents and their surrounds are also home to many well-known animals including crustaceans, tubeworms, clams, slugs, anemones and fish."
         }
       ],
       "reasoning": [
@@ -3881,7 +3903,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "'In sustainability terms, this could be a better way of exploiting the economic potential of the deep sea,' he argues."
+          "quote": "B 'We're looking at the bioactive potential of marine resources, to see if there are any more medicines or drugs down there before we destroy it for ever,' says Upton, a medical microbiologist at the University of Plymouth. He is among many scientists urging a halt to deep-sea mining, asking for time to weigh up the pros and cons. 'In sustainability terms, this could be a better way of exploiting the economic potential of the deep sea,' he argues."
         }
       ],
       "reasoning": [
@@ -4197,20 +4219,18 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "There is significant evidence to back this notion from contemporary hunter-gatherer groups, who live in the same way as prehistoric humans did."
+          "quote": "There is significant evidence to back this notion from contemporary hunter-gatherer groups, who live in the same way as prehistoric humans did. As the anthropologist Bruce Knauft has remarked, hunter-gatherers are characterised by 'extreme political and sexual egalitarianism'. Knauft has observed that individuals in such groups don't accumulate property or possessions and have an ethical obligation to share everything. They also have methods of preserving egalitarianism by ensuring that disparities of status don't arise."
+        },
+        {
+          "paragraph": 8,
+          "quote": "Many anthropologists believe that societies such as the !Kung were normal until a few thousand years ago, when population growth led to the development of agriculture and a settled lifestyle."
         }
       ],
       "reasoning": [
         "作者用仍维持采猎生活的现代群体说明平等和分享可作为正常社会机制，再以此反驳“人从史前起就必然自私竞争”的假设。Knauft的观察支持自私可能是较晚出现的特征，因此选A。",
         "B的only过强，原文未说只有隔绝群体能无私；C、D关注生活方式存续数量或文化衰退，不是引用研究的论证目标。应把例子放回全文的古今特征比较，而非只提取研究对象。"
       ],
-      "paraphrases": [
-        {
-          "question": "selfishness ... relatively recent",
-          "passage": "contemporary hunter-gatherer groups",
-          "explanation": "题干中的“selfishness ... relatively recent”需要结合本题证据理解为“contemporary hunter-gatherer groups”，判断对象、范围和逻辑关系应保持一致。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "例证作用题要连到作者要反驳的早期自私假设。"
       ],
@@ -4388,7 +4408,7 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "Individuals who behaved selfishly and ruthlessly would be less likely to survive, since they would have been ostracised from their groups."
+          "quote": "In view of the above, there seems little reason to assume that traits such as racism, warfare and male domination should have been selected by evolution -as they would have been of little benefit in the prehistoric era. Individuals who behaved selfishly and ruthlessly would be less likely to survive, since they would have been ostracised from their groups."
         }
       ],
       "reasoning": [

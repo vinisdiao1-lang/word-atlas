@@ -2,14 +2,13 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import { gapNumbers, gapParagraphs } from "./gaps";
-import { stageNumbers, type Pack } from "./engine";
+import { type Pack } from "./engine";
 const packs = JSON.parse(
   readFileSync("public/cambridge/v2/library.json", "utf8"),
 ) as Pack[];
-test("every exercised completion question has exactly one inline gap at its original number", () => {
+test("every completion question across all 108 passages has exactly one inline gap", () => {
   for (const p of packs.flatMap((b) => b.passages)) {
-    const selected = p.book === 19 ? p.numbers : stageNumbers(p, p.passage);
-    for (const group of p.groups.filter((g) => selected.includes(g.from))) {
+    for (const group of p.groups) {
       const section = p.questionText!.find((s) => s.from === group.from)!;
       const text = gapParagraphs(group, section);
       if (!text) continue;
@@ -23,6 +22,40 @@ test("every exercised completion question has exactly one inline gap at its orig
       );
     }
   }
+});
+test("source gaps remain at their semantic locations, without consuming stage labels or dates", () => {
+  const papers = packs.flatMap((b) => b.passages);
+  const rendered = (id: string, from: number) => {
+    const p = papers.find((p) => p.id === id)!;
+    return gapParagraphs(
+      p.groups.find((g) => g.from === from)!,
+      p.questionText!.find((s) => s.from === from)!,
+    )!;
+  };
+  const stones = rendered("c18-t2-p1", 1);
+  for (const stage of [1, 2, 3]) assert.ok(stones.includes(`Stage ${stage}:`));
+  assert.ok(stones.some((s) => s.includes("tools made from {{1}}")));
+  assert.ok(
+    stones.some((s) => s.includes("builders used {{3}} to make sledges")),
+  );
+  const obi = rendered("c19-t3-p1", 8);
+  assert.ok(obi.some((s) => s.includes("11,700") && !s.includes("{{11}}")));
+  assert.ok(obi.some((s) => s.includes("{{11}}") && s.includes("resembled")));
+  assert.ok(
+    rendered("c17-t2-p2", 24).some((s) => s.includes("loss of {{24}} may")),
+  );
+  assert.ok(
+    rendered("c17-t3-p2", 23).some((s) => s.includes("stays {{23}} even")),
+  );
+  assert.ok(
+    rendered("c14-t2-p3", 35).some((s) => s.includes("not {{35}} enough")),
+  );
+  assert.ok(
+    rendered("c11-t1-p2", 20).some((s) => s.includes("motors drive {{22}}")),
+  );
+  assert.ok(
+    rendered("c16-t4-p2", 18).some((s) => s.includes("read {{21}} words")),
+  );
 });
 test("sentence gaps stay inside their sentence, rather than replacing the leading question number", () => {
   const p = packs[0].passages[0],

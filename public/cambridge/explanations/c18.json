@@ -182,6 +182,10 @@
       "stem": "Urban farming can take place above or below ground.",
       "evidence": [
         {
+          "paragraph": 2,
+          "quote": "On top of a striking new exhibition hall in southern Paris, the world's largest urban rooftop farm has started to bear fruit."
+        },
+        {
           "paragraph": 6,
           "quote": "Strawberries are being grown in disused shipping containers, mushrooms in underground carparks."
         }
@@ -709,7 +713,7 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "Think about a busy day at an airport, says Moriba Jah, an astrodynamicist at the University of Texas at Austin: planes line up in the sky, landing and taking off close to one another in a carefully choreographed routine."
+          "quote": "E The field is called space traffic management, because it's similar to managing traffic on the roads or in the air. Think about a busy day at an airport, says Moriba Jah, an astrodynamicist at the University of Texas at Austin: planes line up in the sky, landing and taking off close to one another in a carefully choreographed routine. Air-traffic controllers know the location of the planes down to one metre in accuracy. The same can't be said for space debris. Not all objects in orbit are known, and even those included in databases are not tracked consistently."
         }
       ],
       "reasoning": [
@@ -834,7 +838,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "'What happens to those that fail or go bankrupt?' he asks."
+          "quote": "'What happens to those that fail or go bankrupt?' he asks. 'They are probably not going to spend money to remove their satellites from space.'"
         }
       ],
       "reasoning": [
@@ -980,7 +984,7 @@
     },
     "c18-t2-p1:1": {
       "answer": "(deer) antlers",
-      "stem": "Stage [1] ____:",
+      "stem": "• the ditch and henge were dug, possibly using tools made from [1] ____",
       "evidence": [
         {
           "paragraph": 2,
@@ -1213,7 +1217,7 @@
         }
       ],
       "reasoning": [
-        "碳测年显示工程延续至约公元前一千六百年，尤其蓝砂岩被多次重新定位。题干反称科学证明一直站在同处，与repositioned multiple times矛盾，FALSE。",
+        "碳测年显示工程延续至约公元前一千六百年，尤其蓝石被多次重新定位。题干反称科学证明一直站在同处，与repositioned multiple times矛盾，FALSE。",
         "时间until并非表示位置不变，只说明工作持续；真正位置动作是重放。不能抓住同样的一千六百年就判TRUE，需将日期与其描述的事件关联清楚。"
       ],
       "paraphrases": [],
@@ -1247,7 +1251,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Bones, tools and other artefacts found on the site seem to support this hypothesis."
+          "quote": "Many modern historians and archaeologists now agree that several distinct tribes of people contributed to Stonehenge, each undertaking a different phase of its construction. Bones, tools and other artefacts found on the site seem to support this hypothesis."
         }
       ],
       "reasoning": [
@@ -1291,7 +1295,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "But many experts believe this restriction is very temporary."
+          "quote": "But many experts believe this restriction is very temporary. By mid-century, we may have artificial general intelligence (AGI) - machines that can achieve human-level performance on the full range of tasks that we ourselves can tackle."
         }
       ],
       "reasoning": [
@@ -1548,7 +1552,7 @@
         {
           "label": "A",
           "correct": false,
-          "reason": "未说滥权必然加重。"
+          "reason": "本段讨论怎样给机器清楚的道德目标，并未提出智能提高会导致更严重滥权的判断。"
         },
         {
           "label": "B",
@@ -1711,7 +1715,7 @@
       "evidence": [
         {
           "paragraph": 10,
-          "quote": "senior doctors) of the control they presently enjoy."
+          "quote": "However, we'd be depriving some humans (e.g. senior doctors) of the control they presently enjoy."
         }
       ],
       "reasoning": [
@@ -1736,7 +1740,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "Five hundred years have passed since Leonardo died in his home at Château du Clos Lucé, outside Tours, France."
+          "quote": "The word 'genius' is universally associated with the name of Leonardo da Vinci. A true Renaissance man, he embodied scientific spirit, artistic talent and humanist sensibilities. Five hundred years have passed since Leonardo died in his home at Château du Clos Lucé, outside Tours, France. Yet far from fading into insignificance, his thinking has carried down the centuries and still surprises today."
         }
       ],
       "reasoning": [
@@ -1755,7 +1759,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "The Renaissance marked the transition from the 15th century to modernity and took place after the spread of the plague in the 14th century, which caused a global crisis resulting in some 200 million deaths across Europe and Asia."
+          "quote": "The Renaissance marked the transition from the 15th century to modernity and took place after the spread of the plague in the 14th century, which caused a global crisis resulting in some 200 million deaths across Europe and Asia. Today, the world is on the cusp of a climate crisis, which is predicted to cause widespread displacement, extinctions and death, if left unaddressed. Then, as now, radical solutions were called for to revolutionise the way people lived and safeguard humanity against catastrophe."
         }
       ],
       "reasoning": [
@@ -2056,7 +2060,7 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "Fly ash, a byproduct of coal-burning power plants, can be incorporated into concrete mixes to make up as much as 15 to 30% of the cement, without harming the strength or durability of the resulting mix."
+          "quote": "G Fly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash, a byproduct of coal-burning power plants, can be incorporated into concrete mixes to make up as much as 15 to 30% of the cement, without harming the strength or durability of the resulting mix. Iron-ore slag, a byproduct of the iron-ore smelting process, can be used in a similar way. Their incorporation into concrete mixes has the potential to reduce greenhouse gas emissions."
         }
       ],
       "reasoning": [
@@ -2256,7 +2260,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "But there are several calculations that need to be considered across the entire life cycle of the building - these include factoring in where these materials are being shipped from."
+          "quote": "But there are several calculations that need to be considered across the entire life cycle of the building - these include factoring in where these materials are being shipped from. If they are transported over long distances, using fossil fuels, the use of alternative materials might not make sense from an overall carbon reduction perspective.'"
         }
       ],
       "reasoning": [
@@ -2435,7 +2439,7 @@
         }
       ],
       "reasoning": [
-        "C段多次原型改进后，Model B因安静、清洁与快速得到汽车杂志赞扬，标题vi终于获得正面宣传概括成果。",
+        "C段多次原型改进后，Model B因安静与快速得到汽车杂志赞扬，标题vi终于获得正面宣传概括成果。",
         "段落也提初次失败，但主线推进到第三代获认可；commercial orders在D才出现。区分媒体评价与实际下订，不能将正面报道直接理解成商业订单已经到来。"
       ],
       "paraphrases": [
@@ -2751,7 +2755,7 @@
         }
       ],
       "reasoning": [
-        "作者说未改装蒸汽车甚至能符合今天加州排放法，并补充这些法律很严格。摘要California’s ... laws缺strict，与原句形容词一致。",
+        "关于排放法规，文章直接举的是未改装的Doble Model B，称它现在仍能通过加州排放法规，并明确补充这些法规很严格。摘要California’s ... emissions laws所缺就是形容词strict，不能把车型B的这条证据误写成文中逐一验证了所有Model E。",
         "normal描述保养需求，clean描述排放运行，并非法律本身属性。题干只要求法的程度，不用抄pretty；一个词strict满足限制且与laws搭配自然。"
       ],
       "paraphrases": [
@@ -2772,7 +2776,7 @@
       "evidence": [
         {
           "paragraph": 1,
-          "quote": "He's given some of the students copies of No Fear Shakespeare, a kid-friendly translation of the original."
+          "quote": "Picture this scene. It's an English literature lesson in a UK school, and the teacher has just read an extract from Shakespeare's Romeo and Juliet with a class of 15-year-olds. He's given some of the students copies of No Fear Shakespeare, a kid-friendly translation of the original. For three students, even these literacy demands are beyond them. Another girl simply can't focus and he gives her pens and paper to draw with. The teacher can ask the No Fear group to identify the key characters and maybe provide a tentative plot summary. He can ask most of the class about character development, and five of them might be able to support their statements with textual evidence. Now two curious students are wondering whether Shakespeare advocates living a life of moderation or one of passionate engagement."
         }
       ],
       "reasoning": [
@@ -2888,7 +2892,7 @@
         {
           "label": "A",
           "correct": false,
-          "reason": "不是字面不适合登山路线。"
+          "reason": "这里把最强学生描写为永远不能登顶，重点是成就及潜能受限；并非主要说明学生选择了不适合的学习路径，C更直接概括这个结果。"
         },
         {
           "label": "B",
@@ -2913,7 +2917,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "The purpose of teaching is to provide and then gradually remove this 'scaffolding' until they are autonomous."
+          "quote": "This is the gap between what they can achieve only with support - teachers, textbooks, worked examples, parents and so on - and what they can achieve independently. The purpose of teaching is to provide and then gradually remove this 'scaffolding' until they are autonomous."
         }
       ],
       "reasoning": [
@@ -3010,12 +3014,12 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "These students tend to have much higher representation of low tools and different social tools from teachers socioeconomic class."
+          "quote": "These students tend to have much higher representation of low socioeconomic class."
         }
       ],
       "reasoning": [
-        "最低组常有更多低社会经济地位学生，摘要large proportion have后填F disadvantaged backgrounds，概括家庭社会条件不利。",
-        "不是说他们拥有较差的工具或老师本身低社会地位；原段OCR局部混乱，但low socioeconomic class与低组代表比例对应明确。不能把成绩低本身当作全部背景不利的定义。"
+        "最低分组中的学生有更高比例来自低社会经济地位家庭。摘要especially where a large proportion of them have ...需要概括这些学生的社会家庭背景，因此选F disadvantaged backgrounds。",
+        "不要把低组成绩表现本身当作家庭背景的定义，也不要把该现象扩大为每一个低组学生都来自贫困家庭。原文用higher representation表达相对比例，题干a large proportion保留群体比例这一限制；F是对low socioeconomic class的概括。"
       ],
       "paraphrases": [
         {
@@ -3065,7 +3069,7 @@
       ],
       "reasoning": [
         "分流按诊断成就固定分类，自动限制教师认为学生能达到的高度。摘要teachers tend to have后选B lower expectations。",
-        "positive impressions或higher expectations与limits相反；不是说教师普遍估计更准确，而是分组压低或限制对潜力的想象。需结合混合环境估计更多样灵活的对照理解。"
+        "I positive impressions指正面印象，H higher achievements指学生成就，都不是这里所问教师对学生潜能的预期。题干have ... of students与原文limits what the teacher feels the student is capable of对应，因此填B lower expectations；不应引入选项表里没有的higher expectations。"
       ],
       "paraphrases": [
         {
@@ -3261,7 +3265,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "B Ongoing research is showcasing how green roofs in cities can integrate with \"living walls': environmentally friendly walls which are partially or completely covered with greenery, including a growing medium, such as soil or water."
+          "quote": "B Ongoing research is showcasing how green roofs in cities can integrate with \"living walls': environmentally friendly walls which are partially or completely covered with greenery, including a growing medium, such as soil or water. Research also indicates that green roofs can be integrated with drainage systems on the ground, such as street trees, so that the water is managed better and the built environment is made more sustainable."
         }
       ],
       "reasoning": [
@@ -3411,7 +3415,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "And it's much easier to do this in newer buildings, which can typically hold greater weight, than to retro-fit old ones."
+          "quote": "Being able to keep enough water at roof height and distribute it right across the rooftop is crucial to maintaining the plants on any green roof - especially on 'edible roofs' where fruit and vegetables are farmed. And it's much easier to do this in newer buildings, which can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also makes it easier to grow a greater variety of plants, since the soil can be deeper."
         }
       ],
       "reasoning": [
@@ -3463,7 +3467,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "Having a stronger roof also makes it easier to grow a greater variety of plants, since the soil can be deeper."
+          "quote": "Being able to keep enough water at roof height and distribute it right across the rooftop is crucial to maintaining the plants on any green roof - especially on 'edible roofs' where fruit and vegetables are farmed. And it's much easier to do this in newer buildings, which can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also makes it easier to grow a greater variety of plants, since the soil can be deeper."
         }
       ],
       "reasoning": [
@@ -3835,7 +3839,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "Growth mindset supporters David Yeager and Gregory Walton claim that interventions should be delivered in a subtle way to maximise their effectiveness."
+          "quote": "Growth mindset supporters David Yeager and Gregory Walton claim that interventions should be delivered in a subtle way to maximise their effectiveness. They say that if adolescents perceive a teacher's intervention as conveying that they are in need of help, this could undo its intended effects."
         }
       ],
       "reasoning": [
@@ -3935,12 +3939,12 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "There is a strong correlation between self-perception and achievement, but there is evidence to suggest that the actual effect of achievement on self-perception is stronger than the other way round."
+          "quote": "A lot of what drives students is their innate beliefs and how they perceive themselves. There is a strong correlation between self-perception and achievement, but there is evidence to suggest that the actual effect of achievement on self-perception is stronger than the other way round. To stand up in a classroom and successfully deliver a good speech is a genuine achievement, and that is likely to be more powerfully motivating than vague notions of 'motivation' itself."
         }
       ],
       "reasoning": [
-        "原文明确说实际成就对自我认知影响，比反方向更强。题干反称自我认知比成就更有效推动信心，逆转比较与因果方向，因此NO。",
-        "两者强相关不代表作用相等，也不能因此忽略随后stronger than的方向。作者以成功演讲比抽象励志更有力为例，支持真实成就的推动作用，需完整读比较两端。"
+        "作者强调，实际成就对自我认知的作用强于反方向，并用成功完成演讲比抽象的“激励”更能鼓舞人作例子。题干却将自我认知说成比实际成就更有力的信心来源，与作者重视实际成就的论述方向相反，因此NO。",
+        "不要把self-perception、自信和achievement三个概念不加区分地画成同一条双向因果。此题应结合本段的比较句与演讲例子，判断作者明确认为真正做成一件事比泛泛自我激励更有推动力，而不是仅凭相关性作答。"
       ],
       "paraphrases": [],
       "traps": [
@@ -4323,8 +4327,12 @@
       "stem": "What does Greene say about some other famous scientists? A Their published works had a greater impact than Wegener's did. B They had fewer doubts about their scientific ideas than Wegener dia. C Their scientific ideas were more controversial than Wegener's. D They are easier subjects to write about than Wegener.",
       "evidence": [
         {
+          "paragraph": 8,
+          "quote": "Only a few hundred of the many thousands of letters he wrote and received in his lifetime have survived and he didn't keep notebooks or diaries that recorded his life and activities."
+        },
+        {
           "paragraph": 9,
-          "quote": "The more such material a scientist leaves behind, the better chance a biographer has of forming an accurate picture of how a scientist's ideas took shape and evolved."
+          "quote": "Some famous scientists, such as Newton, Darwin, and Einstein, left mountains of written material behind, hundreds of notebooks and letters numbering in the tens of thousands. Others, like Michael Faraday, left extensive journals of their thoughts and speculations, parallel to their scientific notebooks. The more such material a scientist leaves behind, the better chance a biographer has of forming an accurate picture of how a scientist's ideas took shape and evolved."
         }
       ],
       "reasoning": [

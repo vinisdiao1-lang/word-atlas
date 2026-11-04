@@ -19,7 +19,7 @@
         {
           "question": "information regularly",
           "passage": "update the details ... on a regular basis",
-          "explanation": "题干的“information regularly”应与原文“update the details ... on a regular basis”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "details与information都指商家提供的资料；on a regular basis对应regularly，所缺的更新动作仍须填update。"
         }
       ],
       "traps": [
@@ -44,7 +44,7 @@
         {
           "question": "impact on",
           "passage": "the effect ... on the environment",
-          "explanation": "题干的“impact on”应与原文“the effect ... on the environment”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "impact和effect都表示影响；两处都以on引出受影响对象environment。质量标准quality属于评估本身，不是被影响的对象。"
         }
       ],
       "traps": [
@@ -69,7 +69,7 @@
         {
           "question": "former sports",
           "passage": "former ... rugby captain",
-          "explanation": "题干的“former sports”应与原文“former ... rugby captain”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "rugby是sports的一种，题干把运动项目概括后，仍需用captain说明人物过去担任的身份。former在两处都限定前任身份。"
         }
       ],
       "traps": [
@@ -94,7 +94,7 @@
         {
           "question": "locations used in",
           "passage": "locations chosen for blockbuster films",
-          "explanation": "题干的“locations used in”应与原文“locations chosen for blockbuster films”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "locations chosen for films就是被电影选作取景地的地点，题干used in films保留了这一用途。不是电影采用了某种景观材料。"
         }
       ],
       "traps": [
@@ -119,7 +119,7 @@
         {
           "question": "varied depending on",
           "passage": "different routes according to the season",
-          "explanation": "题干的“varied depending on”应与原文“different routes according to the season”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "according to与depending on都引出变化依据，different routes对应varied；依据是season，不是同时列出的距离和行车时间。"
         }
       ],
       "traps": [
@@ -144,7 +144,7 @@
         {
           "question": "local",
           "passage": "accommodation in the area",
-          "explanation": "题干的“local”应与原文“accommodation in the area”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "in the area对应local，均限定在所选地点附近；accommodation才是这一区域可查询的住宿信息。"
         }
       ],
       "traps": [
@@ -169,7 +169,7 @@
         {
           "question": "travellers could send",
           "passage": "anyone could submit a blog",
-          "explanation": "题干的“travellers could send”应与原文“anyone could submit a blog”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "submit表示提交，对应题干send a link to所表达的投稿动作；blog是提交内容，New Zealand travels是博客主题。"
         }
       ],
       "traps": [
@@ -194,7 +194,7 @@
         {
           "question": "ready-made",
           "passage": "create ... to suit their own needs and interests",
-          "explanation": "题干的“ready-made”应与原文“create ... to suit their own needs and interests”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "两者是相反的制作方式：ready-made指现成行程，原文create ... to suit their own needs则让使用者按个人需要定制，并非同义改写。"
         }
       ],
       "traps": [
@@ -215,13 +215,7 @@
         "题干同时断言大多数访客实际搜索时以地理位置作为第一步。原文只介绍网站具备按地理位置或活动性质搜索的功能，没有给出使用者搜索顺序的统计。",
         "not solely by geographical location说明不只有一种搜索标准，不能推出人们是否先用其中一种，也不能推出多数人的选择。能力或功能不等于实际习惯，更不等于先后顺序，所以题干信息未获证实，答案是NOT GIVEN。"
       ],
-      "paraphrases": [
-        {
-          "question": "most visitors started",
-          "passage": "visitors can search ... not solely",
-          "explanation": "题干的“most visitors started”应与原文“visitors can search ... not solely”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "不要把can search误读成most visitors started searching。"
       ],
@@ -244,7 +238,7 @@
         {
           "question": "their accommodation",
           "passage": "transport and accommodation ... remaining 26%",
-          "explanation": "题干的“their accommodation”应与原文“transport and accommodation ... remaining 26%”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "这里须核对统计范围而非找同义词：原文26%由交通和住宿两项合计，题干把同一比例只归给住宿，范围被缩小。"
         }
       ],
       "traps": [
@@ -269,7 +263,7 @@
         {
           "question": "become involved",
           "passage": "interactive ... learn about traditional Maori life",
-          "explanation": "题干的“become involved”应与原文“interactive ... learn about traditional Maori life”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "interactive以及到访、学习传统生活，都是主动参与当地文化的具体形式，可由become involved概括。"
         }
       ],
       "traps": [
@@ -290,13 +284,7 @@
         "原文说少数人参与的活动让游客感觉更特别、更有意义，谈的是活动规模。题干转而比较小型酒店与大型酒店，并断言游客有住宿偏好。",
         "活动人数少不能推出住宿机构规模小；即使末段提到当地旅游经济主要由小企业构成，也只是产业结构，并非游客在两类酒店之间的比较。因此既无偏好成立的证据，也无相反偏好的证据，应选NOT GIVEN。"
       ],
-      "paraphrases": [
-        {
-          "question": "small hotels rather than larger ones",
-          "passage": "activities that involve only a few people",
-          "explanation": "题干的“small hotels rather than larger ones”应与原文“activities that involve only a few people”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "将活动小团体、当地小企业和小型酒店分开，不跨对象推断。"
       ],
@@ -319,7 +307,7 @@
         {
           "question": "unlikely that they will return",
           "passage": "once-in-a-lifetime visit",
-          "explanation": "题干的“unlikely that they will return”应与原文“once-in-a-lifetime visit”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "once-in-a-lifetime在本语境中指游客把旅程视为一生难得再有的一次，对应他们认为再次返回的可能性较低，而非保证永不再来。"
         }
       ],
       "traps": [
@@ -344,7 +332,7 @@
         {
           "question": "scientific approach",
           "passage": "defining boredom ... studied in the lab",
-          "explanation": "题干的“scientific approach”应与原文“defining boredom ... studied in the lab”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "scientific approach在本段具体指实验室研究；定义难以统一及哪些心理状态算作无聊的分歧，构成这种研究的障碍。"
         }
       ],
       "traps": [
@@ -369,7 +357,7 @@
         {
           "question": "classification",
           "passage": "five distinct types ... two axes",
-          "explanation": "题干的“classification”应与原文“five distinct types ... two axes”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "five distinct types是分类结果，two axes是按唤醒度与情绪正负排列这些类型的框架，两者共同支持classification system。"
         }
       ],
       "traps": [
@@ -387,14 +375,14 @@
         }
       ],
       "reasoning": [
-        "C段通过Mann的实验说明无聊可能促进创造力：抄电话簿号码的被试，之后想出更多纸杯用途。她进一步认为被动乏味活动能让思绪游走，并建议生活中主动寻求更多无聊。",
+        "C段通过Mann的实验说明无聊可能促进创造力：抄电话簿号码的被试，之后想出更多泡沫塑料杯用途。她进一步认为被动乏味活动能让思绪游走，并建议生活中主动寻求更多无聊。",
         "选项i所说productive outcomes是对更有创造力和产生新点子的上位概括。实验不是讨论教师如何防止无聊，也没有按年龄判断谁最受影响；用结果的正面价值串联全段，才能选出主旨。"
       ],
       "paraphrases": [
         {
           "question": "productive outcomes",
           "passage": "more creative ... amazing things",
-          "explanation": "题干的“productive outcomes”应与原文“more creative ... amazing things”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "productive outcomes指有建设性的结果，文中由无聊促进创造性点子来具体说明，并不等同于提高工作产量。"
         }
       ],
       "traps": [
@@ -419,7 +407,7 @@
         {
           "question": "potential danger",
           "passage": "toxic ... repeatedly failing to engage attention",
-          "explanation": "题干的“potential danger”应与原文“toxic ... repeatedly failing to engage attention”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "toxic以及注意力反复无法投入后的消极状态，说明可能出现的危害；potential保留了风险而非必然结果的语气。"
         }
       ],
       "traps": [
@@ -444,7 +432,7 @@
         {
           "question": "those most affected",
           "passage": "personality ... boredom proneness",
-          "explanation": "题干的“those most affected”应与原文“personality ... boredom proneness”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "boredom proneness表示容易感到无聊的倾向；段中比较享乐动机与好奇心等人格特点，从而识别哪些人受影响更大。"
         }
       ],
       "traps": [
@@ -469,7 +457,7 @@
         {
           "question": "a new explanation and a new cure",
           "passage": "over-connected lifestyles ... leave our phones alone",
-          "explanation": "题干的“a new explanation and a new cure”应与原文“over-connected lifestyles ... leave our phones alone”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "过度联结的生活是提出的新成因，暂放手机并有意义地接触现实是相应办法；标题两个部分各有独立对应。"
         }
       ],
       "traps": [
@@ -494,7 +482,7 @@
         {
           "question": "avoid an unpleasant experience",
           "passage": "protect ... from infectious social situations",
-          "explanation": "题干的“avoid an unpleasant experience”应与原文“protect ... from infectious social situations”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "protect ... from某种不利社交情境，可由avoid an unpleasant experience概括；此处是Toohey提出的可能保护作用，不是已证实的疾病预防。"
         }
       ],
       "traps": [
@@ -519,7 +507,7 @@
         {
           "question": "one sort ... worse",
           "passage": "most damaging ... reactant boredom",
-          "explanation": "题干的“one sort ... worse”应与原文“most damaging ... reactant boredom”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "most damaging是五种类型中的最高程度，等同于某一种比其余类型更糟，具体指reactant。"
         }
       ],
       "traps": [
@@ -544,7 +532,7 @@
         {
           "question": "trying to cope",
           "passage": "efforts to improve ... making you feel worse",
-          "explanation": "题干的“trying to cope”应与原文“efforts to improve ... making you feel worse”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "efforts to improve对应trying to cope；making you feel worse才对应increase negative effects，两半合起来说明应对未果反而加重不适。"
         }
       ],
       "traps": [
@@ -569,7 +557,7 @@
         {
           "question": "the way we live today",
           "passage": "over-connected lifestyles",
-          "explanation": "题干的“the way we live today”应与原文“over-connected lifestyles”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "the way we live today在本段特指过度互联、刺激过量的生活方式；may和might都表示推测，并未宣告确定因果。"
         }
       ],
       "traps": [
@@ -594,7 +582,7 @@
         {
           "question": "cannot",
           "passage": "an inability to focus",
-          "explanation": "题干的“cannot”应与原文“an inability to focus”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "inability to与cannot都表示不能，但空位必须补原文focus；不是把cannot本身等同于完整的inability to focus。"
         }
       ],
       "traps": [
@@ -619,7 +607,7 @@
         {
           "question": "an important aim in life",
           "passage": "motivated by pleasure",
-          "explanation": "题干的“an important aim in life”应与原文“motivated by pleasure”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "motivated by指出人的驱动力，an important aim in life将它改写成人生追求；这一目标是pleasure。"
         }
       ],
       "traps": [
@@ -644,7 +632,7 @@
         {
           "question": "can generally cope",
           "passage": "high boredom threshold",
-          "explanation": "题干的“can generally cope”应与原文“high boredom threshold”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "high boredom threshold表示对无聊耐受较高，因而更能应付无聊；这里不是说无聊更严重或更有害。"
         }
       ],
       "traps": [
@@ -662,14 +650,14 @@
         }
       ],
       "reasoning": [
-        "文章首段连续列举人工作曲使观众感动、机器人作品被高价购买和展览，以及程序创作出程序员未曾设想的艺术。例子的共同作用是展示计算机艺术已有多方面成果。",
+        "文章首段连续列举计算机作曲使观众感动、机器人作品被高价购买和展览，以及程序创作出程序员未曾设想的艺术。例子的共同作用是展示计算机艺术已有多方面成果。",
         "因此选B，概括该领域已经取得显著进展。首段没有比较各艺术门类谁更成功，也不是贬低成果或专谈公众接受程度的差异；列举多个成功案例不能自行变成跨门类排名。"
       ],
       "paraphrases": [
         {
           "question": "progress has already been attained",
           "passage": "sold for thousands ... prestigious galleries",
-          "explanation": "题干的“progress has already been attained”应与原文“sold for thousands ... prestigious galleries”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "高价出售、重要画廊展出和让听众感动等是已取得成果的具体例子，合起来支撑progress；不是不同门类成功程度的排名。"
         }
       ],
       "traps": [
@@ -716,7 +704,7 @@
         {
           "question": "fundamental human quality",
           "passage": "what it means to be human",
-          "explanation": "题干的“fundamental human quality”应与原文“what it means to be human”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "what it means to be human指人类身份的独特价值，题干fundamental human quality将它概括为人的根本特质；不是说人的实际能力已经退化。"
         }
       ],
       "traps": [
@@ -751,8 +739,12 @@
       "stem": "What is a key difference between Aaron and the Painting Fool? A its programmer's background B public response to its work C the source of its subject matter D the technical standard of its output",
       "evidence": [
         {
+          "paragraph": 4,
+          "quote": "Impressive perhaps, but it is still little more than a tool to realise the programmer's own creative ideas."
+        },
+        {
           "paragraph": 5,
-          "quote": "Unlike earlier 'artists' such as Aaron, the Painting Fool only needs minimal direction and can come up with its own concepts by going online for material. The software runs its own web searches and trawls through social media sites. It is now beginning to display a kind of imagination too, creating pictures from scratch. One of its original works is a series of fuzzy landscapes, depicting trees and sky."
+          "quote": "Unlike earlier 'artists' such as Aaron, the Painting Fool only needs minimal direction and can come up with its own concepts by going online for material."
         }
       ],
       "reasoning": [
@@ -763,7 +755,7 @@
         {
           "question": "source of its subject matter",
           "passage": "its own concepts ... going online for material",
-          "explanation": "题干的“source of its subject matter”应与原文“its own concepts ... going online for material”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "subject matter是创作所用的题材，Painting Fool自行上网取材并形成概念；Aaron则实现程序员已有的创意，题材来源构成差别。"
         }
       ],
       "traps": [
@@ -810,7 +802,7 @@
         {
           "question": "different criteria",
           "passage": "double standards",
-          "explanation": "题干的“different criteria”应与原文“double standards”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "double standards是对相似行为采用双重评价标准，正对应different criteria；Colton是在批评这种差异，并非主张它合理。"
         }
       ],
       "traps": [
@@ -857,7 +849,7 @@
         {
           "question": "particularly striking effect",
           "passage": "eerie, ghostlike quality",
-          "explanation": "题干的“particularly striking effect”应与原文“eerie, ghostlike quality”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "eerie, ghostlike描述作品诡异而突出的视觉效果，可由striking effect概括；并未因此证明程序具有有意识的艺术技巧。"
         }
       ],
       "traps": [
@@ -904,7 +896,7 @@
         {
           "question": "long-term view",
           "passage": "millennia to develop our skills",
-          "explanation": "题干的“long-term view”应与原文“millennia to develop our skills”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "millennia强调人类技能发展历时漫长，long-term view要求在比较人类与机器的艺术成就时把这一发展背景纳入考虑。"
         }
       ],
       "traps": [
@@ -929,7 +921,7 @@
         {
           "question": "virtually indistinguishable",
           "passage": "fooled ... genuine Bach",
-          "explanation": "题干的“virtually indistinguishable”应与原文“fooled ... genuine Bach”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "专家把机器作品误认成巴赫真作，支持听感上virtually indistinguishable；它不表示两者的创作过程、动机完全一样。"
         }
       ],
       "traps": [
@@ -954,7 +946,7 @@
         {
           "question": "not revealing technical details",
           "passage": "deliberately vague explanation ... how the software worked",
-          "explanation": "题干的“not revealing technical details”应与原文“deliberately vague explanation ... how the software worked”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "deliberately vague是有意解释得含糊，故题干not revealing technical details表达的是方法未被充分公开，否定方向应保留。"
         }
       ],
       "traps": [
@@ -979,7 +971,7 @@
         {
           "question": "dependent on imagination",
           "passage": "rely completely on ... creative impulses",
-          "explanation": "题干的“dependent on imagination”应与原文“rely completely on ... creative impulses”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "rely completely与entirely dependent都表示完全依赖，creative impulses对应创作想象；这里所依赖的是原艺术家的创意，而非机器独立产生的想法。"
         }
       ],
       "traps": [
@@ -1004,7 +996,7 @@
         {
           "question": "after discovering",
           "passage": "When audiences found out the truth",
-          "explanation": "题干的“after discovering”应与原文“When audiences found out the truth”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "found out the truth和discovering都指得知作品来自程序；after/when把这一揭晓与听众随后生气的时间点连接起来。"
         }
       ],
       "traps": [
@@ -1029,7 +1021,7 @@
         {
           "question": "without knowing",
           "passage": "weren’t told beforehand whether ... humans or computers",
-          "explanation": "题干的“without knowing”应与原文“weren’t told beforehand whether ... humans or computers”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "weren’t told beforehand表示事前不知道真实来源，故与without knowing相符；参与者仍可猜测，不能把未知真实答案误解成完全不作猜想。"
         }
       ],
       "traps": [
@@ -1054,7 +1046,7 @@
         {
           "question": "may help explain",
           "passage": "provides a clue",
-          "explanation": "题干的“may help explain”应与原文“provides a clue”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "provides a clue只表示提供解释线索，与may help explain的审慎程度一致，而非完全证明EMI听众愤怒的全部成因。"
         }
       ],
       "traps": [
@@ -1075,13 +1067,7 @@
         "原文交代两类被试参加实验，并给出认为作曲者是电脑的人更不喜欢作品的整体趋势，也说专家同样受影响。它没有逐一列出所有非专家的反应，更没有说明其反应都可预测。",
         "题干中的all和in a predictable way增加了原文未提供的普遍性及预测性。不能从总体趋势推出每个非专家的表现，也不能把专家本应客观当作对非专家的预先预测，所以选NOT GIVEN，而非NO。"
       ],
-      "paraphrases": [
-        {
-          "question": "all ... in a predictable way",
-          "passage": "both expert musicians and non-experts",
-          "explanation": "题干的“all ... in a predictable way”应与原文“both expert musicians and non-experts”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "群体趋势不等于所有个体一致；all属于必须另找证据的限制词。"
       ],
@@ -1104,7 +1090,7 @@
         {
           "question": "cast doubt",
           "passage": "pleasure ... creative process ... time and effort",
-          "explanation": "题干的“cast doubt”应与原文“pleasure ... creative process ... time and effort”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "此处不是同义对应：cast doubt表示质疑，但Kruger关于投入时间和努力的发现，与Bloom强调创作过程的解释相互支持，逻辑方向相反。"
         }
       ],
       "traps": [
@@ -1129,7 +1115,7 @@
         {
           "question": "added to",
           "passage": "mixed with oils",
-          "explanation": "题干的“added to”应与原文“mixed with oils”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "added to与mixed with都表示把肉桂加入另一材料中混合；oils是被加入的材料，不是肉桂自身名称。"
         }
       ],
       "traps": [
@@ -1154,7 +1140,7 @@
         {
           "question": "used to show",
           "passage": "a token indicating friendship",
-          "explanation": "题干的“used to show”应与原文“a token indicating friendship”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "show和indicating都表示表明；token是表达方式，而所表达的关系是friendship，lovers and friends被概括为people。"
         }
       ],
       "traps": [
@@ -1179,7 +1165,7 @@
         {
           "question": "sweet smell at",
           "passage": "funerals ... pleasant scent",
-          "explanation": "题干的“sweet smell at”应与原文“funerals ... pleasant scent”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "pleasant scent与sweet smell都指宜人的气味；funerals给出燃烧肉桂的活动场合，不是指哀悼者mourners。"
         }
       ],
       "traps": [
@@ -1204,7 +1190,7 @@
         {
           "question": "an indication",
           "passage": "a sign of the wealth",
-          "explanation": "题干的“an indication”应与原文“a sign of the wealth”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "an indication of与a sign of都引出被展示的含义，宴会主人所展示的是wealth，香料只是展示的媒介。"
         }
       ],
       "traps": [
@@ -1229,7 +1215,7 @@
         {
           "question": "a treatment for",
           "passage": "thought to cure ... indigestion",
-          "explanation": "题干的“a treatment for”应与原文“thought to cure ... indigestion”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "treatment for对应当时人们认为可以cure的用途，indigestion是具体病症；thought to保留了历史信念，不能当作现代疗效证明。"
         }
       ],
       "traps": [
@@ -1254,7 +1240,7 @@
         {
           "question": "grown in",
           "passage": "from India, where it was grown",
-          "explanation": "题干的“grown in”应与原文“from India, where it was grown”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "where it was grown直接回指India，确定的是种植产地；不能把运输终点或采购港口当成产地。"
         }
       ],
       "traps": [
@@ -1279,7 +1265,7 @@
         {
           "question": "merchants used",
           "passage": "on camels via an overland route",
-          "explanation": "题干的“merchants used”应与原文“on camels via an overland route”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "on camels是陆路段的运输方式，题干把介词短语改写为merchants used加运输动物名。"
         }
       ],
       "traps": [
@@ -1304,11 +1290,11 @@
         {
           "question": "arrived",
           "passage": "journey ended ... reached Alexandria",
-          "explanation": "题干的“arrived”应与原文“journey ended ... reached Alexandria”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "reached和arrived都表示到达，journey ended将Alexandria限定为阿拉伯商人陆路段终点；威尼斯是下一程的集散地。"
         }
       ],
       "traps": [
-        "不要将下一段海运的目的地误当成前一段陆运的终点。"
+        "不要将下一程海运的目的地威尼斯，误当成前一程陆运的终点亚历山大港。"
       ],
       "reviewTip": "再次做题时，先在题干圈出“arrived”，找到对应原文后再检查题干与原文的关系。"
     },
@@ -1329,7 +1315,7 @@
         {
           "question": "sold it ... around Europe",
           "passage": "Venice ... markets all around Europe",
-          "explanation": "题干的“sold it ... around Europe”应与原文“Venice ... markets all around Europe”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "that great trading city回指Venice，由威尼斯再到欧洲各市场；around Europe限定后续分销范围，不是最初采购港口。"
         }
       ],
       "traps": [
@@ -1344,6 +1330,10 @@
         {
           "paragraph": 3,
           "quote": "When the Portuguese arrived, they needed to increase production significantly, and so enslaved many other members of the Ceylonese native population, forcing them to work in cinnamon harvesting."
+        },
+        {
+          "paragraph": 4,
+          "quote": "By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories."
         }
       ],
       "reasoning": [
@@ -1354,7 +1344,7 @@
         {
           "question": "throughout the 16th century",
           "passage": "1518 ... develop a monopoly",
-          "explanation": "题干的“throughout the 16th century”应与原文“1518 ... develop a monopoly”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "throughout要求覆盖1500—1599整段时间。关键依据是1640年才打破已持续150年的葡萄牙垄断，约从1490年起；1518建堡只是巩固控制的一步。"
         }
       ],
       "traps": [
@@ -1379,7 +1369,7 @@
         {
           "question": "as soon as they arrived",
           "passage": "beginning of the 17th century ... By 1640",
-          "explanation": "题干的“as soon as they arrived”应与原文“beginning of the 17th century ... By 1640”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "这是时间矛盾而非同义改写：十七世纪初到达，1640年破垄断、1658年完成驱逐，不能说一到达就接管。"
         }
       ],
       "traps": [
@@ -1400,13 +1390,7 @@
         "第五段说野生肉桂树因系统性剥皮接近耗尽，荷兰人便自行种植以补充野生树木减少造成的供应不足。这里讲的是种植的动机与补充作用。",
         "题干却比较人工树与野生树产生肉桂数量的大小，原文没有同口径产量数据，也未作这种比较。增加总供应不能推出单棵或同数量人工树产量更高，因此选NOT GIVEN，不应把supplement当作larger quantities的证明。"
       ],
-      "paraphrases": [
-        {
-          "question": "larger quantities than wild trees",
-          "passage": "supplement ... diminishing number of wild trees",
-          "explanation": "题干的“larger quantities than wild trees”应与原文“supplement ... diminishing number of wild trees”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "总供应增加与两类树木的产量比较是不同命题。"
       ],
@@ -1429,7 +1413,7 @@
         {
           "question": "maintained economic importance",
           "passage": "diminishing ... superseded",
-          "explanation": "题干的“maintained economic importance”应与原文“diminishing ... superseded”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "maintained表示地位维持，diminishing表示下降、superseded表示被取代，两者方向相反；产量增加不等于贸易经济重要性维持。"
         }
       ],
       "traps": [
@@ -1454,7 +1438,7 @@
         {
           "question": "beneficial effects",
           "passage": "more charitable ... communicating constructively",
-          "explanation": "题干的“beneficial effects”应与原文“more charitable ... communicating constructively”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "more charitable、更能识别表情、建设性沟通都是具体益处，可由beneficial effects概括；不是只凭love hormone这一美名判断。"
         }
       ],
       "traps": [
@@ -1479,7 +1463,7 @@
         {
           "question": "effects ... complex",
           "passage": "many different functions ... higher-order thinking",
-          "explanation": "题干的“effects ... complex”应与原文“many different functions ... higher-order thinking”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "古老分子承担多种功能，再受到高阶思维、个体差异和社会情境影响，构成作用复杂的原因；不能只把任何正负结果例子当作机制解释。"
         }
       ],
       "traps": [
@@ -1504,7 +1488,7 @@
         {
           "question": "little scientific attention",
           "passage": "a lonesome field",
-          "explanation": "题干的“little scientific attention”应与原文“a lonesome field”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "a lonesome field形容当时少有人关注这个研究领域，和little scientific attention对应；不是被试本人的孤独感。"
         }
       ],
       "traps": [
@@ -1529,7 +1513,7 @@
         {
           "question": "ignoring certain aspects",
           "passage": "took no notice of such findings",
-          "explanation": "题干的“ignoring certain aspects”应与原文“took no notice of such findings”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "took no notice of直接对应ignoring，such findings回指只在某些人或情境下有效的数据，并非忽视整个研究领域。"
         }
       ],
       "traps": [
@@ -1554,7 +1538,7 @@
         {
           "question": "more trusting",
           "passage": "invested more money ... anonymous person",
-          "explanation": "题干的“more trusting”应与原文“invested more money ... anonymous person”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "向不能保证诚实的匿名对象投入更多钱，是该实验测量信任的行为指标；不能将投资收益高低误作信任指标。"
         }
       ],
       "traps": [
@@ -1579,7 +1563,7 @@
         {
           "question": "feelings of jealousy",
           "passage": "felt more envy",
-          "explanation": "题干的“feelings of jealousy”应与原文“felt more envy”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "envy与jealousy都指嫉妒，这里特指别人获胜时的负面感受，归属Shamay-Tsoory的竞争游戏实验。"
         }
       ],
       "traps": [
@@ -1604,7 +1588,7 @@
         {
           "question": "one type of person to another",
           "passage": "a person’s disposition",
-          "explanation": "题干的“one type of person to another”应与原文“a person’s disposition”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "disposition指接受激素者本人的性格倾向，type of person将其概括为不同人群；不是互动对方陌生与否的身份差异。"
         }
       ],
       "traps": [
@@ -1629,7 +1613,7 @@
         {
           "question": "research involving",
           "passage": "studies focusing on animals",
-          "explanation": "题干的“research involving”应与原文“studies focusing on animals”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "studies focusing on animals与research involving animals都指以动物为对象的研究，田鼠与母羊是这个上位类别的实例。"
         }
       ],
       "traps": [
@@ -1654,7 +1638,7 @@
         {
           "question": "during",
           "passage": "in childbirth",
-          "explanation": "题干的“during”应与原文“in childbirth”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "in childbirth表示在分娩期间，对应during后补事件名称；attachment是随后母婴联系增强的结果。"
         }
       ],
       "traps": [
@@ -1679,7 +1663,7 @@
         {
           "question": "either oxytocin or",
           "passage": "received a placebo instead",
-          "explanation": "题干的“either oxytocin or”应与原文“received a placebo instead”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "instead标明对照组拿到安慰剂，题干either ... or把激素组和安慰剂组并列；nasal spray是施用方式而非对照物。"
         }
       ],
       "traps": [
@@ -1704,7 +1688,7 @@
         {
           "question": "took part in",
           "passage": "played a competitive game",
-          "explanation": "题干的“took part in”应与原文“played a competitive game”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "took part in与played在此都表示参与实验游戏；a后需单数名词game，不能把观察到的嫉妒当成活动名称。"
         }
       ],
       "traps": [
@@ -1729,7 +1713,7 @@
         {
           "question": "lack of willingness to help",
           "passage": "less cooperative ... complete strangers",
-          "explanation": "题干的“lack of willingness to help”应与原文“less cooperative ... complete strangers”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "less cooperative可表现为不愿帮助他人，strangers限定此研究中的对象；不等同于催产素使人对所有人都更冷漠。"
         }
       ],
       "traps": [
@@ -1754,7 +1738,7 @@
         {
           "question": "familiar ... in their own country",
           "passage": "Dutch names ... foreign ones",
-          "explanation": "题干的“familiar ... in their own country”应与原文“Dutch names ... foreign ones”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "Dutch names和foreign ones被概括为本国熟悉的姓名与其他文化的姓名，names才是比较对象；positive words是被联系的正面词。"
         }
       ],
       "traps": [
@@ -1779,7 +1763,7 @@
         {
           "question": "significant impact on consumers",
           "passage": "profound ways ... influencing consumers",
-          "explanation": "题干的“significant impact on consumers”应与原文“profound ways ... influencing consumers”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "significant impact与profound ways ... influencing都指深刻影响；作者区分“看见趋势”与“理解它如何改变消费者”，不是说多数经理看不见主要趋势。"
         }
       ],
       "traps": [
@@ -1826,7 +1810,7 @@
         {
           "question": "safeguard its reputation",
           "passage": "risked cheapening the brand’s image",
-          "explanation": "题干的“safeguard its reputation”应与原文“risked cheapening the brand’s image”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "safeguard表示保护，cheapening the brand’s image是希望避免的损害；两者在本句形成目的与所防止后果的关系，而非正向同义词。"
         }
       ],
       "traps": [
@@ -1842,7 +1826,7 @@
         {
           "label": "B",
           "correct": false,
-          "reason": "新副品牌确实较便宜，不能说整个产品范围都维持原价。"
+          "reason": "文章明确的是避免原有产品全面降价，不等于陈述整个产品系列所有价格都必须维持不变；本题焦点是保护奢侈品形象。"
         },
         {
           "label": "C",
@@ -1873,7 +1857,7 @@
         {
           "question": "core business activities",
           "passage": "not abandoned its traditional retail offerings",
-          "explanation": "题干的“core business activities”应与原文“not abandoned its traditional retail offerings”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "core business activities在例子中是传统零售业务，not abandoned表明仍保留该核心；积分是在此基础上增补环保价值。"
         }
       ],
       "traps": [
@@ -1920,7 +1904,7 @@
         {
           "question": "might appear ... few obvious benefits",
           "passage": "at first glance ... hardly worthwhile",
-          "explanation": "题干的“might appear ... few obvious benefits”应与原文“at first glance ... hardly worthwhile”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "at first glance对应might appear，hardly worthwhile对应表面上缺少明显收益；这种初看印象随后被Nike成功案例修正。"
         }
       ],
       "traps": [
@@ -1967,7 +1951,7 @@
         {
           "question": "addressed concerns about unhealthy lifestyles",
           "passage": "countering ... lack of exercise and obesity",
-          "explanation": "题干的“addressed concerns about unhealthy lifestyles”应与原文“countering ... lack of exercise and obesity”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "lack of exercise和obesity是文中不健康生活方式的具体负面关联，countering表示通过游戏设计加以抵消。"
         }
       ],
       "traps": [
@@ -2014,7 +1998,7 @@
         {
           "question": "harmful effects to its own advantage",
           "passage": "counteracted ... negative impacts of digital gaming",
-          "explanation": "题干的“harmful effects to its own advantage”应与原文“counteracted ... negative impacts of digital gaming”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "不是游戏真要制造伤害，而是把公众对少运动、肥胖的担忧转成产品差异化机会；counteracted描述应对负面关联的实际设计。"
         }
       ],
       "traps": [
@@ -2039,7 +2023,7 @@
         {
           "question": "collaborating",
           "passage": "teamed up with ... Apple",
-          "explanation": "题干的“collaborating”应与原文“teamed up with ... Apple”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "teamed up with直接对应collaborating，Apple明确给出合作的另一制造商，不能只凭产品扩展这个共有结果配对。"
         }
       ],
       "traps": [
@@ -2053,7 +2037,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "For example, Tesco customers can accumulate points for such activities as reusing bags, recycling cans and printer cartridges, and buying home-insulation materials. Like points earned on regular purchases, these green points can be redeemed for cash."
+          "quote": "A further example of this strategy was supermarket Tesco 's response to consumers' growing concerns about the environment. With that in mind, Tesco, one of the world's top five retailers, introduced its Greener Living program, which demonstrates the company's commitment to protecting the environment by involving consumers in ways that produce tangible results. For example, Tesco customers can accumulate points for such activities as reusing bags, recycling cans and printer cartridges, and buying home-insulation materials. Like points earned on regular purchases, these green points can be redeemed for cash. Tesco has not abandoned its traditional retail offerings but augmented its business with these innovations, thereby infusing its value proposition with a green streak."
         }
       ],
       "reasoning": [
@@ -2064,7 +2048,7 @@
         {
           "question": "incentive scheme",
           "passage": "points ... redeemed for cash",
-          "explanation": "题干的“incentive scheme”应与原文“points ... redeemed for cash”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "可兑现金的积分构成incentive scheme；环保承诺说明该激励如何体现企业社会责任，二者须一起核对。"
         }
       ],
       "traps": [
@@ -2089,7 +2073,7 @@
         {
           "question": "positive attitude ... difficult circumstances",
           "passage": "eager ... out of tough times",
-          "explanation": "题干的“positive attitude ... difficult circumstances”应与原文“eager ... out of tough times”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "eager to lift ... out of tough times表达积极寻求走出困境，positive attitude概括这一调查发现；不是文章声称困境已经结束。"
         }
       ],
       "traps": [
@@ -2114,7 +2098,7 @@
         {
           "question": "unrelated product sector",
           "passage": "seemingly irrelevant trend ... digital revolution",
-          "explanation": "题干的“unrelated product sector”应与原文“seemingly irrelevant trend ... digital revolution”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "seemingly irrelevant限定相对原有运动服饰品类看似无关的数码趋势；并不表示数码产品与Nike+最终设计没有实际联系。"
         }
       ],
       "traps": [
@@ -2139,7 +2123,7 @@
         {
           "question": "avoided ... charge less for core products",
           "passage": "avert an across-the-board price cut",
-          "explanation": "题干的“avoided ... charge less for core products”应与原文“avert an across-the-board price cut”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "avert与avoided都表示避免，across-the-board price cut指全面降价；新副品牌便宜与保住原有核心系列价格可以同时成立。"
         }
       ],
       "traps": [
@@ -2164,7 +2148,7 @@
         {
           "question": "any trend-related changes",
           "passage": "determine which ... strategy to pursue",
-          "explanation": "题干的“any trend-related changes”应与原文“determine which ... strategy to pursue”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "这是一组条件与应对建议：先理解趋势影响，再determine which strategy即选择最适合的策略；不能把条件本身与行动当作同义词。"
         }
       ],
       "traps": [
@@ -2189,7 +2173,7 @@
         {
           "question": "negative aspect of your category",
           "passage": "clash with undesired outcomes ... reaffirming core values",
-          "explanation": "题干的“negative aspect of your category”应与原文“clash with undesired outcomes ... reaffirming core values”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "undesired outcomes指不希望出现的负面后果，reaffirming core values是抵消它的做法；这是诊断问题与解决方式的配合，不是两短语同义。"
         }
       ],
       "traps": [
@@ -2214,7 +2198,7 @@
         {
           "question": "increasing lack of connection",
           "passage": "increasing disparity ... integrate the two worlds",
-          "explanation": "题干的“increasing lack of connection”应与原文“increasing disparity ... integrate the two worlds”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "increasing disparity对应联系越来越少或差距越来越大，integrate the two worlds则是针对该缺口的建议行动。"
         }
       ],
       "traps": [
@@ -2239,7 +2223,7 @@
         {
           "question": "the making of",
           "passage": "furniture construction industry",
-          "explanation": "题干的“the making of”应与原文“furniture construction industry”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "the making of furniture把furniture construction的制造用途改写成名词结构；家具是成品，hardwoods是被替代的原材料。"
         }
       ],
       "traps": [
@@ -2264,7 +2248,7 @@
         {
           "question": "a source of",
           "passage": "produce a type of sugar",
-          "explanation": "题干的“a source of”应与原文“produce a type of sugar”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "a source of询问树液能够提供的产物，produce a type of sugar给出糖；树液sap是原料而不是这个加工结果。"
         }
       ],
       "traps": [
@@ -2289,7 +2273,7 @@
         {
           "question": "used for",
           "passage": "manufacturing ropes",
-          "explanation": "题干的“used for”应与原文“manufacturing ropes”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "used for在表格中概括该材料的制造用途，manufacturing ropes具体说明椰纤维被用来制绳。"
         }
       ],
       "traps": [
@@ -2314,7 +2298,7 @@
         {
           "question": "a source of",
           "passage": "product obtained ... charcoal",
-          "explanation": "题干的“a source of”应与原文“product obtained ... charcoal”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "product obtained from the shell表示从椰壳制得的产物，可改写为椰壳是a source of该产物；该物质为charcoal。"
         }
       ],
       "traps": [
@@ -2339,7 +2323,7 @@
         {
           "question": "when halved",
           "passage": "When broken in half ... bowls",
-          "explanation": "题干的“when halved”应与原文“When broken in half ... bowls”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "halved就是broken in half，二者都限定椰壳切半后的用途；不是前一句将壳制成炭的加工过程。"
         }
       ],
       "traps": [
@@ -2364,7 +2348,7 @@
         {
           "question": "for other plants",
           "passage": "hormones which encourage other plants",
-          "explanation": "题干的“for other plants”应与原文“hormones which encourage other plants”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "for other plants概括激素对其他植物的作用，encourage ... grow ... higher yields说明生长和产量是效果，而hormones是所提供的物质。"
         }
       ],
       "traps": [
@@ -2389,7 +2373,7 @@
         {
           "question": "cooking and",
           "passage": "cooking ... as well as in cosmetics",
-          "explanation": "题干的“cooking and”应与原文“cooking ... as well as in cosmetics”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "and与as well as连接同一组并列用途，烹饪已给出，另一个领域为cosmetics。"
         }
       ],
       "traps": [
@@ -2414,7 +2398,7 @@
         {
           "question": "an ingredient in",
           "passage": "nitroglycerine-based invention: dynamite",
-          "explanation": "题干的“an ingredient in”应与原文“nitroglycerine-based invention: dynamite”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "表格从甘油成分追问最终发明名称，原文冒号后的dynamite给出该成品；nitroglycerine-based描述其基础，不是另一种成品名。"
         }
       ],
       "traps": [
@@ -2439,7 +2423,7 @@
         {
           "question": "need shade",
           "passage": "exposed to the full glare of the tropical sun",
-          "explanation": "题干的“need shade”应与原文“exposed to the full glare of the tropical sun”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "这是必要条件的反证：题干说发芽需要阴影，原文却给出在热带强烈阳光下仍能发芽的情形，不能把两者列作同义。"
         }
       ],
       "traps": [
@@ -2464,7 +2448,7 @@
         {
           "question": "to Asia from America",
           "passage": "from South and Southeast Asia ... east coast of America",
-          "explanation": "题干的“to Asia from America”应与原文“from South and Southeast Asia ... east coast of America”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "这是传播方向相反：原文从亚洲经非洲到美洲东岸，题干改成从美洲到亚洲；十六世纪与推测语气相同也无法弥补方向错误。"
         }
       ],
       "traps": [
@@ -2485,13 +2469,7 @@
         "末段把美洲东岸的传入路线与西岸的起源争论分开讨论，但讨论的是它们从哪里来。没有比较两岸椰子的外观、遗传特征或品种类型。",
         "所以不能从来源可能不同推导出a different type，也不能断言两岸品种相同。题干添加的是品种比较，原文不足以证实或反驳，应选NOT GIVEN；后文亚洲多样性与美洲近亲也不是东西海岸间的直接比较。"
       ],
-      "paraphrases": [
-        {
-          "question": "a different type",
-          "passage": "origin ... west coast ... Asia ... native to America",
-          "explanation": "题干的“a different type”应与原文“origin ... west coast ... Asia ... native to America”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "起源地点不同不必然意味着品种不同，不跨比较对象推断。"
       ],
@@ -2514,7 +2492,7 @@
         {
           "question": "cultivated varieties",
           "passage": "millennia of human use ... no relatives growing in the wild",
-          "explanation": "题干的“cultivated varieties”应与原文“millennia of human use ... no relatives growing in the wild”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "本题依据亚洲数千年人类利用及无野生近亲的描述，归纳为cultivated varieties。这个考试语境的对应不用于证明椰子的全球最初起源。"
         }
       ],
       "traps": [
@@ -2535,13 +2513,7 @@
         "文章最后提出椰子可能起源于太平洋珊瑚岛并由那里扩散，只是关于地理起源的一个解释。题干问美洲与太平洋地区的种植方式是否不同。",
         "原文既没有分别描述两地的栽培技术，也没有做方法比较，所以应选NOT GIVEN。不能把地区不同、来源不同或野生近亲的差异当作栽培方式差异，更不能依一般常识补出灌溉、采收等原文没有的信息。"
       ],
-      "paraphrases": [
-        {
-          "question": "cultivated in different ways",
-          "passage": "originated on coral islands ... dispersed from there",
-          "explanation": "题干的“cultivated in different ways”应与原文“originated on coral islands ... dispersed from there”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "cultivated in different ways要求方法比较，不是分布或来源比较。"
       ],
@@ -2564,7 +2536,7 @@
         {
           "question": "individual attention",
           "passage": "one-on-one context",
-          "explanation": "题干的“individual attention”应与原文“one-on-one context”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "one-on-one表示成年人只对这个婴儿说话的一对一互动，individual attention概括同一个单独关注条件；并非泛指家中有父母陪伴。"
         }
       ],
       "traps": [
@@ -2589,7 +2561,7 @@
         {
           "question": "own efforts to create speech",
           "passage": "trying to talk back ... movements ... produce words",
-          "explanation": "题干的“own efforts to create speech”应与原文“trying to talk back ... movements ... produce words”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "trying to talk back和探索产生词语的运动，说明听觉输入触发发声运动区的准备活动；这是脑内尝试，不能夸大成婴儿已实际说出词语。"
         }
       ],
       "traps": [
@@ -2614,7 +2586,7 @@
         {
           "question": "each speaking in a different way",
           "passage": "with mom and another kind of speech with dad",
-          "explanation": "题干的“each speaking in a different way”应与原文“with mom and another kind of speech with dad”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "with mom ... with dad比较父母提供的两种说话方式，wider repertoire说明这种差异带来的益处；不是在比较两种外语。"
         }
       ],
       "traps": [
@@ -2639,7 +2611,7 @@
         {
           "question": "how much vocalising",
           "passage": "the more ... the more ... babble",
-          "explanation": "题干的“how much vocalising”应与原文“the more ... the more ... babble”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "vocalising在该实验指babble，即婴儿呀呀发声；the more ... the more连接听到婴儿语的量与自身发声的量。"
         }
       ],
       "traps": [
@@ -2664,7 +2636,7 @@
         {
           "question": "specialised computer programs",
           "passage": "recording devices and speech-recognition software",
-          "explanation": "题干的“specialised computer programs”应与原文“recording devices and speech-recognition software”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "specialised computer programs只对应speech-recognition software；recording devices是与软件并列使用的硬件，正是此空要补的另一项。"
         }
       ],
       "traps": [
@@ -2689,7 +2661,7 @@
         {
           "question": "not to modify",
           "passage": "Dads didn’t raise their pitch",
-          "explanation": "题干的“not to modify”应与原文“Dads didn’t raise their pitch”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "didn’t raise their pitch表明爸爸没有像妈妈那样提高音调，tended not to modify将该研究结果概括为说话模式通常不变；不能改写成所有父亲绝不变化。"
         }
       ],
       "traps": [
@@ -2714,7 +2686,7 @@
         {
           "question": "an idea known as",
           "passage": "what is called the bridge hypothesis",
-          "explanation": "题干的“an idea known as”应与原文“what is called the bridge hypothesis”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "known as和what is called都用来引出命名，后面的bridge hypothesis是理论名；1975是提出年代，不是名称的一部分。"
         }
       ],
       "traps": [
@@ -2739,7 +2711,7 @@
         {
           "question": "expands",
           "passage": "wider repertoire",
-          "explanation": "题干的“expands”应与原文“wider repertoire”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "wider是范围更广的形容词，expands把同一变化改写成动词；repertoire of kinds of speech保留可练习的语言形式集合这一含义。"
         }
       ],
       "traps": [
@@ -2764,7 +2736,7 @@
         {
           "question": "babies were equipped with",
           "passage": "fitting 26 children with audio-recording vests",
-          "explanation": "题干的“babies were equipped with”应与原文“fitting 26 children with audio-recording vests”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "fitting ... with和were equipped with都表示让婴儿配戴录音背心；本研究设备穿在婴儿身上，与前一项研究给父母的设备不同。"
         }
       ],
       "traps": [
@@ -2789,7 +2761,7 @@
         {
           "question": "a much larger",
           "passage": "dramatically boosted vocabulary",
-          "explanation": "题干的“a much larger”应与原文“dramatically boosted vocabulary”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "boosted vocabulary表示词汇量增长，对应a much larger vocabulary；age two限定两岁复访的结果，而非最初婴儿发声次数。"
         }
       ],
       "traps": [
@@ -2807,14 +2779,14 @@
         }
       ],
       "reasoning": [
-        "F段比较七个月与十一个半月婴儿的脑反应：前者对所有语音作出反应，后者在处理非母语发声动作时比处理母语更费力。两组都未满一岁，符合题干时间限制。",
+        "F段比较七个月与十一个半月婴儿的脑反应：前者对不同语言的语音均有反应，后者听非母语时，参与发声运动的大脑区域比听母语时更活跃。这是聆听时测得的脑内激活，不是说婴儿已实际说出这些语音；两组都未满一岁。",
         "题干问brain activity的change，而非简单说婴儿会听声音，所以应选F。E段的注意时长比较是不同声音之间的行为差异，并非年龄增长导致的脑活动变化；注意测量指标和比较对象。"
       ],
       "paraphrases": [
         {
           "question": "a change ... brain activity",
           "passage": "older infants worked harder ... non-native sounds",
-          "explanation": "题干的“a change ... brain activity”应与原文“older infants worked harder ... non-native sounds”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "seven-month-olds与older infants的对照展示未满一岁期间听觉反应的变化；worked harder指脑内运动区激活，不是已观察到实际说外语的动作。"
         }
       ],
       "traps": [
@@ -2839,7 +2811,7 @@
         {
           "question": "before birth",
           "passage": "while still in the womb ... pregnant bellies",
-          "explanation": "题干的“before birth”应与原文“while still in the womb ... pregnant bellies”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "while still in the womb与pregnant bellies均指尚未出生；播放古典音乐是父母为胎儿采取的做法，不是出生后的语言训练。"
         }
       ],
       "traps": [
@@ -2864,7 +2836,7 @@
         {
           "question": "preference",
           "passage": "like listening to each other rather than to adults",
-          "explanation": "题干的“preference”应与原文“like listening to each other rather than to adults”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "like ... rather than体现两种声音间的偏好；婴儿声音保持注意更久、引发更多反应，支持preference，而非比较哪一种语言更熟悉。"
         }
       ],
       "traps": [
@@ -2889,7 +2861,7 @@
         {
           "question": "proposed explanations",
           "passage": "Some have claimed ... others ... climate change",
-          "explanation": "题干的“proposed explanations”应与原文“Some have claimed ... others ... climate change”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "Some have claimed及and yet others连续引入多种假说，对应proposed explanations；proposed并不保证这些原因均被证实。"
         }
       ],
       "traps": [
@@ -2914,7 +2886,7 @@
         {
           "question": "present-day application",
           "passage": "learn from the past ... management ... in the future",
-          "explanation": "题干的“present-day application”应与原文“learn from the past ... management ... in the future”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "learn from the past后面紧接当代公众与政府的供水、城乡和遗产管理用途，才构成present-day application，而不只是现在正在从事考古。"
         }
       ],
       "traps": [
@@ -2939,7 +2911,7 @@
         {
           "question": "another culture of the same period",
           "passage": "at a time when the Egyptians ... representations",
-          "explanation": "题干的“another culture of the same period”应与原文“at a time when the Egyptians ... representations”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "at a time when标明同期对照，Egyptians提供另一文化；self-imagery缺失与埃及寺庙大量自我描绘，给出具体不同点。"
         }
       ],
       "traps": [
@@ -2964,7 +2936,7 @@
         {
           "question": "features of urban design",
           "passage": "laid out in distinct sectors ... arranged in blocks",
-          "explanation": "题干的“features of urban design”应与原文“laid out in distinct sectors ... arranged in blocks”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "laid out in sectors和arranged in blocks描述城市分区与街区布置，属于urban design；不是遗址经纬位置测绘。"
         }
       ],
       "traps": [
@@ -2989,7 +2961,7 @@
         {
           "question": "errors made by previous archaeologists",
           "passage": "inaccuracies ... existing data ... flawed",
-          "explanation": "题干的“errors made by previous archaeologists”应与原文“inaccuracies ... existing data ... flawed”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "inaccuracies和fundamentally flawed表示旧记录有误，不是仅仅缺资料；published geographic locations说明错误属于先前已公布的遗址定位。"
         }
       ],
       "traps": [
@@ -3014,7 +2986,7 @@
         {
           "question": "of snails",
           "passage": "shells ... snails from the sediments",
-          "explanation": "题干的“of snails”应与原文“shells ... snails from the sediments”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "shells of ... snails将蜗牛壳与动物归属连接，sediments说明壳被采集的环境；题干of snails不把沉积物本身变成蜗牛的一部分。"
         }
       ],
       "traps": [
@@ -3039,7 +3011,7 @@
         {
           "question": "water levels",
           "passage": "an ancient lake",
-          "explanation": "题干的“water levels”应与原文“an ancient lake”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "water levels是测得变化的水位，lake是发生变化的水体，两词并非同义；古湖沉积物与随后湖泊蒸发、降雨分析共同锁定地点lake。"
         }
       ],
       "traps": [
@@ -3064,7 +3036,7 @@
         {
           "question": "less ... than evaporation",
           "passage": "evaporation ... exceeded the rainfall",
-          "explanation": "题干的“less ... than evaporation”应与原文“evaporation ... exceeded the rainfall”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "evaporation exceeded rainfall可改为rainfall was less than evaporation，主语交换后大小关系不变；不能反转成降雨更多。"
         }
       ],
       "traps": [
@@ -3089,7 +3061,7 @@
         {
           "question": "adapted their agricultural practices",
           "passage": "analysing grains ... combinations of crops",
-          "explanation": "题干的“adapted their agricultural practices”应与原文“analysing grains ... combinations of crops”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "分析grains是研究方法，是否调整作物组合是adapted agricultural practices的具体内容；方法与待检验的行为不应当作同义词。"
         }
       ],
       "traps": [
@@ -3114,7 +3086,7 @@
         {
           "question": "links between inhabitants",
           "passage": "types of pottery ... interactive networks",
-          "explanation": "题干的“links between inhabitants”应与原文“types of pottery ... interactive networks”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "地区陶器的相似或独特是推断interactive networks的材料，links between inhabitants概括的是网络联系，不是陶器本身的同义名称。"
         }
       ],
       "traps": [
@@ -3139,7 +3111,7 @@
         {
           "question": "is vital",
           "passage": "it is essential that we obtain more climate data",
-          "explanation": "题干的“is vital”应与原文“it is essential that we obtain more climate data”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "vital与essential都表示必要，further information对应more climate data；引语明确归于Singh，不能因共同研究归给Petrie。"
         }
       ],
       "traps": [
@@ -3153,7 +3125,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "H Petrie believes that archaeologists are in a unique position to investigate how past societies responded to environmental and climatic change."
+          "quote": "H Petrie believes that archaeologists are in a unique position to investigate how past societies responded to environmental and climatic change. 'By investigating responses to environmental pressures and threats, we can learn from the past to engage with the public, and the relevant governmental and administrative bodies, to be more proactive in issues such as the management and administration of water supply, the balance of urban and rural development, and the importance of preserving cultural heritage in the future.'"
         }
       ],
       "reasoning": [
@@ -3164,7 +3136,7 @@
         {
           "question": "long-term benefits",
           "passage": "learn from the past ... cultural heritage in the future",
-          "explanation": "题干的“long-term benefits”应与原文“learn from the past ... cultural heritage in the future”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "long-term benefits指从历史应对经验得到的未来管理益处，证据须包括供水、城乡及遗产保护这些应用，而非只说能研究过去。"
         }
       ],
       "traps": [
@@ -3178,7 +3150,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "'But we have observed that there was an abrupt change about 4, 100 years ago, when the amount of evaporation from the lake exceeded the rainfall - indicative of a drought.' Hodell adds: 'We estimate that the weakening of the Indian summer monsoon climate lasted about 200 years before recovering to the previous conditions, which we still see today.'"
+          "quote": "Hodell adds: 'We estimate that the weakening of the Indian summer monsoon climate lasted about 200 years before recovering to the previous conditions, which we still see today.'"
         }
       ],
       "reasoning": [
@@ -3189,7 +3161,7 @@
         {
           "question": "approximate length",
           "passage": "We estimate ... lasted about 200 years",
-          "explanation": "题干的“approximate length”应与原文“We estimate ... lasted about 200 years”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "rough calculations与We estimate都保留估计语气，approximate length对应about 200 years；给出持续时长的是Hodell，不是前句Dixit。"
         }
       ],
       "traps": [
@@ -3214,7 +3186,7 @@
         {
           "question": "has been lacking",
           "passage": "relatively little about its fall",
-          "explanation": "题干的“has been lacking”应与原文“relatively little about its fall”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "has been lacking表示资料不足，对应relatively little about its fall；原文对兴起有大量证据，不能把对比两边的数量颠倒。"
         }
       ],
       "traps": [
@@ -3239,7 +3211,7 @@
         {
           "question": "originally intended",
           "passage": "built to transport goods ... although ... passengers",
-          "explanation": "题干的“originally intended”应与原文“built to transport goods ... although ... passengers”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "built to transport goods给出原始建造目的，some also took passengers仅是附加载客；题干把附加用途换成最初目的，构成矛盾。"
         }
       ],
       "traps": [
@@ -3264,7 +3236,7 @@
         {
           "question": "name of a character",
           "passage": "name for a short nightdress",
-          "explanation": "题干的“name of a character”应与原文“name for a short nightdress”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "character的名字是Nannie，cutty sark是其短睡衣的名称；服装名称与人物姓名不能因同出一首诗就当成同义。"
         }
       ],
       "traps": [
@@ -3289,7 +3261,7 @@
         {
           "question": "favoured Willis",
           "passage": "put him in a very strong position",
-          "explanation": "题干的“favoured Willis”应与原文“put him in a very strong position”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "put him in a very strong position指合同让Willis处于优势地位，favoured Willis概括同一有利关系；不是保证后来建造过程完全顺利。"
         }
       ],
       "traps": [
@@ -3314,7 +3286,7 @@
         {
           "question": "wanted ... fastest",
           "passage": "designed to make the journey more quickly than any other ship",
-          "explanation": "题干的“wanted ... fastest”应与原文“designed to make the journey more quickly than any other ship”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "designed to ... more quickly than any other ship说明希望成为最快的设计目标，对应wanted ... fastest；实际表现未达目标不改变最初意图。"
         }
       ],
       "traps": [
@@ -3339,7 +3311,7 @@
         {
           "question": "beat ... back to London",
           "passage": "reached London a week after Thermopylae",
-          "explanation": "题干的“beat ... back to London”应与原文“reached London a week after Thermopylae”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "beat表示先抵达，a week after却表示晚一周抵达，两者是终点胜负相反；途中曾领先不能替代最终结果。"
         }
       ],
       "traps": [
@@ -3364,7 +3336,7 @@
         {
           "question": "travel ... faster",
           "passage": "quick, direct route ... reduced the journey time",
-          "explanation": "题干的“travel ... faster”应与原文“quick, direct route ... reduced the journey time”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "reduced journey time说明总航程用时更短，可由travel faster概括；差异来自运河捷径，不要求在同一路线比较纯航速。"
         }
       ],
       "traps": [
@@ -3385,13 +3357,7 @@
         "原文比较蒸汽船可以利用运河与帆船需要走远洋路线，但没有统计蒸汽船实际每次航行选用何种路线，也没有说它们绝不走远洋。",
         "题干sometimes要求存在至少某次蒸汽船走海洋路线的事实，文中并未提供。can make use不等于always used，更不能凭航运常识补出实际例外，所以NOT GIVEN，既不是TRUE也不是FALSE。"
       ],
-      "paraphrases": [
-        {
-          "question": "sometimes used the ocean route",
-          "passage": "steam ships could make use ... sailing ships ... oceans",
-          "explanation": "题干的“sometimes used the ocean route”应与原文“steam ships could make use ... sailing ships ... oceans”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "可选择某路线不证明有时选择另一条，也不证明从不选择另一条。"
       ],
@@ -3414,7 +3380,7 @@
         {
           "question": "at risk of hitting",
           "passage": "dangerously close to icebergs",
-          "explanation": "题干的“at risk of hitting”应与原文“dangerously close to icebergs”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "dangerously close指出存在危险，at risk不要求撞击已发生；his gamble paid off描述最后成功，不能否定冒险时的风险。"
         }
       ],
       "traps": [
@@ -3439,7 +3405,7 @@
         {
           "question": "main cargo ... most successful time",
           "passage": "transporting wool from Australia to Britain",
-          "explanation": "题干的“main cargo ... most successful time”应与原文“transporting wool from Australia to Britain”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "most successful period直接对应题干最成功时期，紧跟transporting wool给出该时期的主要货物；茶叶和杂货属于其他业务阶段。"
         }
       ],
       "traps": [
@@ -3464,7 +3430,7 @@
         {
           "question": "very skilled",
           "passage": "an excellent navigator",
-          "explanation": "题干的“very skilled”应与原文“an excellent navigator”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "excellent与very skilled都表达能力高，navigator给出具体擅长的航海领航身份；navigation不是人的称谓。"
         }
       ],
       "traps": [
@@ -3489,7 +3455,7 @@
         {
           "question": "damage ... had caused",
           "passage": "Badly damaged in a gale",
-          "explanation": "题干的“damage ... had caused”应与原文“Badly damaged in a gale”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "damaged in a gale说明损伤由烈风造成，题干damage ... a ... had caused改写同一原因；Falmouth和1922锁定这次事故。"
         }
       ],
       "traps": [
@@ -3514,7 +3480,7 @@
         {
           "question": "used for",
           "passage": "used ... as a training ship",
-          "explanation": "题干的“used for”应与原文“used ... as a training ship”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "used as a training ship把training用于修饰船的角色，used for training则改成for后的用途名词；1954以后才转为展览。"
         }
       ],
       "traps": [
@@ -3539,7 +3505,7 @@
         {
           "question": "twice ... 21st century",
           "passage": "fire in 2007, and again ... in 2014",
-          "explanation": "题干的“twice ... 21st century”应与原文“fire in 2007, and again ... in 2014”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "2007及again in2014提供两次事故，twice概括次数，21st century概括年代；本空仍取原文fire而非别的受损原因。"
         }
       ],
       "traps": [
@@ -3564,7 +3530,7 @@
         {
           "question": "plant remains",
           "passage": "decomposing plants and various minerals",
-          "explanation": "题干的“plant remains”应与原文“decomposing plants and various minerals”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "plant remains对应decomposing plants，minerals是与其并列的另一成分；不能把整串植物和矿物都等同于plant remains。"
         }
       ],
       "traps": [
@@ -3589,7 +3555,7 @@
         {
           "question": "storing ... climate",
           "passage": "lock in their carbon content",
-          "explanation": "题干的“storing ... climate”应与原文“lock in their carbon content”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "lock in carbon表示把碳封存，对应storing carbon；这种固碳作用才与气候联系，下一句储水则对应防洪。"
         }
       ],
       "traps": [
@@ -3614,7 +3580,7 @@
         {
           "question": "holds",
           "passage": "Soils also store water, preventing flood damage",
-          "explanation": "题干的“holds”应与原文“Soils also store water, preventing flood damage”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "holds与store都表示保存水分，preventing flood damage给出结果；property and infrastructure由建筑、道路及桥梁的受损例子具体说明。"
         }
       ],
       "traps": [
@@ -3632,14 +3598,14 @@
         }
       ],
       "reasoning": [
-        "C段直接指出农业是迄今最大的土壤问题，再解释人类收获作物后往往不把未用部分还给土壤，使养分循环中断、土壤逐渐不肥沃。",
+        "C段直接指出农业是远比其他因素更主要的土壤退化原因，再解释人类收获作物后往往不把未用部分还给土壤，使养分循环中断、土壤逐渐不肥沃。",
         "题干main factor contributing to soil degradation对应biggest problem，所以填agriculture。后面的化肥是更具体的一种农业措施，而本题总结的是导致退化的主要人类活动领域；不要把总原因缩小为下一段的一项做法。"
       ],
       "paraphrases": [
         {
           "question": "main factor",
           "passage": "Agriculture is by far the biggest problem",
-          "explanation": "题干的“main factor”应与原文“Agriculture is by far the biggest problem”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "main factor对应biggest problem的主要程度，by far强调远远超过其他因素，不是“迄今”为止的时间限定。"
         }
       ],
       "traps": [
@@ -3664,7 +3630,7 @@
         {
           "question": "may not be put back",
           "passage": "tend not to return ... directly to the soil",
-          "explanation": "题干的“may not be put back”应与原文“tend not to return ... directly to the soil”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "not return ... to the soil与not be put back into the soil都表示未将剩余作物中的养分还土，句式变为被动但否定方向相同。"
         }
       ],
       "traps": [
@@ -3689,7 +3655,7 @@
         {
           "question": "damage ... different aspects",
           "passage": "polluting ... atmosphere ... rivers ... acidic and salty",
-          "explanation": "题干的“damage ... different aspects”应与原文“polluting ... atmosphere ... rivers ... acidic and salty”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "atmosphere、rivers和soil分别给出空气、水体、土壤三个受影响方面，different aspects概括这组多重环境后果。"
         }
       ],
       "traps": [
@@ -3703,7 +3669,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "When they applied Floris's mix to the desert-like test plots, a good crop of plants emerged that were not just healthy at the surface, but had roots strong enough to pierce dirt as hard as rock."
+          "quote": "When they applied Floris's mix to the desert-like test plots, a good crop of plants emerged that were not just healthy at the surface, but had roots strong enough to pierce dirt as hard as rock. The few plants that grew in the control plots, fed with traditional fertilisers, were small and weak."
         }
       ],
       "reasoning": [
@@ -3714,7 +3680,7 @@
         {
           "question": "number and quality",
           "passage": "a good crop ... healthy ... roots strong enough",
-          "explanation": "题干的“number and quality”应与原文“a good crop ... healthy ... roots strong enough”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "good crop与few plants比较数量，healthy/strong roots与small/weak比较质量；两项对照共同支持number and quality改善。"
         }
       ],
       "traps": [
@@ -3728,7 +3694,7 @@
       "evidence": [
         {
           "paragraph": 11,
-          "quote": "Like the idea of carbon neutrality, it is an easily understood target that can help shape expectations and encourage action."
+          "quote": "G But this is only a first step. We need ways of presenting the problem that bring it home to governments and the wider public, says Pamela Chasek at the International Institute for Sustainable Development, in Winnipeg, Canada. 'Most scientists don't speak language that policy-makers can understand, and vice versa.' Chasek and her colleagues have proposed a goal of 'zero net land degradation'. Like the idea of carbon neutrality, it is an easily understood target that can help shape expectations and encourage action."
         }
       ],
       "reasoning": [
@@ -3739,7 +3705,7 @@
         {
           "question": "governments ... aware",
           "passage": "bring it home to governments ... easily understood target",
-          "explanation": "题干的“governments ... aware”应与原文“bring it home to governments ... easily understood target”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "bring it home to governments表示使政府充分认识问题，easily understood target说明这个目标如何帮助传达；不是在讲九国数据地图。"
         }
       ],
       "traps": [
@@ -3764,7 +3730,7 @@
         {
           "question": "one person’s motivation",
           "passage": "ensure his trees flourished ... take care of the soil",
-          "explanation": "题干的“one person’s motivation”应与原文“ensure his trees flourished ... take care of the soil”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "ensure his trees flourished是个人想达到的目标，take care of soil是为此找到的方法；one person’s motivation问前者所解释的动机。"
         }
       ],
       "traps": [
@@ -3783,13 +3749,13 @@
       ],
       "reasoning": [
         "C段解释自然状态下植物生长取走养分，死亡腐烂又把养分直接还给土壤。这种循环使土壤保持肥力，与随后人类收割后不归还养分形成对照。",
-        "题干before the development of farming是对这种无人为农业干预的自然机制的概括，因此选C。D段轮作、休耕虽也是保持肥力的方法，却属于已经开展农业后人类采用的策略，不符合本题的先后范围。"
+        "题干before the development of farming是对这种无人为农业干预的自然机制的概括，因此选C。同一C段末尾提到的轮作、休耕虽然也保持肥力，却属于农业发展后的人类策略；本题的证据是前面的自然养分回流，不能把两种背景混淆。"
       ],
       "paraphrases": [
         {
           "question": "before ... farming",
           "passage": "In the wild ... nutrients are returned directly",
-          "explanation": "题干的“before ... farming”应与原文“In the wild ... nutrients are returned directly”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "In the wild描述没有人为收割干预的自然养分循环，before farming概括这一背景；轮作休耕则是农业出现后的人类应对。"
         }
       ],
       "traps": [
@@ -3814,7 +3780,7 @@
         {
           "question": "different ways of collecting",
           "passage": "field surveys, drone surveys, satellite imagery, lab analyses",
-          "explanation": "题干的“different ways of collecting”应与原文“field surveys, drone surveys, satellite imagery, lab analyses”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "实地、无人机、卫星和实验室分析是数据采集渠道的实例，different ways概括这些并列方法，不是不同土壤种类。"
         }
       ],
       "traps": [
@@ -3839,7 +3805,7 @@
         {
           "question": "keeping ... safe in the near future",
           "passage": "immediate creation of protected zones for endangered soils",
-          "explanation": "题干的“keeping ... safe in the near future”应与原文“immediate creation of protected zones for endangered soils”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "protected zones对应保持土壤安全的具体行动，immediate对应近期应做；测绘地图虽也有时限，却不是直接设立保护。"
         }
       ],
       "traps": [
@@ -3864,7 +3830,7 @@
         {
           "question": "difficult to provide an overview",
           "passage": "no agreed international system for classifying soil",
-          "explanation": "题干的“difficult to provide an overview”应与原文“no agreed international system for classifying soil”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "缺少共同分类体系是难形成全球总览的原因，这是一组原因与困难的关系，不是把classification和overview当作同义词。"
         }
       ],
       "traps": [
@@ -3889,7 +3855,7 @@
         {
           "question": "ignorant",
           "passage": "oblivious ... illiterate in the history of ideas",
-          "explanation": "题干的“ignorant”应与原文“oblivious ... illiterate in the history of ideas”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "oblivious和illiterate in the history of ideas都批评不了解既有思想文献，ignorant概括这份无知，而非称赞他们提出新方法。"
         }
       ],
       "traps": [
@@ -3936,7 +3902,7 @@
         {
           "question": "not just pleasure",
           "passage": "identified happiness with self-realisation",
-          "explanation": "题干的“not just pleasure”应与原文“identified happiness with self-realisation”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "self-realisation提供另一种幸福观，与边沁只重快乐和无痛形成对照，从而说明幸福未必仅限于pleasure；不是否认幸福值得追求。"
         }
       ],
       "traps": [
@@ -3983,7 +3949,7 @@
         {
           "question": "work and psychology",
           "passage": "psychological research and capitalism ... business practices",
-          "explanation": "题干的“work and psychology”应与原文“psychological research and capitalism ... business practices”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "psychological research对应心理学，capitalism和business practices连接商业与工作领域；这说明建议的历史影响，而非测量技术已经成功。"
         }
       ],
       "traps": [
@@ -4030,7 +3996,7 @@
         {
           "question": "improve",
           "passage": "linked together ... conversation tubes",
-          "explanation": "题干的“improve”应与原文“linked together ... conversation tubes”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "conversation tubes连接各部门的功能是沟通，因此选communication；improve只是题干描述提升作用的动词，并不与器具名称同义。"
         }
       ],
       "traps": [
@@ -4055,7 +4021,7 @@
         {
           "question": "increase",
           "passage": "unforgeable banknotes",
-          "explanation": "题干的“increase”应与原文“unforgeable banknotes”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "unforgeable意为无法伪造，提供银行纸币安全性的具体含义，故选security；increase本身不是unforgeable的同义词。"
         }
       ],
       "traps": [
@@ -4080,7 +4046,7 @@
         {
           "question": "of food",
           "passage": "keep provisions ... fresh",
-          "explanation": "题干的“of food”应与原文“keep provisions ... fresh”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "keep provisions fresh是保持食品新鲜，可由preservation of food概括；of food仅限定保存对象，而不是一个独立同义词。"
         }
       ],
       "traps": [
@@ -4105,7 +4071,7 @@
         {
           "question": "at all times",
           "passage": "visible at all times to the guards",
-          "explanation": "题干的“at all times”应与原文“visible at all times to the guards”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "visible ... to the guards说明看守随时能观察囚犯，observation把这种可见性功能名词化；at all times保留持续监视的条件。"
         }
       ],
       "traps": [
@@ -4130,7 +4096,7 @@
         {
           "question": "possibilities for",
           "passage": "it has to be measured ... two ways",
-          "explanation": "题干的“possibilities for”应与原文“it has to be measured ... two ways”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "measured与measurement是动词和名词形式的对应，two ways说明边沁为量化幸福提出脉搏与金钱两种办法。"
         }
       ],
       "traps": [
@@ -4155,7 +4121,7 @@
         {
           "question": "one strength ... relationship",
           "passage": "economic problems ... psychological maladies",
-          "explanation": "题干的“one strength ... relationship”应与原文“economic problems ... psychological maladies”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "economic problems与psychological maladies构成经济和心理的联系，We learn much that is interesting才表达评论者对这部分内容的正面评价。"
         }
       ],
       "traps": [
@@ -4176,13 +4142,7 @@
         "本段讨论幸福若被视为科学就需测量，并介绍边沁的两种建议，但没有比较不同情绪之间哪一种更难测。全文对量化的批判也不提供这种难度排序。",
         "所以NOT GIVEN。题干some emotions than others需要至少两种情绪的对照，不能从幸福测量存在争议推出它一定比愤怒或悲伤更难，也不能反过来推断所有情绪一样容易；这些都超出作者所说。"
       ],
-      "paraphrases": [
-        {
-          "question": "more difficult ... than others",
-          "passage": "happiness ... measured",
-          "explanation": "题干的“more difficult ... than others”应与原文“happiness ... measured”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "比较题必须有比较双方及难易关系，单谈幸福测量不足以作答。"
       ],
@@ -4198,14 +4158,14 @@
         }
       ],
       "reasoning": [
-        "题干声称Watson在1915年前进行的人体研究支持其行为主义思想。第七段却说他1915年任心理学会会长时从未研究过一个人，研究仅限白鼠，并批评缺乏事实依据。",
+        "题干声称Watson在1915年前针对人类开展的研究支持其行为主义思想。第七段却说他1915年任心理学会会长时从未研究过一个人，研究仅限白鼠，并批评他的有关人类行为的观点缺乏事实依据。",
         "两者在研究对象上直接矛盾，所以NO。曾做白鼠实验不等于做过人类研究，后来思想得到应用也不能倒推早年已有相应证据；抓住before 1915和human这两个限定即可。"
       ],
       "paraphrases": [
         {
           "question": "research on humans ... before 1915",
           "passage": "never even studied a single human being",
-          "explanation": "题干的“research on humans ... before 1915”应与原文“never even studied a single human being”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "这是研究对象的明确矛盾：题干说做过人类研究，原文说1915年时从未研究过一个人且仅研究白鼠，不能把后来人类应用补成早期证据。"
         }
       ],
       "traps": [
@@ -4226,13 +4186,7 @@
         "作者说Watson模式如今广泛应用，又以英国政府成立行为洞察团队为例。题干增加most influential on governments outside America，要求比较美国内外的影响强弱。",
         "文中没有提供各国影响力比较、排名或美国政府采用程度，因此NOT GIVEN。出现英国例子只能证明美国以外也在应用，不能证明最有影响的地方在美国以外；例证存在与最高程度是两种不同结论。"
       ],
-      "paraphrases": [
-        {
-          "question": "most influential ... outside America",
-          "passage": "widely applied ... in Britain",
-          "explanation": "题干的“most influential ... outside America”应与原文“widely applied ... in Britain”核对，结合上述语境判断其关系，不能只按相同词选择。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "outside America只是地点，most还额外要求跨地点的强度比较。"
       ],
@@ -4255,7 +4209,7 @@
         {
           "question": "linked to industrialisation",
           "passage": "industrial societies ... need ... happiness",
-          "explanation": "题干的“linked to industrialisation”应与原文“industrial societies ... need ... happiness”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "industrial societies提供工业化社会背景，need ... happiness说明其中对幸福前景的需要；题干只说linked to，并未断言唯一因果。"
         }
       ],
       "traps": [
@@ -4280,7 +4234,7 @@
         {
           "question": "a main aim of government",
           "passage": "always a threat to human freedom",
-          "explanation": "题干的“a main aim of government”应与原文“always a threat to human freedom”核对，结合上述语境判断其关系，不能只按相同词选择。"
+          "explanation": "作者将政府促进幸福的责任视为自由的威胁，与题干主张应成为政府主要目标的方向相反；首段相似主张属于Layard等人的观点。"
         }
       ],
       "traps": [

@@ -17,9 +17,9 @@
       ],
       "paraphrases": [
         {
-          "question": "develop",
-          "passage": "capacity for creativity",
-          "explanation": "定位Alice搭建魔法王国的例子：她想象城堡、龙、巫婆和英雄，创造了一个想象世界；作者随后明确说这种幻想在帮助她迈出发展创造力的第一步。"
+          "question": "help develop creativity",
+          "passage": "helping her take her first steps towards her capacity for creativity",
+          "explanation": "help develop概括“向形成创造能力迈出第一步”；creativity是所发展的能力，capacity不是develop的同义词。"
         }
       ],
       "traps": [
@@ -87,8 +87,8 @@
         }
       ],
       "reasoning": [
-        "定位户外游戏受限制的原因清单：第一项是人们对交通所带来风险的担忧，其后才是保护孩子免受犯罪侵害以及学校竞争。",
-        "题干fear of与原文perceptions of risk to do with构成改写，空格需要具体危险来源traffic，而非抽象risk。顺着原文清单次序即可把第4、5题分别对应交通与犯罪。"
+        "原文在户外游戏受限的原因中并列提到交通风险，以及家长保护孩子免受犯罪侵害的愿望，因此两项危险来源分别是traffic和crime。题目第4、5题都是fear of后的名词空，需填这两个原文词。",
+        "原书答案页将第4、5题标为IN EITHER ORDER，因此crime填第4题、traffic填第5题同样正确。顺着原文次序填traffic、crime只是一个可用顺序，并非唯一顺序；两词应各使用一次，不能把同一词重复填两空。"
       ],
       "paraphrases": [
         {
@@ -98,9 +98,9 @@
         }
       ],
       "traps": [
-        "不要把traffic与crime顺序颠倒；题目顺序与原文列举顺序一致。"
+        "第4、5题答案顺序不限；不要因为答案页按traffic、crime列出，就把交换顺序的正确作答判错。也不要重复同一个答案。"
       ],
-      "reviewTip": "不要把traffic与crime顺序颠倒；题目顺序与原文列举顺序一致。"
+      "reviewTip": "把第4、5题作为一组核对：traffic和crime各出现一次即可，顺序不限。"
     },
     "c14-t1-p1:5": {
       "answer": "crime",
@@ -112,8 +112,8 @@
         }
       ],
       "reasoning": [
-        "与上一空同段继续读：父母越来越希望保护孩子，不让他们成为犯罪的受害者。这一保护意愿限制了孩子独自户外游戏的机会。",
-        "题干把较长的parents’ increased wish to protect their children概括为fear，of之后的具体对象就是crime。原文没有说父母害怕孩子犯罪，而是担心孩子遭受犯罪侵害，主客体不可颠倒。"
+        "第五段的victims of crime直接说明家长担心孩子遭受犯罪侵害，crime是所需危险名词。前面另列交通风险traffic，这两项共同对应笔记中两个并列的fear of空位。",
+        "第4、5题在原书答案页明确允许任意顺序，所以本题可以填crime，也可以在另一空已填crime时填traffic。核对时要检查一组两空是否分别写出traffic和crime，而不是把每个词强制绑定到一个题号。"
       ],
       "paraphrases": [
         {
@@ -123,9 +123,9 @@
         }
       ],
       "traps": [
-        "核对谁受到伤害，crime是孩子可能遭受的风险，而不是孩子实施的行为。"
+        "crime和traffic可在第4、5题之间互换，但两空不能都填crime，也不能用抽象risk替代原文的具体名词。"
       ],
-      "reviewTip": "核对谁受到伤害，crime是孩子可能遭受的风险，而不是孩子实施的行为。"
+      "reviewTip": "先确认两项风险都已填写，再核对拼写；这一组不按列举次序限制题号。"
     },
     "c14-t1-p1:6": {
       "answer": "competition",
@@ -265,13 +265,7 @@
         "定位玩偶写作实验：原文只比较游戏刺激与指导刺激的效果，并说孩子们用玩偶后写得更长、结构更好。",
         "题干额外加入女孩比男孩获益更多的性别比较。该段没有分别提供男女孩的结果，也没有说二者相同，所以既不能证实题干，也没有反证，答案NOT GIVEN。"
       ],
-      "paraphrases": [
-        {
-          "question": "girls ... more than boys",
-          "passage": "Children wrote longer and better-structured stories",
-          "explanation": "定位玩偶写作实验：原文只比较游戏刺激与指导刺激的效果，并说孩子们用玩偶后写得更长、结构更好。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "看到more than必须寻找两个对象的明确比较；总体有效不能推出性别差异。"
       ],
@@ -928,14 +922,14 @@
         }
       ],
       "reasoning": [
-        "第6段先提出一种看似可能的假设：员工可能天生倾向负面看待工作环境；随即指出没有证据支持这一假设。",
-        "题干Research has shown把尚无证据的假设说成研究已证实，因此NO。虽然下一句说许多人会抱怨工作场所，但抱怨的存在不能证明先天的负面倾向。"
+        "第6段先提出一种看似可能的假设：员工可能预先倾向负面看待工作环境；随即指出没有证据支持这一假设。",
+        "题干Research has shown把尚无证据的假设说成研究已证实，因此NO。虽然下一句说许多人会抱怨工作场所，但抱怨的存在不能证明普遍的负面倾向。"
       ],
       "paraphrases": [
         {
           "question": "Research has shown",
           "passage": "no evidence exists to support this hypothesis",
-          "explanation": "第6段先提出一种看似可能的假设：员工可能天生倾向负面看待工作环境；随即指出没有证据支持这一假设。"
+          "explanation": "题干声称研究已证明，原文却明确说没有证据支持这一假设，两者在证据状态上矛盾；这里是差异对照，不是同义替换。"
         }
       ],
       "traps": [
@@ -981,13 +975,7 @@
         "结尾Deery建议酒店给员工充分的休息时间，也建议家庭参与的员工活动和健康机会。这里的核心是休息是否充足。",
         "题干新增“员工应被允许自行选择何时休息”的决定权问题。原文没有谈休息时间由谁安排，也没有反对自主选择，因此NOT GIVEN，而不能凭adequate breaks判YES。"
       ],
-      "paraphrases": [
-        {
-          "question": "choose when",
-          "passage": "allowing adequate breaks",
-          "explanation": "结尾Deery建议酒店给员工充分的休息时间，也建议家庭参与的员工活动和健康机会。这里的核心是休息是否充足。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "足够休息不等于可自由决定休息时间，核对题干新增的权限条件。"
       ],
@@ -1153,7 +1141,7 @@
         }
       ],
       "reasoning": [
-        "第3段说他从不喜欢经商的职业前景，却仍完成会计学徒训练并继续这一方向，为的是取悦家人。",
+        "第3段说他从不喜欢经商的职业前景，却仍接受会计学徒训练并坚持这一方向，为的是取悦家人。",
         "题干because it was what his family wanted正是to please his family的原因改写，故TRUE。不要把他个人不喜欢与家人希望他从商误认为两个彼此矛盾的事实。"
       ],
       "paraphrases": [
@@ -1181,13 +1169,7 @@
         "第4段介绍他与Notman合作，以镁闪光作为人造光源进行1865年的摄影实验，并描述二人的友谊和共同社团经历。",
         "原文没有交代实验结果是否令人惊讶，也没有记录两人的情绪反应。surprised是题干新增信息，不能由共同实验推出，故NOT GIVEN。"
       ],
-      "paraphrases": [
-        {
-          "question": "were surprised",
-          "passage": "cooperated on experiments",
-          "explanation": "第4段介绍他与Notman合作，以镁闪光作为人造光源进行1865年的摄影实验，并描述二人的友谊和共同社团经历。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "事件确实发生不等于题干所加的参与者心理状态也被交代。"
       ],
@@ -1231,13 +1213,7 @@
         "第7段记载他1866年放弃原有业务、开设摄影工作室，并以肖像和风景摄影师身份做广告。",
         "该段没有说明工作室与住宅的地理距离，也没有给出能够推算远近的地址。所以close to his home既未证实也未否定，答案NOT GIVEN。"
       ],
-      "paraphrases": [
-        {
-          "question": "close to his home",
-          "passage": "open a photographic studio",
-          "explanation": "第7段记载他1866年放弃原有业务、开设摄影工作室，并以肖像和风景摄影师身份做广告。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "凡涉及close/far的位置关系，都要寻找明确距离或位置对照，不能凭开店常识补全。"
       ],
@@ -1679,7 +1655,7 @@
       ],
       "reasoning": [
         "Short指出单人病房不适用于所有病人；适合特定患者的公共病房，如老年痴呆患者病房，也可良好运作且耗能只是很小一部分。",
-        "题干locating more patients ... areas指多人共享区域，应填形容词communal。singular rooms不是建议对象，反而是作者说不能适合所有人的安排。"
+        "题干locating more patients ... areas指多人共享区域，应填形容词communal。single rooms不是建议对象，反而是作者说不能适合所有人的安排。"
       ],
       "paraphrases": [
         {
@@ -1925,6 +1901,14 @@
         {
           "paragraph": 10,
           "quote": "G In recent times companies have slowly started to embrace this disorganisation. Many of them embrace it in terms of perception ( embracing the idea of disorder, as opposed to fearing it) and in terms of process (putting mechanisms in place to reduce structure)."
+        },
+        {
+          "paragraph": 11,
+          "quote": "For example, Oticon, a large Danish manufacturer of hearing aids, used what it called a 'spaghetti' structure in order to reduce the organisation's rigid hierarchies. This involved scrapping formal job titles and giving staff huge amounts of ownership over their own time and projects. This approach proved to be highly successful initially, with clear improvements in worker productivity in all facets of the business."
+        },
+        {
+          "paragraph": 12,
+          "quote": "In similar fashion, the former chairman of General Electric embraced disorganisation, putting forward the idea of the 'boundaryless' organisation. Again, it involves breaking down the barriers between different parts of a company and encouraging virtual collaboration and flexible working. Google and a number of other tech companies have embraced (at least in part) these kinds of flexible structures, facilitated by technology and strong company values which glue people together."
         }
       ],
       "reasoning": [
@@ -1970,7 +1954,7 @@
     },
     "c14-t2-p3:35": {
       "answer": "productive",
-      "stem": "35 Numerous training sessions are aimed at people who feel they are not enough [35] ____.",
+      "stem": "35 Numerous training sessions are aimed at people who feel they are not [35] ____ enough.",
       "evidence": [
         {
           "paragraph": 2,
@@ -2106,13 +2090,7 @@
         "G部分先介绍GE的无边界组织，再说Google及其他科技公司至少部分采用类似灵活结构，但没有说明Google这样做的直接灵感来源。",
         "题干was inspired ... by the success of General Electric新增因果关系。并列列举和叙述先后不能证明启发关系，因此NOT GIVEN，而不是因两个公司相邻出现就选TRUE。"
       ],
-      "paraphrases": [
-        {
-          "question": "was inspired ... by",
-          "passage": "Google ... have embraced",
-          "explanation": "G部分先介绍GE的无边界组织，再说Google及其他科技公司至少部分采用类似灵活结构，但没有说明Google这样做的直接灵感来源。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "时间或行文先后不自动构成因果，inspired by必须有明确来源证据。"
       ],
@@ -2206,13 +2184,7 @@
         "B部分说父母对语言发展的隐含看法，会影响他们认为何时应该纠正孩子说话，以及孩子何时能做认知任务。",
         "题干额外断言发展缓慢会让父母失望，原文没有描述父母的失望情绪，也没有评价慢发展是否普遍令人失望，因此NOT GIVEN。不能以常识代替文本。"
       ],
-      "paraphrases": [
-        {
-          "question": "prove disappointing",
-          "passage": "expectations ... language development",
-          "explanation": "B部分说父母对语言发展的隐含看法，会影响他们认为何时应该纠正孩子说话，以及孩子何时能做认知任务。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "expectations和纠错时点不等于disappointment，心理反应需要独立证据。"
       ],
@@ -2625,6 +2597,10 @@
         {
           "paragraph": 5,
           "quote": "D Insects are the undisputed masters of the terrestrial domain, where they occupy every possible niche. Consequently, they have a bewildering array of interactions with other organisms, something which has driven the evolution of an enormous range of very interesting compounds for defensive and offensive purposes. Their remarkable diversity exceeds that of every other group of animals on the planet combined. Yet even though insects are far and away the most diverse animals in existence, their potential as sources of therapeutic compounds is yet to be realised."
+        },
+        {
+          "paragraph": 9,
+          "quote": "H Although natural history knowledge points us in the right direction, it doesn't solve the problems associated with obtaining useful compounds from insects. Fortunately, it is now possible to snip out the stretches of the insect's DNA that carry the codes for the interesting compounds and insert them into cell lines that allow larger quantities to be produced. And although the road from isolating and characterising compounds with desirable qualities to developing a commercial product is very long and full of pitfalls, the variety of successful animal-derived pharmaceuticals on the market demonstrates there is a precedent here that is worth exploring."
         }
       ],
       "reasoning": [
@@ -2677,6 +2653,10 @@
         {
           "paragraph": 5,
           "quote": "D Insects are the undisputed masters of the terrestrial domain, where they occupy every possible niche. Consequently, they have a bewildering array of interactions with other organisms, something which has driven the evolution of an enormous range of very interesting compounds for defensive and offensive purposes. Their remarkable diversity exceeds that of every other group of animals on the planet combined. Yet even though insects are far and away the most diverse animals in existence, their potential as sources of therapeutic compounds is yet to be realised."
+        },
+        {
+          "paragraph": 9,
+          "quote": "H Although natural history knowledge points us in the right direction, it doesn't solve the problems associated with obtaining useful compounds from insects. Fortunately, it is now possible to snip out the stretches of the insect's DNA that carry the codes for the interesting compounds and insert them into cell lines that allow larger quantities to be produced. And although the road from isolating and characterising compounds with desirable qualities to developing a commercial product is very long and full of pitfalls, the variety of successful animal-derived pharmaceuticals on the market demonstrates there is a precedent here that is worth exploring."
         }
       ],
       "reasoning": [
@@ -3010,13 +2990,7 @@
         "文章介绍游戏有助社会、认知、身体和情绪发展，也提到创造性解决问题，但未特别论述绘画、音乐等艺术才能的发展。",
         "题干artistic talents是具体能力领域，不能仅凭creative就推导艺术天赋。因此NOT GIVEN，而非NO：作者没有否认这种潜在益处，只是本文没有提供证据。"
       ],
-      "paraphrases": [
-        {
-          "question": "artistic talents",
-          "passage": "creative problem-solving skills",
-          "explanation": "文章介绍游戏有助社会、认知、身体和情绪发展，也提到创造性解决问题，但未特别论述绘画、音乐等艺术才能的发展。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "creative不必然指艺术，避免把创造性解决问题偷换成艺术天赋。"
       ],
@@ -3307,7 +3281,7 @@
         }
       ],
       "reasoning": [
-        "脑部比较既看接近死亡的细胞数量，也检查这些细胞出现的位置，结果不同年龄在位置上没有差异。",
+        "脑部比较先识别接近死亡的细胞，再检查这些细胞所在的位置；原文说不同年龄之间没有重大差异，濒死细胞的位置也没有不同。",
         "题干the ... of dying cells明确要求位置这一属性，填location。cells已经在题干给出，density则用于后面对突触复合体的检验，不能移到这里。"
       ],
       "paraphrases": [
@@ -3460,13 +3434,7 @@
         "第6段只说蜜蜂研究结果不一致：有研究发现随年龄衰退，有研究没发现。文中没有具体比较各项研究采用了哪些测量方法。",
         "题干used different methods新增对方法差异的解释，不能从结果不一推导方法一定不同，所以NOT GIVEN，而非TRUE。"
       ],
-      "paraphrases": [
-        {
-          "question": "different methods",
-          "passage": "results ... were mixed",
-          "explanation": "第6段只说蜜蜂研究结果不一致：有研究发现随年龄衰退，有研究没发现。文中没有具体比较各项研究采用了哪些测量方法。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "不同结果未必意味着不同方法；题目若问方法，必须有方法本身的说明。"
       ],
@@ -3660,13 +3628,7 @@
         "C段肯定纪录片质量不断提高，却强调其体验仍无法替代亲眼看、听、闻活体动物。",
         "原文没有提供动物园访客人数变化，也没说纪录片改进导致游客增加。题干增加了因果与人数趋势，因此NOT GIVEN，而非按常识推想TRUE或FALSE。"
       ],
-      "paraphrases": [
-        {
-          "question": "increased numbers of zoo visitors",
-          "passage": "documentaries ... detailed and impressive",
-          "explanation": "C段肯定纪录片质量不断提高，却强调其体验仍无法替代亲眼看、听、闻活体动物。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "媒介质量与到访人数是不同变量，因果句需要两者关联的证据。"
       ],
@@ -3710,13 +3672,7 @@
         "E段指出动物园研究风险更少、变量更少，但没有说明被研究动物相较野外研究会承受更少心理压力。",
         "less stressful for the animals把研究环境的可控性转成动物压力体验，原文没有明确这一转换，所以NOT GIVEN。A段免受天敌压力是日常生活福利，并非研究过程的比较。"
       ],
-      "paraphrases": [
-        {
-          "question": "less stressful for the animals",
-          "passage": "less risk and fewer variables",
-          "explanation": "E段指出动物园研究风险更少、变量更少，但没有说明被研究动物相较野外研究会承受更少心理压力。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "不把“研究风险低”偷换成“研究对动物的心理压力低”，语义主体与情境都须一致。"
       ],
@@ -3833,6 +3789,10 @@
         {
           "paragraph": 3,
           "quote": "A species protected in captivity can be bred up to provide a reservoir population against a population crash or extinction in the wild. A good number of species only exist in captivity, with many of these living in zoos. Still more only exist in the wild because they have been reintroduced from zoos, or have wild populations that have been boosted by captive bred animals. Without these efforts there would be fewer species alive today. Although reintroduction successes are few and far between, the numbers are increasing, and the very fact that species have been saved or reintroduced as a result of captive breeding proves the value of such initiatives."
+        },
+        {
+          "paragraph": 7,
+          "quote": "F In conclusion, considering the many ongoing global threats to the environment, it is hard for me to see zoos as anything other than essential to the long-term survival of numerous species. They are vital not just in terms of protecting animals, but as a means of learning about them to aid those still in the wild, as well as educating and informing the general population about these animals and their world so that they can assist or at least accept the need to be more environmentally conscious. Without them, the world would be, and would increasingly become, a much poorer place."
         }
       ],
       "reasoning": [
@@ -3885,6 +3845,10 @@
         {
           "paragraph": 3,
           "quote": "A species protected in captivity can be bred up to provide a reservoir population against a population crash or extinction in the wild. A good number of species only exist in captivity, with many of these living in zoos. Still more only exist in the wild because they have been reintroduced from zoos, or have wild populations that have been boosted by captive bred animals. Without these efforts there would be fewer species alive today. Although reintroduction successes are few and far between, the numbers are increasing, and the very fact that species have been saved or reintroduced as a result of captive breeding proves the value of such initiatives."
+        },
+        {
+          "paragraph": 7,
+          "quote": "F In conclusion, considering the many ongoing global threats to the environment, it is hard for me to see zoos as anything other than essential to the long-term survival of numerous species. They are vital not just in terms of protecting animals, but as a means of learning about them to aid those still in the wild, as well as educating and informing the general population about these animals and their world so that they can assist or at least accept the need to be more environmentally conscious. Without them, the world would be, and would increasingly become, a much poorer place."
         }
       ],
       "reasoning": [
@@ -3968,13 +3932,7 @@
         "第3段只是用某些海鸟吞食塑料袋作为科学家可能夸大总体影响的例子，没有给不同动物受海洋垃圾威胁程度作排名。",
         "题干most in danger引入最高级比较，原文未比较海鸟、鱼、海龟等哪一种最危险，因此NOT GIVEN。被举例并不代表风险最大。"
       ],
-      "paraphrases": [
-        {
-          "question": "most in danger",
-          "passage": "certain seabirds eat plastic bags",
-          "explanation": "第3段只是用某些海鸟吞食塑料袋作为科学家可能夸大总体影响的例子，没有给不同动物受海洋垃圾威胁程度作排名。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "最高级需要跨对象比较证据，举一个例子不能推出它排第一。"
       ],
@@ -4015,7 +3973,7 @@
         }
       ],
       "reasoning": [
-        "第4段明确说Rochman团队审阅100多篇截至2013年的海洋垃圾影响论文，逐篇查科学家研究了什么威胁、实际发现了什么，合计366种感知威胁。",
+        "第4段明确说Rochman团队审阅100多篇截至2013年的海洋垃圾影响论文，逐篇查科学家研究了什么威胁、实际发现了什么，合计366项被感知的威胁。",
         "题干different kinds of danger正概括这些不同威胁，analysed papers对应examined papers，所以TRUE。不是说团队亲自做了366个海洋实验。"
       ],
       "paraphrases": [
@@ -4090,16 +4048,10 @@
         }
       ],
       "reasoning": [
-        "贻贝研究只记录吞入塑料后塑料进入血流及未显出压力，没有设置自然食物与塑料的选择偏好比较。",
+        "贻贝研究的介绍只记录吞入塑料后塑料进入血流及未显出压力；文中没有说明它们是否被提供自然食物与塑料的选择，也没有给出饮食偏好结果。",
         "题干choose ... in preference to natural diet新增选择与偏好两项信息，原文没有提供，因此NOT GIVEN。ingest只表示吞入，不能推出主动偏爱。"
       ],
-      "paraphrases": [
-        {
-          "question": "choose ... in preference",
-          "passage": "mussels ingesting microscopic plastic bits",
-          "explanation": "贻贝研究只记录吞入塑料后塑料进入血流及未显出压力，没有设置自然食物与塑料的选择偏好比较。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "摄入行为不等于饮食偏好，preference需要比较实验或明确描述。"
       ],

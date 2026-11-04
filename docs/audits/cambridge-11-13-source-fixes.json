@@ -1,0 +1,242 @@
+{
+  "status": "completed",
+  "scope": "Source defects assigned for Cambridge 11-13; shared library was not modified by this task.",
+  "fixes": [
+    {
+      "passageId": "c11-t1-p2",
+      "field": "questionText[20-26]",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c11-p25.jpg"
+      ],
+      "printedPages": [
+        24
+      ],
+      "reason": "Diagram OCR omitted Q22 and interleaved arrows/labels; transcribe each of the seven original numbered labels separately.",
+      "before": [
+        "Label the diagram below.",
+        "Choose ONE WORD from the passage for each answer.",
+        "Write your answers in boxes 20-26 on your answer sheet.",
+        "How a boat is lifted on the Falkirk Wheel",
+        "A pair of 20 ...................... are lifted in order to shut out water from canal basin",
+        "A 21 ...................... is taken out, enabling Wheel to rotate",
+        "26 raise boat 11 m to level of Union Canal",
+        "Boat is raised, ,.....,. ___ floating in one Boat travels of Wheel's two through tunnel beneath Roman 25",
+        "Boat reaches top Wheel, then A range of different-sized 23 moves directly onto 24 ensures boat keeps upright"
+      ],
+      "after": [
+        "Label the diagram below.",
+        "Choose ONE WORD from the passage for each answer.",
+        "Write your answers in boxes 20-26 on your answer sheet.",
+        "How a boat is lifted on the Falkirk Wheel",
+        "A pair of 20 ______ are lifted in order to shut out water from canal basin",
+        "A 21 ______ is taken out, enabling Wheel to rotate",
+        "Hydraulic motors drive 22 ______",
+        "A range of different-sized 23 ______ ensures boat keeps upright",
+        "Boat reaches top Wheel, then moves directly onto 24 ______",
+        "Boat travels through tunnel beneath Roman 25 ______",
+        "26 ______ raise boat 11 m to level of Union Canal",
+        "Boat is raised, floating in one of Wheel's two gondolas"
+      ]
+    },
+    {
+      "passageId": "c11-t2-p1",
+      "field": "reading.paragraphs[5] (paragraph 6)",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c11-p43.jpg"
+      ],
+      "printedPages": [
+        42
+      ],
+      "reason": "Restore running prose lower case not given and remove stray underscore before until.",
+      "before": "Further excavations revealed stray pieces of timber and an iron gun. But the climax to the operation came when, on 5 May 1971, part of the ship's frame was uncovered. McKee and his team now knew for certain that they had found the wreck, but were as yet unaware that it also housed a treasure trove of beautifully preserved artefacts. Interest in the project grew. and in 1979, The Mary Rose Trust was formed, with Prince Charles as its President and Dr Margaret Rule its Archaeological Director. The decision whether or not to salvage the wreck was not an easy one, although an excavation in 1978 had shown that it might be possible to raise the hull. While the original aim was to raise the hull if at all feasible, the operation was NOT GIVEN the go-ahead _until January 1982, when all the necessary information was available.",
+      "after": "Further excavations revealed stray pieces of timber and an iron gun. But the climax to the operation came when, on 5 May 1971, part of the ship's frame was uncovered. McKee and his team now knew for certain that they had found the wreck, but were as yet unaware that it also housed a treasure trove of beautifully preserved artefacts. Interest in the project grew. and in 1979, The Mary Rose Trust was formed, with Prince Charles as its President and Dr Margaret Rule its Archaeological Director. The decision whether or not to salvage the wreck was not an easy one, although an excavation in 1978 had shown that it might be possible to raise the hull. While the original aim was to raise the hull if at all feasible, the operation was not given the go-ahead until January 1982, when all the necessary information was available."
+    },
+    {
+      "passageId": "c11-t2-p1",
+      "field": "questionText[5-8]",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c11-p44.jpg"
+      ],
+      "printedPages": [
+        43
+      ],
+      "reason": "Restore 5-8 ranges, separate A-G dates, remove non-question watermark OCR.",
+      "before": [
+        "Look at the following statements (Questions 38) and the list of dates below.",
+        "Match each statement with the correct date, A-G.",
+        "Write the correct letter, A-G, in boxes 38 on your answer sheet.",
+        "5 A search for the Mary Rose was launched.",
+        "6 One person's exploration of the Mary Rose site stopped.",
+        "7 It was agreed that the hull of the Mary Rose should be raised.",
+        "8 The site of the Mary Rose was found by chance.",
+        "List of Dates",
+        "A 1836 E 1971",
+        "B 1840 F 1979",
+        "C 1965 G 1982",
+        "D 1967",
+        "f:R ,rLanguagc-"
+      ],
+      "after": [
+        "Look at the following statements (Questions 5-8) and the list of dates below.",
+        "Match each statement with the correct date, A-G.",
+        "Write the correct letter, A-G, in boxes 5-8 on your answer sheet.",
+        "5 A search for the Mary Rose was launched.",
+        "6 One person's exploration of the Mary Rose site stopped.",
+        "7 It was agreed that the hull of the Mary Rose should be raised.",
+        "8 The site of the Mary Rose was found by chance.",
+        "List of Dates",
+        "A 1836",
+        "B 1840",
+        "C 1965",
+        "D 1967",
+        "E 1971",
+        "F 1979",
+        "G 1982"
+      ]
+    },
+    {
+      "passageId": "c11-t3-p1",
+      "field": "reading.paragraphs[4] (paragraph 5)",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c11-p67.jpg"
+      ],
+      "printedPages": [
+        66
+      ],
+      "reason": "Original image reads 550 AD, not 660 AD.",
+      "before": "in 660 AD, concealed inside hollow bamboo walking canes",
+      "after": "in 550 AD, concealed inside hollow bamboo walking canes"
+    },
+    {
+      "passageId": "c11-t4-p1",
+      "field": "questionText[5-9].researchers",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c11-p90.jpg"
+      ],
+      "printedPages": [
+        89
+      ],
+      "reason": "Original researcher A is Francis Galton.",
+      "before": "A Francis Gaitan",
+      "after": "A Francis Galton"
+    },
+    {
+      "passageId": "c11-t4-p2",
+      "field": "questionText[19-23].instruction",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c11-p95.jpg"
+      ],
+      "printedPages": [
+        94
+      ],
+      "reason": "Restore range to match original Questions 19-23.",
+      "before": "In boxes 1,23 on your answer sheet, write",
+      "after": "In boxes 19-23 on your answer sheet, write"
+    },
+    {
+      "passageId": "c12-t1-p3",
+      "field": "title and reading.title",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c12-p24.jpg"
+      ],
+      "printedPages": [
+        24
+      ],
+      "reason": "Tests is the page header/OCR; use actual article title. Existing first paragraph remains in place to preserve all evidence indexes.",
+      "before": {
+        "title": "Tests",
+        "reading.title": "Tests"
+      },
+      "after": {
+        "title": "What's the purpose of gaining knowledge?",
+        "reading.title": "What's the purpose of gaining knowledge?"
+      }
+    },
+    {
+      "passageId": "c12-t3-p1",
+      "field": "questionText[1-7].instruction",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c12-p59.jpg"
+      ],
+      "printedPages": [
+        59
+      ],
+      "reason": "Original heading range is i-viii.",
+      "before": "Write the correct number, i-viil in boxes 1-7 on your answer sheet.",
+      "after": "Write the correct number, i-viii, in boxes 1-7 on your answer sheet."
+    },
+    {
+      "passageId": "c12-t4-p1",
+      "field": "questionText[9-13].paragraphs and intro",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c12-p82.jpg"
+      ],
+      "printedPages": [
+        82
+      ],
+      "reason": "Remove duplicate TRUE definition. Original page itself has no preceding question sentence, so no new sentence is introduced.",
+      "before": [
+        "In boxes 9-13 on your answer sheet, write",
+        "TRUE if the statement agrees with the information",
+        "TRUE if the statement agrees with the information",
+        "FALSE if the statement contradicts the information",
+        "NOT GIVEN if there is no information on this"
+      ],
+      "after": [
+        "In boxes 9-13 on your answer sheet, write",
+        "TRUE if the statement agrees with the information",
+        "FALSE if the statement contradicts the information",
+        "NOT GIVEN if there is no information on this"
+      ]
+    },
+    {
+      "passageId": "c13-t1-p2",
+      "field": "questionText[20-23].List of Ideas",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c13-p24.jpg"
+      ],
+      "printedPages": [
+        23
+      ],
+      "reason": "Restore original B/C idea options and list title from scan.",
+      "before": [
+        "Lis;t of Ideas",
+        "A The way we live today may encourage boredom.",
+        ":ia: One sort of boredom is worse thari dll the :others.",
+        "C Levels of boredom may fafLin the.future."
+      ],
+      "after": [
+        "List of Ideas",
+        "A The way we live today may encourage boredom.",
+        "B One sort of boredom is worse than all the others.",
+        "C Levels of boredom may fall in the future."
+      ]
+    },
+    {
+      "paper": "c11-t2-p2",
+      "sourceImage": "c11-p49.jpg",
+      "before": "summary末尾of24连写，使24未识别为空位",
+      "after": "of 24 ______；恢复实际答题空位，答案wood不变"
+    }
+  ],
+  "confirmedNoChange": [
+    {
+      "passageId": "c12-t4-p3",
+      "sourceImages": [
+        "public/cambridge/v1/pages/c12-p90.jpg"
+      ],
+      "printedPages": [
+        90
+      ],
+      "text": "The tyranny of quarterly reporting can distort board decision-making, as directors have to 'make the numbers' every four months",
+      "finding": "Source image itself says every four months. Preserve wording; changing to three would not be a transcription correction."
+    }
+  ],
+  "validation": {
+    "sharedLibraryUntouched": true,
+    "idempotence": true,
+    "readingParagraphCountAndOrderPreserved": true,
+    "unchangedAnswers": true,
+    "changedPassageCount": 9
+  }
+}

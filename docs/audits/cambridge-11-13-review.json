@@ -1,0 +1,2812 @@
+{
+  "format": "word-atlas-cambridge-semantic-review-v1",
+  "books": [
+    11,
+    12,
+    13
+  ],
+  "status": "complete",
+  "reviewedCount": 480,
+  "reviewedIds": [
+    "c11-t1-p1:1",
+    "c11-t1-p1:2",
+    "c11-t1-p1:3",
+    "c11-t1-p1:4",
+    "c11-t1-p1:5",
+    "c11-t1-p1:6",
+    "c11-t1-p1:7",
+    "c11-t1-p1:8",
+    "c11-t1-p1:9",
+    "c11-t1-p1:10",
+    "c11-t1-p1:11",
+    "c11-t1-p1:12",
+    "c11-t1-p1:13",
+    "c11-t1-p2:14",
+    "c11-t1-p2:15",
+    "c11-t1-p2:16",
+    "c11-t1-p2:17",
+    "c11-t1-p2:18",
+    "c11-t1-p2:19",
+    "c11-t1-p2:20",
+    "c11-t1-p2:21",
+    "c11-t1-p2:22",
+    "c11-t1-p2:23",
+    "c11-t1-p2:24",
+    "c11-t1-p2:25",
+    "c11-t1-p2:26",
+    "c11-t1-p3:27",
+    "c11-t1-p3:28",
+    "c11-t1-p3:29",
+    "c11-t1-p3:30",
+    "c11-t1-p3:31",
+    "c11-t1-p3:32",
+    "c11-t1-p3:33",
+    "c11-t1-p3:34",
+    "c11-t1-p3:35",
+    "c11-t1-p3:36",
+    "c11-t1-p3:37",
+    "c11-t1-p3:38",
+    "c11-t1-p3:39",
+    "c11-t1-p3:40",
+    "c11-t2-p1:1",
+    "c11-t2-p1:2",
+    "c11-t2-p1:3",
+    "c11-t2-p1:4",
+    "c11-t2-p1:5",
+    "c11-t2-p1:6",
+    "c11-t2-p1:7",
+    "c11-t2-p1:8",
+    "c11-t2-p1:9",
+    "c11-t2-p1:10",
+    "c11-t2-p1:11",
+    "c11-t2-p1:12",
+    "c11-t2-p1:13",
+    "c11-t2-p2:14",
+    "c11-t2-p2:15",
+    "c11-t2-p2:16",
+    "c11-t2-p2:17",
+    "c11-t2-p2:18",
+    "c11-t2-p2:19",
+    "c11-t2-p2:20",
+    "c11-t2-p2:21",
+    "c11-t2-p2:22",
+    "c11-t2-p2:23",
+    "c11-t2-p2:24",
+    "c11-t2-p2:25",
+    "c11-t2-p2:26",
+    "c11-t2-p3:27",
+    "c11-t2-p3:28",
+    "c11-t2-p3:29",
+    "c11-t2-p3:30",
+    "c11-t2-p3:31",
+    "c11-t2-p3:32",
+    "c11-t2-p3:33",
+    "c11-t2-p3:34",
+    "c11-t2-p3:35",
+    "c11-t2-p3:36",
+    "c11-t2-p3:37",
+    "c11-t2-p3:38",
+    "c11-t2-p3:39",
+    "c11-t2-p3:40",
+    "c11-t3-p1:1",
+    "c11-t3-p1:2",
+    "c11-t3-p1:3",
+    "c11-t3-p1:4",
+    "c11-t3-p1:5",
+    "c11-t3-p1:6",
+    "c11-t3-p1:7",
+    "c11-t3-p1:8",
+    "c11-t3-p1:9",
+    "c11-t3-p1:10",
+    "c11-t3-p1:11",
+    "c11-t3-p1:12",
+    "c11-t3-p1:13",
+    "c11-t3-p2:14",
+    "c11-t3-p2:15",
+    "c11-t3-p2:16",
+    "c11-t3-p2:17",
+    "c11-t3-p2:18",
+    "c11-t3-p2:19",
+    "c11-t3-p2:20",
+    "c11-t3-p2:21",
+    "c11-t3-p2:22",
+    "c11-t3-p2:23",
+    "c11-t3-p2:24",
+    "c11-t3-p2:25",
+    "c11-t3-p2:26",
+    "c11-t3-p3:27",
+    "c11-t3-p3:28",
+    "c11-t3-p3:29",
+    "c11-t3-p3:30",
+    "c11-t3-p3:31",
+    "c11-t3-p3:32",
+    "c11-t3-p3:33",
+    "c11-t3-p3:34",
+    "c11-t3-p3:35",
+    "c11-t3-p3:36",
+    "c11-t3-p3:37",
+    "c11-t3-p3:38",
+    "c11-t3-p3:39",
+    "c11-t3-p3:40",
+    "c11-t4-p1:1",
+    "c11-t4-p1:2",
+    "c11-t4-p1:3",
+    "c11-t4-p1:4",
+    "c11-t4-p1:5",
+    "c11-t4-p1:6",
+    "c11-t4-p1:7",
+    "c11-t4-p1:8",
+    "c11-t4-p1:9",
+    "c11-t4-p1:10",
+    "c11-t4-p1:11",
+    "c11-t4-p1:12",
+    "c11-t4-p1:13",
+    "c11-t4-p2:14",
+    "c11-t4-p2:15",
+    "c11-t4-p2:16",
+    "c11-t4-p2:17",
+    "c11-t4-p2:18",
+    "c11-t4-p2:19",
+    "c11-t4-p2:20",
+    "c11-t4-p2:21",
+    "c11-t4-p2:22",
+    "c11-t4-p2:23",
+    "c11-t4-p2:24",
+    "c11-t4-p2:25",
+    "c11-t4-p2:26",
+    "c11-t4-p3:27",
+    "c11-t4-p3:28",
+    "c11-t4-p3:29",
+    "c11-t4-p3:30",
+    "c11-t4-p3:31",
+    "c11-t4-p3:32",
+    "c11-t4-p3:33",
+    "c11-t4-p3:34",
+    "c11-t4-p3:35",
+    "c11-t4-p3:36",
+    "c11-t4-p3:37",
+    "c11-t4-p3:38",
+    "c11-t4-p3:39",
+    "c11-t4-p3:40",
+    "c12-t1-p1:1",
+    "c12-t1-p1:2",
+    "c12-t1-p1:3",
+    "c12-t1-p1:4",
+    "c12-t1-p1:5",
+    "c12-t1-p1:6",
+    "c12-t1-p1:7",
+    "c12-t1-p1:8",
+    "c12-t1-p1:9",
+    "c12-t1-p1:10",
+    "c12-t1-p1:11",
+    "c12-t1-p1:12",
+    "c12-t1-p1:13",
+    "c12-t1-p2:14",
+    "c12-t1-p2:15",
+    "c12-t1-p2:16",
+    "c12-t1-p2:17",
+    "c12-t1-p2:18",
+    "c12-t1-p2:19",
+    "c12-t1-p2:20",
+    "c12-t1-p2:21",
+    "c12-t1-p2:22",
+    "c12-t1-p2:23",
+    "c12-t1-p2:24",
+    "c12-t1-p2:25",
+    "c12-t1-p2:26",
+    "c12-t1-p3:27",
+    "c12-t1-p3:28",
+    "c12-t1-p3:29",
+    "c12-t1-p3:30",
+    "c12-t1-p3:31",
+    "c12-t1-p3:32",
+    "c12-t1-p3:33",
+    "c12-t1-p3:34",
+    "c12-t1-p3:35",
+    "c12-t1-p3:36",
+    "c12-t1-p3:37",
+    "c12-t1-p3:38",
+    "c12-t1-p3:39",
+    "c12-t1-p3:40",
+    "c12-t2-p1:1",
+    "c12-t2-p1:2",
+    "c12-t2-p1:3",
+    "c12-t2-p1:4",
+    "c12-t2-p1:5",
+    "c12-t2-p1:6",
+    "c12-t2-p1:7",
+    "c12-t2-p1:8",
+    "c12-t2-p1:9",
+    "c12-t2-p1:10",
+    "c12-t2-p1:11",
+    "c12-t2-p1:12",
+    "c12-t2-p1:13",
+    "c12-t2-p2:14",
+    "c12-t2-p2:15",
+    "c12-t2-p2:16",
+    "c12-t2-p2:17",
+    "c12-t2-p2:18",
+    "c12-t2-p2:19",
+    "c12-t2-p2:20",
+    "c12-t2-p2:21",
+    "c12-t2-p2:22",
+    "c12-t2-p2:23",
+    "c12-t2-p2:24",
+    "c12-t2-p2:25",
+    "c12-t2-p2:26",
+    "c12-t2-p3:27",
+    "c12-t2-p3:28",
+    "c12-t2-p3:29",
+    "c12-t2-p3:30",
+    "c12-t2-p3:31",
+    "c12-t2-p3:32",
+    "c12-t2-p3:33",
+    "c12-t2-p3:34",
+    "c12-t2-p3:35",
+    "c12-t2-p3:36",
+    "c12-t2-p3:37",
+    "c12-t2-p3:38",
+    "c12-t2-p3:39",
+    "c12-t2-p3:40",
+    "c12-t3-p1:1",
+    "c12-t3-p1:2",
+    "c12-t3-p1:3",
+    "c12-t3-p1:4",
+    "c12-t3-p1:5",
+    "c12-t3-p1:6",
+    "c12-t3-p1:7",
+    "c12-t3-p1:8",
+    "c12-t3-p1:9",
+    "c12-t3-p1:10",
+    "c12-t3-p1:11",
+    "c12-t3-p1:12",
+    "c12-t3-p1:13",
+    "c12-t3-p2:14",
+    "c12-t3-p2:15",
+    "c12-t3-p2:16",
+    "c12-t3-p2:17",
+    "c12-t3-p2:18",
+    "c12-t3-p2:19",
+    "c12-t3-p2:20",
+    "c12-t3-p2:21",
+    "c12-t3-p2:22",
+    "c12-t3-p2:23",
+    "c12-t3-p2:24",
+    "c12-t3-p2:25",
+    "c12-t3-p2:26",
+    "c12-t3-p3:27",
+    "c12-t3-p3:28",
+    "c12-t3-p3:29",
+    "c12-t3-p3:30",
+    "c12-t3-p3:31",
+    "c12-t3-p3:32",
+    "c12-t3-p3:33",
+    "c12-t3-p3:34",
+    "c12-t3-p3:35",
+    "c12-t3-p3:36",
+    "c12-t3-p3:37",
+    "c12-t3-p3:38",
+    "c12-t3-p3:39",
+    "c12-t3-p3:40",
+    "c12-t4-p1:1",
+    "c12-t4-p1:2",
+    "c12-t4-p1:3",
+    "c12-t4-p1:4",
+    "c12-t4-p1:5",
+    "c12-t4-p1:6",
+    "c12-t4-p1:7",
+    "c12-t4-p1:8",
+    "c12-t4-p1:9",
+    "c12-t4-p1:10",
+    "c12-t4-p1:11",
+    "c12-t4-p1:12",
+    "c12-t4-p1:13",
+    "c12-t4-p2:14",
+    "c12-t4-p2:15",
+    "c12-t4-p2:16",
+    "c12-t4-p2:17",
+    "c12-t4-p2:18",
+    "c12-t4-p2:19",
+    "c12-t4-p2:20",
+    "c12-t4-p2:21",
+    "c12-t4-p2:22",
+    "c12-t4-p2:23",
+    "c12-t4-p2:24",
+    "c12-t4-p2:25",
+    "c12-t4-p2:26",
+    "c12-t4-p3:27",
+    "c12-t4-p3:28",
+    "c12-t4-p3:29",
+    "c12-t4-p3:30",
+    "c12-t4-p3:31",
+    "c12-t4-p3:32",
+    "c12-t4-p3:33",
+    "c12-t4-p3:34",
+    "c12-t4-p3:35",
+    "c12-t4-p3:36",
+    "c12-t4-p3:37",
+    "c12-t4-p3:38",
+    "c12-t4-p3:39",
+    "c12-t4-p3:40",
+    "c13-t1-p1:1",
+    "c13-t1-p1:2",
+    "c13-t1-p1:3",
+    "c13-t1-p1:4",
+    "c13-t1-p1:5",
+    "c13-t1-p1:6",
+    "c13-t1-p1:7",
+    "c13-t1-p1:8",
+    "c13-t1-p1:9",
+    "c13-t1-p1:10",
+    "c13-t1-p1:11",
+    "c13-t1-p1:12",
+    "c13-t1-p1:13",
+    "c13-t1-p2:14",
+    "c13-t1-p2:15",
+    "c13-t1-p2:16",
+    "c13-t1-p2:17",
+    "c13-t1-p2:18",
+    "c13-t1-p2:19",
+    "c13-t1-p2:20",
+    "c13-t1-p2:21",
+    "c13-t1-p2:22",
+    "c13-t1-p2:23",
+    "c13-t1-p2:24",
+    "c13-t1-p2:25",
+    "c13-t1-p2:26",
+    "c13-t1-p3:27",
+    "c13-t1-p3:28",
+    "c13-t1-p3:29",
+    "c13-t1-p3:30",
+    "c13-t1-p3:31",
+    "c13-t1-p3:32",
+    "c13-t1-p3:33",
+    "c13-t1-p3:34",
+    "c13-t1-p3:35",
+    "c13-t1-p3:36",
+    "c13-t1-p3:37",
+    "c13-t1-p3:38",
+    "c13-t1-p3:39",
+    "c13-t1-p3:40",
+    "c13-t2-p1:1",
+    "c13-t2-p1:2",
+    "c13-t2-p1:3",
+    "c13-t2-p1:4",
+    "c13-t2-p1:5",
+    "c13-t2-p1:6",
+    "c13-t2-p1:7",
+    "c13-t2-p1:8",
+    "c13-t2-p1:9",
+    "c13-t2-p1:10",
+    "c13-t2-p1:11",
+    "c13-t2-p1:12",
+    "c13-t2-p1:13",
+    "c13-t2-p2:14",
+    "c13-t2-p2:15",
+    "c13-t2-p2:16",
+    "c13-t2-p2:17",
+    "c13-t2-p2:18",
+    "c13-t2-p2:19",
+    "c13-t2-p2:20",
+    "c13-t2-p2:21",
+    "c13-t2-p2:22",
+    "c13-t2-p2:23",
+    "c13-t2-p2:24",
+    "c13-t2-p2:25",
+    "c13-t2-p2:26",
+    "c13-t2-p3:27",
+    "c13-t2-p3:28",
+    "c13-t2-p3:29",
+    "c13-t2-p3:30",
+    "c13-t2-p3:31",
+    "c13-t2-p3:32",
+    "c13-t2-p3:33",
+    "c13-t2-p3:34",
+    "c13-t2-p3:35",
+    "c13-t2-p3:36",
+    "c13-t2-p3:37",
+    "c13-t2-p3:38",
+    "c13-t2-p3:39",
+    "c13-t2-p3:40",
+    "c13-t3-p1:1",
+    "c13-t3-p1:2",
+    "c13-t3-p1:3",
+    "c13-t3-p1:4",
+    "c13-t3-p1:5",
+    "c13-t3-p1:6",
+    "c13-t3-p1:7",
+    "c13-t3-p1:8",
+    "c13-t3-p1:9",
+    "c13-t3-p1:10",
+    "c13-t3-p1:11",
+    "c13-t3-p1:12",
+    "c13-t3-p1:13",
+    "c13-t3-p2:14",
+    "c13-t3-p2:15",
+    "c13-t3-p2:16",
+    "c13-t3-p2:17",
+    "c13-t3-p2:18",
+    "c13-t3-p2:19",
+    "c13-t3-p2:20",
+    "c13-t3-p2:21",
+    "c13-t3-p2:22",
+    "c13-t3-p2:23",
+    "c13-t3-p2:24",
+    "c13-t3-p2:25",
+    "c13-t3-p2:26",
+    "c13-t3-p3:27",
+    "c13-t3-p3:28",
+    "c13-t3-p3:29",
+    "c13-t3-p3:30",
+    "c13-t3-p3:31",
+    "c13-t3-p3:32",
+    "c13-t3-p3:33",
+    "c13-t3-p3:34",
+    "c13-t3-p3:35",
+    "c13-t3-p3:36",
+    "c13-t3-p3:37",
+    "c13-t3-p3:38",
+    "c13-t3-p3:39",
+    "c13-t3-p3:40",
+    "c13-t4-p1:1",
+    "c13-t4-p1:2",
+    "c13-t4-p1:3",
+    "c13-t4-p1:4",
+    "c13-t4-p1:5",
+    "c13-t4-p1:6",
+    "c13-t4-p1:7",
+    "c13-t4-p1:8",
+    "c13-t4-p1:9",
+    "c13-t4-p1:10",
+    "c13-t4-p1:11",
+    "c13-t4-p1:12",
+    "c13-t4-p1:13",
+    "c13-t4-p2:14",
+    "c13-t4-p2:15",
+    "c13-t4-p2:16",
+    "c13-t4-p2:17",
+    "c13-t4-p2:18",
+    "c13-t4-p2:19",
+    "c13-t4-p2:20",
+    "c13-t4-p2:21",
+    "c13-t4-p2:22",
+    "c13-t4-p2:23",
+    "c13-t4-p2:24",
+    "c13-t4-p2:25",
+    "c13-t4-p2:26",
+    "c13-t4-p3:27",
+    "c13-t4-p3:28",
+    "c13-t4-p3:29",
+    "c13-t4-p3:30",
+    "c13-t4-p3:31",
+    "c13-t4-p3:32",
+    "c13-t4-p3:33",
+    "c13-t4-p3:34",
+    "c13-t4-p3:35",
+    "c13-t4-p3:36",
+    "c13-t4-p3:37",
+    "c13-t4-p3:38",
+    "c13-t4-p3:39",
+    "c13-t4-p3:40"
+  ],
+  "method": "逐篇阅读完整原文与题干后逐题核对解析、限定条件、人物归属、选项排除、原文证据及词义逻辑对照；不是仅运行格式检查或抽样。原书答案页独立核验由主代理处理。",
+  "keyChanges": [],
+  "changedQuestionCount": 186,
+  "changes": [
+    {
+      "qid": "c11-t2-p1:7",
+      "reasons": [
+        "去掉供学生阅读的解析中有关OCR实现细节，改用明确的批准时间推理。"
+      ],
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c11-t2-p2:25",
+      "reasons": [
+        "两选题原证据只展示一派或一个正确项，补全双方关于运输方式与社会影响的直接对照。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3,
+        6
+      ]
+    },
+    {
+      "qid": "c11-t2-p2:26",
+      "reasons": [
+        "两选题原证据只展示一派或一个正确项，补全双方关于运输方式与社会影响的直接对照。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3,
+        6
+      ]
+    },
+    {
+      "qid": "c11-t2-p3:27",
+      "reasons": [
+        "原证据只有从众结论，补充题干所问形状匹配实验及向艺术欣赏推广的论证。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c11-t3-p1:8",
+      "reasons": [
+        "原陷阱提示回避题面年份差异，改为与作答有关的主体及复数核对；年份问题已报root核图。"
+      ],
+      "fields": [
+        "traps"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c11-t3-p2:18",
+      "reasons": [
+        "原解析把distinguish所在句误指为第一段；该句在Dingle定义段，保留正确比较对象并修定位。"
+      ],
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c11-t3-p3:29",
+      "reasons": [
+        "题干personal examples为复数，补律师见证，使引用同时展示两个亲身受益实例。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8,
+        9
+      ]
+    },
+    {
+      "qid": "c11-t3-p3:31",
+      "reasons": [
+        "原引用仅列数学家生平一种焦点，补全应用与计算程序，体现不同焦点这一比较。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c11-t3-p3:33",
+      "reasons": [
+        "原引用只有人人能懂推理，补八章共同适用的上下文，以支持whole of the book的范围。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        1,
+        2
+      ]
+    },
+    {
+      "qid": "c11-t4-p1:5",
+      "reasons": [
+        "去掉姓名OCR识别差异提示，以两个研究者的贡献差别完成实际推理。"
+      ],
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c11-t4-p3:28",
+      "reasons": [
+        "原引用只有“这一悖论”，未展示悖论的具体内容，补全最伟大发明却未被发明的直接证据。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c11-t4-p2:17",
+      "reasons": [
+        "dizzy quality在角色描写中指忙乱冒失的性格而非生理性晕眩，修正译义。"
+      ],
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c12-t1-p2:17",
+      "reasons": [
+        "补全俱乐部聚会及接触同好两句话，同时展示contact/meetings两个认可表达的原文依据。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c12-t1-p2:18",
+      "reasons": [
+        "原证据只有hunt，补上一段desire to find，以支持答案页认可的另一写法。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        4,
+        5
+      ]
+    },
+    {
+      "qid": "c12-t1-p2:19",
+      "reasons": [
+        "补全目的感与完成目标后空虚的对照，支持aimless/empty变体及阶段区别。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c12-t1-p3:32",
+      "reasons": [
+        "原证据只列arson这个名称，不能单独展示多个结果对应不同名称的主旨，补全三组对照。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c12-t1-p3:39",
+      "reasons": [
+        "原证据只引纵火者可能获益的反问，未引作者认可课程职业价值的关键反证，改为完整相关段落。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:10",
+      "reasons": [
+        "原引用只显示本格对应正确项，补齐同组两项的独立原文依据，避免两选题只见一半证据。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9,
+        11
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:11",
+      "reasons": [
+        "原引用只显示本格对应正确项，补齐同组两项的独立原文依据，避免两选题只见一半证据。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9,
+        11
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:12",
+      "reasons": [
+        "原引用只显示本格对应正确项，补齐同组两项的独立原文依据，避免两选题只见一半证据。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        10,
+        11
+      ]
+    },
+    {
+      "qid": "c12-t2-p1:13",
+      "reasons": [
+        "原引用只显示本格对应正确项，补齐同组两项的独立原文依据，避免两选题只见一半证据。",
+        "financial stake在本段指订阅出资分担风险，不应让“持有经济利益”的译法暗示股权所有权。"
+      ],
+      "fields": [
+        "evidence",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        10,
+        11
+      ]
+    },
+    {
+      "qid": "c12-t2-p2:18",
+      "reasons": [
+        "补完整的晚年回忆与即时日记对照，支持different accounts的段落主旨，而非仅引用其中一种叙述。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c12-t3-p1:11",
+      "reasons": [
+        "原引用只显示定居者到达，补下一句They hunted明确猎杀者指代。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c12-t3-p2:15",
+      "reasons": [
+        "原证据只有污染来源，补身体病症及其因果说明，完整覆盖physical conditions caused by human behaviour。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c12-t3-p3:32",
+      "reasons": [
+        "原引用只是概括句，补全身体反应的实际例证，以支撑强烈生理反应这一主旨。"
+      ],
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c12-t4-p2:16",
+      "reasons": [
+        "misguided approach指方向不当的方法，不是具有误导他人性质的“误导性”方法，修正译义。"
+      ],
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:1",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:2",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:3",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:4",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:5",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:6",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:7",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:8",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:9",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:10",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:11",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:12",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p1:13",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:14",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:15",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:16",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "polystyrene cup是泡沫塑料杯，不是纸杯，修正实验物品材料。"
+      ],
+      "fields": [
+        "paraphrases",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:17",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:18",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:19",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:20",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:21",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:22",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:23",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:24",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:25",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p2:26",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:27",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "“人工作曲”可能被理解成人类作曲，改为计算机作曲以准确说明例证主体。"
+      ],
+      "fields": [
+        "paraphrases",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:28",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:29",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "补Aaron由程序员提供创意的源句，与Painting Fool自主取材形成双边对比证据。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        5,
+        4
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:30",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:31",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:32",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:33",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:34",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:35",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:36",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:37",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:38",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:39",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t1-p3:40",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:1",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:2",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:3",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:4",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:5",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:6",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:7",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:8",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "原陷阱将相邻海运阶段误指为下一段，改为下一程以对应同段路线。"
+      ],
+      "fields": [
+        "paraphrases",
+        "traps"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:9",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:10",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "1518年建堡本身无法证明整个十六世纪的控制，补1640打破持续150年垄断这一决定性时段证据。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        3,
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:11",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:12",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t2-p1:13",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:14",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:15",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:16",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:17",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:18",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:19",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:20",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:21",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:22",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:23",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:24",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:25",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t2-p2:26",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:27",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:28",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "原B项排除将新产品售价较低当成旧价下降，证据不足；改为题干范围与作者明确目标不一致。"
+      ],
+      "fields": [
+        "paraphrases",
+        "options"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:29",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:30",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:31",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:32",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:33",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:34",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "积分本身不唯一指向Tesco，补环境保护承诺的句子，使corporate social responsibility也有直接证据。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:35",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:36",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:37",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:38",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:39",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t2-p3:40",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:1",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:2",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:3",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:4",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:5",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:6",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:7",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:8",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:9",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:10",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:11",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:12",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p1:13",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:14",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:15",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:16",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:17",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:18",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:19",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:20",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:21",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:22",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:23",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:24",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "原文测量聆听时的脑运动区激活，原措辞可能被理解为实际处理或做出发声动作，明确脑内反应与真实发声的区别。"
+      ],
+      "fields": [
+        "paraphrases",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:25",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        1
+      ]
+    },
+    {
+      "qid": "c13-t3-p2:26",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:27",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:28",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:29",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:30",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:31",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:32",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:33",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:34",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:35",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:36",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:37",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:38",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "原引用只说考古能研究过去，未覆盖长远益处，改引学习历史可改善未来管理的完整原句。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:39",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "精确引用Hodell自己给出200年时长的句子，避免先引用Dixit的4100年前变化造成归属混淆。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t3-p3:40",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:1",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:2",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:3",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:4",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:5",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:6",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:7",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:8",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:9",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:10",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:11",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        10
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:12",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        11
+      ]
+    },
+    {
+      "qid": "c13-t4-p1:13",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        11
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:14",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:15",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:16",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:17",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "by far表示程度上的远远领先，不表示迄今，去掉原解析新增的时间含义。"
+      ],
+      "fields": [
+        "paraphrases",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:18",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:19",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:20",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "补完整试验地与传统化肥对照地结果，确保数量和质量两项比较均有可见证据。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:21",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "原证据只有容易理解的目标，补政府沟通困难及该目标的完整背景，使政府意识这一句尾有直接依据。"
+      ],
+      "fields": [
+        "paraphrases",
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        11
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:22",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:23",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "轮作休耕实际在C段末尾，原解析误指D段，修正出处并区分自然循环与农业措施。"
+      ],
+      "fields": [
+        "paraphrases",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:24",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        10
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:25",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        12
+      ]
+    },
+    {
+      "qid": "c13-t4-p2:26",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        10
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:27",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:28",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        4
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:29",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:30",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:31",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:32",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:33",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:34",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:35",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:36",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:37",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。",
+        "“人体研究”容易被理解为医学身体实验，改为针对人类行为的研究，保持文章行为主义语境。"
+      ],
+      "fields": [
+        "paraphrases",
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:38",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:39",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c13-t4-p3:40",
+      "reasons": [
+        "将泛化的对照说明改为本题真实词义/逻辑关系；不存在同义对应的NG题删除映射。"
+      ],
+      "fields": [
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    }
+  ],
+  "importantExamples": [
+    {
+      "qid": "c11-t3-p2:18",
+      "issue": "distinguish出处误写第一段，实际在Dingle定义段；已修定位与比较对象。"
+    },
+    {
+      "qid": "c11-t4-p2:17",
+      "issue": "dizzy quality不是生理晕眩，改为人物忙乱冒失的性格。"
+    },
+    {
+      "qid": "c12-t4-p2:16",
+      "issue": "misguided approach不是误导他人，改为保护方法方向不当。"
+    },
+    {
+      "qid": "c13-t1-p2:16",
+      "issue": "polystyrene cup应为泡沫塑料杯，不是纸杯。"
+    },
+    {
+      "qid": "c13-t3-p2:24",
+      "issue": "聆听诱发脑内发声运动区激活，不是实际做出了发声动作。"
+    },
+    {
+      "qid": "c13-t4-p2:17",
+      "issue": "by far表示程度远超其他因素，不表示迄今。"
+    },
+    {
+      "qid": "c13-t4-p2:23",
+      "issue": "轮作休耕实际在C段，原解析误指D段；已修正。"
+    }
+  ],
+  "limitations": [
+    "本次是基于所提供真题原文的语义复核；不将文章内的历史、科学主张另行当作现实世界事实验证。",
+    "原书key与文章隐含关系个别存在考试式推断（如c13-t3-p1:12），保留key并明确不得外推全球起源结论。"
+  ],
+  "sourceSha256": "a56629a435b0f97936abc9eb4ce9681c25157044601658e1247319e8ebb8d020",
+  "explanationSha256": {
+    "11": "ed57870f1d9084a37f51bd2dc0307249ca4d6449cdc6c58be0182812bc230e4b",
+    "12": "43cbcb7ed949db765e652ef1f41c792986cb5cfe635d173a895d2c1a319e25b8",
+    "13": "fbbf9903582b698f9d03273e43ab2a636bd739fd0db55ba74e3fbb5f5cda6383"
+  }
+}

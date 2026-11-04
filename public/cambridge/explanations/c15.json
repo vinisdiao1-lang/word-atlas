@@ -144,7 +144,7 @@
         {
           "question": "world’s first",
           "passage": "richest commercial operation",
-          "explanation": "原文介绍VOC于一六零二年成立，并在一六一七年成为世界上最富有的商业机构，还列出雇员、军队与船只数量。"
+          "explanation": "first问成立时间是否最早，richest只说明财富规模最大；原文没有提供全球公司成立先后的比较，不能由最富推出最早。"
         }
       ],
       "traps": [
@@ -248,7 +248,7 @@
         }
       ],
       "traps": [
-        "把防垄断措施拆成限制产区、销毁外树、处理出口种子。"
+        "把维护垄断的措施拆成限制产区、销毁区外树木和处理出口种子；本空只问最后一种措施使用的物质。"
       ],
       "reviewTip": "把防垄断措施拆成限制产区、销毁外树、处理出口种子。"
     },
@@ -437,7 +437,7 @@
         }
       ],
       "reasoning": [
-        "D部分先列共享可能减少车辆所有量，再指出每车里程翻倍、使用更密集，因而更快报废更换，产量未必下降。",
+        "D部分先列共享可能减少车辆所有量，再指出每车里程翻倍、使用更密集，因而可能需要更早更换，产量未必下降。",
         "这是一组相反力量抵消后的结论，与题干制造数量可能不变对应，选D；不要停在前面少造车辆的初步推测而忽略however与as a consequence。"
       ],
       "paraphrases": [
@@ -1728,7 +1728,7 @@
       ],
       "reasoning": [
         "题干把small改写成of a reduced size，原文列出的身体部分是smaller ears，所以空位填复数ears，后面的大小描述已经给出。",
-        "不能再把smaller一并写入，且不能选hair，因为题干thicker hair已出现；按原文三项特征顺序核对毛发、耳朵和脂肪，避免相邻项串位。"
+        "空格后of a reduced size已经表达较小，不再填写smaller；thicker hair也已给出。题干把原文smaller ears、thicker hair、extra insulating fat的顺序重新排列，应按具体身体特征对应，不能机械照抄列举顺序。"
       ],
       "paraphrases": [
         {
@@ -2262,16 +2262,10 @@
         }
       ],
       "reasoning": [
-        "Santa Cruz研究报告总体约六成正确率，跨社会结果一致，但没有分别给出朋友笑声和陌生人笑声两类的识别正确率。",
-        "题目要求比较哪一类识别得更准，总体平均不能推导分组差异，所以NOT GIVEN；即使我们直觉觉得朋友较好认，也不能把常识当作实验数据。"
+        "Santa Cruz研究让听者判断录音中一起笑的两人互为朋友还是互为陌生人，报告的是总体约六成正确率，没有分别公布两类关系的识别正确率。",
+        "题干新增“朋友组比陌生人组判断得更准”的组间比较；总体平均不能推出哪组更准确，所以NOT GIVEN。这里也不是判断听者能否认出自己朋友的声音，不能把人际关系判断误读成识别熟人。"
       ],
-      "paraphrases": [
-        {
-          "question": "more accurate ... friends than strangers",
-          "passage": "correct approximately 60% of the time",
-          "explanation": "Santa Cruz研究报告总体约六成正确率，跨社会结果一致，但没有分别给出朋友笑声和陌生人笑声两类的识别正确率。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "总体准确率不等于类别间准确率的比较。"
       ],
@@ -2415,13 +2409,7 @@
         "原文只说Moore得到奖学金，于一九二一年进入皇家艺术学院，开始三年雕塑进修，没有评价该院雕塑教学的声誉等级。",
         "题目声称当时教学声誉极好，不能从获得奖学金、课程高级或后来任教推出，所以NOT GIVEN。这里不存在相反的差评，不能判FALSE。"
       ],
-      "paraphrases": [
-        {
-          "question": "reputation ... excellent",
-          "passage": "advanced study in sculpture",
-          "explanation": "原文只说Moore得到奖学金，于一九二一年进入皇家艺术学院，开始三年雕塑进修，没有评价该院雕塑教学的声誉等级。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "院校名称和高级课程不自动证明声誉excellent。"
       ],
@@ -2465,13 +2453,7 @@
         "巴黎博物馆的玛雅雕塑给Moore留下深刻印象，文中详述他个人着迷的原因、姿态观察及随后的创作，却没有说其他观众的反应。",
         "题目把个人兴趣扩大到大量公众关注，缺少群体范围证据，所以NOT GIVEN。不能从一位重要艺术家的强烈反应推断整个公众也同样关注。"
       ],
-      "paraphrases": [
-        {
-          "question": "public interest",
-          "passage": "he was impressed",
-          "explanation": "巴黎博物馆的玛雅雕塑给Moore留下深刻印象，文中详述他个人着迷的原因、姿态观察及随后的创作，却没有说其他观众的反应。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "主体从he换为public就是判断题常见范围陷阱。"
       ],
@@ -2988,7 +2970,7 @@
       ],
       "reasoning": [
         "原文说性能资料发送给公司，公司在必要时提供servicing；题目用这些资料知道何时设备需要维护，把服务者的动作改为设备的需要。",
-        "因此填servicing这一名词形式，而非service动词或replacement。设备并未被说成每次异常都要更换，只说明监测信息帮助安排维护。"
+        "因此按原文填servicing，表示维护保养。service也可以作名词，不能仅靠词性把它排除；本题要求从原文取词，所以不能自行换成原句未出现的service，更不能改成replacement，原文并未说每次都要整体更换设备。"
       ],
       "paraphrases": [
         {
@@ -3653,13 +3635,7 @@
         "原文说Whaley与当地家庭合作把树产品做成食物以创造收入，并引用他解释糖浆、面粉和咖啡做法，但没有交代这些知识是谁告诉他的。",
         "题目具体声称当地家庭教给他传统用法，信息来源无法确认，所以NOT GIVEN。合作不等于单向传授，不能把一起工作推断为家庭提供知识。"
       ],
-      "paraphrases": [
-        {
-          "question": "families have told",
-          "passage": "working with local families",
-          "explanation": "原文说Whaley与当地家庭合作把树产品做成食物以创造收入，并引用他解释糖浆、面粉和咖啡做法，但没有交代这些知识是谁告诉他的。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "关系成立不证明知识传递方向。"
       ],
@@ -3753,13 +3729,7 @@
         "结尾把项目视为可推广到其他干旱地区的模式，并说这能给包括非洲在内的地方带来希望，但没有说Whaley本人安排赴非洲实施。",
         "所以NOT GIVEN。potential与message of hope只是可能性和启示，题目plans to go却添加个人行程与行动计划，文中未提供这种具体承诺。"
       ],
-      "paraphrases": [
-        {
-          "question": "plans to go to Africa",
-          "passage": "potential ... including Africa",
-          "explanation": "结尾把项目视为可推广到其他干旱地区的模式，并说这能给包括非洲在内的地方带来希望，但没有说Whaley本人安排赴非洲实施。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "地点被提及不等于人物已有到访计划。"
       ],
@@ -3778,13 +3748,7 @@
         "La Gomera被描述为多山、岩坡陡峭、山谷幽深，最高点一千四百八十七米，但没有与其他加那利岛屿比较山区比例或起伏程度。",
         "因此题目most mountainous的群岛内最高级无证据，判NOT GIVEN。最高山峰数值只描述本岛，不能据此计算它比所有其他岛都更山地化。"
       ],
-      "paraphrases": [
-        {
-          "question": "most mountainous",
-          "passage": "mountainous ... highest peak",
-          "explanation": "La Gomera被描述为多山、岩坡陡峭、山谷幽深，最高点一千四百八十七米，但没有与其他加那利岛屿比较山区比例或起伏程度。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "本地特征不支持群体内最高级排名。"
       ],
@@ -4050,7 +4014,7 @@
         }
       ],
       "reasoning": [
-        "现代communication technology普及使口哨语言受灭绝威胁，题干new ...是把modern technologies缩成一个被形容词修饰的名词空位。",
+        "原文说现代communication technology广泛普及，使口哨语言面临消失威胁。题干new对应modern，所缺的是造成这种威胁的新事物，而不是把technologies这一未出现在原句的复数当作原文。",
         "填technology，不能填communication，因为导致旧沟通方式被取代的是新技术，而不是沟通本身；题干规定一词，原文这组短语只需保留中心名词。"
       ],
       "paraphrases": [
@@ -4394,13 +4358,7 @@
         "文中承认有人认为企业即使减利也该依道德行事，并解释道德原则需要明确与执行，但没有逐家比较企业之间的道德标准有何差异。",
         "所以NOT GIVEN。首段干净和污染企业的经营表现也不足以证明其内心原则不同；行为条件的讨论不能自动变成不同企业道德信条的比较。"
       ],
-      "paraphrases": [
-        {
-          "question": "contrast ... different businesses",
-          "passage": "businesses should act ... moral principles",
-          "explanation": "文中承认有人认为企业即使减利也该依道德行事，并解释道德原则需要明确与执行，但没有逐家比较企业之间的道德标准有何差异。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "区分行为差别与道德原则差别，不擅加比较。"
       ],
@@ -4469,13 +4427,7 @@
         "作者预测未来公众态度变化仍将是企业环保行为变化的必要条件，但没有保证公众必定改变，也没有确定企业必定会更关心环境。",
         "所以NOT GIVEN。必要条件的未来判断不是方向乐观的确定预测，题干will show more concern添加了必将改善的结果，不能从hopeful一词推出。"
       ],
-      "paraphrases": [
-        {
-          "question": "will show more concern",
-          "passage": "attitudes ... essential for changes",
-          "explanation": "作者预测未来公众态度变化仍将是企业环保行为变化的必要条件，但没有保证公众必定改变，也没有确定企业必定会更关心环境。"
-        }
-      ],
+      "paraphrases": [],
       "traps": [
         "变化必要条件不等于改善一定发生，警惕will强化。"
       ],

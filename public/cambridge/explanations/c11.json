@@ -421,7 +421,7 @@
     },
     "c11-t1-p2:22": {
       "answer": "axle",
-      "stem": "第22题：Write your answers in boxes 20-26 on your answer sheet. How a boat is lifted on the Falkirk Wheel A pair of 20 ...................... are lifted in order to shut out water from canal basin A 21 ...................... is taken out, enabling Wheel to rotate 26 raise boat 11 m to level of Union Canal Boat is raised, ,.....,. ___ floating in one Boat travels of Wheel's two through tunnel beneath Roman 25 Boat reaches top Wheel, then A range of different-sized 23 moves directly onto 24 ensures boat k",
+      "stem": "Hydraulic motors drive [22] ____",
       "evidence": [
         {
           "paragraph": 7,
@@ -440,7 +440,7 @@
     },
     "c11-t1-p2:23": {
       "answer": "cogs",
-      "stem": "Boat reaches top Wheel, then A range of different-sized [23] ____ moves directly onto [24] ____ ensures boat keeps upright",
+      "stem": "A range of different-sized [23] ____ ensures boat keeps upright",
       "evidence": [
         {
           "paragraph": 8,
@@ -459,7 +459,7 @@
     },
     "c11-t1-p2:24": {
       "answer": "aqueduct",
-      "stem": "Boat reaches top Wheel, then A range of different-sized [23] ____ moves directly onto [24] ____ ensures boat keeps upright",
+      "stem": "Boat reaches top Wheel, then moves directly onto [24] ____",
       "evidence": [
         {
           "paragraph": 8,
@@ -478,7 +478,7 @@
     },
     "c11-t1-p2:25": {
       "answer": "wall",
-      "stem": "Boat is raised, ,.....,. ___ floating in one Boat travels of Wheel's two through tunnel beneath Roman [25] ____",
+      "stem": "Boat travels through tunnel beneath Roman [25] ____",
       "evidence": [
         {
           "paragraph": 9,
@@ -900,12 +900,12 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "While the original aim was to raise the hull if at all feasible, the operation was NOT GIVEN the go-ahead _until January 1982, when all the necessary information was available."
+          "quote": "While the original aim was to raise the hull if at all feasible, the operation was not given the go-ahead until January 1982, when all the necessary information was available."
         }
       ],
       "reasoning": [
         "此题问打捞船体的决定何时正式获准。1978年的发掘只说明抬升可能可行，1979年成立信托组织也未等于批准执行。",
-        "原文not…until January 1982说明直到1982年才获得放行，故选G。阅读时需跨过材料中的OCR异常，把until所限定的正式批准时间辨清。"
+        "原文not given the go-ahead until January 1982说明直到1982年一月才正式获准，故选日期G。这里的until限定批准的时间，不能把早期的打捞目标或可行性论证当成已经同意执行。"
       ],
       "paraphrases": [],
       "traps": [
@@ -1219,7 +1219,7 @@
     },
     "c11-t2-p2:24": {
       "answer": "wood",
-      "stem": "Write your answers in boxes 21-24 on your answer sheet. Diamond believes that the Polynesian settlers on Rapa Nui destroyed its forests, cutting down its trees for fuel and clearing land for 21 ...................... . Twentieth-century discoveries of pollen prove that Rapu Nui had once been covered in palm forests, which had turned into grassland by the time the Europeans arrived on the island. When the islanders were no longer able to build the 22 ... .................. they needed to go fishing, they began using the island's 23 ...................... as a food source, according to Diamond. Diamond also claims that the moai were built to sh",
+      "stem": "Diamond believes that the Polynesian settlers on Rapa Nui destroyed its forests, cutting down its trees for fuel and clearing land for [21] ____ Twentieth-century discoveries of pollen prove that Rapu Nui had once been covered in palm forests, which had turned into grassland by the time the Europeans arrived on the island. When the islanders were no longer able to build the [22] ____ they needed to go fishing, they began using the island's [23] ____ as a food source, according to Diamond. Diamond also claims that the moai were built to show the power of the island's chieftains, and that the methods of transporting the statues needed not only a great number of people, but also a great deal of [24] ____",
       "evidence": [
         {
           "paragraph": 3,
@@ -1241,8 +1241,12 @@
       "stem": "第25题：On what points do Hunt and Lipo disagree with Diamond? A the period when the moai were created B how the moai were transported C the impact of the moai on Rapanui society D how the moai were carved E the origins of the people who made the moai",
       "evidence": [
         {
+          "paragraph": 3,
+          "quote": "C The moai, he thinks, accelerated the self-destruction. Diamond interprets them as power displays by rival chieftains who, trapped on a remote little island, lacked other ways of asserting their dominance. They competed by building ever bigger figures. Diamond thinks they laid the moai on wooden sledges, hauled over log rails, but that required both a lot of wood and a lot of people. To feed the people, even more land had to be cleared. When the wood was gone and civil war began, the islanders began toppling the moai. By the nineteenth century none were standing."
+        },
+        {
           "paragraph": 6,
-          "quote": "They also believe that moving the moai required few people and no wood, because they were walked upright."
+          "quote": "E Hunt and Lipo contend that moai-building was an activity that helped keep the peace between islanders. They also believe that moving the moai required few people and no wood, because they were walked upright. On that issue, Hunt and Lipo say, archaeological evidence backs up Rapanui folklore. Recent experiments indicate that as few as 18 people could, with three strong ropes and a bit of practice, easily manoeuvre a 1,000 kg moai replica a few hundred metres. The figures' fat bellies tilted them forward, and a D-shaped base allowed handlers to roll and rock them side to side."
         }
       ],
       "reasoning": [
@@ -1287,8 +1291,12 @@
       "stem": "第26题：On what points do Hunt and Lipo disagree with Diamond? A the period when the moai were created B how the moai were transported C the impact of the moai on Rapanui society D how the moai were carved E the origins of the people who made the moai",
       "evidence": [
         {
+          "paragraph": 3,
+          "quote": "C The moai, he thinks, accelerated the self-destruction. Diamond interprets them as power displays by rival chieftains who, trapped on a remote little island, lacked other ways of asserting their dominance. They competed by building ever bigger figures. Diamond thinks they laid the moai on wooden sledges, hauled over log rails, but that required both a lot of wood and a lot of people. To feed the people, even more land had to be cleared. When the wood was gone and civil war began, the islanders began toppling the moai. By the nineteenth century none were standing."
+        },
+        {
           "paragraph": 6,
-          "quote": "E Hunt and Lipo contend that moai-building was an activity that helped keep the peace between islanders."
+          "quote": "E Hunt and Lipo contend that moai-building was an activity that helped keep the peace between islanders. They also believe that moving the moai required few people and no wood, because they were walked upright. On that issue, Hunt and Lipo say, archaeological evidence backs up Rapanui folklore. Recent experiments indicate that as few as 18 people could, with three strong ropes and a bit of practice, easily manoeuvre a 1,000 kg moai replica a few hundred metres. The figures' fat bellies tilted them forward, and a D-shaped base allowed handlers to roll and rock them side to side."
         }
       ],
       "reasoning": [
@@ -1334,7 +1342,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "We certainly do have an inclination to follow the crowd."
+          "quote": "Could the same approach also shed light on abstract twentieth-century pieces, from Mondrian's geometrical blocks of colour, to Pollock's seemingly haphazard arrangements of splashed paint on canvas? Sceptics believe that people claim to like such works simply because they are famous. We certainly do have an inclination to follow the crowd. When asked to make simple perceptual decisions such as matching a shape to its rotated image, for example, people often choose a definitively wrong answer if they see others doing the same. It is easy to imagine that this mentality would have even more impact on a fuzzy concept like art appreciation, where there is no right or wrong answer."
         }
       ],
       "reasoning": [
@@ -1843,7 +1851,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "According to another legend, monks working for the Byzantine emperor Justinian smuggled silkworm eggs to Const.antinople (lst.anbul in modem-day Turkey) in 660 AD, concealed inside hollow bamboo walking canes.."
+          "quote": "According to another legend, monks working for the Byzantine emperor Justinian smuggled silkworm eggs to Const.antinople (lst.anbul in modem-day Turkey) in 550 AD, concealed inside hollow bamboo walking canes.."
         }
       ],
       "reasoning": [
@@ -1852,7 +1860,7 @@
       ],
       "paraphrases": [],
       "traps": [
-        "网页文字层年份可能存在识别差异，但人物与竹杖藏卵的关系清楚。"
+        "题干要填亲自藏匿并携带蚕卵的人，不能把他们服务的emperor填成行动者；monks保留复数。"
       ],
       "reviewTip": "复盘时重新圈出原文中的限定条件，并用自己的话说明它与题干的对应或差异。"
     },
@@ -2038,7 +2046,7 @@
       ],
       "reasoning": [
         "Dingle强调定义的价值在于关注角马与蚜虫等不同生物迁徙所共有的特征，帮助理解进化如何产生它们。",
-        "题干却说目的是区分不同物种的迁徙行为，把寻找共性改成强调差异，与shares…all方向相反，故FALSE。第一段distinguish指迁徙与其他移动形式的区别，不能偷换比较对象。"
+        "题干却说目的是区分不同物种的迁徙行为，把寻找共性改成强调差异，与shares方向相反，故FALSE。原文同一段前面的distinguish指“迁徙与其他移动形式”的区别，不能偷换成“不同物种的迁徙之间”的区别。"
       ],
       "paraphrases": [],
       "traps": [
@@ -2242,7 +2250,11 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "G A physician wrote, The discipline of analytical thought processes [in mathematics] prepared me extremely well for medical school."
+          "quote": "G A physician wrote, The discipline of analytical thought processes [in mathematics] prepared me extremely well for medical school. In medicine one is faced with a problem which must be thoroughly analyzed before a solution can be found. The process is similar to doing mathematics.'"
+        },
+        {
+          "paragraph": 9,
+          "quote": "A lawyer made the same point, 'Although I had no background in law - not even one political science course - I did well at one of the best law schools. I attribute much of my success there to having learned, through the study of mathematics, and, in particular, theorems, how to analyze complicated principles. Lawyers who have studied mathematics can master the legal principles in a way that most others cannot.'"
         }
       ],
       "reasoning": [
@@ -2280,7 +2292,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "Some present the lives of colorful mathematicians."
+          "quote": "Some present the lives of colorful mathematicians. Others describe important applications of mathematics. Yet others go into mathematical procedures, but assume that the reader is adept in using algebra."
         }
       ],
       "reasoning": [
@@ -2318,7 +2330,11 @@
       "evidence": [
         {
           "paragraph": 1,
-          "quote": "Anyone can understand every step in the reasoning."
+          "quote": "A Occasionally, in some difficult musical compositions, there are beautiful, but easy parts - parts so simple a beginner could play them. So it is with mathematics as well. There are some discoveries in advanced mathematics that do not depend on specialized knowledge, not even on algebra, geometry, or trigonometry. Instead they may involve, at most, a little arithmetic, such as 'the sum of two odd numbers is even', and common sense. Each of the eight chapters in this book illustrates this phenomenon. Anyone can understand every step in the reasoning."
+        },
+        {
+          "paragraph": 2,
+          "quote": "The thinking in each chapter uses at most only elementary arithmetic, and sometimes not even that. Thus all readers will have the chance to participate in a mathematical experience, to appreciate the beauty of mathematics, and to become familiar with its logical, yet intuitive, style of thinking."
         }
       ],
       "reasoning": [
@@ -2551,7 +2567,7 @@
       ],
       "reasoning": [
         "题干invented a term定位coined the phrase，原文把nature and nurture这组区分先天与后天因素的说法归于Francis Galton。",
-        "因此填名单A，而不是Bouchard；后者使用可遗传性统计概念研究基因影响，不是此处术语的提出者。姓名网页拼写识别差异不影响其名单位置。"
+        "因此填名单A，而不是Bouchard；后者运用可遗传性统计概念研究基因影响，不是本题nature and nurture用语的提出者。题干问的是创造术语的贡献，应以coined的明确归属作答。"
       ],
       "paraphrases": [],
       "traps": [
@@ -2844,8 +2860,8 @@
         }
       ],
       "reasoning": [
-        "《Bringing Up Baby》快速不停的对话既突出Hepburn角色的晕眩特征，也突出电影的荒诞与幽默，让观众卷入活动。",
-        "D准确概括对话性质强调影片关键要素；A说情节受损、B评价史上最好、C说速度不匹配，都超出原文或违背对话与活动相配合的解释。"
+        "《Bringing Up Baby》快速不停的对话既突出Hepburn角色忙乱、冒失的性格，也突出电影的荒诞与幽默，让观众忙于追随情节而卷入活动。",
+        "D准确概括对话性质强调影片关键要素；A说情节受损、B评价史上最好、C说速度不匹配，都超出原文。dizzy在这里形容角色给人的忙乱感，不是说角色或观众真的出现眩晕症状。"
       ],
       "paraphrases": [],
       "traps": [
@@ -3093,7 +3109,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "This apparent paradox is at the core of our fascination with language, and it holds many of its secrets."
+          "quote": "Even so, there is just one flaw in all these hymns of praise, for the homage to language's unique accomplishment conceals a simple yet critical incongruity. Language is mankind's greatest invention - except, of course, that it was never invented. This apparent paradox is at the core of our fascination with language, and it holds many of its secrets."
         }
       ],
       "reasoning": [
