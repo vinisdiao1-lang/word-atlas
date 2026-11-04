@@ -22,6 +22,7 @@ import {
   unorderedAnswersFor,
   requiredCorrect,
   stageNumbers,
+  completeDraftAttempts,
   validatePack,
   kindLabel,
   type Attempt,
@@ -163,23 +164,7 @@ export function Cambridge() {
   );
   useEffect(() => {
     if (!ready || !papers.length) return;
-    setRecords((r) => {
-      let changed = false;
-      const attempts = r.attempts.map((a) => {
-        if (a.mode !== "stage" || a.stage !== 1 || a.submittedAt) return a;
-        const tasks = a.tasks.map((task) => {
-          const paper = papers.find((p) => p.id === task.paperId);
-          if (!paper || task.numbers.join(",") === paper.numbers.join(","))
-            return task;
-          changed = true;
-          return { ...task, numbers: [...paper.numbers] };
-        });
-        return tasks.some((task, i) => task !== a.tasks[i])
-          ? { ...a, tasks }
-          : a;
-      });
-      return changed ? { ...r, attempts } : r;
-    });
+    setRecords((r) => completeDraftAttempts(r, papers));
   }, [ready, papers]);
   const candidates = practiceCandidates(
     papers,
@@ -187,15 +172,19 @@ export function Cambridge() {
     coverage,
     practicePreferences,
   );
-  const start = (mode: "stage" | "mock", ids: string[]) => {
+  const start = (
+    mode: "stage" | "mock",
+    ids: string[],
+    practiceStage = stage,
+  ) => {
     const chosen = ids.map((id) => papers.find((p) => p.id === id)!);
     const a: Attempt = {
       id: `exam-${Date.now()}`,
       mode,
-      stage: mode === "stage" ? stage : 0,
+      stage: mode === "stage" ? practiceStage : 0,
       tasks: chosen.map((p) => ({
         paperId: p.id,
-        numbers: mode === "mock" ? p.numbers : stageNumbers(p, stage),
+        numbers: mode === "mock" ? p.numbers : stageNumbers(p, practiceStage),
       })),
       answers: {},
       marks: {},
@@ -208,6 +197,7 @@ export function Cambridge() {
       activeId: a.id,
     }));
     setPaperIndex(0);
+    if (mode === "stage") setStage(practiceStage);
     setShowAll(false);
     setZoom(false);
     setNow(Date.now());
@@ -264,16 +254,23 @@ export function Cambridge() {
             )
           )
             throw Error("训练记录备份无效。");
-          setRecords((r) => ({
-            attempts: [
-              ...r.attempts.filter(
-                (a) =>
-                  !data.records.attempts.some((b: Attempt) => b.id === a.id),
-              ),
-              ...data.records.attempts,
-            ].slice(-100),
-            activeId: null,
-          }));
+          setRecords((r) =>
+            completeDraftAttempts(
+              {
+                attempts: [
+                  ...r.attempts.filter(
+                    (a) =>
+                      !data.records.attempts.some(
+                        (b: Attempt) => b.id === a.id,
+                      ),
+                  ),
+                  ...data.records.attempts,
+                ].slice(-100),
+                activeId: null,
+              },
+              papers,
+            ),
+          );
         } else {
           const pack = validatePack(data);
           await save("packs", pack);
@@ -309,6 +306,13 @@ export function Cambridge() {
   const textPaper =
     websitePacks.flatMap((p) => p.passages).find((p) => p.id === paper?.id) ??
     paper;
+  const partialSubmitted =
+    done &&
+    active?.mode === "stage" &&
+    active.tasks.some((task) => {
+      const paper = papers.find((p) => p.id === task.paperId);
+      return paper && task.numbers.join(",") !== paper.numbers.join(",");
+    });
   return (
     <div className="page cambridge">
       <a className="link" href="#/reading">
@@ -322,7 +326,7 @@ export function Cambridge() {
           到完整模考。
         </h1>
         <p className="lede">
-          剑 11–18 可自由选择 Passage 练习，剑 19 保留原卷顺序做考前模拟。
+          剑11–18按Passage 1、2、3分类，每篇练全部原卷题目；剑19做整套考前模拟。
         </p>
       </header>
       {error && (
@@ -428,7 +432,9 @@ export function Cambridge() {
               )}
             </div>
             <p className="muted">
-              仅填写下方列出的原卷题号。
+              {partialSubmitted
+                ? "旧版专项记录保留当时题量。"
+                : "按原卷顺序完成全部题目。"}
               {active.mode === "stage"
                 ? `本次 ${result.total} 题，答对 ${requiredCorrect(active.stage, result.total)} 题达标。`
                 : "三篇共 40 题；计时模式结束会自动交卷，离开页面不会暂停。"}
@@ -465,6 +471,20 @@ export function Cambridge() {
                 }}
               >
                 提交本次练习
+              </button>
+            )}
+            {partialSubmitted && (
+              <button
+                className="btn btn-ghost"
+                onClick={() =>
+                  start(
+                    "stage",
+                    active.tasks.map((t) => t.paperId),
+                    active.stage,
+                  )
+                }
+              >
+                按完整题目重新练习
               </button>
             )}
           </section>
@@ -862,31 +882,35 @@ export function Cambridge() {
       ) : (
         <>
           <section className="exam-stages">
-            {RULES.map((r, i) => (
-              <button
-                key={r.name}
-                className={`panel ${stage === i + 1 ? "is-on" : ""}`}
-                onClick={() => setStage(i + 1)}
-              >
-                <small>
-                  阶段 {i + 1} · Passage {i + 1}
-                </small>
-                <h2>{r.name}</h2>
-                <p>
-                  {i === 0
-                    ? "完整 13 题 · 全部原卷题型"
-                    : r.types.map((t) => kindLabel[t]).join(" + ")}
-                </p>
-                <b>
-                  {i === 0
-                    ? "答对 11/13 达标"
-                    : `答对 ≥ ${r.numerator}/${r.denominator}，按实际题数向上取整`}
-                </b>
-              </button>
-            ))}
+            {RULES.map((r, i) => {
+              const category = papers.filter(
+                (p) => p.book < 19 && p.passage === i + 1,
+              );
+              return (
+                <button
+                  key={r.name}
+                  className={`panel ${stage === i + 1 ? "is-on" : ""}`}
+                  onClick={() => setStage(i + 1)}
+                >
+                  <small>Passage {i + 1} · 剑11–18</small>
+                  <h2>{r.name}</h2>
+                  <p>
+                    完整第{r.from}–{r.to}题 · 全部原卷题型
+                  </p>
+                  <p>
+                    {category.length} 篇 ·{" "}
+                    {category.reduce((total, p) => total + p.numbers.length, 0)}{" "}
+                    题 · 含逐题解析
+                  </p>
+                  <b>
+                    每篇答对 {r.numerator}/{r.denominator} 达标
+                  </b>
+                </button>
+              );
+            })}
           </section>
           <section className="panel">
-            <h2>阶段 {stage}：选择练习</h2>
+            <h2>Passage {stage}：选择完整练习</h2>
             <div className="exam-practice-controls">
               <label className="exam-match">
                 <input
@@ -929,10 +953,9 @@ export function Cambridge() {
                 "当前设备还没有背词记录，背词或导入学习备份后会自动更新匹配结果。"}
             </p>
             <p className="muted">
-              {stage === 1
-                ? "Passage 1 每篇练完整的第 1–13 题，答对 11 题达标。"
-                : "本阶段练指定题型，按本篇实际筛选题数等比例计算达标。"}
-              三个阶段均可自由选择。 T1–T4 表示本册第 1–4 套；剑12 对应原书 Test
+              本分类每篇练完整的第{RULES[stage - 1].from}–{RULES[stage - 1].to}
+              题，全部题型均保留，交卷后可查看每题答案与解析。
+              三个分类均可自由选择。 T1–T4 表示本册第 1–4 套；剑12 对应原书 Test
               5–8。
             </p>
             <div className="exam-candidates">

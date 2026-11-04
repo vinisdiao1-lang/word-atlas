@@ -4,6 +4,7 @@ import { readFileSync } from "node:fs";
 import {
   requiredCorrect,
   stageNumbers,
+  completeDraftAttempts,
   grade,
   answerVariants,
   acceptedAnswerVariants,
@@ -139,10 +140,10 @@ test("stage thresholds round up actual selected question counts", () => {
   assert.equal(requiredCorrect(3, 14), 8);
   assert.equal(requiredCorrect(3, 4), 3);
 });
-test("Passage 1 includes every original question; other stages select specified types", () => {
+test("each Passage category includes every original question and excludes other passages", () => {
   assert.deepEqual(stageNumbers(p, 1), [1, 2, 3]);
   assert.deepEqual(stageNumbers(p, 2), []);
-  assert.deepEqual(stageNumbers(p, 3), [1, 2]);
+  assert.deepEqual(stageNumbers(p, 3), []);
   const complete = {
     ...p,
     numbers: [1, 2, 3, 4],
@@ -158,7 +159,46 @@ test("Passage 1 includes every original question; other stages select specified 
     ],
   };
   assert.deepEqual(stageNumbers(complete, 1), [1, 2, 3, 4]);
-  assert.deepEqual(stageNumbers(complete, 3), [1, 2]);
+  assert.deepEqual(stageNumbers({ ...complete, passage: 2 }, 2), [1, 2, 3, 4]);
+  assert.deepEqual(stageNumbers({ ...complete, passage: 3 }, 3), [1, 2, 3, 4]);
+});
+test("partial drafts expand for all Passage categories without changing existing work or submitted scores", () => {
+  const papers: Paper[] = JSON.parse(
+    readFileSync("public/cambridge/v2/library.json", "utf8"),
+  ).flatMap((book: { passages: Paper[] }) => book.passages);
+  const drafts = [1, 2, 3].map((stage) => ({
+    ...attempt({ [`c11-t1-p${stage}:20`]: "saved" }),
+    id: `draft-${stage}`,
+    stage,
+    tasks: [
+      {
+        paperId: `c11-t1-p${stage}`,
+        numbers: [stage === 1 ? 1 : stage === 2 ? 20 : 30],
+      },
+    ],
+    notes: { saved: "保留复盘笔记" },
+    marks: { saved: true },
+  }));
+  const submitted = { ...drafts[1], id: "submitted", submittedAt: 123 };
+  const mock = { ...drafts[2], id: "mock", mode: "mock" as const };
+  const records = {
+    attempts: [...drafts, submitted, mock],
+    activeId: drafts[1].id,
+  };
+  const updated = completeDraftAttempts(records, papers);
+  for (let i = 0; i < 3; i++) {
+    assert.deepEqual(
+      updated.attempts[i].tasks[0].numbers,
+      papers.find((p) => p.id === drafts[i].tasks[0].paperId)!.numbers,
+    );
+    assert.equal(updated.attempts[i].answers, drafts[i].answers);
+    assert.equal(updated.attempts[i].notes, drafts[i].notes);
+    assert.equal(updated.attempts[i].marks, drafts[i].marks);
+  }
+  assert.equal(updated.attempts[3], submitted);
+  assert.equal(updated.attempts[4], mock);
+  assert.equal(updated.activeId, records.activeId);
+  assert.equal(completeDraftAttempts(updated, papers), updated);
 });
 test("multi-select accepts either order and never awards duplicate selections twice", () => {
   assert.equal(

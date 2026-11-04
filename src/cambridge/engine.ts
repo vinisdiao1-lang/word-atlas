@@ -66,19 +66,22 @@ export interface Records {
 export const RULES = [
   {
     name: "基础练习",
-    types: ["choice", "judgment"],
+    from: 1,
+    to: 13,
     numerator: 11,
     denominator: 13,
   },
   {
-    name: "段落结构",
-    types: ["heading", "paragraph-match"],
+    name: "进阶练习",
+    from: 14,
+    to: 26,
     numerator: 10,
     denominator: 13,
   },
   {
     name: "综合理解",
-    types: ["summary", "choice"],
+    from: 27,
+    to: 40,
     numerator: 8,
     denominator: 14,
   },
@@ -107,15 +110,32 @@ export const requiredCorrect = (stage: number, count: number) =>
     (count * RULES[stage - 1].numerator) / RULES[stage - 1].denominator,
   );
 export function stageNumbers(p: Paper, stage: number) {
-  if (stage === 1) return [...p.numbers];
-  return p.numbers.filter((n) =>
-    p.groups.some(
-      (g) =>
-        n >= g.from &&
-        n <= g.to &&
-        (RULES[stage - 1].types as readonly string[]).includes(g.type),
-    ),
-  );
+  return p.passage === stage ? [...p.numbers] : [];
+}
+
+export function completeDraftAttempts(
+  records: Records,
+  papers: Paper[],
+): Records {
+  let changed = false;
+  const attempts = records.attempts.map((attempt) => {
+    if (attempt.mode !== "stage" || attempt.submittedAt) return attempt;
+    const tasks = attempt.tasks.map((task) => {
+      const paper = papers.find((p) => p.id === task.paperId);
+      if (
+        !paper ||
+        paper.passage !== attempt.stage ||
+        task.numbers.join(",") === paper.numbers.join(",")
+      )
+        return task;
+      changed = true;
+      return { ...task, numbers: [...paper.numbers] };
+    });
+    return tasks.some((task, i) => task !== attempt.tasks[i])
+      ? { ...attempt, tasks }
+      : attempt;
+  });
+  return changed ? { ...records, attempts } : records;
 }
 const normal = (s: string) =>
   s

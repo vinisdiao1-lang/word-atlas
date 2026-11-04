@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
 import { test } from "node:test";
 import { parseLibrary } from "./library";
+import { practiceCandidates, defaultPracticePreferences } from "./matching";
+import { validateExplanation } from "./explanations";
 import {
   stageNumbers,
   validatePack,
@@ -25,6 +27,76 @@ test("all 32 training Passage 1 papers contain the complete questions 1–13", (
       Array.from({ length: 13 }, (_, i) => i + 1),
       p.id,
     );
+});
+
+test("all three training categories expose 32 complete papers with answers and explanations for all 1280 questions", () => {
+  const papers = source.flatMap((book) => book.passages);
+  const explanations = new Map(
+    source
+      .filter((b) => b.book < 19)
+      .map((b) => [
+        b.book,
+        JSON.parse(
+          readFileSync(`public/cambridge/explanations/c${b.book}.json`, "utf8"),
+        ).items,
+      ]),
+  );
+  let total = 0;
+  for (const stage of [1, 2, 3]) {
+    const selected = practiceCandidates(
+      papers,
+      stage,
+      new Map(),
+      defaultPracticePreferences,
+    );
+    assert.equal(selected.length, 32);
+    for (const paper of selected) {
+      const start = stage === 1 ? 1 : stage === 2 ? 14 : 27;
+      const count = stage === 3 ? 14 : 13;
+      assert.deepEqual(
+        stageNumbers(paper, stage),
+        Array.from({ length: count }, (_, i) => start + i),
+        paper.id,
+      );
+      for (const number of stageNumbers(paper, stage)) {
+        assert.ok(paper.answers[number]?.trim(), `${paper.id}:${number}`);
+        validateExplanation(
+          explanations.get(paper.book)[`${paper.id}:${number}`],
+          paper,
+          number,
+        );
+        total++;
+      }
+    }
+  }
+  assert.equal(total, 1280);
+});
+
+test("person and theory matching options retain every letter as full-Passage practice exposes them", () => {
+  for (const paper of source
+    .filter((book) => book.book < 19)
+    .flatMap((book) => book.passages)) {
+    for (const section of paper.questionText ?? []) {
+      if (paper.groups.find((g) => g.from === section.from)?.type !== "other")
+        continue;
+      const range = section.paragraphs
+        .slice(0, 4)
+        .join(" ")
+        .match(/\bA\s*[-–]\s*([B-K])\b/);
+      const start = section.paragraphs.findIndex((s) => /^A\s+/.test(s));
+      if (!range || start < 0) continue;
+      const labels = section.paragraphs
+        .slice(start)
+        .flatMap((s) => s.match(/^([A-K])\s+/)?.[1] ?? []);
+      assert.deepEqual(
+        labels,
+        Array.from({ length: range[1].charCodeAt(0) - 64 }, (_, i) =>
+          String.fromCharCode(65 + i),
+        ),
+        `${paper.id}:${section.from}`,
+      );
+    }
+  }
 });
 
 test("deployed library covers all nine books, 36 full reading tests and 1,440 questions", () => {
