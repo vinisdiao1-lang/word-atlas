@@ -406,7 +406,7 @@
     },
     "c12-t1-p2:21": {
       "answer": "Trainspotting",
-      "stem": "21 tends to be mostly a male hobby [21] ____.",
+      "stem": "[21] ____ tends to be mostly a male hobby.",
       "evidence": [
         {
           "paragraph": 7,
@@ -942,7 +942,7 @@
     },
     "c12-t2-p1:9": {
       "answer": "A",
-      "stem": "9 Improvements to infrastructure can have a major impact on risk for farmers. List of People",
+      "stem": "9 Improvements to infrastructure can have a major impact on risk for farmers.",
       "evidence": [
         {
           "paragraph": 4,
@@ -1408,7 +1408,7 @@
     },
     "c12-t2-p3:27": {
       "answer": "eye movements",
-      "stem": "Observing the [27] ____ of Russian- Bilingual people engage both languages simultaneously: a mechanism known as English bilingual people when asked to [28] ____ select certain objects",
+      "stem": "Test: observing the [27] ____ of Russian-English bilingual people when asked to select certain objects. Finding: bilingual people engage both languages simultaneously, a mechanism known as [28] ____.",
       "evidence": [
         {
           "paragraph": 2,
@@ -1427,7 +1427,7 @@
     },
     "c12-t2-p3:28": {
       "answer": "language co-activation",
-      "stem": "Observing the [27] ____ of Russian- Bilingual people engage both languages simultaneously: a mechanism known as English bilingual people when asked to [28] ____ select certain objects",
+      "stem": "Test: observing the [27] ____ of Russian-English bilingual people when asked to select certain objects. Finding: bilingual people engage both languages simultaneously, a mechanism known as [28] ____.",
       "evidence": [
         {
           "paragraph": 2,
@@ -1446,7 +1446,7 @@
     },
     "c12-t2-p3:29": {
       "answer": "Stroop Task",
-      "stem": "A test called the [29] ____ , focusing Bilingual people are more able to handle on naming colours tasks involving a skill called [30] ____",
+      "stem": "Test: a test called the [29] ____, focusing on naming colours. Finding: bilingual people are more able to handle tasks involving a skill called [30] ____.",
       "evidence": [
         {
           "paragraph": 3,
@@ -1465,7 +1465,7 @@
     },
     "c12-t2-p3:30": {
       "answer": "conflict management",
-      "stem": "A test called the [29] ____ , focusing Bilingual people are more able to handle on naming colours tasks involving a skill called [30] ____",
+      "stem": "Test: a test called the [29] ____, focusing on naming colours. Finding: bilingual people are more able to handle tasks involving a skill called [30] ____.",
       "evidence": [
         {
           "paragraph": 3,
@@ -1607,7 +1607,7 @@
       ],
       "reasoning": [
         "D段比较两组在噪声背景下听简单声音时脑干反应，双语者对与音高感知有关的基本频率编码更好。",
-        "题干要非语词性听觉输入产生不同脑反应的例子，正对应这种声音声学特征处理，故D。B段谈词语识别与眼球运动，输入和测量对象均不符。"
+        "原卷答案D对应这一听觉实验。需注意，原文明写simple speech sounds，不能把它改称完全非语音的刺激；题干non-verbal在此只能就频率、音高等非词义层面的声音加工来理解。B段则是词语识别与眼球运动，不符合所问的脑反应比较。"
       ],
       "paraphrases": [],
       "traps": [

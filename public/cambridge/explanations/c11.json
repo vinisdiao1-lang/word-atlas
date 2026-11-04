@@ -573,7 +573,7 @@
     },
     "c11-t1-p3:30": {
       "answer": "sunshade",
-      "stem": "put a large number of tiny spacecraft into to create a [30] ____ that would reduce orbit far above Earth the amount of light reaching Earth",
+      "stem": "Put a large number of tiny spacecraft into orbit far above Earth → to create a [30] ____ that would reduce the amount of light reaching Earth.",
       "evidence": [
         {
           "paragraph": 3,
@@ -630,7 +630,7 @@
     },
     "c11-t1-p3:33": {
       "answer": "clouds",
-      "stem": "release aerosol sprays into the to create [33] ____ that would reduce stratosphere the amount of light reaching Earth",
+      "stem": "Release aerosol sprays into the stratosphere → to create [33] ____ that would reduce the amount of light reaching Earth.",
       "evidence": [
         {
           "paragraph": 5,
@@ -649,7 +649,7 @@
     },
     "c11-t1-p3:34": {
       "answer": "cables",
-      "stem": "fix strong [34] ____ to Greenland ice to prevent icebergs moving into the sea sheets",
+      "stem": "Fix strong [34] ____ to Greenland ice sheets → to prevent icebergs moving into the sea.",
       "evidence": [
         {
           "paragraph": 5,
@@ -668,7 +668,7 @@
     },
     "c11-t1-p3:35": {
       "answer": "snow",
-      "stem": "plant trees in Russian Arctic that would to allow the [35] ____ to reflect radiation lose their leaves in winter",
+      "stem": "Plant trees in Russian Arctic that would lose their leaves in winter → to allow the [35] ____ to reflect radiation.",
       "evidence": [
         {
           "paragraph": 5,
@@ -763,7 +763,7 @@
     },
     "c11-t1-p3:40": {
       "answer": "A",
-      "stem": "40 Research into non-fossil-based fuels cannot be replaced by geo-engineering. List of Scientists",
+      "stem": "40 Research into non-fossil-based fuels cannot be replaced by geo-engineering.",
       "evidence": [
         {
           "paragraph": 6,
@@ -915,7 +915,7 @@
     },
     "c11-t2-p1:8": {
       "answer": "A",
-      "stem": "8 The site of the Mary Rose was found by chance. List of Dates",
+      "stem": "8 The site of the Mary Rose was found by chance.",
       "evidence": [
         {
           "paragraph": 4,
@@ -2476,7 +2476,7 @@
       ],
       "reasoning": [
         "律师的见证先说学习数学帮助自己分析复杂原则，再用in particular特别强调定理这一部分。",
-        "题干helped even more than other areas抓的就是这一突出重点，因此填theorems，而不只填mathematics或principles。前者范围太宽，后者是被理解的法律内容。"
+        "答案theorems来自in particular对定理学习的特别强调；这并不等于原文明说“比其他分支帮助更大”。原卷题干用了较强的helped even more措辞，作答仍取被突出强调的theorems，而非范围过宽的mathematics或作为分析对象的principles。"
       ],
       "paraphrases": [],
       "traps": [

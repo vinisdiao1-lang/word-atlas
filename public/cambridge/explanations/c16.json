@@ -548,7 +548,7 @@
     },
     "c16-t1-p2:23": {
       "answer": "trench",
-      "stem": "A wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long [23] ____ encircled the wall. As a result,",
+      "stem": "A wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long [23] ____ encircled the wall.",
       "evidence": [
         {
           "paragraph": 4,
@@ -573,7 +573,7 @@
     },
     "c16-t1-p2:24": {
       "answer": "location",
-      "stem": "pyramid grounds unless they knew the [24] ____ of the real entrance.",
+      "stem": "As a result, any visitors who had not been invited were cleverly prevented from entering the pyramid grounds unless they knew the [24] ____ of the real entrance.",
       "evidence": [
         {
           "paragraph": 4,
@@ -821,7 +821,7 @@
       ],
       "reasoning": [
         "她观察到员工为了达标给算法输入虚假数据，让系统按他们的利益运行，这就是设法使人工智能产生自己想要的结果。",
-        "因此C正确。原文不是主要记述员工怨恨或公开反对建议，也不是偷懒让机器代做；这里是主动操纵输入以改变算法输出，行为目的须读完整。"
+        "因此C正确。原文记录员工输入虚假数据，让算法有利于自己达标；并未说明他们认为AI建议不对，也没有描述怨恨情绪或让机器替自己完成应做的任务。应区分操纵系统输出与不同意系统建议。"
       ],
       "paraphrases": [
         {
@@ -838,7 +838,7 @@
         {
           "label": "A",
           "correct": false,
-          "reason": "未在此报告公开反对建议。"
+          "reason": "原文没有描述员工认为AI的建议不正确或与之意见相左；它描述的是输入虚假数据，让算法有利于达成自己的目标。"
         },
         {
           "label": "B",
@@ -1131,7 +1131,7 @@
     },
     "c16-t1-p3:40": {
       "answer": "C",
-      "stem": "40 Authorities should take measures to ensure that there will be adequately paid work for everyone. List of people",
+      "stem": "40 Authorities should take measures to ensure that there will be adequately paid work for everyone.",
       "evidence": [
         {
           "paragraph": 13,
@@ -1419,7 +1419,7 @@
     },
     "c16-t2-p1:12": {
       "answer": "fertility",
-      "stem": "and [12] ____",
+      "stem": "was a representation of goddess Epona — associated with protection of horses and [12] ____",
       "evidence": [
         {
           "paragraph": 4,
@@ -2951,7 +2951,7 @@
       ],
       "reasoning": [
         "维京时代城镇和出口市场扩大，保暖兽皮及鹿角用品需求旺，作者据此说猎人生意应很好，支持A猎人受益。",
-        "同段还显示很多货物走山口陆路，支持C不只靠船，两空顺序不限。没有给财富增长最高峰、全世界商人到挪威或只重中东这些更强论断。"
+        "同段还显示很多货物走山口陆路，支持C不只靠船，两空顺序不限。没有给财富增长最高峰、全世界商人到挪威或主要关注中东贸易这些更强论断。"
       ],
       "paraphrases": [
         {
@@ -3305,7 +3305,7 @@
       "traps": [
         "本题用published in the journal Science明确指出发表载体；H段国家与机构属于研究参与者信息，不能把它们当成这次发表刊物。"
       ],
-      "reviewTip": "reported配期刊，conducted才配实验地点。"
+      "reviewTip": "用published in the journal Science确认发表载体；H段列的是研究参与国家和机构，不能把它们当作本文的发表刊物。"
     },
     "c16-t3-p3:38": {
       "answer": "warm (winter)",
@@ -3941,7 +3941,7 @@
     },
     "c16-t4-p2:20": {
       "answer": "F",
-      "stem": "… [19] ____ each group's understanding of the plot was. The findings showed a clear pattern in the responses, with those who read screens finding the order of information [20] ____ to recall. Studies by Ziming Liu show that students are tending to .ead .............. words and phrases in a text to save time. This approach, she says, gives the reader a superficial understanding of the [22] …",
+      "stem": "The findings showed a clear pattern in the responses, with those who read screens finding the order of information [20] ____ to recall.",
       "evidence": [
         {
           "paragraph": 7,
@@ -3991,7 +3991,7 @@
     },
     "c16-t4-p2:22": {
       "answer": "C",
-      "stem": "… that students are tending to .ead .............. words and phrases in a text to save time. This approach, she says, gives the reader a superficial understanding of the [22] ____content of material, leaving no time for thought.",
+      "stem": "This approach, she says, gives the reader a superficial understanding of the [22] ____ content of material, leaving no time for thought.",
       "evidence": [
         {
           "paragraph": 8,

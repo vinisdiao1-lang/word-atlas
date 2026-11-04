@@ -120,3 +120,29 @@ test("second semantic review covers every question once with explicit inference 
     );
   }
 });
+
+test("third semantic review covers all questions and preserves reviewed source typography", () => {
+  const ids = ["11-13", "14-16", "17-19"].flatMap((range) => {
+    const review = read(`docs/audits/round3-${range}-review.json`);
+    assert.ok(["complete", "completed"].includes(review.status));
+    assert.equal(review.reviewedIds.length, 480);
+    return review.reviewedIds;
+  });
+  const expected = source
+    .flatMap((b) =>
+      b.passages.flatMap((p) => p.numbers.map((n) => `${p.id}:${n}`)),
+    )
+    .sort();
+  assert.deepEqual(ids.sort(), expected);
+  assert.equal(new Set(ids).size, 1440);
+  const paper = source
+    .find((b) => b.book === 13)!
+    .passages.find((p) => p.id === "c13-t2-p3")!;
+  assert.ok(paper.reading!.paragraphs[6].includes("advanced 3D graphics"));
+  assert.ok(
+    paper
+      .questionText![0].items!.find((q) => q.number === 31)!
+      .paragraphs.some((s) => s.includes("colourful 3D graphics")),
+  );
+  assert.ok(!JSON.stringify(paper.questionText).includes("30 graphics"));
+});

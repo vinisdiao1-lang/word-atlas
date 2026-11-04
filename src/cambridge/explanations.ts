@@ -93,7 +93,7 @@ export function loadExplanationBook(book: number): Promise<ExplanationBook> {
   let request = books.get(book);
   if (!request) {
     request = fetch(
-      `${import.meta.env.BASE_URL}cambridge/explanations/c${book}.json?v=review2-20261103`,
+      `${import.meta.env.BASE_URL}cambridge/explanations/c${book}.json?v=review3-20261104`,
     )
       .then(async (response) => {
         if (!response.ok)

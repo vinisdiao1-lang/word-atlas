@@ -4,7 +4,7 @@
   "items": {
     "c13-t1-p1:1": {
       "answer": "update",
-      "stem": "Database of tourism . easy for tourism-related businesses to get on the list services allowed businesses to [1] ____ information regularly . provided a .country-wide evaluation of businesses, including their impact on the [2] ____",
+      "stem": "Database of tourism services: easy for tourism-related businesses to get on the list; allowed businesses to [1] ____ information regularly; provided a country-wide evaluation of businesses, including their impact on the [2] ____.",
       "evidence": [
         {
           "paragraph": 1,
@@ -29,7 +29,7 @@
     },
     "c13-t1-p1:2": {
       "answer": "environment",
-      "stem": "Database of tourism . easy for tourism-related businesses to get on the list services allowed businesses to [1] ____ information regularly . provided a .country-wide evaluation of businesses, including their impact on the [2] ____",
+      "stem": "Database of tourism services: easy for tourism-related businesses to get on the list; allowed businesses to [1] ____ information regularly; provided a country-wide evaluation of businesses, including their impact on the [2] ____.",
       "evidence": [
         {
           "paragraph": 1,
@@ -54,7 +54,7 @@
     },
     "c13-t1-p1:3": {
       "answer": "captain",
-      "stem": "Special features on • e.g. an interview with a former sports [3] ____ , local topics and an interactive tour of various locations used in [4] ____",
+      "stem": "Special features on local topics: e.g. an interview with a former sports [3] ____ and an interactive tour of various locations used in [4] ____.",
       "evidence": [
         {
           "paragraph": 2,
@@ -79,7 +79,7 @@
     },
     "c13-t1-p1:4": {
       "answer": "films",
-      "stem": "Special features on • e.g. an interview with a former sports [3] ____ , local topics and an interactive tour of various locations used in [4] ____",
+      "stem": "Special features on local topics: e.g. an interview with a former sports [3] ____ and an interactive tour of various locations used in [4] ____.",
       "evidence": [
         {
           "paragraph": 2,
@@ -104,7 +104,7 @@
     },
     "c13-t1-p1:5": {
       "answer": "season",
-      "stem": "Information on driving . varied depending on the [5] ____ routes . Travel Planner included a map showing selected places, details of public transport and local [6] ____",
+      "stem": "Information on driving routes: varied depending on the [5] ____.",
       "evidence": [
         {
           "paragraph": 2,
@@ -129,7 +129,7 @@
     },
     "c13-t1-p1:6": {
       "answer": "accommodation",
-      "stem": "Information on driving . varied depending on the [5] ____ routes . Travel Planner included a map showing selected places, details of public transport and local [6] ____",
+      "stem": "Travel Planner: included a map showing selected places, details of public transport and local [6] ____.",
       "evidence": [
         {
           "paragraph": 3,
@@ -542,7 +542,7 @@
     },
     "c13-t1-p2:23": {
       "answer": "A",
-      "stem": "23 Francoise Wemelsfelder Lis;t of Ideas",
+      "stem": "23 Francoise Wemelsfelder",
       "evidence": [
         {
           "paragraph": 7,
@@ -1006,7 +1006,7 @@
     },
     "c13-t1-p3:37": {
       "answer": "B",
-      "stem": "37 The participants in David Moffat's study had to assess music without List of Ideas",
+      "stem": "37 The participants in David Moffat's study had to assess music without",
       "evidence": [
         {
           "paragraph": 7,
@@ -1573,7 +1573,7 @@
     },
     "c13-t2-p2:20": {
       "answer": "c",
-      "stem": "20 The effect of oxytocin varies from one type of person to another. List of Researchers",
+      "stem": "20 The effect of oxytocin varies from one type of person to another.",
       "evidence": [
         {
           "paragraph": 4,
@@ -1936,7 +1936,7 @@
     },
     "c13-t2-p3:31": {
       "answer": "D",
-      "stem": "What was original about the ME2? A It contained technology that had been developed for the sports industry. B It appealed to young people who were keen to improve their physical fitness. C It took advantage of a current trend for video games with colourful 30 graphics. D It was a handheld game that addressed people's concerns about unhealthy lifestyles.",
+      "stem": "What was original about the ME2? A It contained technology that had been developed for the sports industry. B It appealed to young people who were keen to improve their physical fitness. C It took advantage of a current trend for video games with colourful 3D graphics. D It was a handheld game that addressed people's concerns about unhealthy lifestyles.",
       "evidence": [
         {
           "paragraph": 7,
@@ -1987,7 +1987,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "By reaffirming the toy category's association with physical play, the ME2 counteracted some of the widely perceived negative impacts of digital gaming devices. Like other handheld games, the device featured a host of exciting interactive games, a full-color LCD screen, and advanced 30 graphics."
+          "quote": "By reaffirming the toy category's association with physical play, the ME2 counteracted some of the widely perceived negative impacts of digital gaming devices. Like other handheld games, the device featured a host of exciting interactive games, a full-color LCD screen, and advanced 3D graphics."
         }
       ],
       "reasoning": [
@@ -2108,7 +2108,7 @@
     },
     "c13-t2-p3:37": {
       "answer": "A",
-      "stem": "37 It successfully avoided having to charge its customers less for its core products. List of companies",
+      "stem": "37 It successfully avoided having to charge its customers less for its core products.",
       "evidence": [
         {
           "paragraph": 4,
@@ -2333,7 +2333,7 @@
     },
     "c13-t3-p1:6": {
       "answer": "hormones",
-      "stem": "leaves up to [6] ____ metres long to make brushes",
+      "stem": "Coconut water: a drink; a source of [6] ____ for other plants.",
       "evidence": [
         {
           "paragraph": 4,
@@ -2383,7 +2383,7 @@
     },
     "c13-t3-p1:8": {
       "answer": "dynamite",
-      "stem": "[8] ____ )",
+      "stem": "Coconut flesh: glycerine (an ingredient in [8] ____).",
       "evidence": [
         {
           "paragraph": 4,
@@ -2597,7 +2597,7 @@
     },
     "c13-t3-p2:17": {
       "answer": "B",
-      "stem": "17 the connection between the amount of baby talk babies hear and how much vocalising they do themselves List of Researchers",
+      "stem": "17 the connection between the amount of baby talk babies hear and how much vocalising they do themselves",
       "evidence": [
         {
           "paragraph": 4,
@@ -3172,7 +3172,7 @@
     },
     "c13-t3-p3:40": {
       "answer": "A",
-      "stem": "40 Information about the decline of the Harappan Civilisation has been lacking. List of Researchers",
+      "stem": "40 Information about the decline of the Harappan Civilisation has been lacking.",
       "evidence": [
         {
           "paragraph": 3,
@@ -3982,7 +3982,7 @@
     },
     "c13-t4-p3:30": {
       "answer": "F",
-      "stem": "· Write the correct letter, A-G, in boxes [30] ____-[34] ____ on your answer sheet. Jeremy Bentham Jeremy Bentham was active in other areas besides philosophy. In the 1790s he suggested a type of technology to improve 30 ...................................... for …",
+      "stem": "Jeremy Bentham was active in other areas besides philosophy. In the 1790s he suggested a type of technology to improve [30] ____ for different Government departments.",
       "evidence": [
         {
           "paragraph": 5,
@@ -4082,7 +4082,7 @@
     },
     "c13-t4-p3:34": {
       "answer": "A",
-      "stem": "· Write the correct letter, A-G, in boxes [30] ____-[34] ____ on your answer sheet. Jeremy Bentham Jeremy Bentham was active in other areas besides philosophy. In the 1790s he suggested a type of technology to improve 30 ...................................... for different …",
+      "stem": "When researching happiness, he investigated possibilities for its [34] ____, and suggested some methods of doing this.",
       "evidence": [
         {
           "paragraph": 6,

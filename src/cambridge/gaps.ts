@@ -44,6 +44,19 @@ export function gapParagraphs(
     return [...paragraphs.slice(0, start), ...body];
   }
   const seen = new Set<number>();
+  // Visible answer leaders take priority over ordinary quantities such as
+  // "leaves up to 6 metres long" appearing before question 6 in a table.
+  for (let i = start; i < paragraphs.length; i++) {
+    paragraphs[i] = paragraphs[i].replace(
+      /\b(\d{1,2})(?![\dA-Za-z%]|,\d)\s*[._…·]{2,}(?:\s*[._…·]+)*/g,
+      (raw, number) => {
+        const n = Number(number);
+        if (n < group.from || n > group.to || seen.has(n)) return raw;
+        seen.add(n);
+        return `{{${n}}}`;
+      },
+    );
+  }
   for (let i = start; i < paragraphs.length; i++) {
     if (/^(?:Stage|Step|Phase)\s+\d+\s*:\s*$/i.test(paragraphs[i])) continue;
     paragraphs[i] = paragraphs[i].replace(

@@ -1,0 +1,262 @@
+{
+  "round": 3,
+  "completedOn": "2026-11-04",
+  "verifiedQuestions": 1440,
+  "answerValuesChanged": 0,
+  "method": "主审逐页查看36张原书答案图（按册四页拼版辅助比较，必要处查看原页），逐项对照既有答案台账；大小写差异按现有判分归一规则处理，不改原有答案值。",
+  "referenceLedger": "cambridge-answer-key-review.json",
+  "tests": [
+    {
+      "book": 11,
+      "test": 1,
+      "sourceImage": "c11-p126.jpg",
+      "sourceImageSha256": "0ce82bd4924f1af4df086db3e72c2560c90ca51ae4b84013d45479796c562e7f",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 11,
+      "test": 2,
+      "sourceImage": "c11-p128.jpg",
+      "sourceImageSha256": "99b94c30d70aab8c6e8fd8104f606dd58efc606f8e670f758b13d5aa854e0ea3",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 11,
+      "test": 3,
+      "sourceImage": "c11-p130.jpg",
+      "sourceImageSha256": "bab9e3b19395e489dabeffddf443a511e95f30f472a1f55e49d2b80f1bb0fca7",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 11,
+      "test": 4,
+      "sourceImage": "c11-p132.jpg",
+      "sourceImageSha256": "7f76adc09c73de003cf9fa4a93515da4cffe5c699ab43d6eddd376f4fec9d9b0",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 12,
+      "test": 1,
+      "sourceImage": "c12-p117.jpg",
+      "sourceImageSha256": "b8b11ae0832bc4f50b6ffadf584421251ca04510b39ee83db1a6b86f1ad75952",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 12,
+      "test": 2,
+      "sourceImage": "c12-p119.jpg",
+      "sourceImageSha256": "83de34cac848d2552e61742fdff3010c5bcb04b2feea8e47b5538e36da6e8ab1",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 12,
+      "test": 3,
+      "sourceImage": "c12-p121.jpg",
+      "sourceImageSha256": "0750f38349d89cd09ed4914820d65abfd32704f443a7fb85b774b24d6e9ec3b3",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 12,
+      "test": 4,
+      "sourceImage": "c12-p123.jpg",
+      "sourceImageSha256": "d46219fd4cadc61e6741b26f5574b40ce6db19ed59af6c7b98db815b7d067ea4",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 13,
+      "test": 1,
+      "sourceImage": "c13-p120.jpg",
+      "sourceImageSha256": "771010ab13118a9065df23bef29208e021624f35fbdc8956b0d3c4fbf3a9b19d",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 13,
+      "test": 2,
+      "sourceImage": "c13-p122.jpg",
+      "sourceImageSha256": "d1d17aed15e35ef85627ff96ea3f5c158f31b1e617b9b2bc6ae345a15edeb0b8",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 13,
+      "test": 3,
+      "sourceImage": "c13-p124.jpg",
+      "sourceImageSha256": "01d65ff2bd3814e32ca7f90775b350cf38b3993128bd9a143a25d071ea9f5a36",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 13,
+      "test": 4,
+      "sourceImage": "c13-p126.jpg",
+      "sourceImageSha256": "8c536838296a7e6aa24e94a9ca9f806610dcf58062856fa5aba5ca48e07817c7",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 14,
+      "test": 1,
+      "sourceImage": "c14-p121.jpg",
+      "sourceImageSha256": "c2a0f9b17a446a6903eee4285cfbcb29d2322abad03ceda8deb835b4726c64c0",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "sourceImage": "c14-p123.jpg",
+      "sourceImageSha256": "d79ffae2d3f61968eafe05d1b42f0ec6d1a44ca643d5b754c97b43bcbf91ffef",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "sourceImage": "c14-p125.jpg",
+      "sourceImageSha256": "810e8033ac07a5e6096d3ce5ba6f0c91f0d629939e318ae18e3501f166ab0230",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "sourceImage": "c14-p127.jpg",
+      "sourceImageSha256": "d2faa0ae605df5da71b15bad006029652a44ce3ebbad9d2bf86694586c8d4c17",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 15,
+      "test": 1,
+      "sourceImage": "c15-p122.jpg",
+      "sourceImageSha256": "86104444709253de8b7cfcce062304269f566f1f28f0774766b9440181469f99",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 15,
+      "test": 2,
+      "sourceImage": "c15-p124.jpg",
+      "sourceImageSha256": "6cd608a089bc71dad0495b5b07ebb062effb1f9d7bfe9200b1e27b7e40aeaf1b",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 15,
+      "test": 3,
+      "sourceImage": "c15-p126.jpg",
+      "sourceImageSha256": "da68e208903524ae0d5136c950410ef8cadf147c6da187f9b81bee806b95c677",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "sourceImage": "c15-p128.jpg",
+      "sourceImageSha256": "fbaa47e6bd44e73670698f26a6e9929e142fd73d45e9afa2dfc8fdac068482d3",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "sourceImage": "c16-p122.jpg",
+      "sourceImageSha256": "63589d489e43133db93cb655d9da5229e6d151e7db97ecdaa50fec3f6e6d6570",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 16,
+      "test": 2,
+      "sourceImage": "c16-p124.jpg",
+      "sourceImageSha256": "012aeb79a2d7463379af430490936bcfd1d846f1751e4cb7b81c7c9507085361",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "sourceImage": "c16-p126.jpg",
+      "sourceImageSha256": "c5d1c6eba3b6a7699e31a1efc174a2758d362d4714701a2a1d3385c0470b53c1",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 16,
+      "test": 4,
+      "sourceImage": "c16-p128.jpg",
+      "sourceImageSha256": "86b6ad59c7423a9f7b11b6d9dac0a90e769ee811a8c92a95fee38db60c3b5279",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 17,
+      "test": 1,
+      "sourceImage": "c17-p120.jpg",
+      "sourceImageSha256": "7c78641475a18e3206fa5c02854bd8394a8b8ba57497e9fa2f7d924f1cfabf10",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 17,
+      "test": 2,
+      "sourceImage": "c17-p122.jpg",
+      "sourceImageSha256": "49225635919a6920b6fc99ed539a7fba5c67f92595193ef47b3ed25ee2c1157c",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 17,
+      "test": 3,
+      "sourceImage": "c17-p124.jpg",
+      "sourceImageSha256": "b87f480643df16087e2329a304aa3e4dfb425c04c4e81cc2197decffd6f6ef26",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 17,
+      "test": 4,
+      "sourceImage": "c17-p126.jpg",
+      "sourceImageSha256": "1015918d419d9f840939bb4a9e600f943db0a44cfce4d48172d4a45d9ed0806c",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 18,
+      "test": 1,
+      "sourceImage": "c18-p119.jpg",
+      "sourceImageSha256": "7a6957b4054407d63c8784da3c089065e0ac8d8f7de11aab4f9ca4e27ec88706",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 18,
+      "test": 2,
+      "sourceImage": "c18-p121.jpg",
+      "sourceImageSha256": "62fde06c62154573e80a76d7776932cb3d9e2fac1a3b4afc04802898d38c031e",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 18,
+      "test": 3,
+      "sourceImage": "c18-p123.jpg",
+      "sourceImageSha256": "a1f1471aa3a9810e409be6db951c9e530394926a780593c561cc0637880e8b6e",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 18,
+      "test": 4,
+      "sourceImage": "c18-p125.jpg",
+      "sourceImageSha256": "78f64f6183b64024ebdf76e23e53a367ac81d33e058b8bd6abe787393c45cdc1",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 19,
+      "test": 1,
+      "sourceImage": "c19-p120.jpg",
+      "sourceImageSha256": "5b1a58f690c54c98283a1e8a40556b613306a65397f7fe4483d926a565b1f4e3",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 19,
+      "test": 2,
+      "sourceImage": "c19-p122.jpg",
+      "sourceImageSha256": "776573a1f6be1cf218e42d1490fcbcfd9c5ae761555aa4c4c00dec21b33de549",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 19,
+      "test": 3,
+      "sourceImage": "c19-p124.jpg",
+      "sourceImageSha256": "610ded798af3380bd1cb393427822cea7f132aea93877377e10c5900eb19191c",
+      "result": "answers-and-unordered-sets-confirmed"
+    },
+    {
+      "book": 19,
+      "test": 4,
+      "sourceImage": "c19-p126.jpg",
+      "sourceImageSha256": "567a951a4058bf2c016147d0a08f5c6af679102d95629608bc81f5066dd44e42",
+      "result": "answers-and-unordered-sets-confirmed"
+    }
+  ]
+}

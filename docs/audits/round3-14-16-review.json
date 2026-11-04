@@ -1,0 +1,914 @@
+{
+  "status": "completed",
+  "books": [
+    14,
+    15,
+    16
+  ],
+  "baseline": "34f12c6a",
+  "reviewedIds": [
+    "c14-t1-p1:1",
+    "c14-t1-p1:2",
+    "c14-t1-p1:3",
+    "c14-t1-p1:4",
+    "c14-t1-p1:5",
+    "c14-t1-p1:6",
+    "c14-t1-p1:7",
+    "c14-t1-p1:8",
+    "c14-t1-p1:9",
+    "c14-t1-p1:10",
+    "c14-t1-p1:11",
+    "c14-t1-p1:12",
+    "c14-t1-p1:13",
+    "c14-t1-p2:14",
+    "c14-t1-p2:15",
+    "c14-t1-p2:16",
+    "c14-t1-p2:17",
+    "c14-t1-p2:18",
+    "c14-t1-p2:19",
+    "c14-t1-p2:20",
+    "c14-t1-p2:21",
+    "c14-t1-p2:22",
+    "c14-t1-p2:23",
+    "c14-t1-p2:24",
+    "c14-t1-p2:25",
+    "c14-t1-p2:26",
+    "c14-t1-p3:27",
+    "c14-t1-p3:28",
+    "c14-t1-p3:29",
+    "c14-t1-p3:30",
+    "c14-t1-p3:31",
+    "c14-t1-p3:32",
+    "c14-t1-p3:33",
+    "c14-t1-p3:34",
+    "c14-t1-p3:35",
+    "c14-t1-p3:36",
+    "c14-t1-p3:37",
+    "c14-t1-p3:38",
+    "c14-t1-p3:39",
+    "c14-t1-p3:40",
+    "c14-t2-p1:1",
+    "c14-t2-p1:2",
+    "c14-t2-p1:3",
+    "c14-t2-p1:4",
+    "c14-t2-p1:5",
+    "c14-t2-p1:6",
+    "c14-t2-p1:7",
+    "c14-t2-p1:8",
+    "c14-t2-p1:9",
+    "c14-t2-p1:10",
+    "c14-t2-p1:11",
+    "c14-t2-p1:12",
+    "c14-t2-p1:13",
+    "c14-t2-p2:14",
+    "c14-t2-p2:15",
+    "c14-t2-p2:16",
+    "c14-t2-p2:17",
+    "c14-t2-p2:18",
+    "c14-t2-p2:19",
+    "c14-t2-p2:20",
+    "c14-t2-p2:21",
+    "c14-t2-p2:22",
+    "c14-t2-p2:23",
+    "c14-t2-p2:24",
+    "c14-t2-p2:25",
+    "c14-t2-p2:26",
+    "c14-t2-p3:27",
+    "c14-t2-p3:28",
+    "c14-t2-p3:29",
+    "c14-t2-p3:30",
+    "c14-t2-p3:31",
+    "c14-t2-p3:32",
+    "c14-t2-p3:33",
+    "c14-t2-p3:34",
+    "c14-t2-p3:35",
+    "c14-t2-p3:36",
+    "c14-t2-p3:37",
+    "c14-t2-p3:38",
+    "c14-t2-p3:39",
+    "c14-t2-p3:40",
+    "c14-t3-p1:1",
+    "c14-t3-p1:2",
+    "c14-t3-p1:3",
+    "c14-t3-p1:4",
+    "c14-t3-p1:5",
+    "c14-t3-p1:6",
+    "c14-t3-p1:7",
+    "c14-t3-p1:8",
+    "c14-t3-p1:9",
+    "c14-t3-p1:10",
+    "c14-t3-p1:11",
+    "c14-t3-p1:12",
+    "c14-t3-p1:13",
+    "c14-t3-p2:14",
+    "c14-t3-p2:15",
+    "c14-t3-p2:16",
+    "c14-t3-p2:17",
+    "c14-t3-p2:18",
+    "c14-t3-p2:19",
+    "c14-t3-p2:20",
+    "c14-t3-p2:21",
+    "c14-t3-p2:22",
+    "c14-t3-p2:23",
+    "c14-t3-p2:24",
+    "c14-t3-p2:25",
+    "c14-t3-p2:26",
+    "c14-t3-p3:27",
+    "c14-t3-p3:28",
+    "c14-t3-p3:29",
+    "c14-t3-p3:30",
+    "c14-t3-p3:31",
+    "c14-t3-p3:32",
+    "c14-t3-p3:33",
+    "c14-t3-p3:34",
+    "c14-t3-p3:35",
+    "c14-t3-p3:36",
+    "c14-t3-p3:37",
+    "c14-t3-p3:38",
+    "c14-t3-p3:39",
+    "c14-t3-p3:40",
+    "c14-t4-p1:1",
+    "c14-t4-p1:2",
+    "c14-t4-p1:3",
+    "c14-t4-p1:4",
+    "c14-t4-p1:5",
+    "c14-t4-p1:6",
+    "c14-t4-p1:7",
+    "c14-t4-p1:8",
+    "c14-t4-p1:9",
+    "c14-t4-p1:10",
+    "c14-t4-p1:11",
+    "c14-t4-p1:12",
+    "c14-t4-p1:13",
+    "c14-t4-p2:14",
+    "c14-t4-p2:15",
+    "c14-t4-p2:16",
+    "c14-t4-p2:17",
+    "c14-t4-p2:18",
+    "c14-t4-p2:19",
+    "c14-t4-p2:20",
+    "c14-t4-p2:21",
+    "c14-t4-p2:22",
+    "c14-t4-p2:23",
+    "c14-t4-p2:24",
+    "c14-t4-p2:25",
+    "c14-t4-p2:26",
+    "c14-t4-p3:27",
+    "c14-t4-p3:28",
+    "c14-t4-p3:29",
+    "c14-t4-p3:30",
+    "c14-t4-p3:31",
+    "c14-t4-p3:32",
+    "c14-t4-p3:33",
+    "c14-t4-p3:34",
+    "c14-t4-p3:35",
+    "c14-t4-p3:36",
+    "c14-t4-p3:37",
+    "c14-t4-p3:38",
+    "c14-t4-p3:39",
+    "c14-t4-p3:40",
+    "c15-t1-p1:1",
+    "c15-t1-p1:2",
+    "c15-t1-p1:3",
+    "c15-t1-p1:4",
+    "c15-t1-p1:5",
+    "c15-t1-p1:6",
+    "c15-t1-p1:7",
+    "c15-t1-p1:8",
+    "c15-t1-p1:9",
+    "c15-t1-p1:10",
+    "c15-t1-p1:11",
+    "c15-t1-p1:12",
+    "c15-t1-p1:13",
+    "c15-t1-p2:14",
+    "c15-t1-p2:15",
+    "c15-t1-p2:16",
+    "c15-t1-p2:17",
+    "c15-t1-p2:18",
+    "c15-t1-p2:19",
+    "c15-t1-p2:20",
+    "c15-t1-p2:21",
+    "c15-t1-p2:22",
+    "c15-t1-p2:23",
+    "c15-t1-p2:24",
+    "c15-t1-p2:25",
+    "c15-t1-p2:26",
+    "c15-t1-p3:27",
+    "c15-t1-p3:28",
+    "c15-t1-p3:29",
+    "c15-t1-p3:30",
+    "c15-t1-p3:31",
+    "c15-t1-p3:32",
+    "c15-t1-p3:33",
+    "c15-t1-p3:34",
+    "c15-t1-p3:35",
+    "c15-t1-p3:36",
+    "c15-t1-p3:37",
+    "c15-t1-p3:38",
+    "c15-t1-p3:39",
+    "c15-t1-p3:40",
+    "c15-t2-p1:1",
+    "c15-t2-p1:2",
+    "c15-t2-p1:3",
+    "c15-t2-p1:4",
+    "c15-t2-p1:5",
+    "c15-t2-p1:6",
+    "c15-t2-p1:7",
+    "c15-t2-p1:8",
+    "c15-t2-p1:9",
+    "c15-t2-p1:10",
+    "c15-t2-p1:11",
+    "c15-t2-p1:12",
+    "c15-t2-p1:13",
+    "c15-t2-p2:14",
+    "c15-t2-p2:15",
+    "c15-t2-p2:16",
+    "c15-t2-p2:17",
+    "c15-t2-p2:18",
+    "c15-t2-p2:19",
+    "c15-t2-p2:20",
+    "c15-t2-p2:21",
+    "c15-t2-p2:22",
+    "c15-t2-p2:23",
+    "c15-t2-p2:24",
+    "c15-t2-p2:25",
+    "c15-t2-p2:26",
+    "c15-t2-p3:27",
+    "c15-t2-p3:28",
+    "c15-t2-p3:29",
+    "c15-t2-p3:30",
+    "c15-t2-p3:31",
+    "c15-t2-p3:32",
+    "c15-t2-p3:33",
+    "c15-t2-p3:34",
+    "c15-t2-p3:35",
+    "c15-t2-p3:36",
+    "c15-t2-p3:37",
+    "c15-t2-p3:38",
+    "c15-t2-p3:39",
+    "c15-t2-p3:40",
+    "c15-t3-p1:1",
+    "c15-t3-p1:2",
+    "c15-t3-p1:3",
+    "c15-t3-p1:4",
+    "c15-t3-p1:5",
+    "c15-t3-p1:6",
+    "c15-t3-p1:7",
+    "c15-t3-p1:8",
+    "c15-t3-p1:9",
+    "c15-t3-p1:10",
+    "c15-t3-p1:11",
+    "c15-t3-p1:12",
+    "c15-t3-p1:13",
+    "c15-t3-p2:14",
+    "c15-t3-p2:15",
+    "c15-t3-p2:16",
+    "c15-t3-p2:17",
+    "c15-t3-p2:18",
+    "c15-t3-p2:19",
+    "c15-t3-p2:20",
+    "c15-t3-p2:21",
+    "c15-t3-p2:22",
+    "c15-t3-p2:23",
+    "c15-t3-p2:24",
+    "c15-t3-p2:25",
+    "c15-t3-p2:26",
+    "c15-t3-p3:27",
+    "c15-t3-p3:28",
+    "c15-t3-p3:29",
+    "c15-t3-p3:30",
+    "c15-t3-p3:31",
+    "c15-t3-p3:32",
+    "c15-t3-p3:33",
+    "c15-t3-p3:34",
+    "c15-t3-p3:35",
+    "c15-t3-p3:36",
+    "c15-t3-p3:37",
+    "c15-t3-p3:38",
+    "c15-t3-p3:39",
+    "c15-t3-p3:40",
+    "c15-t4-p1:1",
+    "c15-t4-p1:2",
+    "c15-t4-p1:3",
+    "c15-t4-p1:4",
+    "c15-t4-p1:5",
+    "c15-t4-p1:6",
+    "c15-t4-p1:7",
+    "c15-t4-p1:8",
+    "c15-t4-p1:9",
+    "c15-t4-p1:10",
+    "c15-t4-p1:11",
+    "c15-t4-p1:12",
+    "c15-t4-p1:13",
+    "c15-t4-p2:14",
+    "c15-t4-p2:15",
+    "c15-t4-p2:16",
+    "c15-t4-p2:17",
+    "c15-t4-p2:18",
+    "c15-t4-p2:19",
+    "c15-t4-p2:20",
+    "c15-t4-p2:21",
+    "c15-t4-p2:22",
+    "c15-t4-p2:23",
+    "c15-t4-p2:24",
+    "c15-t4-p2:25",
+    "c15-t4-p2:26",
+    "c15-t4-p3:27",
+    "c15-t4-p3:28",
+    "c15-t4-p3:29",
+    "c15-t4-p3:30",
+    "c15-t4-p3:31",
+    "c15-t4-p3:32",
+    "c15-t4-p3:33",
+    "c15-t4-p3:34",
+    "c15-t4-p3:35",
+    "c15-t4-p3:36",
+    "c15-t4-p3:37",
+    "c15-t4-p3:38",
+    "c15-t4-p3:39",
+    "c15-t4-p3:40",
+    "c16-t1-p1:1",
+    "c16-t1-p1:2",
+    "c16-t1-p1:3",
+    "c16-t1-p1:4",
+    "c16-t1-p1:5",
+    "c16-t1-p1:6",
+    "c16-t1-p1:7",
+    "c16-t1-p1:8",
+    "c16-t1-p1:9",
+    "c16-t1-p1:10",
+    "c16-t1-p1:11",
+    "c16-t1-p1:12",
+    "c16-t1-p1:13",
+    "c16-t1-p2:14",
+    "c16-t1-p2:15",
+    "c16-t1-p2:16",
+    "c16-t1-p2:17",
+    "c16-t1-p2:18",
+    "c16-t1-p2:19",
+    "c16-t1-p2:20",
+    "c16-t1-p2:21",
+    "c16-t1-p2:22",
+    "c16-t1-p2:23",
+    "c16-t1-p2:24",
+    "c16-t1-p2:25",
+    "c16-t1-p2:26",
+    "c16-t1-p3:27",
+    "c16-t1-p3:28",
+    "c16-t1-p3:29",
+    "c16-t1-p3:30",
+    "c16-t1-p3:31",
+    "c16-t1-p3:32",
+    "c16-t1-p3:33",
+    "c16-t1-p3:34",
+    "c16-t1-p3:35",
+    "c16-t1-p3:36",
+    "c16-t1-p3:37",
+    "c16-t1-p3:38",
+    "c16-t1-p3:39",
+    "c16-t1-p3:40",
+    "c16-t2-p1:1",
+    "c16-t2-p1:2",
+    "c16-t2-p1:3",
+    "c16-t2-p1:4",
+    "c16-t2-p1:5",
+    "c16-t2-p1:6",
+    "c16-t2-p1:7",
+    "c16-t2-p1:8",
+    "c16-t2-p1:9",
+    "c16-t2-p1:10",
+    "c16-t2-p1:11",
+    "c16-t2-p1:12",
+    "c16-t2-p1:13",
+    "c16-t2-p2:14",
+    "c16-t2-p2:15",
+    "c16-t2-p2:16",
+    "c16-t2-p2:17",
+    "c16-t2-p2:18",
+    "c16-t2-p2:19",
+    "c16-t2-p2:20",
+    "c16-t2-p2:21",
+    "c16-t2-p2:22",
+    "c16-t2-p2:23",
+    "c16-t2-p2:24",
+    "c16-t2-p2:25",
+    "c16-t2-p2:26",
+    "c16-t2-p3:27",
+    "c16-t2-p3:28",
+    "c16-t2-p3:29",
+    "c16-t2-p3:30",
+    "c16-t2-p3:31",
+    "c16-t2-p3:32",
+    "c16-t2-p3:33",
+    "c16-t2-p3:34",
+    "c16-t2-p3:35",
+    "c16-t2-p3:36",
+    "c16-t2-p3:37",
+    "c16-t2-p3:38",
+    "c16-t2-p3:39",
+    "c16-t2-p3:40",
+    "c16-t3-p1:1",
+    "c16-t3-p1:2",
+    "c16-t3-p1:3",
+    "c16-t3-p1:4",
+    "c16-t3-p1:5",
+    "c16-t3-p1:6",
+    "c16-t3-p1:7",
+    "c16-t3-p1:8",
+    "c16-t3-p1:9",
+    "c16-t3-p1:10",
+    "c16-t3-p1:11",
+    "c16-t3-p1:12",
+    "c16-t3-p1:13",
+    "c16-t3-p2:14",
+    "c16-t3-p2:15",
+    "c16-t3-p2:16",
+    "c16-t3-p2:17",
+    "c16-t3-p2:18",
+    "c16-t3-p2:19",
+    "c16-t3-p2:20",
+    "c16-t3-p2:21",
+    "c16-t3-p2:22",
+    "c16-t3-p2:23",
+    "c16-t3-p2:24",
+    "c16-t3-p2:25",
+    "c16-t3-p2:26",
+    "c16-t3-p3:27",
+    "c16-t3-p3:28",
+    "c16-t3-p3:29",
+    "c16-t3-p3:30",
+    "c16-t3-p3:31",
+    "c16-t3-p3:32",
+    "c16-t3-p3:33",
+    "c16-t3-p3:34",
+    "c16-t3-p3:35",
+    "c16-t3-p3:36",
+    "c16-t3-p3:37",
+    "c16-t3-p3:38",
+    "c16-t3-p3:39",
+    "c16-t3-p3:40",
+    "c16-t4-p1:1",
+    "c16-t4-p1:2",
+    "c16-t4-p1:3",
+    "c16-t4-p1:4",
+    "c16-t4-p1:5",
+    "c16-t4-p1:6",
+    "c16-t4-p1:7",
+    "c16-t4-p1:8",
+    "c16-t4-p1:9",
+    "c16-t4-p1:10",
+    "c16-t4-p1:11",
+    "c16-t4-p1:12",
+    "c16-t4-p1:13",
+    "c16-t4-p2:14",
+    "c16-t4-p2:15",
+    "c16-t4-p2:16",
+    "c16-t4-p2:17",
+    "c16-t4-p2:18",
+    "c16-t4-p2:19",
+    "c16-t4-p2:20",
+    "c16-t4-p2:21",
+    "c16-t4-p2:22",
+    "c16-t4-p2:23",
+    "c16-t4-p2:24",
+    "c16-t4-p2:25",
+    "c16-t4-p2:26",
+    "c16-t4-p3:27",
+    "c16-t4-p3:28",
+    "c16-t4-p3:29",
+    "c16-t4-p3:30",
+    "c16-t4-p3:31",
+    "c16-t4-p3:32",
+    "c16-t4-p3:33",
+    "c16-t4-p3:34",
+    "c16-t4-p3:35",
+    "c16-t4-p3:36",
+    "c16-t4-p3:37",
+    "c16-t4-p3:38",
+    "c16-t4-p3:39",
+    "c16-t4-p3:40"
+  ],
+  "changed": [
+    {
+      "id": "c14-t1-p3:31",
+      "fields": [
+        "stem"
+      ],
+      "reason": "原题句末混入下一组List of Researchers标题，删除非题干内容。",
+      "before": {
+        "stem": "31 Dissatisfaction with pay is not the only reason why hospitality workers change jobs. List of Researchers"
+      },
+      "after": {
+        "stem": "31 Dissatisfaction with pay is not the only reason why hospitality workers change jobs."
+      }
+    },
+    {
+      "id": "c14-t3-p1:13",
+      "fields": [
+        "stem"
+      ],
+      "reason": "移除混入题干的后续选项表标题，恢复完整原题边界。",
+      "before": {
+        "stem": "13 People of low intelligence are likely to lead uncontrolled lives. List of Theories"
+      },
+      "after": {
+        "stem": "13 People of low intelligence are likely to lead uncontrolled lives."
+      }
+    },
+    {
+      "id": "c14-t3-p3:31",
+      "fields": [
+        "stem"
+      ],
+      "reason": "移除混入题干的后续选项表标题，恢复完整原题边界。",
+      "before": {
+        "stem": "31 Activities can be classified on a scale of playfulness. List of Researchers"
+      },
+      "after": {
+        "stem": "31 Activities can be classified on a scale of playfulness."
+      }
+    },
+    {
+      "id": "c14-t4-p3:37",
+      "fields": [
+        "stem"
+      ],
+      "reason": "原题跨行导致题干关键比较对象或事件语境缺失；按questionText补全连续题意。",
+      "before": {
+        "stem": "• the [37] ____ of plastic used in the lab did not always reflect those"
+      },
+      "after": {
+        "stem": "• the [37] ____ of plastic used in the lab did not always reflect those in the ocean"
+      }
+    },
+    {
+      "id": "c14-t4-p3:39",
+      "fields": [
+        "stem"
+      ],
+      "reason": "原题跨行导致题干关键比较对象或事件语境缺失；按questionText补全连续题意。",
+      "before": {
+        "stem": "[39] ____ (e.g. involving oil)."
+      },
+      "after": {
+        "stem": "Rochman says more information is needed on the possible impact of future [39] ____ (e.g. involving oil)."
+      }
+    },
+    {
+      "id": "c15-t1-p3:37",
+      "fields": [
+        "stem"
+      ],
+      "reason": "移除混入题干的后续探险家选项表标题。",
+      "before": {
+        "stem": "37 He defined exploration as being both unique and of value to others. List of Explorers"
+      },
+      "after": {
+        "stem": "37 He defined exploration as being both unique and of value to others."
+      }
+    },
+    {
+      "id": "c15-t2-p2:26",
+      "fields": [
+        "stem"
+      ],
+      "reason": "移除混入原题末尾的人物名单标题。",
+      "before": {
+        "stem": "26 Our current efforts at preserving biodiversity are insufficient. List of People"
+      },
+      "after": {
+        "stem": "26 Our current efforts at preserving biodiversity are insufficient."
+      }
+    },
+    {
+      "id": "c16-t1-p2:23",
+      "fields": [
+        "stem"
+      ],
+      "reason": "删除句末混入的下一题连接语，保持本题句子完整。",
+      "before": {
+        "stem": "A wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long [23] ____ encircled the wall. As a result,"
+      },
+      "after": {
+        "stem": "A wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long [23] ____ encircled the wall."
+      }
+    },
+    {
+      "id": "c16-t1-p2:24",
+      "fields": [
+        "stem"
+      ],
+      "reason": "题干跨行丢失主句，补回未经邀请的访客与进入条件，避免只剩句尾残片。",
+      "before": {
+        "stem": "pyramid grounds unless they knew the [24] ____ of the real entrance."
+      },
+      "after": {
+        "stem": "As a result, any visitors who had not been invited were cleverly prevented from entering the pyramid grounds unless they knew the [24] ____ of the real entrance."
+      }
+    },
+    {
+      "id": "c16-t1-p3:40",
+      "fields": [
+        "stem"
+      ],
+      "reason": "移除串入题干的人物表标题。",
+      "before": {
+        "stem": "40 Authorities should take measures to ensure that there will be adequately paid work for everyone. List of people"
+      },
+      "after": {
+        "stem": "40 Authorities should take measures to ensure that there will be adequately paid work for everyone."
+      }
+    },
+    {
+      "id": "c16-t2-p1:12",
+      "fields": [
+        "stem"
+      ],
+      "reason": "原题跨行只保留and与空格，补回Epona及并列属性，使所求fertility的主体与语法明确。",
+      "before": {
+        "stem": "and [12] ____"
+      },
+      "after": {
+        "stem": "was a representation of goddess Epona — associated with protection of horses and [12] ____"
+      }
+    },
+    {
+      "id": "c16-t1-p3:29",
+      "fields": [
+        "reasoning",
+        "options"
+      ],
+      "reason": "A选项只说不同意建议，旧排除理由擅加“公开”限定；改为文本中操纵输出与意见分歧的区别。",
+      "before": {
+        "reasoning": [
+          "她观察到员工为了达标给算法输入虚假数据，让系统按他们的利益运行，这就是设法使人工智能产生自己想要的结果。",
+          "因此C正确。原文不是主要记述员工怨恨或公开反对建议，也不是偷懒让机器代做；这里是主动操纵输入以改变算法输出，行为目的须读完整。"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "correct": false,
+            "reason": "未在此报告公开反对建议。"
+          },
+          {
+            "label": "B",
+            "correct": false,
+            "reason": "没有描述怨恨情绪。"
+          },
+          {
+            "label": "C",
+            "correct": true,
+            "reason": "虚假输入为达目标，吻合。"
+          },
+          {
+            "label": "D",
+            "correct": false,
+            "reason": "不是让机器代做本应自己做的任务。"
+          }
+        ]
+      },
+      "after": {
+        "reasoning": [
+          "她观察到员工为了达标给算法输入虚假数据，让系统按他们的利益运行，这就是设法使人工智能产生自己想要的结果。",
+          "因此C正确。原文记录员工输入虚假数据，让算法有利于自己达标；并未说明他们认为AI建议不对，也没有描述怨恨情绪或让机器替自己完成应做的任务。应区分操纵系统输出与不同意系统建议。"
+        ],
+        "options": [
+          {
+            "label": "A",
+            "correct": false,
+            "reason": "原文没有描述员工认为AI的建议不正确或与之意见相左；它描述的是输入虚假数据，让算法有利于达成自己的目标。"
+          },
+          {
+            "label": "B",
+            "correct": false,
+            "reason": "没有描述怨恨情绪。"
+          },
+          {
+            "label": "C",
+            "correct": true,
+            "reason": "虚假输入为达目标，吻合。"
+          },
+          {
+            "label": "D",
+            "correct": false,
+            "reason": "不是让机器代做本应自己做的任务。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c16-t3-p2:25",
+      "fields": [
+        "reasoning"
+      ],
+      "reason": "E选项primarily表示主要，并非唯一；删除将其强化为“只”的表述，保留无优先性证据的排除依据。",
+      "before": {
+        "reasoning": [
+          "维京时代城镇和出口市场扩大，保暖兽皮及鹿角用品需求旺，作者据此说猎人生意应很好，支持A猎人受益。",
+          "同段还显示很多货物走山口陆路，支持C不只靠船，两空顺序不限。没有给财富增长最高峰、全世界商人到挪威或只重中东这些更强论断。"
+        ]
+      },
+      "after": {
+        "reasoning": [
+          "维京时代城镇和出口市场扩大，保暖兽皮及鹿角用品需求旺，作者据此说猎人生意应很好，支持A猎人受益。",
+          "同段还显示很多货物走山口陆路，支持C不只靠船，两空顺序不限。没有给财富增长最高峰、全世界商人到挪威或主要关注中东贸易这些更强论断。"
+        ]
+      }
+    },
+    {
+      "id": "c16-t3-p3:37",
+      "fields": [
+        "reviewTip"
+      ],
+      "reason": "旧复习提示把reported/ conducted与载体/地点绑定为绝对词法规则；改为本题具体证据，避免误导其他语境。",
+      "before": {
+        "reviewTip": "reported配期刊，conducted才配实验地点。"
+      },
+      "after": {
+        "reviewTip": "用published in the journal Science确认发表载体；H段列的是研究参与国家和机构，不能把它们当作本文的发表刊物。"
+      }
+    },
+    {
+      "id": "c16-t4-p2:20",
+      "fields": [
+        "stem"
+      ],
+      "reason": "按原卷c16-p89.jpg核实完整目标句，去除邻题串入的“.ead”及丢失21题号的OCR残片；保持本题所求及语境。",
+      "before": {
+        "stem": "… [19] ____ each group's understanding of the plot was. The findings showed a clear pattern in the responses, with those who read screens finding the order of information [20] ____ to recall. Studies by Ziming Liu show that students are tending to .ead .............. words and phrases in a text to save time. This approach, she says, gives the reader a superficial understanding of the [22] …"
+      },
+      "after": {
+        "stem": "The findings showed a clear pattern in the responses, with those who read screens finding the order of information [20] ____ to recall."
+      }
+    },
+    {
+      "id": "c16-t4-p2:22",
+      "fields": [
+        "stem"
+      ],
+      "reason": "按原卷c16-p89.jpg核实完整目标句，去除邻题串入的“.ead”及丢失21题号的OCR残片；保持本题所求及语境。",
+      "before": {
+        "stem": "… that students are tending to .ead .............. words and phrases in a text to save time. This approach, she says, gives the reader a superficial understanding of the [22] ____content of material, leaving no time for thought."
+      },
+      "after": {
+        "stem": "This approach, she says, gives the reader a superficial understanding of the [22] ____ content of material, leaving no time for thought."
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "kind": "source-layout-only",
+      "id": "c15-t3-p3",
+      "blocking": false,
+      "detail": "library.reading P6/P7被Folklorists脚注分割，P13含Tesf 3页眉。已报主审；不改共享library，现有题目证据仍可精确定位。"
+    }
+  ],
+  "semanticBoundaries": [
+    {
+      "id": "c14-t1-p1:11",
+      "boundary": "总体写作受益不提供男女差异；NOT GIVEN。"
+    },
+    {
+      "id": "c14-t2-p3:40",
+      "boundary": "GE与Google先后列举不证明灵感因果；NOT GIVEN。"
+    },
+    {
+      "id": "c15-t2-p2:15",
+      "boundary": "克隆设想的DNA来源与亲缘种代孕需区分；A不是C的混合DNA方案。"
+    },
+    {
+      "id": "c15-t2-p3:37",
+      "boundary": "判断录音者彼此关系；总体正确率未提供朋友/陌生类别正确率比较。"
+    },
+    {
+      "id": "c15-t4-p1:7",
+      "boundary": "medicine一行同题两个空；leaves+bark两者都需填，顺序不限。"
+    },
+    {
+      "id": "c15-t4-p3:37",
+      "boundary": "NO针对本段拒绝道德二分归责的论证重点，不可扩大为作者否认法律和道德规范的意义。"
+    },
+    {
+      "id": "c16-t1-p3:29",
+      "boundary": "操纵虚假输入使算法有利于达标，不等同于员工表达不同意建议；排除A不得擅加公开限定。"
+    },
+    {
+      "id": "c16-t2-p3:39",
+      "boundary": "both要求大学生与情侣两个实验均有结果证据；两个段落均已纳入。"
+    },
+    {
+      "id": "c16-t4-p1:12",
+      "boundary": "原书可选词记法受最多两词限制；architect、the architect、architect’s name可用，the architect’s name三词不可。保持原修正。"
+    },
+    {
+      "id": "c16-t4-p3:36",
+      "boundary": "依原卷NO，语境是电影正负描写不使人转向新立场，而强化既有乐观/怀疑；不可泛化为英语change永远不包含程度变化。"
+    },
+    {
+      "id": "c16-t4-p2:25",
+      "boundary": "更易受假信息影响不证明假信息比过去更普遍；NOT GIVEN。"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "uniqueReviewedIds": 480,
+    "expectedIds": 480,
+    "missingReviewedIds": [],
+    "extraReviewedIds": [],
+    "duplicateReviewedIds": [],
+    "explanationToLibraryAnswerExactChecks": 480,
+    "sourceAnswerLedgerCaseInsensitiveChecks": 480,
+    "evidenceChecks": 498,
+    "evidenceRule": "非空精确连续子串，paragraph为reading.paragraphs的1-based索引",
+    "optionEntriesRead": 252,
+    "errors": [],
+    "keyChanges": 0,
+    "sourceLibraryMutated": false,
+    "baselineDiffChecks": {
+      "baseline": "34f12c6a",
+      "actualChangedQuestions": 16,
+      "reportChangedFieldsMatchActualDiff": true
+    }
+  },
+  "completedAt": "2026-11-04T10:52:49.302179+00:00",
+  "reviewedQuestionCount": 480,
+  "reviewedUniqueQuestionCount": 480,
+  "passageCount": 36,
+  "changedQuestionCount": 16,
+  "method": "逐篇实读library.reading原文全文与questionText原题及完整选项后，对每道当前解析的answer、stem、evidence、reasoning、paraphrases、traps、options（若有）、reviewTip做语义复核。重复证据以原文1-based段落+连续跨度阅读；重复解析文本引用同段已展示全文，未以结构/子串校验代替语义审核。最后另做480题答案值和全部证据精确校验。修正原题跨行残片或选项表标题串入；不因润色而改写正确解析。",
+  "completedTests": [
+    {
+      "book": 14,
+      "test": 1,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 15,
+      "test": 1,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 15,
+      "test": 2,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 15,
+      "test": 3,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 16,
+      "test": 2,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    },
+    {
+      "book": 16,
+      "test": 4,
+      "questions": 40,
+      "status": "semantically-reviewed"
+    }
+  ],
+  "newlyIncludedReviewedCount": 207
+}

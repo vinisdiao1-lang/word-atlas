@@ -524,7 +524,7 @@
     },
     "c17-t1-p2:23": {
       "answer": "C",
-      "stem": "When comparing twentieth-century stadiums to ancient amphitheatres in Section D, which TWO negative features does the writer mention? A They are less imaginatively designed. B They are less spacious. C They are in less convenient locations. D They ar",
+      "stem": "When comparing twentieth-century stadiums to ancient amphitheatres in Section D, which TWO negative features does the writer mention? A They are less imaginatively designed. B They are less spacious. C They are in less convenient locations. D They are less versatile. E They are made of less durable materials.",
       "evidence": [
         {
           "paragraph": 9,
@@ -576,7 +576,7 @@
     },
     "c17-t1-p2:24": {
       "answer": "D",
-      "stem": "When comparing twentieth-century stadiums to ancient amphitheatres in Section D, which TWO negative features does the writer mention? A They are less imaginatively designed. B They are less spacious. C They are in less convenient locations. D They ar",
+      "stem": "When comparing twentieth-century stadiums to ancient amphitheatres in Section D, which TWO negative features does the writer mention? A They are less imaginatively designed. B They are less spacious. C They are in less convenient locations. D They are less versatile. E They are made of less durable materials.",
       "evidence": [
         {
           "paragraph": 7,
@@ -1430,14 +1430,15 @@
         }
       ],
       "reasoning": [
-        "他到美国向包括耶鲁在内的多所大学出售卷轴，但未成功。题干说当时多个美国教育机构很想购买，与作者刻画的求售未果相反，故FALSE。",
-        "后来的广告提教育机构是潜在赠礼对象，并不表示这些机构已热衷购买；最终由以色列考古学家协调购入也不是美国大学购入。按时间、买家身份和出售结果三方面核对，避免混淆。"
+        "原书答案为FALSE。第六段把他向包括耶鲁在内的多所大学求售未果，与后来在报纸刊登出售广告寻找买家连在一起，整体呈现出售遇冷的情境；本题按这一语境，对照题干多个教育机构热衷购买的说法作答。",
+        "严格区分购买意愿与交易结果：unsuccessfully offered只直接证明未售成，单独并不能排除有意购买却因价格或资金等原因未成交。广告把教育机构列为潜在受赠对象也不是已有购买意愿的证据；最终由谁买下同样不直接证明先前大学是否keen。"
       ],
       "paraphrases": [],
       "traps": [
         "潜在广告受众并不等于积极买家。"
       ],
-      "reviewTip": "潜在广告受众并不等于积极买家。"
+      "reviewTip": "潜在广告受众并不等于积极买家。",
+      "verificationNote": "原书答案FALSE保留。判断依赖向多校求售未果、继而刊报寻找买家的整体语境，而不是“未成交必然等于无购买意愿”的逻辑等价。原文没有单独明说大学毫无兴趣，解析应保留这一证据强度边界。"
     },
     "c17-t2-p1:12": {
       "answer": "TRUE",

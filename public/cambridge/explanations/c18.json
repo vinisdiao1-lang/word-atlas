@@ -584,7 +584,7 @@
     },
     "c18-t1-p2:25": {
       "answer": "hawthorn",
-      "stem": "25 Some trees that are small, such as [25] ____••...., are a source of food for animals and insects.",
+      "stem": "25 Some trees that are small, such as [25] ____, are a source of food for animals and insects.",
       "evidence": [
         {
           "paragraph": 9,
@@ -709,7 +709,7 @@
     },
     "c18-t1-p3:30": {
       "answer": "E",
-      "stem": "a comparison between tracking objects in space and the efficiency of a • transportation system",
+      "stem": "a comparison between tracking objects in space and the efficiency of a transportation system",
       "evidence": [
         {
           "paragraph": 8,

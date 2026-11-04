@@ -1,0 +1,416 @@
+{
+  "round": 3,
+  "completedOn": "2026-11-04",
+  "baselineCommit": "34f12c6a62f396d502abe8be82d81e85fb3ea9cc",
+  "status": "complete_with_documented_source_inference_boundaries",
+  "reviewedCount": 1440,
+  "changedExplanationCount": 54,
+  "answerValuesChanged": 0,
+  "changedExplanations": [
+    {
+      "id": "c11-t1-p3:30",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c11-t1-p3:33",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c11-t1-p3:34",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c11-t1-p3:35",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c11-t1-p3:40",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c11-t2-p1:8",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c11-t3-p3:40",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c12-t1-p2:21",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c12-t2-p1:9",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:27",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:28",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:29",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:30",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:37",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:1",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:2",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:3",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:4",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:5",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:6",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p2:23",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t1-p3:37",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t2-p2:20",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t2-p3:31",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t2-p3:32",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t2-p3:37",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t3-p1:6",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t3-p1:8",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t3-p2:17",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t3-p3:40",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t4-p3:30",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c13-t4-p3:34",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c14-t1-p3:31",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c14-t3-p1:13",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c14-t3-p3:31",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c14-t4-p3:37",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c14-t4-p3:39",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c15-t1-p3:37",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c15-t2-p2:26",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c16-t1-p2:23",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c16-t1-p2:24",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c16-t1-p3:29",
+      "fields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "id": "c16-t1-p3:40",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c16-t2-p1:12",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c16-t3-p2:25",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c16-t3-p3:37",
+      "fields": [
+        "reviewTip"
+      ]
+    },
+    {
+      "id": "c16-t4-p2:20",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c16-t4-p2:22",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c17-t1-p2:23",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c17-t1-p2:24",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c17-t2-p1:11",
+      "fields": [
+        "reasoning",
+        "verificationNote"
+      ]
+    },
+    {
+      "id": "c18-t1-p2:25",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c18-t1-p3:30",
+      "fields": [
+        "stem"
+      ]
+    },
+    {
+      "id": "c19-t2-p1:1",
+      "fields": [
+        "stem"
+      ]
+    }
+  ],
+  "reports": [
+    "round3-11-13-review.json",
+    "round3-14-16-review.json",
+    "round3-17-19-review.json"
+  ],
+  "answerKeyReview": "round3-answer-key-review.json",
+  "rootAdditionalExplanationChanges": [
+    {
+      "id": "c13-t2-p3:31",
+      "reason": "按c13-p49把30 graphics识别误录改为3D graphics，同步题干及选项。"
+    },
+    {
+      "id": "c13-t2-p3:32",
+      "reason": "按c13-p48把引文30 graphics修为3D graphics，与修正后原文一致。"
+    }
+  ],
+  "sourceAndRenderingFixes": [
+    {
+      "paper": "c12-t1-p2",
+      "question": 21,
+      "sourceImage": "c12-p22.jpg",
+      "fix": "补回句首空线，作答框位于tends之前。"
+    },
+    {
+      "paper": "c13-t3-p1",
+      "question": 6,
+      "sourceImage": "c13-p63.jpg",
+      "fix": "优先识别带点线的真实题号，保留叶长6 metres，Q6位于椰子水的a source of空位。"
+    },
+    {
+      "paper": "c11-t1-p3",
+      "sourceImage": "c11-p29.jpg",
+      "fix": "恢复表格Procedure与Aim对应顺序，避免两栏交错。"
+    },
+    {
+      "paper": "c12-t2-p3",
+      "sourceImage": "c12-p48.jpg",
+      "fix": "恢复Test与Findings各行内容及对应空位。"
+    },
+    {
+      "paper": "c13-t1-p1",
+      "sourceImage": "c13-p19.jpg",
+      "fix": "分开网站栏目标题及Comments，恢复驾驶路线与Travel Planner的独立行。"
+    },
+    {
+      "paper": "c13-t2-p3",
+      "sourceImages": [
+        "c13-p48.jpg",
+        "c13-p49.jpg"
+      ],
+      "fix": "恢复3D graphics及A,B,C选项指令。"
+    }
+  ],
+  "sourceNotes": [
+    {
+      "paper": "c12-t4-p3",
+      "sourceImage": "c12-p90.jpg",
+      "detail": "quarterly reporting与every four months的不一致来自提供的原卷，不是本次OCR误录；保留源文，未冒改为three months。"
+    }
+  ],
+  "validation": {
+    "unitTests": 71,
+    "explanationsValid": 1440,
+    "explanationErrors": 0,
+    "build": "passed",
+    "localBrowser": "椰子题13题作答只有第6题故意错误，判12/13且hormones解析内容完整；c12第21题作答框在句首；390/768视窗无横向溢出，控制台无错误。"
+  },
+  "sha256": {
+    "public/cambridge/explanations/c11.json": "7765969dcd730b843efcdd7d7be2307efda608b4d9285b76d7454c5cd5bd766c",
+    "public/cambridge/explanations/c12.json": "ad6521a7a86234d170da50e51f4b15434056c7cae0760fd1a9101bb53ea4be0d",
+    "public/cambridge/explanations/c13.json": "de29bbef4a294668312308a997e0faac63e4111f0f03b59b4b73bb80d237f5bd",
+    "public/cambridge/explanations/c14.json": "f9e54f006b86e7233cd8f5a990df612656ad4824e78feff5cee7e600ba55694b",
+    "public/cambridge/explanations/c15.json": "e6bb7a91e00926bac0f085d20af4a86fe73b2f64d723e2612b86548e658d8141",
+    "public/cambridge/explanations/c16.json": "471521121283abc2d0b5895bc418dc7eedfc09c7e8f9f669e4f2100a3328b5dc",
+    "public/cambridge/explanations/c17.json": "169cbbf1965836f3d2f1e7cfea707f7682754ae5fcf3d253b8dafcac3ed33f7e",
+    "public/cambridge/explanations/c18.json": "cb048362a112fda3fc43aec0883c35bec80d1ab1a98b220cefbc49ca6240b9e5",
+    "public/cambridge/explanations/c19.json": "bbc18830f37d1f35b9b5e3a1eda41393bfec492545250bf55dfe324d09970899",
+    "public/cambridge/v2/library.json": "33887da2326257be1d391ed7cca9213e82dda6dd5eea450ee5c42912586a526a"
+  }
+}
