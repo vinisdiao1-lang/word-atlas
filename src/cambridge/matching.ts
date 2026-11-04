@@ -6,10 +6,12 @@ export type PracticeOrder = "matched-desc" | "book";
 export interface PracticePreferences {
   onlyMatched: boolean;
   order: PracticeOrder;
+  highlightLearned: boolean;
 }
 export const defaultPracticePreferences: PracticePreferences = {
   onlyMatched: false,
   order: "matched-desc",
+  highlightLearned: false,
 };
 export const practicePreferencesKey =
   "word-atlas:cambridge-practice-preferences";
@@ -22,6 +24,7 @@ export function readPracticePreferences(): PracticePreferences {
     return {
       onlyMatched: value?.onlyMatched === true,
       order: value?.order === "book" ? "book" : "matched-desc",
+      highlightLearned: value?.highlightLearned === true,
     };
   } catch {
     return { ...defaultPracticePreferences };

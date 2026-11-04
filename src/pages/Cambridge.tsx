@@ -537,8 +537,32 @@ export function Cambridge() {
               <h2 className="exam-reading-title">
                 {textPaper.reading?.title ?? paper.title}
               </h2>
+              <div className="exam-reading-tools">
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={practicePreferences.highlightLearned}
+                    onChange={(e) => {
+                      const highlightLearned = e.currentTarget.checked;
+                      setPracticePreferences((p) => ({
+                        ...p,
+                        highlightLearned,
+                      }));
+                    }}
+                  />
+                  高亮已背单词
+                </label>
+                <small className="muted">
+                  {practicePreferences.highlightLearned && learned.length === 0
+                    ? "当前设备暂无背词记录"
+                    : "含常见词形变化"}
+                </small>
+              </div>
               <ExamText
                 article
+                highlightWords={
+                  practicePreferences.highlightLearned ? learned : undefined
+                }
                 paragraphId={(i) => `exam-paragraph-${paper.id}-${i + 1}`}
                 paragraphs={textPaper.reading?.paragraphs ?? [paper.text]}
               />

@@ -61,9 +61,11 @@ test("matching order, book order and positive-only filtering work independently 
     ["mock", 99],
   ]);
   const ids = (onlyMatched: boolean, order: "book" | "matched-desc") =>
-    practiceCandidates(papers, 1, counts, { onlyMatched, order }).map(
-      (p) => p.id,
-    );
+    practiceCandidates(papers, 1, counts, {
+      onlyMatched,
+      order,
+      highlightLearned: false,
+    }).map((p) => p.id);
   assert.deepEqual(ids(false, "matched-desc"), ["later", "earlier", "zero"]);
   assert.deepEqual(ids(false, "book"), ["earlier", "later", "zero"]);
   assert.deepEqual(ids(true, "matched-desc"), ["later", "earlier"]);
@@ -74,6 +76,7 @@ test("matching order, book order and positive-only filtering work independently 
     practiceCandidates(papers, 1, new Map(), {
       onlyMatched: true,
       order: "matched-desc",
+      highlightLearned: false,
     }),
     [],
   );
@@ -81,6 +84,7 @@ test("matching order, book order and positive-only filtering work independently 
     practiceCandidates(papers, 2, counts, {
       onlyMatched: false,
       order: "matched-desc",
+      highlightLearned: false,
     }),
     [],
   );

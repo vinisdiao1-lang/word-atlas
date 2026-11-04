@@ -306,6 +306,28 @@
   overflow-wrap: anywhere;
   user-select: text;
 }
+.exam-reading-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin: -8px 0 24px;
+}
+.exam-reading-tools label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.exam-learned-highlight {
+  padding: 0;
+  border-radius: 3px;
+  color: inherit;
+  background: var(--mark);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
 .exam-prose p {
   font-size: inherit;
   line-height: inherit;
