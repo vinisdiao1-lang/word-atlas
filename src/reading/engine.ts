@@ -42,7 +42,7 @@ const irregular: Record<string, string[]> = {
 };
 
 /** Conservative forms: no stem matching that would count “article” as “art”. */
-export function readingWordPattern(word: string) {
+export function readingWordForms(word: string) {
   const base = normalize(word);
   const forms = new Set([base, ...(irregular[base] ?? [])]);
   if (/^[a-z]+$/.test(base) && base.length > 2) {
@@ -72,7 +72,11 @@ export function readingWordPattern(word: string) {
       forms.add(`${base}${base.at(-1)}ed`);
     }
   }
-  const escaped = [...forms]
+  return [...forms];
+}
+
+export function readingWordPattern(word: string) {
+  const escaped = readingWordForms(word)
     .sort((a, b) => b.length - a.length)
     .map((s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   return new RegExp(`(?<![A-Za-z])(?:${escaped.join("|")})(?![A-Za-z])`, "gi");

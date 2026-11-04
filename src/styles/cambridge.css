@@ -54,6 +54,37 @@
   align-items: center;
   margin: 16px 0;
 }
+.exam-practice-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 16px 0;
+}
+.exam-practice-controls .exam-match {
+  margin: 0;
+}
+.exam-practice-order {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+}
+.exam-practice-order select {
+  max-width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 10px;
+  font: inherit;
+}
+.exam-candidate .exam-match-count {
+  color: var(--sage-ink);
+  font-weight: 600;
+}
 .exam-candidates {
   display: grid;
   gap: 10px;

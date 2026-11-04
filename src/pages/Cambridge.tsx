@@ -9,6 +9,12 @@ import { DetailedExplanation } from "../cambridge/Explanation";
 import { explanationAnswerLabel } from "../cambridge/explanations";
 import { repairKnownSourceAnswers } from "../cambridge/corrections";
 import {
+  matchedWordCounts,
+  practiceCandidates,
+  practicePreferencesKey,
+  readPracticePreferences,
+} from "../cambridge/matching";
+import {
   RULES,
   grade,
   passed,
@@ -37,7 +43,9 @@ export function Cambridge() {
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false);
   const [stage, setStage] = useState(1),
-    [match, setMatch] = useState(false),
+    [practicePreferences, setPracticePreferences] = useState(
+      readPracticePreferences,
+    ),
     [timed, setTimed] = useState(true),
     [paperIndex, setPaperIndex] = useState(0),
     [showAll, setShowAll] = useState(false),
@@ -135,18 +143,21 @@ export function Cambridge() {
     () => atlas.words.filter((w) => progress.cards[w.id]),
     [atlas, progress.cards],
   );
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        practicePreferencesKey,
+        JSON.stringify(practicePreferences),
+      );
+    } catch {
+      // Practice can still be used when browser preference storage is unavailable.
+    }
+  }, [practicePreferences]);
   const coverage = useMemo(
     () =>
-      new Map(
-        papers.map((p) => {
-          const tokens = new Set(
-            p.text.toLowerCase().match(/[a-z]+(?:['-][a-z]+)*/g) ?? [],
-          );
-          return [
-            p.id,
-            learned.filter((w) => tokens.has(w.word.toLowerCase())).length,
-          ];
-        }),
+      matchedWordCounts(
+        papers,
+        learned.map((word) => word.word),
       ),
     [papers, learned],
   );
@@ -170,19 +181,12 @@ export function Cambridge() {
       return changed ? { ...r, attempts } : r;
     });
   }, [ready, papers]);
-  const candidates = papers
-    .filter(
-      (p) =>
-        p.book < 19 &&
-        p.passage === stage &&
-        stageNumbers(p, stage).length &&
-        (!match || (coverage.get(p.id) ?? 0) > 0),
-    )
-    .sort((a, b) =>
-      match
-        ? (coverage.get(b.id) ?? 0) - (coverage.get(a.id) ?? 0)
-        : a.book - b.book || a.test - b.test,
-    );
+  const candidates = practiceCandidates(
+    papers,
+    stage,
+    coverage,
+    practicePreferences,
+  );
   const start = (mode: "stage" | "mock", ids: string[]) => {
     const chosen = ids.map((id) => papers.find((p) => p.id === id)!);
     const a: Attempt = {
@@ -859,16 +863,48 @@ export function Cambridge() {
           </section>
           <section className="panel">
             <h2>阶段 {stage}：选择练习</h2>
-            <label className="exam-match">
-              <input
-                type="checkbox"
-                checked={match}
-                onChange={(e) => setMatch(e.target.checked)}
-              />
-              只看包含已背单词的文章（按原形匹配并优先覆盖更多词）
-            </label>
+            <div className="exam-practice-controls">
+              <label className="exam-match">
+                <input
+                  type="checkbox"
+                  checked={practicePreferences.onlyMatched}
+                  onChange={(e) =>
+                    setPracticePreferences((p) => ({
+                      ...p,
+                      onlyMatched: e.target.checked,
+                    }))
+                  }
+                />
+                只看匹配已背单词的文章
+              </label>
+              <label className="exam-practice-order">
+                练习排序
+                <select
+                  value={practicePreferences.order}
+                  onChange={(e) =>
+                    setPracticePreferences((p) => ({
+                      ...p,
+                      order:
+                        e.target.value === "book" ? "book" : "matched-desc",
+                    }))
+                  }
+                  aria-describedby="exam-matching-help"
+                >
+                  <option value="matched-desc">已背单词匹配数：从多到少</option>
+                  <option value="book">原书顺序</option>
+                </select>
+              </label>
+            </div>
+            <p className="muted" id="exam-matching-help">
+              已背 {learned.length} 词 · 当前 {candidates.length} 篇。
+              {practicePreferences.order === "matched-desc"
+                ? "匹配越多越靠前，相同数量按原书顺序排列。"
+                : "按册数、套数排列。"}
+              按文章与题目中的不同已背词计数，包含常见词形变化，同一词重复出现只计一次。
+              {learned.length === 0 &&
+                "当前设备还没有背词记录，背词或导入学习备份后会自动更新匹配结果。"}
+            </p>
             <p className="muted">
-              已学 {learned.length} 词。
               {stage === 1
                 ? "Passage 1 每篇练完整的第 1–13 题，答对 11 题达标。"
                 : "本阶段练指定题型，按本篇实际筛选题数等比例计算达标。"}
@@ -891,9 +927,11 @@ export function Cambridge() {
                     <span>原卷第 {nums.join("、")} 题</span>
                     <small>
                       {nums.length} 题 · 至少答对{" "}
-                      {requiredCorrect(stage, nums.length)} 题 · 含{" "}
-                      {coverage.get(p.id) ?? 0} 个已学词
+                      {requiredCorrect(stage, nums.length)} 题
                     </small>
+                    <span className="exam-match-count">
+                      匹配 {coverage.get(p.id) ?? 0} 个已背词
+                    </span>
                   </button>
                 );
               })}
@@ -902,7 +940,7 @@ export function Cambridge() {
               <p className="muted">
                 {libraryLoading
                   ? "正在加载练习文章…"
-                  : match
+                  : practicePreferences.onlyMatched
                     ? "暂无匹配文章，可以关闭已背词筛选。"
                     : "暂无可用文章，请重试加载网站题库。"}
               </p>
