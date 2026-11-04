@@ -404,6 +404,15 @@
   background: var(--sage-soft);
   border-radius: 10px;
 }
+.exam-verification-note {
+  padding: 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--paper);
+}
+.exam-verification-note p {
+  margin: 6px 0 0;
+}
 .exam-prose p[id] {
   scroll-margin-top: calc(var(--top) + 85px);
 }

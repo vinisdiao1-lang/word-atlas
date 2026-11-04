@@ -250,7 +250,7 @@
       "traps": [
         "把维护垄断的措施拆成限制产区、销毁区外树木和处理出口种子；本空只问最后一种措施使用的物质。"
       ],
-      "reviewTip": "把防垄断措施拆成限制产区、销毁外树、处理出口种子。"
+      "reviewTip": "把维护垄断的措施拆成限制产区、销毁区外树木和处理出口种子；本题要填的是最后一种措施使用的lime。"
     },
     "c15-t1-p1:11": {
       "answer": "Run",
@@ -444,7 +444,7 @@
         {
           "question": "may have no effect",
           "passage": "will not necessarily decrease",
-          "explanation": "D部分先列共享可能减少车辆所有量，再指出每车里程翻倍、使用更密集，因而更快报废更换，产量未必下降。"
+          "explanation": "D部分先列共享可能减少车辆所有量，再指出每车里程翻倍、使用更密集，因而可能需要更早更换，产量未必下降。"
         }
       ],
       "traps": [
@@ -4021,7 +4021,7 @@
         {
           "question": "new",
           "passage": "modern communication technology",
-          "explanation": "现代communication technology普及使口哨语言受灭绝威胁，题干new ...是把modern technologies缩成一个被形容词修饰的名词空位。"
+          "explanation": "现代通信技术广泛普及，使口哨语言面临消失威胁；题干new对应modern，空格提取communication technology的中心名词technology，保留原文不可数形式。"
         }
       ],
       "traps": [

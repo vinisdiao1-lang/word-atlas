@@ -149,7 +149,7 @@
       ],
       "paraphrases": [],
       "traps": [
-        "不能把“有可能”当成“最可能”；应读到but之后的作者结论。"
+        "不能把“有可能”当成“最可能”；应读到While让步部分之后由most experts引出的更可能结论。"
       ],
       "reviewTip": "复盘时重新圈出原文中的限定条件，并用自己的话说明它与题干的对应或差异。"
     },
@@ -216,7 +216,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "However, more often than not now, due to a rapidly changing climate, that is not what happens."
+          "quote": "However, more often than not now, due to a rapidly changing climate, that is not what happens. Massive floods, long droughts, hurricanes and severe monsoons take their toll each year, destroying millions of tons of valuable crops."
         }
       ],
       "reasoning": [
@@ -862,7 +862,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "But in 1965, military historian and amateur diver Alexander McKee, in conjunction with the British Sub-Aqua Club, initiated a project called 'Solent Ships'."
+          "quote": "But in 1965, military historian and amateur diver Alexander McKee, in conjunction with the British Sub-Aqua Club, initiated a project called 'Solent Ships'. While on paper this was a plan to examine a number of known wrecks in the Solent, what McKee really hoped for was to find the Mary Rose."
         }
       ],
       "reasoning": [
@@ -1052,7 +1052,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "As trees became scarce and they could no longer construct wooden canoes for fishing, they ate birds."
+          "quote": "As trees became scarce and they could no longer construct wooden canoes for fishing, they ate birds. Soil erosion decreased their crop yields."
         }
       ],
       "reasoning": [
@@ -1128,7 +1128,11 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "The rats arrived along with the settlers, and in just a few years, Hunt and Lipo calculate, they would have overrun the island."
+          "quote": "They would have prevented the reseeding of the slow-growing palm trees and thereby doomed Rapa Nui's forest, even without the settlers' campaign of deforestation."
+        },
+        {
+          "paragraph": 7,
+          "quote": "They think its population grew rapidly and then remained more or less stable until the arrival of the Europeans, who introduced deadly diseases to which islanders had no immunity. Then in the nineteenth century slave traders decimated the population, which shrivelled to 111 people by 1877."
         }
       ],
       "reasoning": [
@@ -1582,7 +1586,7 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "The hypothesis will need to be thoroughly tested, however."
+          "quote": "This has led some to wonder whether Pollock's works feel so dynamic because the brain reconstructs the energetic actions the artist used as he painted. This may be down to our brain's 'mirror neurons; which are known to mimic others' actions. The hypothesis will need to be thoroughly tested, however."
         }
       ],
       "reasoning": [
@@ -1927,7 +1931,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "The Byzantines were as secretive as the Chinese, however, and for many centuries the weaving and trading of silk fabric was a strict imperial monopoly."
+          "quote": "The Byzantines were as secretive as the Chinese, however, and for many centuries the weaving and trading of silk fabric was a strict imperial monopoly. Then in the seventh century, the Arabs conquered Persia, capturing their magnificent silks in the process. Silk production thus spread through Africa, Sicily and Spain as the Arabs swept through these lands."
         }
       ],
       "reasoning": [
@@ -2410,7 +2414,7 @@
       "evidence": [
         {
           "paragraph": 4,
-          "quote": "As the chapters will illustrate, mathematics is not restricted to the analytical and numerical; intuition plays a significant role."
+          "quote": "C I hope this book will help bridge that notorious gap that separates the two cultures: the humanities and the sciences, or should I say the right brain (intuitive) and the left brain (analytical, numerical). As the chapters will illustrate, mathematics is not restricted to the analytical and numerical; intuition plays a significant role."
         }
       ],
       "reasoning": [
@@ -2815,7 +2819,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "For example, in the highly successful science-fiction film 2001, little dialogue was evident, and most of it was banal and of little intrinsic interest."
+          "quote": "For example, in the highly successful science-fiction film 2001, little dialogue was evident, and most of it was banal and of little intrinsic interest. In this way the film-maker was able to portray what Thomas Sobochack and Vivian Sobochack call, in An Introduction to Film, the 'inadequacy of human responses when compared with the magnificent technology created by man and the visual beauties of the universe'."
         }
       ],
       "reasoning": [

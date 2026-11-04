@@ -6,6 +6,8 @@ import {
   stageNumbers,
   grade,
   answerVariants,
+  acceptedAnswerVariants,
+  answerWordLimit,
   type Paper,
   type Attempt,
 } from "./engine";
@@ -43,6 +45,52 @@ const attempt = (answers: Record<string, string>): Attempt => ({
   notes: {},
   marks: {},
   startedAt: 1,
+});
+test("optional words do not override the source question's two-word limit", () => {
+  const books = JSON.parse(
+    readFileSync("public/cambridge/v2/library.json", "utf8"),
+  );
+  const paper: Paper = books
+    .find((b: { book: number }) => b.book === 16)
+    .passages.find((p: Paper) => p.id === "c16-t4-p1");
+  assert.equal(answerWordLimit(paper, 12), 2);
+  const variants = acceptedAnswerVariants(paper, 12);
+  for (const answer of [
+    "architect",
+    "architect's",
+    "the architect",
+    "the architect's",
+    "architect name",
+    "architect's name",
+  ])
+    assert.ok(variants.includes(answer), answer);
+  for (const answer of ["the architect name", "the architect's name", "name"]) {
+    assert.ok(!variants.includes(answer), answer);
+    const record = {
+      ...attempt({ [paper.id + ":12"]: answer }),
+      tasks: [{ paperId: paper.id, numbers: [12] }],
+    };
+    assert.equal(grade(record, [paper]).correct, 0, answer);
+  }
+});
+test("the source key's explicit optional conjunction remains accepted for both required tree parts", () => {
+  const books = JSON.parse(
+    readFileSync("public/cambridge/v2/library.json", "utf8"),
+  );
+  const paper: Paper = books
+    .find((b: { book: number }) => b.book === 15)
+    .passages.find((p: Paper) => p.id === "c15-t4-p1");
+  assert.equal(answerWordLimit(paper, 7), 2);
+  const variants = acceptedAnswerVariants(paper, 7);
+  for (const answer of [
+    "leaves bark",
+    "bark leaves",
+    "leaves and bark",
+    "bark and leaves",
+  ])
+    assert.ok(variants.includes(answer), answer);
+  assert.ok(!variants.includes("leaves"));
+  assert.ok(!variants.includes("bark"));
 });
 test("optional alternatives keep their required noun and accept the source hyphenated answer", () => {
   const branches = answerVariants("(its/ huarango / the) branches");

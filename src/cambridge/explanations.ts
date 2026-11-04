@@ -1,4 +1,10 @@
-import { unorderedAnswersFor, type Paper } from "./engine";
+import {
+  unorderedAnswersFor,
+  acceptedAnswerVariants,
+  answerVariants,
+  answerWordLimit,
+  type Paper,
+} from "./engine";
 
 export interface Explanation {
   answer: string;
@@ -9,6 +15,7 @@ export interface Explanation {
   traps: string[];
   options?: { label: string; correct: boolean; reason: string }[];
   reviewTip: string;
+  verificationNote?: string;
 }
 export interface ExplanationBook {
   format: "word-atlas-explanations-v1";
@@ -19,7 +26,11 @@ export function explanationAnswerLabel(paper: Paper, number: number): string {
   const numbers = unorderedAnswersFor(paper, number);
   return numbers
     ? `${numbers.map((n) => paper.answers[n]).join("、")}（本组答案，顺序不限）`
-    : paper.answers[number];
+    : answerVariants(paper.answers[number]).some(
+          (variant) => !acceptedAnswerVariants(paper, number).includes(variant),
+        )
+      ? `${paper.answers[number]}（最多${answerWordLimit(paper, number)}词）`
+      : paper.answers[number];
 }
 const isText = (value: unknown): value is string =>
   typeof value === "string" && value.trim().length > 0 && value.length < 20000;
@@ -32,6 +43,8 @@ export function validateExplanation(
   const e = value as Explanation;
   if (!isText(e.answer) || e.answer.trim() !== paper.answers[number]?.trim())
     throw Error("本题解析与答案版本不一致，请核对原始答案页。");
+  if (e.verificationNote !== undefined && !isText(e.verificationNote))
+    throw Error("本题答案核验说明无效。");
   if (
     !isText(e.stem) ||
     !Array.isArray(e.reasoning) ||
@@ -80,7 +93,7 @@ export function loadExplanationBook(book: number): Promise<ExplanationBook> {
   let request = books.get(book);
   if (!request) {
     request = fetch(
-      `${import.meta.env.BASE_URL}cambridge/explanations/c${book}.json?v=review-20261103`,
+      `${import.meta.env.BASE_URL}cambridge/explanations/c${book}.json?v=review2-20261103`,
     )
       .then(async (response) => {
         if (!response.ok)

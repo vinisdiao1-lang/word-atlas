@@ -1028,9 +1028,9 @@
         }
       ],
       "traps": [
-        "第一阶段坑内是木柱假说，不是后阶段蓝砂岩。"
+        "第一阶段坑内是木柱假说，不是后阶段蓝石。"
       ],
-      "reviewTip": "第一阶段坑内是木柱假说，不是后阶段蓝砂岩。"
+      "reviewTip": "第一阶段坑内是木柱假说，不是后阶段蓝石。"
     },
     "c18-t2-p1:3": {
       "answer": "tree trunks",
@@ -1167,7 +1167,7 @@
         }
       ],
       "reasoning": [
-        "二十世纪六十年代霍金斯提出巨石不同位置对应至日、分点与日食，可能起历法作用。笔记kind of对应form of，答案calendar。",
+        "二十世纪六十年代霍金斯提出巨石不同位置对应至日、分点与日月食，可能起历法作用。笔记kind of对应form of，答案calendar。",
         "这不表示所有学者接受其天文预测能力，后文批评也不改变当年建议的内容。题干it was suggested保留假说语气，填用途名词而不填举例的solstices或eclipses。"
       ],
       "paraphrases": [
@@ -1192,7 +1192,7 @@
         }
       ],
       "reasoning": [
-        "第三阶段砂岩板既组成外围新月或环，也有部分组成中心三石塔。题干both outer areas and middle同时得到outer与centre支持，TRUE。",
+        "第三阶段砂岩板既组成外围新月或环，也有部分组成中心三石结构。题干both outer areas and middle同时得到outer与centre支持，TRUE。",
         "some将总材料分成不同布置，不是说同一块石头同时在两处。读懂部分关系，避免以outer ring只对应前半而遗漏分号后中心结构；时间由third phase统一限定。"
       ],
       "paraphrases": [
@@ -1484,6 +1484,10 @@
         {
           "paragraph": 6,
           "quote": "For safety's sake, then, we want the machines to be ethically as well as cognitively superhuman."
+        },
+        {
+          "paragraph": 6,
+          "quote": "Luckily they'll be smart enough for the job. If there are routes to the moral high ground, they'll be better than us at finding them, and steering us in the right direction."
         }
       ],
       "reasoning": [
@@ -1915,7 +1919,7 @@
       ],
       "reasoning": [
         "达芬奇设想多层城市由垂直室外楼梯连接，与当代一些高层楼相似。题干on exterior改写outdoor，所缺结构为staircases。",
-        "levels是楼层而非外立面连接部件，walls与towers来自前段其他设计，不符合今日高层特征的这一比对。用outdoor及linked定位同一句，保留复数stairs的具体原词。"
+        "levels是楼层而非外立面连接部件，walls与towers来自前段其他设计，不符合今日高层特征的这一比对。用outdoor及linked定位同一句，保留原文复数staircases。"
       ],
       "paraphrases": [
         {
@@ -1935,7 +1939,7 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "But the true originality of Leonardo's vision was its fusion of architecture and engineering."
+          "quote": "But the true originality of Leonardo's vision was its fusion of architecture and engineering. Leonardo designed extensive hydraulic plants to create artificial canals throughout the city."
         }
       ],
       "reasoning": [
@@ -2214,7 +2218,7 @@
         }
       ],
       "reasoning": [
-        "交叉层压木用胶把实木层横向粘合成建筑块，摘要glued together对应adhesive stick，空格填layers。",
+        "交叉层压木用胶将实锯木材分层交叉胶合成建筑块，摘要glued together对应adhesive stick，空格填layers。",
         "blocks是完成后的构件，不是粘接前组成材料的层次；other materials只是前句一般改性方式。此处one process指具体CLT工艺，要按原料层→粘合→构件的顺序提取。"
       ],
       "paraphrases": [
@@ -3893,8 +3897,8 @@
         }
       ],
       "reasoning": [
-        "贝茨重复研究发现成长心态组并未更好面对失败，干预前后成绩也无改善。题干no effect on academic achievement直接对应not better grades，D。",
-        "格尔曼质疑可自由选择的设计，未给此处重复实验零结果；观点相近仍需按引语署名。not either before or after说明未见成绩改善，并非只有某次测试偶然差。"
+        "贝茨尝试重复研究，反复得到零结果，并指出成长心态学生没有更好地应对失败；无论干预前还是干预后，他们都未取得更好的成绩。题干no effect on academic achievement对应他的研究结论，选D。",
+        "格尔曼质疑研究设计的自由度，未给出这里的重复实验零结果；观点相近仍需按引语署名。before or after指两个观察阶段都未见成长心态学生成绩更好，不能单凭这句话进一步推成每名学生的成绩在时间上完全没有提高。"
       ],
       "paraphrases": [
         {
@@ -4286,7 +4290,7 @@
       ],
       "reasoning": [
         "第六正文段说他不热衷社团、专业交往政治，不追求借其扩影响，而多在家读写或野外观察。选A不是特别有野心，符合此处描写。",
-        "未保留日记笔记恰反驳完整记录；论文仅报结果是当时常规，不是违背科学实践。他也未被说热衷和同行讨论，不能把研究投入等同职业权势野心。"
+        "没有私人笔记日记，不支持“完整记录所有观察”；发表作品主要报告结果则是当时常规。不能把缺少私人记录扩大为他不采用多项科学惯例，C的many缺少依据。他也未被说热衷和同行讨论；专注研究与追求职业影响力是不同维度。"
       ],
       "paraphrases": [
         {
@@ -4313,7 +4317,7 @@
         {
           "label": "C",
           "correct": false,
-          "reason": "论文只报结果符合当时常规，不是未遵循。"
+          "reason": "发表作品主要报告结果是当时惯例；文中没有列出他未采用多项科学惯例，many的范围缺少支撑，不能仅凭缺少私人笔记推出C。"
         },
         {
           "label": "D",

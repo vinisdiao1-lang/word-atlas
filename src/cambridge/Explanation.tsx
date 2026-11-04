@@ -67,6 +67,12 @@ export function DetailedExplanation({
             你的答案：<b>{userAnswer.trim() || "未作答"}</b> · 正确答案：
             <b>{explanationAnswerLabel(paper, number)}</b>
           </p>
+          {content.verificationNote && (
+            <aside className="exam-verification-note" role="note">
+              <b>原书答案与推理边界</b>
+              <p>{content.verificationNote}</p>
+            </aside>
+          )}
           <h4>原文定位</h4>
           {content.evidence.map((e, i) => (
             <div className="exam-evidence" key={i}>

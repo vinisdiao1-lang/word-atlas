@@ -884,6 +884,10 @@
       "stem": "6 Financial assistance from the government can improve the standard of living of farmers.",
       "evidence": [
         {
+          "paragraph": 6,
+          "quote": "E Shenggen Fan, Director General of the International Food Policy Research"
+        },
+        {
           "paragraph": 7,
           "quote": "Institute, held up social safety nets and public welfare programmes in Ethiopia, Brazil and Mexico as valuable ways to address poverty among farming families and reduce their vulnerability to agriculture shocks."
         }
@@ -1503,7 +1507,7 @@
       "evidence": [
         {
           "paragraph": 1,
-          "quote": "In the past, such children were considered to be at a disadvantage compared with their monolingual peers."
+          "quote": "In the past, such children were considered to be at a disadvantage compared with their monolingual peers. Over the past few decades, however, technological advances have allowed researchers to look more deeply at how bilingualism interacts with and changes the cognitive and neurological systems, thereby identifying several clear benefits of being bilingual."
         }
       ],
       "reasoning": [
@@ -1617,7 +1621,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "In one study, researchers taught seven-month-old babies growing up in monolingual or bilingual homes that when they heard a tinkling sound, a puppet appeared on one side of a screen."
+          "quote": "In one study, researchers taught seven-month-old babies growing up in monolingual or bilingual homes that when they heard a tinkling sound, a puppet appeared on one side of a screen. Halfway through the study, the puppet began appearing on the opposite side of the screen. In order to get a reward, the infants had to adjust the rule they'd learned; only the bilingual babies were able to successfully learn the new rule. This suggests that for very young children, as well as for older people, navigating a multilingual environment imparts advantages that transfer far beyond language."
         }
       ],
       "reasoning": [
@@ -1731,7 +1735,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "Captive-bred tortoises can't be reintroduced into the wild until they're at least five years old and weigh at least 4.5 kilograms, at which point their size and weight - and their hardened shells - are sufficient to protect them from predators."
+          "quote": "Captive-bred tortoises can't be reintroduced into the wild until they're at least five years old and weigh at least 4.5 kilograms, at which point their size and weight - and their hardened shells - are sufficient to protect them from predators. But if people wait too long after that point, the tortoises eventually become too large to transport."
         }
       ],
       "reasoning": [
@@ -2386,7 +2390,11 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "To demonstrate this psychological principle, the musicologist Leonard Meyer, in his classic book Emotion and Meaning in Music (1956), analysed the 5th movement of Beethoven's String Quartet in C-sharp minor, Op."
+          "quote": "To demonstrate this psychological principle, the musicologist Leonard Meyer, in his classic book Emotion and Meaning in Music (1956), analysed the 5th movement of Beethoven's String Quartet in C-sharp minor, Op. 131. Meyer wanted to show how music is defined by its flirtation with - but not submission to - our expectations of order. Meyer dissected 50 measures (bars) of the masterpiece, showing how Beethoven begins with the clear statement of a rhythmic and harmonic pattern and then, in an ingenious tonal dance, carefully holds off repeating it. What Beethoven does instead is suggest variations of the pattern. He wants to preserve an element of uncertainty in his music, making our brains beg for the one chord he refuses to give us. Beethoven saves that chord for the end."
+        },
+        {
+          "paragraph": 7,
+          "quote": "It is this uncertainty that triggers the surge of dopamine in the caudate, as we struggle to figure out what will happen next."
         }
       ],
       "reasoning": [
@@ -2487,7 +2495,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "Numerous studies, after all, have demonstrated that dopamine neurons quickly adapt to predictable rewards."
+          "quote": "Numerous studies, after all, have demonstrated that dopamine neurons quickly adapt to predictable rewards. If we know what's going to happen next, then we don't get excited."
         }
       ],
       "reasoning": [
@@ -2620,7 +2628,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "The secret of glass making was taken across Europe by the Romans during this century."
+          "quote": "The secret of glass making was taken across Europe by the Romans during this century. However, they guarded the skills and technology required to make glass very closely, and it was not until their empire collapsed in 4 76 AD that glass-making knowledge became widespread throughout Europe and the Middle East."
         }
       ],
       "reasoning": [

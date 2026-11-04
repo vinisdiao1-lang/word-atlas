@@ -121,7 +121,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "They will continually change it depending on various factors including the court surface, climatic conditions, and game styles."
+          "quote": "The former is far more common than the latter: the choice of the strings and the tension with which they are installed is something that nearly all professional players experiment with. They will continually change it depending on various factors including the court surface, climatic conditions, and game styles. Some will even change it depending on how they feel at the time."
         }
       ],
       "reasoning": [
@@ -346,7 +346,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Taking personal command, Pompey divided the entire Mediterranean into 13 districts, assigning a fleet and commander to each."
+          "quote": "Taking personal command, Pompey divided the entire Mediterranean into 13 districts, assigning a fleet and commander to each. After cleansing one district of pirates, the fleet would join another in the next district. The process continued until the entire Mediterranean was free of pirates."
         }
       ],
       "reasoning": [
@@ -421,7 +421,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Although thousands of pirates died at the hands of Pompey's troops, as a long-term solution to the problem, many more were offered land in fertile areas located far from the sea."
+          "quote": "Although thousands of pirates died at the hands of Pompey's troops, as a long-term solution to the problem, many more were offered land in fertile areas located far from the sea. Instead of a maritime menace, Rome got productive farmers that further boosted its economy."
         }
       ],
       "reasoning": [
@@ -810,7 +810,7 @@
         {
           "label": "C",
           "correct": false,
-          "reason": "无意分享不等于信息在传播过程中必然改变。"
+          "reason": "原文说有人无意分享不准确的信息，没有说明同一信息在从一人转传到另一人时内容发生变化。"
         },
         {
           "label": "D",
@@ -2090,7 +2090,7 @@
       ],
       "reasoning": [
         "第二段末说她最终达到原创数学研究的高度。摘要extremely ... mathematical studies需要修饰研究的形容词，I innovative概括original所指的新颖、创新，而不是重复描述她个人意志坚定。",
-        "J satisfaction和E achievement均为名词，放在此处不符合修饰studies的结构。即使innovative字面未出现，original research与创新研究在本语境中对应，不能把词表题误做必须寻找原文完全相同词形的题。"
+        "空前extremely是程度副词，这里需要修饰能表示程度的形容词；I innovative既符合这一结构，又与original research同义。J satisfaction和E achievement在这里不能接在extremely后。此题按语境选择创新研究，不必寻找与词表完全相同的原词。"
       ],
       "paraphrases": [
         {
@@ -2321,7 +2321,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Interviews uncovered strong evidence of an adult or adults in the child's life who valued and supported education, either in the immediate or extended family or in the child's wider community."
+          "quote": "Half were getting free school meals because of poverty, more than half were living with a single parent, and four in five were living in disadvantaged areas. Interviews uncovered strong evidence of an adult or adults in the child's life who valued and supported education, either in the immediate or extended family or in the child's wider community."
         }
       ],
       "reasoning": [
@@ -2462,7 +2462,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "According to the researchers, it is no coincidence that around this time the first axes crafted from stone rather than sea shells appear, likely in response to their heavy-duty use for clearing and modification of the increasingly dense rainforest."
+          "quote": "Roughly 11,700 years ago, as the most recent ice age ended, the climate became significantly warmer and wetter, no doubt making Obi's jungle much thicker. According to the researchers, it is no coincidence that around this time the first axes crafted from stone rather than sea shells appear, likely in response to their heavy-duty use for clearing and modification of the increasingly dense rainforest. While stone takes about twice as long to grind into an axe compared to shell, the harder material keeps its sharp edge for longer."
         }
       ],
       "reasoning": [
@@ -3014,14 +3014,14 @@
         }
       ],
       "reasoning": [
-        "首个正文段同时描写车站的背景噪声给韦贝尔一侧的语音识别造成挑战，以及作者在遥远另一端因线路嘈杂而难以听懂英语。两人虽使用同一种语言，交流条件仍都存在困难，因此选D。",
-        "A与as we are所说明的同说英语冲突；B没有环境不熟悉的证据，C把听觉与传输障碍误成话题难懂。题目问对话让读者了解到什么，应综合噪声、远距离和不稳定线路，而不是只找语言名称。"
+        "首个正文段中的这场对话实际使用英语。作者因背景噪声和不清晰的线路而听得吃力；段末又说，若理想翻译技术已实现，Waibel就能更舒服地使用母语德语。这说明现有交流条件对双方都有困难，选D。",
+        "文章把车站噪声作为自动翻译将来必须克服的挑战，并没有说两人当时正在使用语音翻译设备。A与双方都说英语相反；B没有环境不熟悉的证据，C也把沟通条件困难误当成话题难懂。"
       ],
       "paraphrases": [
         {
           "question": "challenging for both speakers",
-          "passage": "struggling to follow him",
-          "explanation": "题干中的“challenging for both speakers”需要结合本题证据理解为“struggling to follow him”，判断对象、范围和逻辑关系应保持一致。"
+          "passage": "I'm struggling to follow him in English / speak more comfortably in his native German",
+          "explanation": "前者说明作者听线吃力，后者以尚未实现的理想情形说明Waibel现在无法舒适地用母语说话；两处合读才支持both，不能只引用作者一人的困难。"
         }
       ],
       "traps": [
@@ -3047,7 +3047,7 @@
         {
           "label": "D",
           "correct": true,
-          "reason": "韦贝尔所处车站噪声及作者听线困难，说明双方交流都有挑战。"
+          "reason": "作者难以听懂线路中的英语，而Waibel未能舒适地使用母语德语，支持双方均面临交流困难。"
         }
       ]
     },
@@ -3306,14 +3306,15 @@
         }
       ],
       "reasoning": [
-        "本题原书答案页给NO。题干将自动翻译在学术及专业领域的前景作了广泛肯定，关键范围词是throughout。作者却马上强调，教授和其他专业人士不会把语言意识交给软件；即使技术成熟，语言技能本身仍会增值，结尾又保留了软件不能代替细微语言理解的界限。",
-        "这里应读出作者对专业领域作用范围的保留，而不能把very useful改写成“完全替代人类”再反驳。NO也不等于任何专业场景都毫无用途：前文德语讲座生成英语字幕就是具体用途。判题针对题干的全面肯定与作者的限制性评价，须保留这一范围差别。"
+        "原卷答案页给NO。正文在设想系统能尊重礼仪之后，用though转折强调教授和其他专业人士不会把语言意识交给软件；技术即使成熟，语言技能仍会增值。按本题的命题意图，这一限制性态度反对题干对学术和专业领域作出的全面乐观评价。",
+        "证据的边界必须保留：very useful只是“很有用”，并不等于完全替代或全面依赖；不会把语言意识交给软件，也不能单独严格推出系统没有广泛用途。前文讲座字幕就是具体用途。因此本题按原书NO处理，不应把这组措辞教成一般逻辑上可直接互相否定的同义命题。"
       ],
       "paraphrases": [],
       "traps": [
-        "不要把技术在某些场景有用，扩大成学术职业领域全面依赖它。"
+        "本题按原书NO；不要为解释答案而把very useful偷换成完全替代或全面依赖。"
       ],
-      "reviewTip": "不要把技术在某些场景有用，扩大成学术职业领域全面依赖它。"
+      "reviewTip": "本题按原书NO；不要为解释答案而把very useful偷换成完全替代或全面依赖。",
+      "verificationNote": "已目视核对原书答案页，官方答案为NO。题干very useful（很有用）不等于outsourcing（把语言意识交给软件）；现有段落支持作者对学术及专业领域全面应用的保留态度，但不足以在严格逻辑上单独证明“不会普遍被视为很有用”这一反命题。保留官方判分，并明确此处反证强度的边界。"
     },
     "c19-t3-p3:36": {
       "answer": "YES",
@@ -3351,13 +3352,13 @@
       ],
       "reasoning": [
         "作者提出自动翻译可能克服移民后不同代际之间的语言障碍，例如儿童与祖父母不再共享语言。题干则说它可能让移民家庭生活更困难，和原文提出的改善方向相反。",
-        "本题不是要求证明技术必然解决家庭沟通，而是比较两种“可能”的方向：原文是帮助越过障碍，题干是增加困难。既然方向冲突，答案NO；不要因为作者对家庭整体效益仍保留疑问就一概判NOT GIVEN。"
+        "本题按作者在这里赋予技术的具体作用来判断：他举出的移民家庭用途是帮助跨代沟通，而题干将这一作用说成增加困难，故原书选NO。这里的NO不能推广为“自动翻译绝不可能造成任何家庭困难”；一般逻辑上，存在一种改善可能性也不排除其他不利可能性。"
       ],
       "paraphrases": [
         {
           "question": "make life more difficult",
           "passage": "overcome the language barriers",
-          "explanation": "本题不是要求证明技术必然解决家庭沟通，而是比较两种“可能”的方向：原文是帮助越过障碍，题干是增加困难。既然方向冲突，答案NO；不要因为作者对家庭整体效益仍保留疑问就一概判NOT GIVEN。"
+          "explanation": "overcome the language barriers描述克服现有障碍、改善沟通；题干make life more difficult把作者在此讨论的具体作用改成相反方向。本题按原书NO处理，但这不是对一切潜在不利影响的全面否定。"
         }
       ],
       "traps": [
@@ -3678,7 +3679,7 @@
       "evidence": [
         {
           "paragraph": 8,
-          "quote": "Many of Britain's single-generation species show the capacity, in continental Europe, to add a second generation in years that are sufficiently warm."
+          "quote": "All is not lost, however. Many of Britain's single-generation species show the capacity, in continental Europe, to add a second generation in years that are sufficiently warm. Therefore, as the climate continues to warm, species like the Silver-studded Blue might be able to switch to multiple generations in the UK as well, and so begin to extract benefits from the additional warmth, potentially leading to population increases."
         }
       ],
       "reasoning": [
@@ -3943,9 +3944,9 @@
         }
       ],
       "traps": [
-        "最高级与No other ... as ... often同义；同时注意说话者已切换。"
+        "最高级可用No other ... as ...改写；还要核对比较对象和范围，并留意说话者已切换。"
       ],
-      "reviewTip": "最高级与No other ... as ... often同义；同时注意说话者已切换。"
+      "reviewTip": "最高级可用No other ... as ...改写；还要核对比较对象和范围，并留意说话者已切换。"
     },
     "c19-t4-p2:22": {
       "answer": "B",
@@ -4129,7 +4130,7 @@
         }
       ],
       "reasoning": [
-        "第二正文段解释《自私的基因》流行，是因为它非常契合并帮助证明二十世纪晚期社会的竞争性和个人主义风气。选项C强调与当时态度一致，正对应fitted so well with。",
+        "第二正文段解释《自私的基因》流行，是因为它非常契合二十世纪晚期社会的竞争性和个人主义风气，并为这种风气提供合理化依据。选项C强调与当时态度一致，正对应fitted so well with。",
         "A把契合既有风气歪曲为观点激进新奇；B的科学支持并不是本段给出的畅销原因，D的创新分析方法也未提出。题目问成书成功的原因，需要保留because后面的时代背景关系。"
       ],
       "paraphrases": [

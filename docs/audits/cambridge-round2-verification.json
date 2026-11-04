@@ -1,0 +1,487 @@
+{
+  "round": 2,
+  "date": "2026-11-03",
+  "baselineCommit": "93944b258fe23be5a5234a5db3b41aa034dba22e",
+  "status": "completed_with_explicit_inference_boundaries",
+  "reviewedCount": 1440,
+  "changedExplanationCount": 70,
+  "answerValuesChanged": 0,
+  "changedExplanations": [
+    {
+      "id": "c11-t1-p1:7",
+      "fields": [
+        "traps"
+      ]
+    },
+    {
+      "id": "c11-t1-p1:11",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t2-p1:5",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t2-p2:15",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t2-p2:19",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t2-p3:35",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t3-p1:12",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t3-p3:37",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c11-t4-p2:16",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t2-p1:6",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:32",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t2-p3:38",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t3-p1:4",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t3-p3:35",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t3-p3:38",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c12-t4-p1:5",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:4",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:8",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:11",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t1-p1:13",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t1-p2:19",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t1-p3:28",
+      "fields": [
+        "options"
+      ]
+    },
+    {
+      "id": "c13-t1-p3:38",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c13-t2-p1:11",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t2-p2:15",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t2-p2:18",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t3-p1:12",
+      "fields": [
+        "reasoning",
+        "verificationNote"
+      ]
+    },
+    {
+      "id": "c13-t3-p2:14",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t3-p2:17",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c13-t4-p1:6",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c14-t2-p1:2",
+      "fields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c14-t4-p1:6",
+      "fields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c14-t4-p3:30",
+      "fields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c15-t1-p1:10",
+      "fields": [
+        "reviewTip"
+      ]
+    },
+    {
+      "id": "c15-t1-p2:18",
+      "fields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c15-t4-p2:25",
+      "fields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c16-t2-p3:36",
+      "fields": [
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c16-t3-p1:8",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c16-t4-p1:12",
+      "fields": [
+        "reasoning",
+        "traps",
+        "reviewTip"
+      ]
+    },
+    {
+      "id": "c17-t1-p1:10",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c17-t1-p2:25",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c17-t1-p3:38",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c17-t1-p3:39",
+      "fields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "id": "c17-t1-p3:40",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c17-t2-p3:30",
+      "fields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "id": "c17-t3-p1:7",
+      "fields": [
+        "reasoning",
+        "traps",
+        "reviewTip",
+        "verificationNote"
+      ]
+    },
+    {
+      "id": "c17-t3-p3:29",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c17-t3-p3:30",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c18-t2-p1:2",
+      "fields": [
+        "traps",
+        "reviewTip"
+      ]
+    },
+    {
+      "id": "c18-t2-p1:8",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c18-t2-p1:9",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c18-t2-p2:18",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c18-t2-p3:35",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c18-t2-p3:36",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c18-t3-p1:7",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c18-t4-p2:22",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c18-t4-p3:38",
+      "fields": [
+        "reasoning",
+        "options"
+      ]
+    },
+    {
+      "id": "c19-t1-p1:6",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c19-t1-p2:15",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c19-t1-p2:18",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c19-t1-p3:27",
+      "fields": [
+        "options"
+      ]
+    },
+    {
+      "id": "c19-t2-p3:32",
+      "fields": [
+        "reasoning"
+      ]
+    },
+    {
+      "id": "c19-t2-p3:40",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c19-t3-p1:5",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c19-t3-p3:27",
+      "fields": [
+        "reasoning",
+        "paraphrases",
+        "options"
+      ]
+    },
+    {
+      "id": "c19-t3-p3:35",
+      "fields": [
+        "reasoning",
+        "traps",
+        "reviewTip",
+        "verificationNote"
+      ]
+    },
+    {
+      "id": "c19-t3-p3:37",
+      "fields": [
+        "reasoning",
+        "paraphrases"
+      ]
+    },
+    {
+      "id": "c19-t4-p1:11",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c19-t4-p2:21",
+      "fields": [
+        "traps",
+        "reviewTip"
+      ]
+    },
+    {
+      "id": "c19-t4-p3:28",
+      "fields": [
+        "reasoning"
+      ]
+    }
+  ],
+  "semanticReviewReports": [
+    "round2-11-13-review.json",
+    "round2-14-16-review.json",
+    "round2-17-18-review.json",
+    "round2-19-review.json"
+  ],
+  "inferenceBoundaryQuestionIds": [
+    "c13-t3-p1:12",
+    "c17-t3-p1:7",
+    "c19-t3-p3:35"
+  ],
+  "sourceRepair": {
+    "paperId": "c13-t1-p1",
+    "description": "补回网站功能句，修正travellers等扫描误录；同步证据引文，保留段落编号。",
+    "sourceImages": [
+      "c13-p17.jpg",
+      "c13-p18.jpg"
+    ]
+  },
+  "gradingFix": "原书可选词展开仍受题目字数限制；c16-t4-p1:12拒绝三词the architect’s name，保留两词以内合法答案及原书明确允许的leaves (and) bark。",
+  "validation": {
+    "unitTests": 62,
+    "explanations": 1440,
+    "invalidExplanations": 0,
+    "build": "passed",
+    "localBrowser": "桌面1280、手机390、平板768均无横向溢出；推理边界说明可见；超字数回归练习12/13，唯一错题为第12题；控制台无错误。"
+  },
+  "sha256": {
+    "public/cambridge/explanations/c11.json": "892078ee6ba0e37a1949c7665135ad931dd8cdf3e6945eed340fb4348e3e0df6",
+    "public/cambridge/explanations/c12.json": "29828ff9189021b8d4b35c2f67cecd8f5f6e57a6632117719bd9ccf432088eca",
+    "public/cambridge/explanations/c13.json": "6cb7ebe76e3f7f7f46b23fb6de3b2111d96977b4342e63dd811017acc392d2bb",
+    "public/cambridge/explanations/c14.json": "e757ba7435266dab930260546826ebfe7bc10fdb60e534d0cf6823d6beb49745",
+    "public/cambridge/explanations/c15.json": "982c2ee45daea5f116c26e4d3efd86396b47c14a35557980098e0021ec2937b7",
+    "public/cambridge/explanations/c16.json": "742520a01a15bf8b11bfb3656598f0ec4bb4ec06abdd04182060c083b70d5f8d",
+    "public/cambridge/explanations/c17.json": "2f19f4aef7f6dfc85b25782c19210d7a23a3c1bd1e1c8932e6acc6559f19caba",
+    "public/cambridge/explanations/c18.json": "7d8dc34d0aaaf29ab25c199bcc19cbd9693ab7502e3b7686e5d4fa03a2df5db4",
+    "public/cambridge/explanations/c19.json": "7f148ceffa721b7fe8f21cf7ad5d088b869d361fc5ec396298cd4e68d7ecfef1",
+    "public/cambridge/v2/library.json": "cbe5569d9fae13e3a9d7d5105035039b1781be3ae3bda5848532af8e95293230"
+  }
+}

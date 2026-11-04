@@ -221,7 +221,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "The only alternative was to tunnel deep underground."
+          "quote": "The ‘cut and cover’ method of construction was not an option in this part of the capital. The only alternative was to tunnel deep underground."
         }
       ],
       "reasoning": [
@@ -634,6 +634,10 @@
       "answer": "B",
       "stem": "Which TWO advantages of modern stadium design does the writer mention? A offering improved amenities for the enjoyment of sports events B bringing community life back into the city environment C facilitating research into solar and wind energy solutions D enabling local residents to reduce their consumption of electricity E providing a suitable site for the installation of renewable power generators",
       "evidence": [
+        {
+          "paragraph": 11,
+          "quote": "Creating mixed-use developments such as this reinforces compactness and multi-functionality, making more efficient use of land and helping to regenerate urban spaces."
+        },
         {
           "paragraph": 12,
           "quote": "This opens the space up to families and a wider cross-section of society, instead of catering only to sportspeople and supporters."
@@ -1053,7 +1057,7 @@
         }
       ],
       "reasoning": [
-        "第四正文段说查尔斯热衷重复讲逃亡故事，还设勋章、制作巨幅画和寝室天顶画纪念。评论者惊讶他如此热烈庆祝人生低谷，故A庆祝实质上的失败最准确。",
+        "第四正文段说查尔斯热衷重复讲逃亡故事，还计划设立皇家橡树骑士团，并制作巨幅画和寝室天顶画纪念。评论者惊讶他如此热烈庆祝人生低谷，故A庆祝实质上的失败最准确。",
         "民众关门不欢迎他是背景，题目问评论者关于查尔斯本人的观点，重点落在末句对反常纪念行为的评价。没有证据说他误解敌人动机、旨在恢复君主制信仰或只求受欢迎。"
       ],
       "paraphrases": [
@@ -1101,7 +1105,7 @@
       ],
       "reasoning": [
         "评论者说斯宾塞既同情逃亡国王，也同情追捕他的共和政权，even-handed表示持平、不偏袒一方，因此B无偏见的处理方式正确。",
-        "作者还赞其避开现代惯用语、丰富背景细节，这分别反驳把现代用语或缺少细节作为特点的选项。不能因perfect person读出写书决定令人吃惊，原文是肯定其适合传承故事。"
+        "作者还赞其文笔流畅、避开现代惯用语并深入探索故事背景，但没有将语言对二十一世纪读者的适合程度作为评价，因此D缺少直接依据；避开现代惯用语本身也不能证明其语言不适合现代读者。perfect person是在肯定他适合讲述故事，不能读成写书决定令人吃惊。"
       ],
       "paraphrases": [
         {
@@ -1133,7 +1137,7 @@
         {
           "label": "D",
           "correct": false,
-          "reason": "原文赞避开现代惯用语，与选项方向相反。"
+          "reason": "原文赞文笔流畅、避开现代惯用语，未明确评价其语言适合二十一世纪读者；不能把“避开现代惯用语”直接当成“不适合现代读者”的反证。"
         }
       ]
     },
@@ -1143,7 +1147,7 @@
       "evidence": [
         {
           "paragraph": 9,
-          "quote": "Would Charles II have been a different king had these six weeks never happened? The days and nights spent in hiding must have affected him in some way."
+          "quote": "Would Charles II have been a different king had these six weeks never happened? The days and nights spent in hiding must have affected him in some way. Did the need to assume disguises, to survive on wit and charm alone, to use trickery and subterfuge to escape from tight corners help form him? This is the one area where the book doesn’t quite hit the mark."
         }
       ],
       "reasoning": [
@@ -1956,7 +1960,7 @@
       ],
       "reasoning": [
         "尼科尔森虽错误设想原始元素，却也提出原子结构新想法，玻尔据此发展著名原子模型。例子证明一个人的思路可为另一人的突破奠基，因此C正确。",
-        "重点不是错误理论后来被证明正确，它关于原始元素仍是错的；也没有讲当初科学界怀疑反应。把“部分错误仍可催生后续成果”读完整，不能只以wrong给整个人的思想判无价值。"
+        "重点是玻尔借助尼科尔森的原子结构想法取得突破，而不是该想法只有到后世才被充分理解；原文没有给出“最初未理解、后来才理解”的时间对比。也未记述科学界当初的怀疑反应。原始元素假说虽错，仍不妨碍另一项想法启发后人。"
       ],
       "paraphrases": [
         {
@@ -1978,7 +1982,7 @@
         {
           "label": "B",
           "correct": false,
-          "reason": "原始元素理论仍错误，非后来才被完全理解。"
+          "reason": "原文只说玻尔借此构建原子模型，未说该想法此前未被充分理解；后续应用不能直接等同于后来才理解。"
         },
         {
           "label": "C",
@@ -2400,14 +2404,15 @@
         }
       ],
       "reasoning": [
-        "原文说圈养繁殖只有一次成功，发生于一八九九年墨尔本动物园。题干却说十九世纪末多只在动物园出生，把唯一成功扩成数次或多只，和原文限制矛盾，FALSE。",
-        "许多袋狼曾被送进动物园，不等于很多在那里出生。despite明确把大量圈养个体与繁殖成功极少形成对照，不能用large numbers支持题干的出生数量。"
+        "原文关于动物园繁殖的记录是only one successful attempt，发生于1899年墨尔本动物园。原书以这唯一成功记录，对照题干笼统宣称十九世纪末有多只袋狼在动物园出生，给定答案为FALSE。",
+        "严格说，成功繁殖次数与出生幼崽数量不是同一统计量，一次繁殖未必只生一只，不能把原句改写为only one offspring。此题应按原书的单一成功记录对照作答；后句large numbers只说很多袋狼经过动物园，并不提供多只在那里出生的证据。"
       ],
       "paraphrases": [],
       "traps": [
-        "进入动物园的数量不是动物园繁殖的数量。"
+        "区分圈养数量、繁殖成功次数和幼崽数量；不能把one successful attempt偷换成only one offspring。"
       ],
-      "reviewTip": "进入动物园的数量不是动物园繁殖的数量。"
+      "reviewTip": "区分圈养数量、繁殖成功次数和幼崽数量；不能把one successful attempt偷换成only one offspring。",
+      "verificationNote": "原书答案FALSE已核对原卷。原文only one successful attempt描述的是成功繁殖纪录的次数，不能直接换算为只出生一只幼崽；一次繁殖在严格逻辑上并不排除同胎多只。本题保留原书答案，按唯一成功纪录与题干泛称多只出生的出题对照理解，幼崽数量的严格推断存在边界。"
     },
     "c17-t3-p1:8": {
       "answer": "NOT GIVEN",
@@ -3024,7 +3029,7 @@
         }
       ],
       "reasoning": [
-        "第六章虽比相关论文简明，仍可能比普通读者希望的更技术化。题干too specialised for most readers与general audience不能轻松阅读的评价对应，选C。",
+        "第六章虽比相关论文少一些技术性，仍可能比普通读者希望的更技术化。题干too specialised for most readers对应这种面向一般读者技术性偏强的评价，选C；原文并未断言普通读者完全读不懂。",
         "比较对象前后不同：比论文容易，不等于适合大众。没有指出数据冲突、趋势讨论过多或研究过时，所以不能把technical的具体可读性批评扩大成其他学术问题。"
       ],
       "paraphrases": [
@@ -3072,7 +3077,7 @@
       ],
       "reasoning": [
         "八、九章中冗长城市经济理论可能令主要关心纽约的读者分心，却适合学习城市经济的本科生。说明某些内容对特定人群吸引力有限，选D。",
-        "作者未要求改变组织顺序，也没说融资数据不足；后面还肯定用数据评估两种繁荣解释。不同读者兴趣而非解释真假是这一评价重点，不能把distraction误读为论证不可信。"
+        "作者未要求改变组织顺序，也没说融资数据不足；后面介绍巴尔用数据评估两种繁荣解释。不同读者兴趣而非解释真假是这一评价重点，不能把distraction误读为论证不可信。"
       ],
       "paraphrases": [
         {

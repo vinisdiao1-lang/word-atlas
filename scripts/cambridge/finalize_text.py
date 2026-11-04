@@ -5,6 +5,7 @@ import re
 from review_11_13 import apply_review_fixes as review_11_13
 from review_14_16 import apply_review_fixes as review_14_16
 from review_17_19 import apply_review_fixes as review_17_19
+from review_round2 import apply_review_fixes as review_round2
 
 ROOT = Path(__file__).resolve().parents[2]
 library = json.loads((ROOT / '.local/cambridge/text-draft.json').read_text())
@@ -252,7 +253,7 @@ for book in library:
                 section['intro'] = intro
                 section['items'] = [{'number': n, 'paragraphs': found[n]} for n in expected]
 
-for review in [review_11_13, review_14_16, review_17_19]:
+for review in [review_11_13, review_14_16, review_17_19, review_round2]:
     review(library)
 for book in library:
     for paper in book['passages']:

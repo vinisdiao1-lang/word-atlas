@@ -1148,7 +1148,7 @@
         {
           "question": "what his family wanted",
           "passage": "to please his family",
-          "explanation": "第3段说他从不喜欢经商的职业前景，却仍完成会计学徒训练并继续这一方向，为的是取悦家人。"
+          "explanation": "第3段说他从不喜欢经商的职业前景，却仍接受会计学徒训练并坚持这一方向，为的是取悦家人。"
         }
       ],
       "traps": [
@@ -3288,7 +3288,7 @@
         {
           "question": "dying cells",
           "passage": "location of the dying cells",
-          "explanation": "脑部比较既看接近死亡的细胞数量，也检查这些细胞出现的位置，结果不同年龄在位置上没有差异。"
+          "explanation": "脑部比较先识别接近死亡的细胞，再检查这些细胞出现的位置；不同年龄蚂蚁的濒死细胞位置没有差异。"
         }
       ],
       "traps": [
@@ -3980,7 +3980,7 @@
         {
           "question": "different kinds of danger",
           "passage": "366 perceived threats",
-          "explanation": "第4段明确说Rochman团队审阅100多篇截至2013年的海洋垃圾影响论文，逐篇查科学家研究了什么威胁、实际发现了什么，合计366种感知威胁。"
+          "explanation": "第4段明确说Rochman团队审阅100多篇截至2013年的海洋垃圾影响论文，逐篇查科学家研究了什么威胁、实际发现了什么，合计366项被感知的威胁。"
         }
       ],
       "traps": [

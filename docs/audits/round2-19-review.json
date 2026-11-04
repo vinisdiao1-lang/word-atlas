@@ -1,0 +1,591 @@
+{
+  "book": 19,
+  "round": 2,
+  "status": "completed_with_caveat",
+  "reviewedCount": 160,
+  "reviewedIds": [
+    "c19-t1-p1:1",
+    "c19-t1-p1:2",
+    "c19-t1-p1:3",
+    "c19-t1-p1:4",
+    "c19-t1-p1:5",
+    "c19-t1-p1:6",
+    "c19-t1-p1:7",
+    "c19-t1-p1:8",
+    "c19-t1-p1:9",
+    "c19-t1-p1:10",
+    "c19-t1-p1:11",
+    "c19-t1-p1:12",
+    "c19-t1-p1:13",
+    "c19-t1-p2:14",
+    "c19-t1-p2:15",
+    "c19-t1-p2:16",
+    "c19-t1-p2:17",
+    "c19-t1-p2:18",
+    "c19-t1-p2:19",
+    "c19-t1-p2:20",
+    "c19-t1-p2:21",
+    "c19-t1-p2:22",
+    "c19-t1-p2:23",
+    "c19-t1-p2:24",
+    "c19-t1-p2:25",
+    "c19-t1-p2:26",
+    "c19-t1-p3:27",
+    "c19-t1-p3:28",
+    "c19-t1-p3:29",
+    "c19-t1-p3:30",
+    "c19-t1-p3:31",
+    "c19-t1-p3:32",
+    "c19-t1-p3:33",
+    "c19-t1-p3:34",
+    "c19-t1-p3:35",
+    "c19-t1-p3:36",
+    "c19-t1-p3:37",
+    "c19-t1-p3:38",
+    "c19-t1-p3:39",
+    "c19-t1-p3:40",
+    "c19-t2-p1:1",
+    "c19-t2-p1:2",
+    "c19-t2-p1:3",
+    "c19-t2-p1:4",
+    "c19-t2-p1:5",
+    "c19-t2-p1:6",
+    "c19-t2-p1:7",
+    "c19-t2-p1:8",
+    "c19-t2-p1:9",
+    "c19-t2-p1:10",
+    "c19-t2-p1:11",
+    "c19-t2-p1:12",
+    "c19-t2-p1:13",
+    "c19-t2-p2:14",
+    "c19-t2-p2:15",
+    "c19-t2-p2:16",
+    "c19-t2-p2:17",
+    "c19-t2-p2:18",
+    "c19-t2-p2:19",
+    "c19-t2-p2:20",
+    "c19-t2-p2:21",
+    "c19-t2-p2:22",
+    "c19-t2-p2:23",
+    "c19-t2-p2:24",
+    "c19-t2-p2:25",
+    "c19-t2-p2:26",
+    "c19-t2-p3:27",
+    "c19-t2-p3:28",
+    "c19-t2-p3:29",
+    "c19-t2-p3:30",
+    "c19-t2-p3:31",
+    "c19-t2-p3:32",
+    "c19-t2-p3:33",
+    "c19-t2-p3:34",
+    "c19-t2-p3:35",
+    "c19-t2-p3:36",
+    "c19-t2-p3:37",
+    "c19-t2-p3:38",
+    "c19-t2-p3:39",
+    "c19-t2-p3:40",
+    "c19-t3-p1:1",
+    "c19-t3-p1:2",
+    "c19-t3-p1:3",
+    "c19-t3-p1:4",
+    "c19-t3-p1:5",
+    "c19-t3-p1:6",
+    "c19-t3-p1:7",
+    "c19-t3-p1:8",
+    "c19-t3-p1:9",
+    "c19-t3-p1:10",
+    "c19-t3-p1:11",
+    "c19-t3-p1:12",
+    "c19-t3-p1:13",
+    "c19-t3-p2:14",
+    "c19-t3-p2:15",
+    "c19-t3-p2:16",
+    "c19-t3-p2:17",
+    "c19-t3-p2:18",
+    "c19-t3-p2:19",
+    "c19-t3-p2:20",
+    "c19-t3-p2:21",
+    "c19-t3-p2:22",
+    "c19-t3-p2:23",
+    "c19-t3-p2:24",
+    "c19-t3-p2:25",
+    "c19-t3-p2:26",
+    "c19-t3-p3:27",
+    "c19-t3-p3:28",
+    "c19-t3-p3:29",
+    "c19-t3-p3:30",
+    "c19-t3-p3:31",
+    "c19-t3-p3:32",
+    "c19-t3-p3:33",
+    "c19-t3-p3:34",
+    "c19-t3-p3:35",
+    "c19-t3-p3:36",
+    "c19-t3-p3:37",
+    "c19-t3-p3:38",
+    "c19-t3-p3:39",
+    "c19-t3-p3:40",
+    "c19-t4-p1:1",
+    "c19-t4-p1:2",
+    "c19-t4-p1:3",
+    "c19-t4-p1:4",
+    "c19-t4-p1:5",
+    "c19-t4-p1:6",
+    "c19-t4-p1:7",
+    "c19-t4-p1:8",
+    "c19-t4-p1:9",
+    "c19-t4-p1:10",
+    "c19-t4-p1:11",
+    "c19-t4-p1:12",
+    "c19-t4-p1:13",
+    "c19-t4-p2:14",
+    "c19-t4-p2:15",
+    "c19-t4-p2:16",
+    "c19-t4-p2:17",
+    "c19-t4-p2:18",
+    "c19-t4-p2:19",
+    "c19-t4-p2:20",
+    "c19-t4-p2:21",
+    "c19-t4-p2:22",
+    "c19-t4-p2:23",
+    "c19-t4-p2:24",
+    "c19-t4-p2:25",
+    "c19-t4-p2:26",
+    "c19-t4-p3:27",
+    "c19-t4-p3:28",
+    "c19-t4-p3:29",
+    "c19-t4-p3:30",
+    "c19-t4-p3:31",
+    "c19-t4-p3:32",
+    "c19-t4-p3:33",
+    "c19-t4-p3:34",
+    "c19-t4-p3:35",
+    "c19-t4-p3:36",
+    "c19-t4-p3:37",
+    "c19-t4-p3:38",
+    "c19-t4-p3:39",
+    "c19-t4-p3:40"
+  ],
+  "changedCount": 13,
+  "changed": [
+    {
+      "qid": "c19-t1-p1:6",
+      "reason": "补全球线选择与张力的先行词，明确it所指，避免仅凭气候词判断。",
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        6
+      ]
+    },
+    {
+      "qid": "c19-t1-p2:15",
+      "reason": "补全分区后舰队逐区增援的执行步骤，使证据覆盖解析所述完整清剿方案。",
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t1-p2:18",
+      "reason": "补全海盗转为农民的结果，直接支持替代生计使其不再重操旧业。",
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t2-p3:32",
+      "reason": "将词性排除依据精确到extremely后需程度形容词，避免泛称名词不能修饰studies。",
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c19-t2-p3:40",
+      "reason": "补全免费校餐、单亲和贫困地区的样本背景，覆盖A/B/C错项排除依据。",
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t3-p1:5",
+      "reason": "补全气候变暖变湿、雨林增密与材料更换整条因果链，而非只引用around this time。",
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        5
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:27",
+      "reason": "去掉当次对话已在进行语音识别的无依据暗示，补足双方困难分别来自听线和非母语表达。",
+      "fields": [
+        "reasoning",
+        "paraphrases",
+        "options"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:35",
+      "reason": "保留目视核实的原书NO，同时明确有用与替代/依赖并非等义，删除trap中的全面依赖偷换，标注证据推断边界。",
+      "fields": [
+        "reasoning",
+        "traps",
+        "reviewTip",
+        "verificationNote"
+      ],
+      "sourceParagraphs": [
+        9,
+        10
+      ]
+    },
+    {
+      "qid": "c19-t3-p3:37",
+      "reason": "保留原书NO及此处具体作用方向，避免教成任意两种方向相反的可能性必然互相排斥。",
+      "fields": [
+        "reasoning",
+        "paraphrases"
+      ],
+      "sourceParagraphs": [
+        9
+      ]
+    },
+    {
+      "qid": "c19-t1-p3:27",
+      "reason": "排除C时不再增添原选项没有的“必然”量词，准确区分无意误传与信息转传中变形。",
+      "fields": [
+        "options"
+      ],
+      "sourceParagraphs": [
+        2
+      ]
+    },
+    {
+      "qid": "c19-t4-p1:11",
+      "reason": "补全Silver-studded Blue名称及英国未来可能转多代，支撑该物种与欧洲既有观察的联系。",
+      "fields": [
+        "evidence"
+      ],
+      "sourceParagraphs": [
+        8
+      ]
+    },
+    {
+      "qid": "c19-t4-p2:21",
+      "reason": "修正混入often的无意义句式，保留最高级改写及比较范围提醒。",
+      "fields": [
+        "traps",
+        "reviewTip"
+      ],
+      "sourceParagraphs": [
+        7
+      ]
+    },
+    {
+      "qid": "c19-t4-p3:28",
+      "reason": "将justify准确译为提供合理化依据，避免误成科学地证明时代风气。",
+      "fields": [
+        "reasoning"
+      ],
+      "sourceParagraphs": [
+        3
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "qid": "c19-t3-p3:35",
+      "type": "official_answer_semantic_gap",
+      "answer": "NO",
+      "verifiedSource": "public/cambridge/v1/pages/c19-p124.jpg (printed p125)",
+      "detail": "原书NO已目视确认，但very useful throughout与not outsource language awareness并非严格反证；解析已明确此边界，仍需原书出题解释才能完全消除推断歧义。",
+      "keyChanged": false
+    }
+  ],
+  "methodology": {
+    "semanticReview": "逐篇先读取reading与questionText，隐去answers独立判断；之后逐题读取key、evidence、reasoning、paraphrases、错项排除、traps与reviewTip。全160题实读，非抽样。",
+    "focus": [
+      "条件、量词与因果",
+      "NOT GIVEN缺失信息与NO/FALSE反证区分",
+      "错项排除不增添原题没有的量词",
+      "词义对应与题干范围",
+      "原文证据的先行词及完整链条"
+    ],
+    "sourceImageChecks": [
+      {
+        "path": "public/cambridge/v1/pages/c19-p124.jpg",
+        "purpose": "目视确认Test3第35题官方NO（并确认同页相关题号原答）"
+      },
+      {
+        "path": "public/cambridge/v1/pages/c19-p64.jpg",
+        "purpose": "确认Test3 Passage1笔记from 8,000 years ago原卷同文，并非OCR遗漏"
+      }
+    ]
+  },
+  "validation": {
+    "allAnswerValuesMatchLibrary": true,
+    "allEvidenceExactContinuousSubstringsIn1BasedParagraphs": true,
+    "uniqueReviewedIds": 160,
+    "modifiedLibraryOrSource": false
+  },
+  "passageReview": [
+    {
+      "id": "c19-t1-p1",
+      "title": "How tennis rackets have changed",
+      "reviewedIds": [
+        "c19-t1-p1:1",
+        "c19-t1-p1:2",
+        "c19-t1-p1:3",
+        "c19-t1-p1:4",
+        "c19-t1-p1:5",
+        "c19-t1-p1:6",
+        "c19-t1-p1:7",
+        "c19-t1-p1:8",
+        "c19-t1-p1:9",
+        "c19-t1-p1:10",
+        "c19-t1-p1:11",
+        "c19-t1-p1:12",
+        "c19-t1-p1:13"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t1-p2",
+      "title": "The pirates of the ancient Mediterranean",
+      "reviewedIds": [
+        "c19-t1-p2:14",
+        "c19-t1-p2:15",
+        "c19-t1-p2:16",
+        "c19-t1-p2:17",
+        "c19-t1-p2:18",
+        "c19-t1-p2:19",
+        "c19-t1-p2:20",
+        "c19-t1-p2:21",
+        "c19-t1-p2:22",
+        "c19-t1-p2:23",
+        "c19-t1-p2:24",
+        "c19-t1-p2:25",
+        "c19-t1-p2:26"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t1-p3",
+      "title": "The persistence and peril of misinformation",
+      "reviewedIds": [
+        "c19-t1-p3:27",
+        "c19-t1-p3:28",
+        "c19-t1-p3:29",
+        "c19-t1-p3:30",
+        "c19-t1-p3:31",
+        "c19-t1-p3:32",
+        "c19-t1-p3:33",
+        "c19-t1-p3:34",
+        "c19-t1-p3:35",
+        "c19-t1-p3:36",
+        "c19-t1-p3:37",
+        "c19-t1-p3:38",
+        "c19-t1-p3:39",
+        "c19-t1-p3:40"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t2-p1",
+      "title": "The Industrial Revolution in Britain",
+      "reviewedIds": [
+        "c19-t2-p1:1",
+        "c19-t2-p1:2",
+        "c19-t2-p1:3",
+        "c19-t2-p1:4",
+        "c19-t2-p1:5",
+        "c19-t2-p1:6",
+        "c19-t2-p1:7",
+        "c19-t2-p1:8",
+        "c19-t2-p1:9",
+        "c19-t2-p1:10",
+        "c19-t2-p1:11",
+        "c19-t2-p1:12",
+        "c19-t2-p1:13"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t2-p2",
+      "title": "Athletes and stress",
+      "reviewedIds": [
+        "c19-t2-p2:14",
+        "c19-t2-p2:15",
+        "c19-t2-p2:16",
+        "c19-t2-p2:17",
+        "c19-t2-p2:18",
+        "c19-t2-p2:19",
+        "c19-t2-p2:20",
+        "c19-t2-p2:21",
+        "c19-t2-p2:22",
+        "c19-t2-p2:23",
+        "c19-t2-p2:24",
+        "c19-t2-p2:25",
+        "c19-t2-p2:26"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t2-p3",
+      "title": "An inquiry into the existence of the gifted child",
+      "reviewedIds": [
+        "c19-t2-p3:27",
+        "c19-t2-p3:28",
+        "c19-t2-p3:29",
+        "c19-t2-p3:30",
+        "c19-t2-p3:31",
+        "c19-t2-p3:32",
+        "c19-t2-p3:33",
+        "c19-t2-p3:34",
+        "c19-t2-p3:35",
+        "c19-t2-p3:36",
+        "c19-t2-p3:37",
+        "c19-t2-p3:38",
+        "c19-t2-p3:39",
+        "c19-t2-p3:40"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t3-p1",
+      "title": "Archaeologists discover evidence of prehistoric island settlers",
+      "reviewedIds": [
+        "c19-t3-p1:1",
+        "c19-t3-p1:2",
+        "c19-t3-p1:3",
+        "c19-t3-p1:4",
+        "c19-t3-p1:5",
+        "c19-t3-p1:6",
+        "c19-t3-p1:7",
+        "c19-t3-p1:8",
+        "c19-t3-p1:9",
+        "c19-t3-p1:10",
+        "c19-t3-p1:11",
+        "c19-t3-p1:12",
+        "c19-t3-p1:13"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t3-p2",
+      "title": "The global importance of wetlands",
+      "reviewedIds": [
+        "c19-t3-p2:14",
+        "c19-t3-p2:15",
+        "c19-t3-p2:16",
+        "c19-t3-p2:17",
+        "c19-t3-p2:18",
+        "c19-t3-p2:19",
+        "c19-t3-p2:20",
+        "c19-t3-p2:21",
+        "c19-t3-p2:22",
+        "c19-t3-p2:23",
+        "c19-t3-p2:24",
+        "c19-t3-p2:25",
+        "c19-t3-p2:26"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t3-p3",
+      "title": "Is the era of artificial speech translation upon us?",
+      "reviewedIds": [
+        "c19-t3-p3:27",
+        "c19-t3-p3:28",
+        "c19-t3-p3:29",
+        "c19-t3-p3:30",
+        "c19-t3-p3:31",
+        "c19-t3-p3:32",
+        "c19-t3-p3:33",
+        "c19-t3-p3:34",
+        "c19-t3-p3:35",
+        "c19-t3-p3:36",
+        "c19-t3-p3:37",
+        "c19-t3-p3:38",
+        "c19-t3-p3:39",
+        "c19-t3-p3:40"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t4-p1",
+      "title": "The impact of climate change on butterflies in Britain",
+      "reviewedIds": [
+        "c19-t4-p1:1",
+        "c19-t4-p1:2",
+        "c19-t4-p1:3",
+        "c19-t4-p1:4",
+        "c19-t4-p1:5",
+        "c19-t4-p1:6",
+        "c19-t4-p1:7",
+        "c19-t4-p1:8",
+        "c19-t4-p1:9",
+        "c19-t4-p1:10",
+        "c19-t4-p1:11",
+        "c19-t4-p1:12",
+        "c19-t4-p1:13"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t4-p2",
+      "title": "Deep-sea mining",
+      "reviewedIds": [
+        "c19-t4-p2:14",
+        "c19-t4-p2:15",
+        "c19-t4-p2:16",
+        "c19-t4-p2:17",
+        "c19-t4-p2:18",
+        "c19-t4-p2:19",
+        "c19-t4-p2:20",
+        "c19-t4-p2:21",
+        "c19-t4-p2:22",
+        "c19-t4-p2:23",
+        "c19-t4-p2:24",
+        "c19-t4-p2:25",
+        "c19-t4-p2:26"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "c19-t4-p3",
+      "title": "The Unselfish Gene",
+      "reviewedIds": [
+        "c19-t4-p3:27",
+        "c19-t4-p3:28",
+        "c19-t4-p3:29",
+        "c19-t4-p3:30",
+        "c19-t4-p3:31",
+        "c19-t4-p3:32",
+        "c19-t4-p3:33",
+        "c19-t4-p3:34",
+        "c19-t4-p3:35",
+        "c19-t4-p3:36",
+        "c19-t4-p3:37",
+        "c19-t4-p3:38",
+        "c19-t4-p3:39",
+        "c19-t4-p3:40"
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

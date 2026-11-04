@@ -83,7 +83,7 @@
       "evidence": [
         {
           "paragraph": 2,
-          "quote": "Another feature that attracted a lot of attention was an interactive journey through a number of the locations chosen for blockbuster films which had made use of New Zealand's stunning scenery as a backdrop. As the site developed, additional features were added to help independent trave\\\\ers dev\\se thek own customised itineraries."
+          "quote": "Another feature that attracted a lot of attention was an interactive journey through a number of the locations chosen for blockbuster films which had made use of New Zealand's stunning scenery as a backdrop. As the site developed, additional features were added to help independent travellers devise their own customised itineraries."
         }
       ],
       "reasoning": [
@@ -183,7 +183,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "The website was set up to allow both individuals and travel organisations to create itineraries and travel packages.to suit their own needs and interests. On the website, visitors can search for activities not solely by geographical location, but also by the particular nature of the activity."
+          "quote": "The website was set up to allow both individuals and travel organisations to create itineraries and travel packages to suit their own needs and interests. On the website, visitors can search for activities not solely by geographical location, but also by the particular nature of the activity."
         }
       ],
       "reasoning": [
@@ -252,7 +252,7 @@
       "evidence": [
         {
           "paragraph": 5,
-          "quote": "It has also been found that visitors enjoy cultural activities most when they are interactive, such as visiting a marae (meeting ground) to learn about traditional Maori life. Many long-haul travellers enjoy such. learning experiences, which provide them with stories to take home to their friends and family."
+          "quote": "It has also been found that visitors enjoy cultural activities most when they are interactive, such as visiting a marae (meeting ground) to learn about traditional Maori life. Many long-haul travellers enjoy such learning experiences, which provide them with stories to take home to their friends and family."
         }
       ],
       "reasoning": [
@@ -296,7 +296,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "Because of the long-haul flight, most visitors stay for longer .(average 20 days) and want to see as much of the country as possible on what is often seen as a once-in-a-lifetime visit. However, the underlying lessons apply anywhere - the effectiveness of a strong brand, a strategy based on unique experiences and a comprehensive and user-friendly website."
+          "quote": "Because of the long-haul flight, most visitors stay for longer (average 20 days) and want to see as much of the country as possible on what is often seen as a once-in-a-lifetime visit. However, the underlying lessons apply anywhere - the effectiveness of a strong brand, a strategy based on unique experiences and a comprehensive and user-friendly website."
         }
       ],
       "reasoning": [
@@ -446,7 +446,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "F Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles might even be a new source of boredom. 'In modern human society there is a lot of overstimulation but still a lot of problems finding meaning,' she says."
+          "quote": "F Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles might even be a new source of boredom. 'In modern human society there is a lot of overstimulation but still a lot of problems finding meaning,' she says. So instead of seeking yet more mental stimulation, perhaps we should leave our phones alone, and use boredom to motivate us to engage with the world in a more meaningful way."
         }
       ],
       "reasoning": [
@@ -720,7 +720,7 @@
         {
           "label": "B",
           "correct": false,
-          "reason": "没有提出未来必然取代人类艺术的预测。"
+          "reason": "引语担忧人类独特性受到削弱，没有提出电脑艺术最终可能取代人类艺术。"
         },
         {
           "label": "C",
@@ -1039,7 +1039,7 @@
         }
       ],
       "reasoning": [
-        "段首先问为什么很多人喜欢EMI音乐，却在知道创作方式后反感，紧接着说Moffat的研究provides a clue。该研究发现认为作者是电脑的人，更不喜欢相同作品。",
+        "段首先问为什么很多人喜欢EMI音乐，却在知道创作方式后反感，紧接着说Moffat的研究provides a clue。该研究发现认为作者是电脑的人，更不喜欢所评作品。",
         "这直接支持题干may help explain：对来源的看法能帮助理解EMI听众的态度反转。题干使用may，没有说该实验完全证明所有愤怒的原因，所以与原文克制的a clue程度一致，判断YES。"
       ],
       "paraphrases": [
@@ -1358,7 +1358,7 @@
       "evidence": [
         {
           "paragraph": 4,
-          "quote": "By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories."
+          "quote": "When the Dutch arrived off the coast of southern Asia at the very beginning of the 17th century, they set their sights on displacing the Portuguese as kings of cinnamon. The Dutch allied themselves with Kandy, an inland kingdom on Ceylon. In return for payments of elephants and cinnamon, they protected the native king from the Portuguese. By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories. By 1658, they had permanently expelled the Portuguese from the island, thereby gaining control of the lucrative cinnamon trade."
         }
       ],
       "reasoning": [
@@ -1452,7 +1452,7 @@
       "evidence": [
         {
           "paragraph": 7,
-          "quote": "'It's a very simple and ancient molecule that has been co-opted for many different functions,' says Sue Carter at the University of Illinois, Chicago, USA. 'It affects primitive parts of the brain like the amygdala, so it's going to have many effects on just about everything.' Bartz agrees."
+          "quote": "F Perhaps we should not be surprised that the oxytocin story has become more perplexing. The hormone is found in everything from octopuses to sheep, and its evolutionary roots stretch back half a billion years. 'It's a very simple and ancient molecule that has been co-opted for many different functions,' says Sue Carter at the University of Illinois, Chicago, USA. 'It affects primitive parts of the brain like the amygdala, so it's going to have many effects on just about everything.' Bartz agrees. 'Oxytocin probably does some very basic things, but once you add our higher-order thinking and social situations, these basic processes could manifest in different ways depending on individual differences and context.'"
         }
       ],
       "reasoning": [
@@ -1527,7 +1527,7 @@
       "evidence": [
         {
           "paragraph": 3,
-          "quote": "In a groundbreaking experiment, Markus Heinrichs and his colleagues at the University of Freiburg, Germany, asked volunteers to do an activity in which they could invest money with an anonymous person who was not guaranteed to be honest."
+          "quote": "In a groundbreaking experiment, Markus Heinrichs and his colleagues at the University of Freiburg, Germany, asked volunteers to do an activity in which they could invest money with an anonymous person who was not guaranteed to be honest. The team found that participants who had sniffed oxytocin via a nasal spray beforehand invested more money than those who received a placebo instead."
         }
       ],
       "reasoning": [
@@ -2485,8 +2485,8 @@
         }
       ],
       "reasoning": [
-        "末段对亚洲起源说的证据与难点作对照：亚洲椰子种类多、被人利用数千年，但没有在野外生长的近亲。与亚洲现有椰子的人类栽培背景结合，题目概括为栽培品种。",
-        "因此官方对应判断为TRUE。要留意这句话讨论的是亚洲已发现椰子的状态，而不是证明椰子必定起源亚洲；作者恰恰说两种起源论都有困难，不能把本题的栽培属性扩展成起源结论。"
+        "末段说亚洲椰子多样，且已有数千年人类利用历史，但没有野外生长的近亲。原书将这一人类利用、无野生近亲的描述对应为题干的cultivated varieties，答案为TRUE。",
+        "这属于本题采用的间接归纳：原文并未逐字说亚洲每一棵椰子都是栽培种，而“没有野生近亲”在严格逻辑上也不能单独证明这一全称命题。复盘时应记住原书的对应，同时区分栽培状态与仍有争议的最初起源，勿推广为“无野生近亲就必定全部经人工栽培”的规则。"
       ],
       "paraphrases": [
         {
@@ -2498,7 +2498,8 @@
       "traps": [
         "栽培状态与最初起源是两个问题，后者仍有争议。"
       ],
-      "reviewTip": "再次做题时，先在题干圈出“cultivated varieties”，找到对应原文后再检查题干与原文的关系。"
+      "reviewTip": "再次做题时，先在题干圈出“cultivated varieties”，找到对应原文后再检查题干与原文的关系。",
+      "verificationNote": "原书答案为 TRUE，已核对原答案页。原文的直接信息是椰子在亚洲没有野生近亲，原题按此支持“亚洲的椰子为栽培种”的判断。严格推理时，“没有野生近亲”并不单独证明所有现存椰子都由人栽培；应区分本题采用的间接推断与植物学上的完整证明。"
     },
     "c13-t3-p1:13": {
       "answer": "NOT GIVEN",
@@ -2525,7 +2526,7 @@
       "evidence": [
         {
           "paragraph": 4,
-          "quote": "'We also found that it really matters whether you use baby talk in a one-on-one context,' she adds."
+          "quote": "'Those children who listened to a lot of baby talk were talking more than the babies that listened to more adult talk or standard speech,' says Nairan Ramirez-Esparza of the University of Connecticut. 'We also found that it really matters whether you use baby talk in a one-on-one context,' she adds."
         }
       ],
       "reasoning": [
@@ -2600,7 +2601,7 @@
       "evidence": [
         {
           "paragraph": 4,
-          "quote": "The study found that the more baby talk parents used, the more their youngsters began to babble. And when researchers saw the same babies at age two, they found that frequent baby talk had dramatically boosted vocabulary, regardless of socioeconomic status."
+          "quote": "'Those children who listened to a lot of baby talk were talking more than the babies that listened to more adult talk or standard speech,' says Nairan Ramirez-Esparza of the University of Connecticut. 'We also found that it really matters whether you use baby talk in a one-on-one context,' she adds. 'The more parents use baby talk one-on-one, the more babies babble, and the more they babble, the more words they produce later in life.'"
         }
       ],
       "reasoning": [
@@ -3325,7 +3326,7 @@
       "evidence": [
         {
           "paragraph": 6,
-          "quote": "While steam ships could make use of the quick, direct route between the Mediterranean and the Red Sea, the canal was of no use to sailing ships, which needed the much stronger winds of the oceans, and so had to sail a far greater distance."
+          "quote": "While steam ships could make use of the quick, direct route between the Mediterranean and the Red Sea, the canal was of no use to sailing ships, which needed the much stronger winds of the oceans, and so had to sail a far greater distance. Steam ships reduced the journey time between Britain and China by approximately two months."
         }
       ],
       "reasoning": [

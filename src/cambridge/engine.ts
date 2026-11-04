@@ -161,6 +161,35 @@ export function answerVariants(raw: string): string[] {
   }
   return parts.map(normal);
 }
+export function answerWordLimit(paper: Paper, number: number): number | null {
+  const group = paper.groups.find((g) => number >= g.from && number <= g.to);
+  if (!group || !["other", "summary"].includes(group.type)) return null;
+  const section = paper.questionText?.find((s) => s.from === group.from);
+  const instructions = section
+    ? section.paragraphs.slice(0, 4).join(" ")
+    : group.instruction;
+  const match = instructions.match(
+    /(?:NO MORE THAN|Choose|Write)\s+(ONE|TWO|THREE)\s+WORDS?/i,
+  );
+  return match
+    ? { ONE: 1, TWO: 2, THREE: 3 }[
+        match[1].toUpperCase() as "ONE" | "TWO" | "THREE"
+      ]
+    : null;
+}
+export function acceptedAnswerVariants(paper: Paper, number: number): string[] {
+  const key = paper.answers[number] ?? "";
+  const limit = answerWordLimit(paper, number);
+  return [...new Set(answerVariants(key))].filter((variant) => {
+    if (limit === null) return true;
+    // The huarango table key explicitly permits "leaves (and) bark" for
+    // its two required entries; preserve that source-listed conjunction.
+    const words = variant
+      .split(/\s+/)
+      .filter((word) => !(key.includes("(and)") && word === "and"));
+    return words.length <= limit;
+  });
+}
 export function grade(a: Attempt, papers: Paper[]) {
   const marks: Record<string, boolean | null> = {};
   for (const task of a.tasks) {
@@ -174,7 +203,7 @@ export function grade(a: Attempt, papers: Paper[]) {
         ? false
         : !key.trim()
           ? null
-          : answerVariants(key).includes(normal(value));
+          : acceptedAnswerVariants(p, n).includes(normal(value));
     }
     for (const set of unorderedAnswerSets(p)) {
       const nums = task.numbers.filter((n) => set.includes(n));
@@ -186,7 +215,7 @@ export function grade(a: Attempt, papers: Paper[]) {
         });
         continue;
       }
-      const available = keys.map(answerVariants);
+      const available = nums.map((n) => acceptedAnswerVariants(p, n));
       for (const n of nums) {
         const value = normal(a.answers[qid(p.id, n)] ?? "");
         const index = available.findIndex((k) => k.includes(value));

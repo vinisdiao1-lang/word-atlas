@@ -77,4 +77,46 @@ test("source repairs preserve the actual sentence rather than mixing columns", (
   assert.ok(
     genius[5].endsWith("those approaches at home as well as at school."),
   );
+  assert.ok(
+    reading("c13-t1-p1")[0].includes(
+      "A key feature of the campaign was the website www.newzealand.com",
+    ),
+  );
+});
+
+test("second semantic review covers every question once with explicit inference notes", () => {
+  const ids = [
+    ["11-13", 480],
+    ["14-16", 480],
+    ["17-18", 320],
+    ["19", 160],
+  ].flatMap(([range, count]) => {
+    const review = read(`docs/audits/round2-${range}-review.json`);
+    assert.ok(
+      ["complete", "completed", "completed_with_caveat"].includes(
+        review.status,
+      ),
+    );
+    assert.equal(review.reviewedIds.length, count);
+    return review.reviewedIds;
+  });
+  const expected = source
+    .flatMap((b) =>
+      b.passages.flatMap((p) => p.numbers.map((n) => `${p.id}:${n}`)),
+    )
+    .sort();
+  assert.deepEqual(ids.sort(), expected);
+  assert.equal(new Set(ids).size, 1440);
+  for (const [book, id] of [
+    [13, "c13-t3-p1:12"],
+    [17, "c17-t3-p1:7"],
+    [19, "c19-t3-p3:35"],
+  ]) {
+    const explanation = read(`public/cambridge/explanations/c${book}.json`)
+      .items[id];
+    assert.ok(
+      typeof explanation.verificationNote === "string" &&
+        explanation.verificationNote.length > 40,
+    );
+  }
 });

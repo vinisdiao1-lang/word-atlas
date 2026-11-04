@@ -11,6 +11,12 @@ const source = JSON.parse(
   readFileSync("public/cambridge/v2/library.json", "utf8"),
 ) as Pack[];
 const p = source[0].passages[0];
+test("the displayed optional key retains the question's word limit", () => {
+  const paper = source
+    .flatMap((b) => b.passages)
+    .find((p) => p.id === "c16-t4-p1")!;
+  assert.match(explanationAnswerLabel(paper, 12), /最多2词/);
+});
 test("either-order explanations show the full accepted choice set rather than a conflicting single key", () => {
   const paper = source
     .flatMap((b) => b.passages)
@@ -31,6 +37,18 @@ const example: Explanation = {
   traps: ["不要误填未来垂直农场中的作物。"],
   reviewTip: "核对答案拼写及字数。",
 };
+test("source-key inference notes must be nonempty text", () => {
+  const withNote = {
+    ...example,
+    verificationNote: "原书答案已核，区分记录次数与个体数量。",
+  };
+  assert.equal(validateExplanation(withNote, p, 1), withNote);
+  for (const verificationNote of ["", "  ", 42]) {
+    assert.throws(() =>
+      validateExplanation({ ...example, verificationNote }, p, 1),
+    );
+  }
+});
 test("explanation evidence and answer must belong to the actual paper", () => {
   assert.equal(validateExplanation(example, p, 1), example);
   assert.throws(() =>
